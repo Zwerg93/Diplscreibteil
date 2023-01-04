@@ -1,18 +1,18 @@
 # Fdb version 3
-["bibtex thesis"] 1672859579 "thesis.aux" "thesis.bbl" "thesis" 1672859588
+["bibtex thesis"] 1672861294 "thesis.aux" "thesis.bbl" "thesis" 1672861657
   "./ieeetrande.bst" 1672839924 61980 fd293e0adca6cd19772e5be38250514f ""
   "bib.bib" 1672839924 806 72a5fd8d7662c934d85c456a5df18811 ""
-  "thesis.aux" 1672859587 26158 df561d84074873f4e189fb45328b59f6 "pdflatex"
+  "thesis.aux" 1672861655 26037 49729f6612a1471bdaaab77163031d7b "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["makeindex thesis.idx"] 1672858255 "thesis.idx" "thesis.ind" "thesis" 1672859588
+["makeindex thesis.idx"] 1672858255 "thesis.idx" "thesis.ind" "thesis" 1672861657
   "thesis.idx" 0 -1 0 "pdflatex"
   (generated)
   "thesis.ilg"
   "thesis.ind"
-["pdflatex"] 1672859579 "d:/Teresa5/Diplomarbeit/Diplscreibteil/Lademanager/thesis.tex" "thesis.pdf" "thesis" 1672859588
-  "<pdfa.xmpi" 1672859583 5335 0 ""
+["pdflatex"] 1672861647 "d:/Teresa5/Diplomarbeit/Diplscreibteil/Lademanager/thesis.tex" "thesis.pdf" "thesis" 1672861657
+  "<pdfa.xmpi" 1672861651 5335 0 ""
   "C:/Users/holzd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1657107574 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/holzd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1657107408 10326700 de5355e9f9bb15027036af5b68db857d ""
   "C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -247,7 +247,7 @@
   "glossary.tex" 1672839924 361 e64a8b5f0cec1dade6fdd9693504eada ""
   "header.tex" 1672839924 4812 ffa7a88a3e951682838802192327665c ""
   "oath.tex" 1672839924 750 0d9be6619d2138ef0076191e58b29419 ""
-  "pdfa.xmpi" 1672859583 5335 6640047696263a9a6ef6b1336b216339 "pdflatex"
+  "pdfa.xmpi" 1672861651 5335 611705a7841f0c7eb1bc07875b683bcf "pdflatex"
   "pics/DetailansichtWallbox2.png" 1672839924 43833 c7d470d716f0d36ae4bdca827546ef13 ""
   "pics/FlexLoggerWebsiteDiagramm.png" 1672854849 91243 f62e38553312b3833b58f404ebb9d88d ""
   "pics/FlexLoggerWebsiteFormulare.png" 1672854832 69670 50eeba80644f984b8ada562d7ef89cfc ""
@@ -262,11 +262,11 @@
   "sections/Flexlogger/AufbauDesProjektes.tex" 1672859408 32887 2ed21690d31cdd3f0f654d0232be49b8 ""
   "sections/Flexlogger/Datenbanken.tex" 1672857495 3194 752b0be3202eee2f123b327c26c6d2ea ""
   "sections/Flexlogger/Ist-Stand.tex" 1672852516 729 459357c738d24be92638e487eb265cef ""
-  "sections/Flexlogger/Performance.tex" 1672859537 126 b32fcdaee9d63d8ccf545c9561aada2c ""
+  "sections/Flexlogger/Performance.tex" 1672861336 223 5d81fc4055dfee8d828354526bd83447 ""
   "sections/Flexlogger/Quarkus.tex" 1672858738 4237 885500f040485c0de30fcc59a792a3cb ""
-  "sections/Flexlogger/Threads.tex" 1672859478 313 6ad1463ac7e814468b39586c62a9c153 ""
+  "sections/Flexlogger/Threads.tex" 1672861645 524 ad749275db130f2efbf65b3a2f7794e5 ""
   "sections/Flexlogger/Untersuchungsanliegen.tex" 0 -1 0 ""
-  "sections/Flexlogger/VisuelleDarstellung.tex" 1672858944 2148 df6fe2e127316aec72821783770c4391 ""
+  "sections/Flexlogger/VisuelleDarstellung.tex" 1672861283 2122 84e91c6a8bb9b3b568f5d6df47dbc23a ""
   "sections/Wallbox.tex" 1672839924 1451 c36a8be1973c476a0bcf4e18e3fbeeb7 ""
   "sections/abstract.tex" 1672839924 1448 48f8dac18bfe7d24d1aae1f5195bd1b1 ""
   "sections/appendix.tex" 0 -1 0 ""
@@ -284,17 +284,17 @@
   "sections/wallbox/Modbus.tex" 0 -1 0 ""
   "sections/wallbox/Untersuchungsanliegen.tex" 1672839924 80 3903e38cca38439d5865983b9b1d6e21 ""
   "sections/wallbox/Wallbox.tex" 0 -1 0 ""
-  "thesis.aux" 1672859587 26158 df561d84074873f4e189fb45328b59f6 "pdflatex"
-  "thesis.bbl" 1672859579 901 93a92f6d5e48d8cfa1fcea67675bd366 "bibtex thesis"
+  "thesis.aux" 1672861655 26037 49729f6612a1471bdaaab77163031d7b "pdflatex"
+  "thesis.bbl" 1672861294 901 93a92f6d5e48d8cfa1fcea67675bd366 "bibtex thesis"
   "thesis.gls" 0 -1 0 ""
-  "thesis.glsdefs" 1672859587 2508 29dbde357c9c5e3f1988b083ab5c06b2 "pdflatex"
+  "thesis.glsdefs" 1672861655 2508 29dbde357c9c5e3f1988b083ab5c06b2 "pdflatex"
   "thesis.ind" 0 -1 0 "makeindex thesis.idx"
-  "thesis.lof" 1672859587 1039 d36a22d6850d05fb46519574f0468425 "pdflatex"
-  "thesis.lol" 1672859587 1220 d34595f4a58b12bf85a294ea951ee543 "pdflatex"
-  "thesis.lot" 1672859587 208 b661aa53911919052a9b781ad48a9dc1 "pdflatex"
+  "thesis.lof" 1672861655 1039 2f373cc37d74d83cdca0f81b103b7133 "pdflatex"
+  "thesis.lol" 1672861655 1220 d34595f4a58b12bf85a294ea951ee543 "pdflatex"
+  "thesis.lot" 1672861655 208 b661aa53911919052a9b781ad48a9dc1 "pdflatex"
   "thesis.out" 0 -1 0 "pdflatex"
   "thesis.tex" 1672839924 2254 b05536ccfc92ca1223dc305b95f9adfb ""
-  "thesis.toc" 1672859587 10064 97f17a52e1b66300aa0412c628c0cf0a "pdflatex"
+  "thesis.toc" 1672861655 9984 2d654f6abf494fe11b379d5ea44c264a "pdflatex"
   "thesis.xmpdata" 1672839924 118 a9e9a49b721e0c1d7b3860f5ea2addf5 ""
   "titlepage/coversheet.pdf" 1672839924 163626 a272e1f2c6796e654560a827e96a4316 ""
   (generated)
