@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.2)  3 JAN 2023 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.2)  4 JAN 2023 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/marcel/Desktop/schule/Dipl/Schreibteil/latex_htl_da_template/thesis.tex
-(/home/marcel/Desktop/schule/Dipl/Schreibteil/latex_htl_da_template/thesis.tex
+**/home/marcel/Desktop/Diplscreibteil/Lademanager/thesis.tex
+(/home/marcel/Desktop/Diplscreibteil/Lademanager/thesis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (header.tex (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
@@ -1408,49 +1408,85 @@ Overfull \hbox (1.89307pt too wide) in paragraph at lines 54--55
 []\T1/lmr/m/n/12 (-20) Wenn alle Pfade richtig benannt wurden, kann man im Verzeichnis einen Symbolischen
  []
 
-) (sections/wallbox/Datenpunkte.tex [17] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+) (sections/wallbox/Datenpunkte.tex
+Overfull \hbox (185.91785pt too wide) in paragraph at lines 2--19
+[]\T1/lmr/m/n/12 (-20) ======================================================================
+ []
+
+
+Overfull \hbox (18.81972pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) starting package maintenance... installation directory: /home/marcel/.miktex/texmfs/install
+ []
+
+
+Overfull \hbox (45.8434pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) package repository: https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/
+ []
+
+
+Overfull \hbox (48.60686pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) visiting repository https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/...
+ []
+
+
+Overfull \hbox (50.95618pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) downloading https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/miktex-
+ []
+
+
+Overfull \hbox (96.5082pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) zzdb1-2.9.tar.lzma... 0.31 MB, 102.88 Mbit/s package repository digest: 6edfdaad7fdb845c308709d7554034b5
+ []
+
+
+Overfull \hbox (57.30338pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/latexindent.tar.lzma...
+ []
+
+
+Overfull \hbox (550.23112pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) 0.07 MB, 394.45 Mbit/s extracting files from latexindent.tar.lzma... ====================================================================== 
+ []
+
+[17] [18] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
+Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (177.38818pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-[18]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 30--30
-[][][][][][][][] 
- []
-
-Missing character: There is no ú in font ec-lmtt8!
-
-Overfull \hbox (19.28658pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 37--37
+Overfull \hbox (6.0pt too wide) in paragraph at lines 47--47
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (1.87306pt too wide) in paragraph at lines 50--51
-[]\T1/lmr/m/n/12 (-20) Wie schon in den vorhergingen Kapiteln erw√§hnt, kann man √ºber alle Datenpunkte
+Overfull \hbox (49.88689pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.0pt too wide) in paragraph at lines 54--54
 [][][][][][][][] 
  []
 
 [19]
-Missing character: There is no ú in font ec-lmtt8!
-Missing character: There is no ú in font ec-lmtt8!
+Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (1.65048pt too wide) in paragraph at lines 97--98
+[]\T1/lmr/m/n/12 (-20) Mit ^^Pdatapoint.setValue(value)^^Q kann man einem Datenpunkt einen neuen Wert zuweisen.
+ []
+
 [20]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 93--93
+Overfull \hbox (90.29697pt too wide) in paragraph at lines 104--105
+\T1/lmr/m/n/12 (-20) Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man ^^Pmodbuswallbox.wb1.ladedauerWb1^^Q.
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
 [][][][][][][][] 
  []
 
@@ -1545,15 +1581,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 87 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35424 strings out of 478341
- 653183 string characters out of 2841223
- 1892793 words of memory out of 3000000
+ 35426 strings out of 478341
+ 652297 string characters out of 2841223
+ 1900793 words of memory out of 3000000
  54490 multiletter control sequences out of 15000+600000
- 566436 words of font info for 133 fonts, out of 8000000 for 9000
+ 566510 words of font info for 134 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 113i,20n,109p,10683b,3829s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 113i,20n,109p,10664b,2606s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (37 pages, 912696 bytes).
+Output written on thesis.pdf (37 pages, 910339 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  209 named destinations out of 1000 (max. 500000)

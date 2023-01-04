@@ -1,6 +1,6 @@
-PWD /home/marcel/Desktop/schule/Dipl/Schreibteil/latex_htl_da_template
+PWD /home/marcel/Desktop/Diplscreibteil/Lademanager
 INPUT /home/marcel/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/marcel/Desktop/schule/Dipl/Schreibteil/latex_htl_da_template/thesis.tex
+INPUT /home/marcel/Desktop/Diplscreibteil/Lademanager/thesis.tex
 OUTPUT thesis.log
 INPUT ./header.tex
 INPUT ./header.tex
