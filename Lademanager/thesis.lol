@@ -7,4 +7,6 @@
 \contentsline {lstlisting}{\numberline {7}{\ignorespaces Example catapoint usage}}{19}{lstlisting.3.7}%
 \contentsline {lstlisting}{\numberline {8}{\ignorespaces Example multible datapoint usage}}{20}{lstlisting.3.8}%
 \contentsline {lstlisting}{\numberline {9}{\ignorespaces Example Element}}{21}{lstlisting.3.9}%
-\contentsline {lstlisting}{\numberline {10}{\ignorespaces Some code}}{23}{lstlisting.5.10}%
+\contentsline {lstlisting}{\numberline {10}{\ignorespaces Connect to SQL Database}}{28}{lstlisting.4.10}%
+\contentsline {lstlisting}{\numberline {11}{\ignorespaces Beipsiel für eine minimierte Angular Komponente}}{39}{lstlisting.4.11}%
+\contentsline {lstlisting}{\numberline {12}{\ignorespaces Some code}}{43}{lstlisting.5.12}%

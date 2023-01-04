@@ -1,0 +1,41 @@
+\subsection{Angular}
+https://angular.io/ 
+
+Angular ist eine Plattform, um Web-Applikationen zu erstellen, welche für die Desktop- sowie für die mobile Anwendung gleichfalls funktionieren sollen. Gebaut wurde Angular in der Programmiersprache TypeScript und es inkludiert folgende Fähigkeiten(?):
+
+\begin{compactitem}
+    \item Ein Komponenten-basiertes Framework, um skalierbare Web-Applikation zu erstellen.
+    \item Eine Sammlung von Bibliotheken, welche eine große Varietät von Features beinhaltet, Beispiele dafür sind: Routing, das Management von Formularen, sowie eine Client-Server Kommunikation. Diese Bibliotheken sind laut Angular gut in die Plattform eingebunden.       
+    \item Eine Auswahl von Entwickler-Tools, welche hilfreich sind, um den Code zu entwickeln, zu testen, zu bauen und upzudaten.
+\end{compactitem}
+
+\subsubsection{Komponenten}
+Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer Komponente sind folgende Segmente: 
+
+\begin{compactitem}
+    \item ein HTML-Template
+    \item ein CSS-Style Template      
+    \item einem @Component-Part, in welchem folgende Informationen definiert werden:
+    \subitem Ein CSS-Selektor, welcher definiert wie die Komponente in einem Template verwendet wird. Dieser Selektor kann anschließend in ein HTML-File eingebunden werden. Passiert dies, wird dieser Selektor eine Instanz der Komponente de HTML-Files.
+    \subitem Ein HTML-Template welches Angular anleitet, wie es diese Komponente zu rendern hat.
+    \subitem Ein optionales Set von CSS-Styles, welche das Aussehen des HTML-Elements definiert.
+\end{compactitem}
+
+\begin{lstlisting}[language=java,caption=Beipsiel für eine minimierte Angular Komponente,label=lst:impl:foo]
+    import { Component } from '@angular/core';
+
+    @Component({
+      selector: 'hello-world',
+      template: `
+        <h2>Hello World</h2>
+        <p>This is my first component!</p>
+      `
+    })
+    export class HelloWorldComponent {
+      // The code in this class drives the component's behavior.
+    }
+\end{lstlisting}
+
+\subsection{Bootstrap}
+
+\subsection{CanvasJS}

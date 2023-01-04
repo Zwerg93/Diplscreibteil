@@ -1,0 +1,64 @@
+\subsection{H2}
+http://www.h2database.com/html/performance.html
+
+\subsubsection{Performance (Version 2.0.202)}
+Die Datenbank ist langsamer bei größeren ResultSets, da sie ab einer bestimmten Anzahl von zurückgegebenen Records zwischengespeichert werden.
+
+\subsubsection{Hauptmerkmale}
+
+\begin{compactitem}
+    \item Sehr schnell, open source, JDBC API 
+    \item Embedded und Server Modus, in-memory databases         
+    \item Konsolen Anwendung für den Browser
+    \item Das Jar-File hat nur eine Größe von 2.5 MB
+\end{compactitem}
+
+\subsection{SQLite}
+https://www.sqlite.org/index.html 
+
+\subsubsection{Performance (SQLite 3.36.0.3)}
+Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einer niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren. 
+
+\subsubsection{Hauptmerkmale}
+
+\begin{compactitem}
+    \item Klein
+    \item Schnell         
+    \item Sehr verlässlich
+    \item Stand-allone
+    \item Full-featured SQL-Implementierung
+\end{compactitem}
+
+Meistgenutzte Datenkbank der Welt, benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefonen, Kameras, TV-Geräten, etc., da diese ohne Experten Support funktionieren müssen. Auch für Websites, auf welchen weniger bis mittelvielen Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. 
+
+\subsection{PostgreSQL}
+\subsubsection{Performance (Version 13.4)}
+Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby und der H2 Datenbank, wobei sie teilweise etwas schneller als H2 abschneiden kann. 
+
+\subsubsection{Hauptmerkmale}
+
+\begin{compactitem}
+    \item Open source
+    \item Objektrelationale Datenbank         
+    \item Sehr mächtig
+    \item Verlässlich
+    \item Datenintegrität
+    \item Viele Features/Add-Ons
+\end{compactitem}
+
+\subsection{Derby}
+\subsubsection{Performance (Version 10.14.2.0)}
+Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn autcommit ausgeschalten wird. Die Perfomance wird dabei um 20 \texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. 
+
+\subsubsection{Hauptmerkmale}
+
+\begin{compactitem}
+    \item Open source
+    \item Nur 3.5 MB Größe für die Basis Engine sowie den JDBC-Driver         
+    \item Basiert auf JAVA, JDBS sowie SQL Standards
+    \item Derby stellt einen embedded JDBS Driver zur Verfügung, mithilfe dessen man die Derby Datenbank in jede JAVA-Applikation einbinden kann
+    \item Supportet den Client/Server Modus 
+    \item Einfach zu installieren, einzurichten, sowie zu benutzen
+\end{compactitem}
+
+Implementiert in Java. 
