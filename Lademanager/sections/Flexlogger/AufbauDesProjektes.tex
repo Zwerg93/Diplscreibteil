@@ -106,7 +106,7 @@ Die erste Zeile in der writeToCSVFile-Methode konvertiert das eben übergebene S
 Die letzte Methode im Repository ist die insertLogEntry-Methode. Wie der Name bereits verrät, ist sie dafür zuständig, neue LogEntries in der Datenbank zu speichern. Um einen neuen LogEntry zu speichern, wird zuallererst ein String erstellt, welcher ein Insert-Statement enthält, erstellt. 
 Danach wird eine Verbindung zur Datenbank mithilfe der connect-Methode hergestellt. Durch ein PreparedStatement, welches aus SQL-String geformt wird, könne alle Parameter gesetzt werden. Diese beinhalten die dpId (der Name des Datenpunkts), die value (den Wert des Datenpunkts), die unit (die Einheit des Datenpunkts), sowie den timestamp (wann der Datenpunkt erstellt wurde). Nachdem alle Parameter gesetzt wurden, wird ein executeUpdate durchgeführt, mithilfe dessen der neue LogEntry in die Datenbank geschrieben wird. 
 
-\subsection{Angular Frontend}
+\subsection{Angular Frontend (Beschreibend)}
 \subsubsection{Website Ansicht}
 Die erste Seite, welche man betritt, wenn man das Programm startet, ist die Hauptseite \ref{fig:impl:FlexLoggerHauptseitenAnsicht}. Auf ihr findet man 3 verschiedene Formulare. Jedes dieser Formulare hat eine andere Funktion. Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Wenn man den Button dieses Formulars betätigt, wird man auf eine Seite weitergeleitet. Auf dieser kann nun zwischen allen Diagrammen mithilfe von Buttons wechseln \ref{fig:impl:FlexLoggerDiagrammAnsicht}. Das zweite Formular hat eine ähnliche Funktion. Lediglich kann man hier das Diagramm, welches man angezeigt bekommen will, im Formular mitübergeben. Durch den Button wird man nun direkt zum gewünschten Diagramm weitergeleitet. 
 
@@ -208,5 +208,5 @@ Die match-Methode überprüft ob jedes eingegebene Datum als valide Eingabe akze
 \subsubsection{LogEntry Model}
 Hier wird ein Model erstellt, welches den Namen LogEntry trägt, in diesem werden die Parameter dpId, value, unit und timeStamp definiert. Das Model wird dazu verwendet, um die vorher geloggten Daten aus der Datenbank weiterzuverwenden. 
 
-\subsubsection{CanvasJS}
+\subsection{CanvasJS}
 Mithilfe von CanvasJS, welche eine HTML5 und Javascript Charting library ist, wird das Anzeigen der Daten in Diagrammen ermöglicht. 
