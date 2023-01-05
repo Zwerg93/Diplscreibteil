@@ -1,11 +1,95 @@
-% https://books.google.at/books?id=xW47c-7YKNMC&pg=PA106&dq=Threads&hl=de&sa=X&ved=2ahUKEwi394-W1678AhWfg_0HHfylDF4Q6AF6BAgCEAI#v=onepage&q=Threads&f=false
 \subsection{Streams}
+
 \subsection{Lambda}
+
 \subsection{Serialisierung}
+
 \subsection{Concurrency/Gleichzeitigkeit}
-\subsection{Jenkins queue}
+% https://www.baeldung.com/java-util-concurrent
+% https://reader.elsevier.com/reader/sd/pii/S0167642305000663?token=33C353917B1806AF8A5D40D069D18442FDCF27727ADE08478255219D5D7D6849BA4E8FAE2A474A3FDCD3CC0A36740643&originRegion=eu-west-1&originCreation=20230105151331
+
+
+
+\subsection{BlockingQueue}
+% https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video 
 % https://dl.acm.org/doi/pdf/10.1145/3472456.3472458
+% blocking queue:  https://books.google.at/books?id=mvzgNSmHEUAC&pg=PT856&dq=java+blocking+queue&hl=de&sa=X&ved=2ahUKEwiF4Jej3bD8AhUNxwIHHcjWBlMQ6AF6BAgEEAI#v=onepage&q=java%20blocking%20queue&f=false
+
+Eine BlockingQueue hat typischerweise einen Thread, welcher Objekte produziert und einen anderen welcher die Objekte konsumiert. \ref{fig:impl:BlockingQueue}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{pics/blockingQueue.jpg}
+    \caption{Website Hauptseitenansicht}
+    \label{fig:impl:BlockingQueue}
+\end{figure}
+
+Der produzierende Thread wird weiterhin Objekte produzieren und sie zur BlockingQueue hinzufügen, bis das Limit der Queue erreicht wird. Wenn dieses Limit erreicht wird, wird der Producer Thread blockiert, während er versucht ein neues Objekt hinzuzufügen.  Der Producer Thread bleibt dabei blockiert, bis ein Consumer Thread ein Objekt aus der Queue nimmt. 
+
+Auf der anderen Seite nimmt der Consumer Thread Objekte aus der Queue, um sie weiter zu verarbeiten.  Wenn der Thread versucht ein Objekt aus einer leeren Queue zu nehmen, wird er blockiert, bis der Producer Thread ein Objekt in die Queue hinzufügt. 
+
+\subsubsection{BlockingQueue Methoden}
+Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden. 
+
+\begin{center}
+    \begin{tabular}{ |c|c| } 
+     \hline
+     put(o) & fügt Objekte in BlockingQueue hinzu \\ 
+     \hline
+     take() & nimmt Objekte aus BlockingQueue \\ 
+     \hline
+    \end{tabular}
+    \end{center}
+
+Wenn die Operation bei einer der Methoden erfolgslos war, blockiert die Methode, bis die Operation erfolgreich war. 
+
+\subsubsection{Java Blocking Queue Beispiel}
+Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementation. 
+
+
+
+\begin{lstlisting}[language=java,caption=Java BlockingQueue Beispiel,label=lst:impl:foo]
+    public class BlockingQueueClass {
+    public static void main(String[] args) throws Exception {
+        BlockingQueue blockingQueue = new ArrayBlockingQueue(2048);
+        Producer producer = new Producer(queue);
+        Consumer consumer = new Consumer(queue);
+        new Thread(producer).start();
+        new Thread(consumer).start();
+        Thread.sleep(4000);
+    }
+    #################################################
+
+    public class Producer implements Runnable{
+        protected BlockingQueue queue = null;
+        public Producer(BlockingQueue queue) {
+            this.queue = queue;
+        }
+        public void run() {
+            try {
+                queue.put("object1");
+                Thread.sleep(1000);
+                queue.put("2");
+            } catch (InterruptedException e) { e.printStackTrace();}
+    }}
+    #################################################
+    public class Consumer implements Runnable{
+        protected BlockingQueue queue = null;
+        public Consumer(BlockingQueue queue) {
+            this.queue = queue;
+        }
+        public void run() {
+            try {
+                System.out.println(queue.take());
+                System.out.println(queue.take());
+            } catch (InterruptedException e) { e.printStackTrace();}
+    }}
+}
+\end{lstlisting}
+
 \subsection{Service executer}
+% https://www.baeldung.com/java-executor-service-tutorial
 \subsection{Java Futures}
+% https://www.baeldung.com/java-future
 \subsection{Java Completablefutures}
 \subsection{First come first serve (Möglichkeiten Prozesse abzuarbeiten)}
