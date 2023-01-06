@@ -9,5 +9,6 @@
 \contentsline {lstlisting}{\numberline {9}{\ignorespaces Example Element}}{21}{lstlisting.3.9}%
 \contentsline {lstlisting}{\numberline {10}{\ignorespaces Connect to SQL Database}}{28}{lstlisting.4.10}%
 \contentsline {lstlisting}{\numberline {11}{\ignorespaces Java BlockingQueue Beispiel}}{38}{lstlisting.4.11}%
-\contentsline {lstlisting}{\numberline {12}{\ignorespaces Beipsiel für eine minimierte Angular Komponente}}{42}{lstlisting.4.12}%
-\contentsline {lstlisting}{\numberline {13}{\ignorespaces Some code}}{45}{lstlisting.5.13}%
+\contentsline {lstlisting}{\numberline {12}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{41}{lstlisting.4.12}%
+\contentsline {lstlisting}{\numberline {13}{\ignorespaces JSON Example}}{43}{lstlisting.4.13}%
+\contentsline {lstlisting}{\numberline {14}{\ignorespaces Some code}}{47}{lstlisting.5.14}%

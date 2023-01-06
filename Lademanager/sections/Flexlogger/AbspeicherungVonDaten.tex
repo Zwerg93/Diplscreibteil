@@ -1,1 +1,47 @@
 \subsection{Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}
+% https://www.naukri.com/learning/articles/csv-vs-json-for-your-data-science-projects/
+% https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/
+Vor allem wenn es darum geht, große Datenmengen abzuspeichern, ist es besonders wichtig, das richtige Datenformat auszuwählen. In diesem Abschnitt wird das CSV, das JSON, und eine herkömliche Datenbank verglichen. 
+
+Daten können intern oder extern generiert werden und dabei gibt es verschiedene Möglchkeiten, die Daten passend abzuspeichern. Es ist sehr wichtig das richtige Format auszuwählen, da davon einige Faktoren abhängen. Dazu gehören die Verarbeitungs-Geschwindigkeit, sowie die Speichergröße. 
+Außerdem kann das Format die Skalierbarkeit, die Kompabilität, die Cloud Speicher Kosten und die Perfomance-Geschwindigkeit beeinflussen. 
+Konktrete Beispiele, warum man bestimmte Dateiformate auswählen sollte sind: Geld zu sparen, idnem man zu einem CSV file format wechselt, wenn große Datensets im Cloud-Speicher verarbeitet werden. JSON ist eine bessere Wahl, wenn es darum geht, kleinere Datensets mit einer komplexen Hierachie zu speichern. 
+Im Allgemeinen kann man sagen, dass das richtige Datenformat Geld und Zeit sparen.  
+
+\begin{center}
+    \begin{tabular}{ |c|c|c|c| } 
+     \hline
+     \multicolumn{4}{|c|}{Ein genauerer Vergleich } \\
+     \hline
+     \hline
+     Features & CSV & JSON & Datenbank \\ 
+     \hline 
+     \hline
+     Speicher Anforderung & weniger PLatz & mehr Platz & ? \\ 
+     \hline
+     Verarbeitungs Geschwindigkeit & Schnell & Langsam & ? \\ 
+     \hline
+     Security & Sicherer & Unsicherer & Sicherer \\ 
+     \hline
+     Große oder komplexe Datensets & große Datensets & komplexe Datensets & Beides \\ 
+     \hline
+    \end{tabular}
+    \end{center}
+
+\subsection{CSV}
+CSV ist ein Text-File Format, mit der Besonderheit, das die Werte durch Semikolons unetrteilt werden. Dadurch eignet es sich sehr gut für eine Speicherung von sehr vielen Daten. Jede Reihe des CSV-Files repräsentiert dabei eine Zeile von Daten, die Spalten werden dabei von den Strichpunkten unterteilt. DAS CSV-Format kann die Nutzung von Speicherplatz, sowei das Austauschen von Daten maximieren. Strukturierte CSV-Files können außerdem einen Header enthalten, welcher jede Spalte einordnet. CSV Files können außerdem nicht nur durch Semikolons, sondern auch durch Beistrcihe, Tabs und Abstände unterteilt werden. CSV wird am meisten in Entwicklungseinrichtungen und technischen Konsumenten Anwendungen. Ein weiterer Vorteil von dem CSV-Dateiformat ist, dass es von der meisten Datenverarbeitungs-Software importiert, konvertiert und exportiert werden kann. Mithilfe dieser Softwares kann man die CSV-Dateien auch sehr einfach Serialisieren oder Deserialisieren. CSV ist ein sehr einfach aufgebautes Format und kann somit von fast jedem Daten Analytiker ausgewertet werden. Als Nachteile von CSV kann aufgezählt werden, dass es im Rohformat schwer zu lesen ist, und es anfällig für menschliche Fehler ist. Der größte Nachteil gegenüber den anderen zwei Datenformatenist sind auf jeden Fall die limitieretn Möglichkeiten, die Daten komplex aufzubereiten.   
+
+
+\subsection{JSON}
+JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten werden als semi-strukturiert angezeigt. \ref{lst:impl:json} JSON ist sehr weit kompatibel und wird somit von vielen Software-Entwicklern verwendet, um configs und APIs zu designen. Da JSON von JavaScript entwickelt wurde, kann es sehr einfach in eine Java-basierte Umegbung integriert werden. Somit wird JSON sehr oft für die Daten Verarbietung von front- und backend. Mithilfe von JSON kann man sehr einfach auf neue Daten zugreifen. Gerade wenn es um rationales und hierachisches Datenmanagment geht, eignet sich JSON sehr gut, da es dies sehr unterstützt. JSON-Files sind selbserklärend und es ist für Systeme sehr leicht ein JSON-Fiel zu erkennen und zu verarbeiten. JSON ist somit auch sehr viel einfacher zu lesen als CSV Files. 
+
+
+\begin{lstlisting}[language=java,caption=JSON Example,label=lst:impl:json]
+    {   "pupil": {
+            "id":       "1"
+            "name":     "Margaret"
+        }
+    }
+\end{lstlisting}
+
+\subsection{Datenbank}
