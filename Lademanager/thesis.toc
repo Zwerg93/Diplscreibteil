@@ -82,16 +82,17 @@
 \contentsline {subsection}{\numberline {4.5.2}Bandbreite}{38}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{38}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}Datenbanken}{38}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}H2}{38}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{38}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}H2}{38}{subsection.4.6.2}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{39}{subsubsection*.53}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{39}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {4.6.2}SQLite}{39}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}SQLite}{39}{subsection.4.6.3}%
 \contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{39}{subsubsection*.57}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{39}{subsubsection*.59}%
-\contentsline {subsection}{\numberline {4.6.3}PostgreSQL}{40}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}PostgreSQL}{40}{subsection.4.6.4}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{40}{subsubsection*.61}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{40}{subsubsection*.63}%
-\contentsline {subsection}{\numberline {4.6.4}Derby}{40}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Derby}{40}{subsection.4.6.5}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{40}{subsubsection*.65}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{40}{subsubsection*.67}%
 \contentsline {section}{\numberline {4.7}Visuelle Darestellung}{41}{section.4.7}%
