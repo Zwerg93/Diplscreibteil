@@ -1,2 +1,2 @@
-# Diplomarbiets-Schreibteil
+# Diplomarbeits-Schreibteil
 we staying professionell here
