@@ -1,14 +1,26 @@
+
 % \subsection{Streams}
 
 % \subsection{Lambda}
 
-\subsection{Serialisierung}
+\subsection{Serialisierung (Nebenläufigkeit und Parallelität)}
+% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+Wenn man in Java über Nebenläufigkeit spricht, sind dabei Threads gemeint. Diese sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und diese parallel Prozesse abarbeiten können.
+
+
 
 \subsection{Concurrency/Gleichzeitigkeit}
 % https://www.baeldung.com/java-util-concurrent
 % https://reader.elsevier.com/reader/sd/pii/S0167642305000663?token=33C353917B1806AF8A5D40D069D18442FDCF27727ADE08478255219D5D7D6849BA4E8FAE2A474A3FDCD3CC0A36740643&originRegion=eu-west-1&originCreation=20230105151331
+Die Ausführung des Programmcode wird bei einem moderenen Betriebssystem von Prozessen, welche jeweils mindestens einen Thread beherbergen, ausgeführt. Das interessante daran ist, dass nicht die etwa die Prozesse nebenläufig ausgeführt werden, sondern die Threads. Dabei können die Threads auf den gleichen Adressraum zugreifen.
 
-
+\subsubsection{Zustände eines Threads}
+\begin{compactitem}
+    \item Noch nicht erzeugt: Lebenslauf beginnt mit Schlüsselwort \texttt{new}
+    \item Running (Laufend) und Not Running (Nicht Laufend); Thread kommt in den Zustand Running, wenn die Methode \texttt{run()} aufgerufen wird. Wenn ein anderer Thread den Prozessor des aktuellen Threads übernimmt, kommt der Thread in den Zustand Not Running.     
+    \item Waiting (Wartend): Thread befindet sich in einem Wartezustand 
+    \item Beendet: Aktivität des Threads wurde beendet
+\end{compactitem}
 
 \subsection{BlockingQueue}
 % https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video 
@@ -20,7 +32,7 @@ Eine BlockingQueue hat typischerweise einen Thread, welcher Objekte produziert u
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{pics/blockingQueue.jpg}
-    \caption{Website Hauptseitenansicht}
+    \caption{Blocking Queue}
     \label{fig:impl:BlockingQueue}
 \end{figure}
 
@@ -89,7 +101,12 @@ Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementati
 
 \subsection{Service executer}
 % https://www.baeldung.com/java-executor-service-tutorial
+% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Denn, wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktorübergeben werden, dies kann zu Problemen führen, da das Thread-Objekt somit nicht vorher erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen ist, dass ein Thread nicht einfach so ein anderes Runnable bearbeiten kann, da dieses vorher schon zugewiesen wurde. 
+
 % \subsection{Java Futures}
 % https://www.baeldung.com/java-future
 % \subsection{Java Completablefutures}
+
+
 \subsection{First come first serve (Möglichkeiten Prozesse abzuarbeiten)}

@@ -70,39 +70,40 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Model}{36}{subsubsection*.46}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{36}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Threads}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Serialisierung}{37}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Serialisierung (Nebenläufigkeit und Parallelität)}{37}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Concurrency/Gleichzeitigkeit}{37}{subsection.4.4.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{37}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {4.4.3}BlockingQueue}{37}{subsection.4.4.3}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{37}{subsubsection*.49}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{37}{subsubsection*.51}%
-\contentsline {subsection}{\numberline {4.4.4}Service executer}{38}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}First come first serve (Möglichkeiten Prozesse abzuarbeiten)}{38}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Performance}{38}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{38}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Bandbreite}{38}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{38}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Datenbanken}{38}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{38}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}H2}{38}{subsection.4.6.2}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{39}{subsubsection*.53}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{39}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {4.6.3}SQLite}{39}{subsection.4.6.3}%
-\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{39}{subsubsection*.57}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{39}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{38}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{38}{subsubsection*.53}%
+\contentsline {subsection}{\numberline {4.4.4}Service executer}{39}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}First come first serve (Möglichkeiten Prozesse abzuarbeiten)}{39}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Performance}{39}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{39}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Bandbreite}{39}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{39}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Datenbanken}{39}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{39}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}H2}{39}{subsection.4.6.2}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{39}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{39}{subsubsection*.57}%
+\contentsline {subsection}{\numberline {4.6.3}SQLite}{40}{subsection.4.6.3}%
+\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{40}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{40}{subsubsection*.61}%
 \contentsline {subsection}{\numberline {4.6.4}PostgreSQL}{40}{subsection.4.6.4}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{40}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{40}{subsubsection*.63}%
-\contentsline {subsection}{\numberline {4.6.5}Derby}{40}{subsection.4.6.5}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{40}{subsubsection*.65}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{40}{subsubsection*.67}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{40}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{41}{subsubsection*.65}%
+\contentsline {subsection}{\numberline {4.6.5}Derby}{41}{subsection.4.6.5}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{41}{subsubsection*.67}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{41}{subsubsection*.69}%
 \contentsline {section}{\numberline {4.7}Visuelle Darestellung}{41}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Angular}{41}{subsection.4.7.1}%
-\contentsline {subsubsection}{\nonumberline Komponenten}{41}{subsubsection*.69}%
-\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{42}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Abspeicherung von Daten}{42}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{42}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}CSV}{42}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}JSON}{43}{subsection.4.8.3}%
+\contentsline {subsubsection}{\nonumberline Komponenten}{42}{subsubsection*.71}%
+\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{43}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Abspeicherung von Daten}{43}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{43}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}CSV}{43}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}JSON}{44}{subsection.4.8.3}%
 \contentsline {subsection}{\numberline {4.8.4}Datenbank}{44}{subsection.4.8.4}%
 \contentsline {section}{\numberline {4.9}Quarkus}{44}{section.4.9}%
 \contentsline {subsection}{\numberline {4.9.1}Allgemeines}{44}{subsection.4.9.1}%
@@ -114,9 +115,9 @@
 \contentsline {subsection}{\numberline {4.9.7}JDBC + JPA}{46}{subsection.4.9.7}%
 \contentsline {chapter}{\numberline {5}test}{47}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Zusammenfassung}{49}{chapter.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.73}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.74}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.75}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.76}%
-\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.77}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.75}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.76}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.77}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.78}%
+\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.79}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
