@@ -1,2 +1,2 @@
-# Diplscreibteil
+# Diplomarbiets-Schreibteil
 we staying professionell here
