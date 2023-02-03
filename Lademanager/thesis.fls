@@ -2016,10 +2016,6 @@ INPUT .\sections\Flexlogger\VisuelleDarstellung.tex
 INPUT sections\Flexlogger\VisuelleDarstellung.tex
 INPUT .\sections\Flexlogger\VisuelleDarstellung.tex
 INPUT sections\Flexlogger\VisuelleDarstellung.tex
-INPUT .\sections\Flexlogger\AbspeicherungVonDaten.tex
-INPUT sections\Flexlogger\AbspeicherungVonDaten.tex
-INPUT .\sections\Flexlogger\AbspeicherungVonDaten.tex
-INPUT sections\Flexlogger\AbspeicherungVonDaten.tex
 INPUT .\sections\Flexlogger\Quarkus.tex
 INPUT sections\Flexlogger\Quarkus.tex
 INPUT .\sections\Flexlogger\Quarkus.tex
@@ -2031,6 +2027,14 @@ INPUT .\pics\quarkusArchitektur.JPG
 INPUT .\pics\quarkusArchitektur.JPG
 INPUT .\pics\quarkusArchitektur.JPG
 INPUT .\pics\quarkusArchitektur.JPG
+INPUT .\sections\Flexlogger\AbspeicherungVonDaten.tex
+INPUT sections\Flexlogger\AbspeicherungVonDaten.tex
+INPUT .\sections\Flexlogger\AbspeicherungVonDaten.tex
+INPUT sections\Flexlogger\AbspeicherungVonDaten.tex
+INPUT .\sections\Flexlogger\SQL.tex
+INPUT sections\Flexlogger\SQL.tex
+INPUT .\sections\Flexlogger\SQL.tex
+INPUT sections\Flexlogger\SQL.tex
 INPUT .\sections\implementation.tex
 INPUT sections\implementation.tex
 INPUT .\sections\implementation.tex

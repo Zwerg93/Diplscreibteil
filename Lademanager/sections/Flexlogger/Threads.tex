@@ -7,12 +7,26 @@
 % Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
 Wenn man in Java über Nebenläufigkeit spricht, sind dabei Threads gemeint. Diese sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und diese parallel Prozesse abarbeiten können.
 
+Bei einem modernen Ein-Prozessor-Betriebssystem wirkt es oft, als wären die Prozesse parallel, doch dies wird einem nur vorgespielt, indem der Prozessor alle paar Sekunden auf einen anderern Prozess wechselt. Bei einem Betriebssystem mit mehreren Kernen, werden die Prozesse wirklich parallel bearbeitet. 
+
+\subsubsection{Nebenläufigkeit von Programmen steigert Geschwindigkeit}
+Wie nebenläufige Abarbeitung die Perfomance bei einem Einprozessorsystem beschleunigt, kann an folgenden Beispiel-Programm betrachtet werden:
+
+\begin{compactitem}
+    \item Programm führt eine Reihe von Befehlen aus
+    \item Programm soll Datenbank-Report erstellen/visualisieren     
+    \item Dabei können einige Prozesse nebenläufig abgearbeitet werden
+    \item Diese Prozesse sind zum Beispiel: Öffnen der Datenbank, Lesen neuer Datensätze gleichzeitig mit dem Analysieren alter Daten, alte Daten könenn in Report-Datei geschrieben werden während neue Daten analysiert werden
+    \item Wenn diese Prozesse parallel ausgeführt werden, kann sehr viel Zeit eingespart werden beziehungsweise die Perfomance sehr erhöht werden.
+    \item Dieses Beispiel zeigt allerdings auch, dass Nebenläufigkeit sehr gut geplant werden muss.
+\end{compactitem}
 
 
 \subsection{Concurrency/Gleichzeitigkeit}
 % https://www.baeldung.com/java-util-concurrent
 % https://reader.elsevier.com/reader/sd/pii/S0167642305000663?token=33C353917B1806AF8A5D40D069D18442FDCF27727ADE08478255219D5D7D6849BA4E8FAE2A474A3FDCD3CC0A36740643&originRegion=eu-west-1&originCreation=20230105151331
-Die Ausführung des Programmcode wird bei einem moderenen Betriebssystem von Prozessen, welche jeweils mindestens einen Thread beherbergen, ausgeführt. Das interessante daran ist, dass nicht die etwa die Prozesse nebenläufig ausgeführt werden, sondern die Threads. Dabei können die Threads auf den gleichen Adressraum zugreifen.
+% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+Die Ausführung des Programmcode wird bei einem modernen Betriebssystem von Prozessen, welche jeweils mindestens einen Thread beherbergen, ausgeführt. Das interessante daran ist, dass nicht die etwa die Prozesse nebenläufig ausgeführt werden, sondern die Threads. Dabei können die Threads auf den gleichen Adressraum zugreifen.
 
 \subsubsection{Zustände eines Threads}
 \begin{compactitem}
@@ -21,6 +35,34 @@ Die Ausführung des Programmcode wird bei einem moderenen Betriebssystem von Pro
     \item Waiting (Wartend): Thread befindet sich in einem Wartezustand 
     \item Beendet: Aktivität des Threads wurde beendet
 \end{compactitem}
+
+\subsection{Aufbau eines Threads}
+\subsubsection{Interface Runnable}
+Dem Thread muss ein Befehlsobjekt des Typ Runnable übergeben werden \ref{lst:impl:javaRunnable}, um wissen zu können, welcher Code ausgeführt werden soll. 
+Wenn der Thread gestartet wird, werden die Codezeilen im Befehlsobjekt nebenläufig zum anderen Code in dem Programm ab.
+
+\begin{lstlisting}[language=java,caption=Java Runnable,label=lst:impl:javaRunnable]
+    interface java.lang.Runnable
+\end{lstlisting}
+
+Durch dieses Interface kann nun die run()-Methode verwendet werden. \ref{lst:impl:threadExample}
+
+\begin{lstlisting}[language=java,caption=Einfaches Thread Beispiel,label=lst:impl:threadExample]
+    public class CommandThread implements Runnable {  
+        @Override public void run() {    
+            ...
+            }
+        }
+\end{lstlisting}
+
+Dieser Thread kann nun in einer anderen Klasse verwendet werden, indem er zum Beispiel gestartet (\texttt{thread.start()}) oder gestoppt (\texttt{thread.stop()}) wird. \ref{lst:impl:threadStart}
+
+\begin{lstlisting}[language=java,caption=Thread erstellen/starten,label=lst:impl:threadStart]
+    Thread t1 = new Thread( new CommandThread() );
+    t1.start();
+\end{lstlisting}
+
+Zusätzlich ist es auch noch möglich den Thread mit (\texttt{thread.sleep(ms)}) zu pausieren.
 
 \subsection{BlockingQueue}
 % https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video 
@@ -102,11 +144,12 @@ Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementati
 \subsection{Service executer}
 % https://www.baeldung.com/java-executor-service-tutorial
 % Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
-Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Denn, wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktorübergeben werden, dies kann zu Problemen führen, da das Thread-Objekt somit nicht vorher erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen ist, dass ein Thread nicht einfach so ein anderes Runnable bearbeiten kann, da dieses vorher schon zugewiesen wurde. 
+Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Denn, wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktor übergeben werden, dies kann zu Problemen führen, da das Thread-Objekt somit nicht vorher erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen ist, dass ein Thread nicht einfach so ein anderes Runnable bearbeiten kann, da dieses vorher schon zugewiesen wurde. 
 
 % \subsection{Java Futures}
 % https://www.baeldung.com/java-future
 % \subsection{Java Completablefutures}
 
 
-\subsection{First come first serve (Möglichkeiten Prozesse abzuarbeiten)}
+% \subsection{First come first serve (Möglichkeiten Prozesse abzuarbeiten)}
+
