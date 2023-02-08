@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  3 FEB 2023 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  7 FEB 2023 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,7 +1268,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 42.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 123
+Overfull \hbox (3.22041pt too wide) detected at line 126
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1436,7 +1436,7 @@ chapter 4.
 (sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-Stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [22
 
 ] [23] [24] [25] [26] [27]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 81--81
+Overfull \hbox (6.0pt too wide) in paragraph at lines 83--83
 [][][][][][][][] 
  []
 
@@ -1444,13 +1444,13 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 81--81
 <pics/FlexLoggerWebsiteFormulare.jpg, id=429, 907.59074pt x 531.1845pt>
 File: pics/FlexLoggerWebsiteFormulare.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare.jpg>
-Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 119.
+Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 121.
 (pdftex.def)             Requested size: 408.41206pt x 239.0308pt.
  [30]
 <pics/FlexLoggerWebsiteDiagramm.jpg, id=439, 1140.05925pt x 526.3665pt>
 File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteDiagramm.jpg>
-Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 126.
+Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 128.
 (pdftex.def)             Requested size: 399.02672pt x 184.23103pt.
  [31 <./pics/FlexLoggerWebsiteFormulare.jpg> <./pics/FlexLoggerWebsiteDiagramm.jpg>] [32] [33] [34] [35]) (sections/Flexlogger/Threads.tex [36] [37]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
@@ -1501,7 +1501,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 ) (sections/Flexlogger/SQL.tex)) [47] [48]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=662, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=665, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1585,17 +1585,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 87 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35769 strings out of 478351
- 664226 string characters out of 2837053
+ 35772 strings out of 478351
+ 664277 string characters out of 2837053
  1421483 words of memory out of 3000000
  52910 multiletter control sequences out of 15000+600000
  523518 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,20n,109p,10667b,3678s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (63 pages, 1433343 bytes).
+Output written on thesis.pdf (63 pages, 1433793 bytes).
 PDF statistics:
- 989 PDF objects out of 1000 (max. 8388607)
- 409 named destinations out of 1000 (max. 500000)
+ 992 PDF objects out of 1000 (max. 8388607)
+ 412 named destinations out of 1000 (max. 500000)
  32619 words of extra memory for PDF output out of 35830 (max. 10000000)
 

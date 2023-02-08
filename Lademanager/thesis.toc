@@ -116,6 +116,9 @@
 \contentsline {subsection}{\numberline {4.9.3}JSON}{47}{subsection.4.9.3}%
 \contentsline {subsection}{\numberline {4.9.4}Datenbank}{48}{subsection.4.9.4}%
 \contentsline {section}{\numberline {4.10}SQL}{48}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Allgemein}{48}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Wie SQL funktioniert}{48}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Kommunikation mit Datenbanken}{48}{subsection.4.10.3}%
 \contentsline {chapter}{\numberline {5}test}{49}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Zusammenfassung}{51}{chapter.6}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.79}%
