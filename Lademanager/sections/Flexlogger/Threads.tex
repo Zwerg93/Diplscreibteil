@@ -4,7 +4,7 @@
 % \subsection{Lambda}
 
 \subsection{Serialisierung (Nebenläufigkeit und Parallelität)}
-% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+% 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
 Wenn man in Java über Nebenläufigkeit spricht, sind dabei Threads gemeint. Diese sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und diese parallel Prozesse abarbeiten können.
 
 Bei einem modernen Ein-Prozessor-Betriebssystem wirkt es oft, als wären die Prozesse parallel, doch dies wird einem nur vorgespielt, indem der Prozessor alle paar Sekunden auf einen anderern Prozess wechselt. Bei einem Betriebssystem mit mehreren Kernen, werden die Prozesse wirklich parallel bearbeitet. 
@@ -23,9 +23,9 @@ Wie nebenläufige Abarbeitung die Perfomance bei einem Einprozessorsystem beschl
 
 
 \subsection{Concurrency/Gleichzeitigkeit}
-% https://www.baeldung.com/java-util-concurrent
-% https://reader.elsevier.com/reader/sd/pii/S0167642305000663?token=33C353917B1806AF8A5D40D069D18442FDCF27727ADE08478255219D5D7D6849BA4E8FAE2A474A3FDCD3CC0A36740643&originRegion=eu-west-1&originCreation=20230105151331
-% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+% 0 https://www.baeldung.com/java-util-concurrent
+% 0 https://reader.elsevier.com/reader/sd/pii/S0167642305000663?token=33C353917B1806AF8A5D40D069D18442FDCF27727ADE08478255219D5D7D6849BA4E8FAE2A474A3FDCD3CC0A36740643&originRegion=eu-west-1&originCreation=20230105151331
+% 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
 Die Ausführung des Programmcode wird bei einem modernen Betriebssystem von Prozessen, welche jeweils mindestens einen Thread beherbergen, ausgeführt. Das interessante daran ist, dass nicht die etwa die Prozesse nebenläufig ausgeführt werden, sondern die Threads. Dabei können die Threads auf den gleichen Adressraum zugreifen.
 
 \subsubsection{Zustände eines Threads}
@@ -65,9 +65,9 @@ Dieser Thread kann nun in einer anderen Klasse verwendet werden, indem er zum Be
 Zusätzlich ist es auch noch möglich den Thread mit (\texttt{thread.sleep(ms)}) zu pausieren.
 
 \subsection{BlockingQueue}
-% https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video 
-% https://dl.acm.org/doi/pdf/10.1145/3472456.3472458
-% blocking queue:  https://books.google.at/books?id=mvzgNSmHEUAC&pg=PT856&dq=java+blocking+queue&hl=de&sa=X&ved=2ahUKEwiF4Jej3bD8AhUNxwIHHcjWBlMQ6AF6BAgEEAI#v=onepage&q=java%20blocking%20queue&f=false
+% 1 https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video 
+% 0 https://dl.acm.org/doi/pdf/10.1145/3472456.3472458
+% 0 blocking queue:  https://books.google.at/books?id=mvzgNSmHEUAC&pg=PT856&dq=java+blocking+queue&hl=de&sa=X&ved=2ahUKEwiF4Jej3bD8AhUNxwIHHcjWBlMQ6AF6BAgEEAI#v=onepage&q=java%20blocking%20queue&f=false
 
 Eine BlockingQueue hat typischerweise einen Thread, welcher Objekte produziert und einen anderen welcher die Objekte konsumiert. \ref{fig:impl:BlockingQueue}
 
@@ -142,12 +142,12 @@ Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementati
 \end{lstlisting}
 
 \subsection{Service executer}
-% https://www.baeldung.com/java-executor-service-tutorial
-% Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
+% 0 https://www.baeldung.com/java-executor-service-tutorial
+% 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
 Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Denn, wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktor übergeben werden, dies kann zu Problemen führen, da das Thread-Objekt somit nicht vorher erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen ist, dass ein Thread nicht einfach so ein anderes Runnable bearbeiten kann, da dieses vorher schon zugewiesen wurde. 
 
 % \subsection{Java Futures}
-% https://www.baeldung.com/java-future
+% 0 https://www.baeldung.com/java-future
 % \subsection{Java Completablefutures}
 
 
