@@ -12,6 +12,6 @@
 \contentsline {lstlisting}{\numberline {12}{\ignorespaces Einfaches Thread Beispiel}}{38}{lstlisting.4.12}%
 \contentsline {lstlisting}{\numberline {13}{\ignorespaces Thread erstellen/starten}}{38}{lstlisting.4.13}%
 \contentsline {lstlisting}{\numberline {14}{\ignorespaces Java BlockingQueue Beispiel}}{39}{lstlisting.4.14}%
-\contentsline {lstlisting}{\numberline {15}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{43}{lstlisting.4.15}%
-\contentsline {lstlisting}{\numberline {16}{\ignorespaces JSON Example}}{47}{lstlisting.4.16}%
+\contentsline {lstlisting}{\numberline {15}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{44}{lstlisting.4.15}%
+\contentsline {lstlisting}{\numberline {16}{\ignorespaces JSON Example}}{48}{lstlisting.4.16}%
 \contentsline {lstlisting}{\numberline {17}{\ignorespaces Some code}}{49}{lstlisting.5.17}%

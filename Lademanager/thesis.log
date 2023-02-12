@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  9 FEB 2023 09:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  12 FEB 2023 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1477,28 +1477,28 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 105--105
 [][][][][][][][] 
  []
 
-[39 <./pics/blockingQueue.jpg>]) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex [40] [41]) (sections/Flexlogger/VisuelleDarstellung.tex [42]
+[39 <./pics/blockingQueue.jpg>]) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex [40] [41] [42]) (sections/Flexlogger/VisuelleDarstellung.tex [43]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][][] 
  []
 
-[43]) (sections/Flexlogger/Quarkus.tex [44]
+) (sections/Flexlogger/Quarkus.tex [44]
 <pics/quarkusArchitektur.JPG, id=626, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
 (pdftex.def)             Requested size: 202.05438pt x 134.30142pt.
-) (sections/Flexlogger/AbspeicherungVonDaten.tex [45 <./pics/quarkusArchitektur.JPG>]
+) (sections/Flexlogger/AbspeicherungVonDaten.tex [45]
 Overfull \hbox (11.88286pt too wide) in paragraph at lines 12--29
  [] 
  []
 
-[46]
+[46 <./pics/quarkusArchitektur.JPG>] [47]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/SQL.tex)) [47] [48]
+) (sections/Flexlogger/SQL.tex)) [48]
 chapter 5.
 (sections/implementation.tex
 <pics/knuthi.jpg, id=665, 474.27188pt x 266.49562pt>
@@ -1593,7 +1593,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  113i,20n,109p,10667b,3678s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (63 pages, 1433793 bytes).
+Output written on thesis.pdf (63 pages, 1434325 bytes).
 PDF statistics:
  992 PDF objects out of 1000 (max. 8388607)
  412 named destinations out of 1000 (max. 500000)

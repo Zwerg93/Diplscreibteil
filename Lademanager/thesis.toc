@@ -86,7 +86,7 @@
 \contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{40}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}Datenbanken}{40}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{40}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}H2}{40}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.2}H2}{41}{subsection.4.6.2}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{41}{subsubsection*.59}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{41}{subsubsection*.61}%
 \contentsline {subsection}{\numberline {4.6.3}SQLite}{41}{subsection.4.6.3}%
