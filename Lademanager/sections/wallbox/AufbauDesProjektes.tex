@@ -12,7 +12,7 @@ jemand eine Ladestation einschaltet, schickt die Website
 Befehl zu dem Charge Controller. 
 Siehe Aufbau des Projektes: \ref{fig:impl:Infografik_FlexBoxen}.
 
-  \begin{figure}
+  \begin{figure}[h t]
     \centering
     \includegraphics[scale=0.5]{pics/Infografik_FlexBoxen.png}
     \caption{Darstellung des Aufbaues}
@@ -163,7 +163,7 @@ Die Oberfläche der App besteht aus einer Hauptseite, wo man eine Übersicht die
 \end{compactitem}
 
 
-\begin{figure}
+\begin{figure}[h t]
   \centering
   \includegraphics[scale=0.5]{pics/HMIWallboxÜbersicht.png}
   \caption{Übersicht über die fünf Wallboxen auf der HMI: }
@@ -177,7 +177,7 @@ Siehe Übersicht über die einzelnen Wallboxen: \ref{fig:impl:HMIWallboxÜbersic
 Jedes dieser 5 Label ist ein Link zu der Unterseite der jeweiligen Wallbox. Jede der Unterseiten besteht dabei aus einem Dynamischen Header mit der ID der ausgewählten Wallbox. Das Nächste Element besteht aus einem Label, einem Dynamischen Slider und einem Icon, welches zum Ausschalten der jeweiligen Wallbox verwendet wird. Der Slider hat eine Range von 1 – 22, was die möglichen kW veranschaulichen soll. Darunter ist noch ein Status Element, welches mit dem Icon auf der Startseite gekoppelt ist. Die Soll-Vorgabe, welche sich darunter befindet, ist der Wert, den der User mit dem Slider eingestellt hat. Er ändert sich dynamisch, und gibt dem Benutzer die Möglichkeit, die gewünschten kW/h genau einzustellen. Bei Verlassen bzw. Neu laden der Seite wird der Wert natürlich gespeichert, und auch der Slider behält seine Position. Die Ist-Vorgabe ist der Wert, welcher bei der Wallbox eingestellt ist, und mit welcher das Auto dann wirklich aufgeladen wird. Dieser ändert sich meist mit einer kleinen Verzögerung, da die Wallbox den neuen Wert erst nach wenigen Augenblicke übernimmt. Das Element mit dem Namen “Automatisches Laden” ist dafür da, um zwischen Solar und Netzstrom zu schalten. Die Funktion “priorisiertes Laden”, welche in den Vorherigen Kapiteln beschrieben wurde, kommt hier zum Einsatz. Die Oberflächen sind für jede Wallbox gleich, nur wird auf jeder Unterseite eine andere Ladestation angesteuert. Die GUI überreicht man nur im Firmen internen Netzwerk über eine URL. Mit der Raute Raute walli kommt man auf das mobile Template der Anwendung. Die Buttons lassen sich nur mit einem Touch screen oder den Entwicklungs-Tools von Chrome betätigen.  
 
 
-\begin{figure}
+\begin{figure}[h t]
   \centering
   \includegraphics[scale=0.5]{pics/DetailansichtWallbox2.png}
   \caption{Detailansicht der Oberfläche für die Einzelnen Wallboxen }

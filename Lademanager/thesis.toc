@@ -69,14 +69,14 @@
 \contentsline {subsubsection}{\nonumberline ValidatorService}{36}{subsubsection*.44}%
 \contentsline {subsubsection}{\nonumberline LogEntry Model}{36}{subsubsection*.46}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{36}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Threads}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Serialisierung (Nebenläufigkeit und Parallelität)}{37}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.4}Threads}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Serialisierung (Nebenläufigkeit und Parallelität)}{36}{subsection.4.4.1}%
 \contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{37}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {4.4.2}Concurrency/Gleichzeitigkeit}{37}{subsection.4.4.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{38}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{37}{subsubsection*.50}%
 \contentsline {subsection}{\numberline {4.4.3}Aufbau eines Threads}{38}{subsection.4.4.3}%
 \contentsline {subsubsection}{\nonumberline Interface Runnable}{38}{subsubsection*.52}%
-\contentsline {subsection}{\numberline {4.4.4}BlockingQueue}{39}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}BlockingQueue}{38}{subsection.4.4.4}%
 \contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{39}{subsubsection*.55}%
 \contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{39}{subsubsection*.57}%
 \contentsline {subsection}{\numberline {4.4.5}Service executer}{40}{subsection.4.4.5}%
