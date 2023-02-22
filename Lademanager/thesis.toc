@@ -101,29 +101,31 @@
 \contentsline {section}{\numberline {4.7}Visuelle Darestellung}{43}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Angular}{43}{subsection.4.7.1}%
 \contentsline {subsubsection}{\nonumberline Komponenten}{43}{subsubsection*.75}%
-\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{44}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Quarkus}{44}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Allgemeines}{44}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Architektur}{45}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Funktionen}{46}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}Vorteile gegenüber anderen Tools}{46}{subsection.4.8.4}%
-\contentsline {subsection}{\numberline {4.8.5}NodeJS im Vergleich}{46}{subsection.4.8.5}%
-\contentsline {subsection}{\numberline {4.8.6}http GET/POST/PUT Funktionen}{46}{subsection.4.8.6}%
-\contentsline {subsection}{\numberline {4.8.7}JDBC + JPA}{46}{subsection.4.8.7}%
-\contentsline {section}{\numberline {4.9}Abspeicherung von Daten}{46}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{46}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}CSV}{47}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}JSON}{47}{subsection.4.9.3}%
-\contentsline {subsection}{\numberline {4.9.4}Datenbank}{48}{subsection.4.9.4}%
-\contentsline {section}{\numberline {4.10}SQL}{48}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Allgemein}{48}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}Wie SQL funktioniert}{48}{subsection.4.10.2}%
-\contentsline {subsection}{\numberline {4.10.3}Kommunikation mit Datenbanken}{48}{subsection.4.10.3}%
-\contentsline {chapter}{\numberline {5}test}{49}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{51}{chapter.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.79}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.80}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.81}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.82}%
-\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.83}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular Applikation an einen Webserver}{44}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline Angular Forms}{44}{subsubsection*.79}%
+\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{45}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Quarkus}{46}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Allgemeines}{46}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Architektur}{47}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Funktionen}{48}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Vorteile gegenüber anderen Tools}{48}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}NodeJS im Vergleich}{48}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}http GET/POST/PUT Funktionen}{48}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}JDBC + JPA}{48}{subsection.4.8.7}%
+\contentsline {section}{\numberline {4.9}Abspeicherung von Daten}{48}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{48}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}CSV}{49}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}JSON}{49}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}Datenbank}{50}{subsection.4.9.4}%
+\contentsline {section}{\numberline {4.10}SQL}{50}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Allgemein}{50}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}PLSQL}{51}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Kommunikation mit Datenbanken}{51}{subsection.4.10.3}%
+\contentsline {chapter}{\numberline {5}test}{52}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{54}{chapter.6}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.83}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.84}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.85}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.86}%
+\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.87}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

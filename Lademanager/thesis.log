@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  21 FEB 2023 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  22 FEB 2023 07:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1288,7 +1288,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 126
+Overfull \hbox (3.22041pt too wide) detected at line 128
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1616,12 +1616,37 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][][] 
  []
 
-[43]) (sections/Flexlogger/Quarkus.tex
+[43]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 45--45
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
+[][][][][][][][] 
+ []
+
+[44]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 70--70
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 88--88
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 97--97
+[][][][][][][][] 
+ []
+
+) (sections/Flexlogger/Quarkus.tex [45]
 Overfull \hbox (59.91061pt too wide) in paragraph at lines 15--16
 \T1/lmr/m/n/12 (-20) Kern diese Arbeit erledigen kann, müssen einige verschiedene Komponenten zusammenarbeiten: 
  []
 
-[44]
+[46]
 Overfull \hbox (23.82683pt too wide) in paragraph at lines 18--19
 \T1/lmr/m/n/12 (-20) und Klassen Hierarchien für ein Set von Klassen in eine Speicher-effizienten Repräsentation
  []
@@ -1631,25 +1656,50 @@ Overfull \hbox (11.53499pt too wide) in paragraph at lines 24--25
 \T1/lmr/m/n/12 (-20) Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager
  []
 
-<pics/quarkusArchitektur.JPG, id=628, 404.10976pt x 268.6035pt>
+<pics/quarkusArchitektur.JPG, id=675, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
 (pdftex.def)             Requested size: 202.05438pt x 134.30142pt.
-) (sections/Flexlogger/AbspeicherungVonDaten.tex [45 <./pics/quarkusArchitektur.JPG>]
+) (sections/Flexlogger/AbspeicherungVonDaten.tex [47 <./pics/quarkusArchitektur.JPG>]
 Overfull \hbox (11.88286pt too wide) in paragraph at lines 12--29
  [] 
  []
 
-[46]
+[48]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/SQL.tex)) [47] [48]
+) (sections/Flexlogger/SQL.tex
+Overfull \hbox (0.28268pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/12 (-20) relationalen Datenbank zu bearbeiten. Auÿerdem kann damit die Struktur der Datenbank
+ []
+
+[49]
+Overfull \hbox (23.57762pt too wide) in paragraph at lines 6--7
+[]\T1/lmr/m/n/12 (-20) Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen. 
+ []
+
+
+Overfull \hbox (30.59204pt too wide) in paragraph at lines 9--24
+ [] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 30--30
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
+[][][][][][][][] 
+ []
+
+)) [50] [51]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=667, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=728, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1659,11 +1709,11 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][][] 
  []
 
-) [49
+) [52
 
-] [50 <./pics/knuthi.jpg>]
+] [53 <./pics/knuthi.jpg>]
 chapter 6.
-(sections/summary.tex) [51
+(sections/summary.tex) [54
 
 ] (glossary.tex
 \@gls@deffile=\write9
@@ -1729,17 +1779,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35739 strings out of 478338
- 657629 string characters out of 2841194
+ 35816 strings out of 478338
+ 658784 string characters out of 2841194
  1920793 words of memory out of 3000000
- 54587 multiletter control sequences out of 15000+600000
+ 54620 multiletter control sequences out of 15000+600000
  566601 words of font info for 135 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  113i,20n,109p,10664b,3692s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (63 pages, 1435425 bytes).
+Output written on thesis.pdf (66 pages, 1455014 bytes).
 PDF statistics:
- 996 PDF objects out of 1000 (max. 8388607)
- 413 named destinations out of 1000 (max. 500000)
+ 1073 PDF objects out of 1200 (max. 8388607)
+ 457 named destinations out of 1000 (max. 500000)
  32619 words of extra memory for PDF output out of 35830 (max. 10000000)
 

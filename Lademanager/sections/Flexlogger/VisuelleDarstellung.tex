@@ -36,4 +36,74 @@ Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer
     }
 \end{lstlisting}
 
+\subsubsection{Anbindung einer Angular Applikation an einen Webserver}
+% Angular - Das umfassende Handbuch von: Christoph Höller
+Um eine Anbindung an einen Webserver zu ermöglichen, stellt Angular ein Modul, welches den Namen HttpClientModule trägt, zur Verfügung. Nachdem dieses in der Klasse AppModule importiert wurde, kann es verwendet werden.
+
+Wenn man nun zum Beispiel die Daten eines GET-Requests aus dem Backend auslesen will, muss man zuerst den HttpClient aufrufen, definieren ob ein GET, POST oder ein anderen Request benutzt werden soll und diesem muss anschließend eine passende URL übergeben werden. \ref{lst:impl:angularHTTPBsp}
+
+\begin{lstlisting}[language=java,caption=Beispiel für einen GET-Request,label=lst:impl:angularHTTPBsp]
+  this.http.get<Animal[]>(`http://localhost:8080/api/animals`)
+    .subscribe(animals => {
+      this.animalArray = animals;
+    });
+\end{lstlisting}
+
+Mit den spitzen Klammern wird dabei der Type der übergebenen Daten definiert, in diesem Fall wäre es eine List des Typs Animal. Die erhaltenen Daten werden dann auf die Variable this.animalArray gesetzt.
+
+\subsubsection{Angular Forms}
+% Angular - Das umfassende Handbuch von: Christoph Höller
+Um in einem Angular Projekt ein Formular verwenden zu können, muss zuerst die Forms-API hinzugefügt werden. Dies kann mit dem Befehl \texttt{npm install @angular/forms --save} umgesetzt werden. Nachdem die Module in der gewünschten Komponente eingebaut wurden, kann ein reaktives Formular erstellt werden.
+
+Um auf die Eingabewerte eines Formulars zugreifen zu können, kann eine FormGroup verwendet werden. Bei dieser muss lediglich ein FormGroup-Element angelegt werden, welches die Namen der Eingabefelder trägt. \ref{lst:impl:angularFormGroup} Der linke Parameter ist dabei dazu da, einen default-Wert festzulegen, der rechte ist dazu da, eine Überprüfung der Eingabewerte zu aktiviren.
+
+\begin{lstlisting}[language=java,caption=Beispiel für FormGroup eines Angular Formulars,label=lst:impl:angularFormGroup]
+  this.animalForm = this.fb.group({
+    animalName: [null, [Validators.required]],
+    animalAge: [0, [Validators.required]],
+  });
+\end{lstlisting}
+
+Das zugehörige HTML Form hat in der Praxis diese Form:  \ref{lst:impl:angularFormHTML}
+
+
+\begin{lstlisting}[language=java,caption=Beispiel für ein reactives Formular,label=lst:impl:angularFormHTML]
+  <form [formGroup]="animalForm">
+        <label>Tier Name</label>
+        <input formControlName="animalName" type="text">
+        <label>Tier Alter</label>
+        <input formControlName="animalAge" type="number">
+      </form>
+\end{lstlisting}
+
+
+
 \subsection{CanvasJS}
+% https://canvasjs.com/
+
+CanvasJS ist ien Framework, mit welchem sich einfach Diagramme erstellen lassen können. Es besitzt eine hervorragende Integration in Angular, dies wird bestätigt durch eine eigene Unterseite auf der CanvasJS Seite, welche der Integration mit Angular gewidmet ist. Auf dieser findet man unterschiedlichste Diagramm mit dem passenden Komponenten-, Modul-, sowie HTML-Code.
+
+Um CanvasChart in Angular zu verwenden, müssen verschiedene Codeteile eingefügt werden. Diese beinhalten einen HTML-Teil, welcher das Chart anzeigt. \ref{lst:impl:canvasJSHTML}
+
+\begin{lstlisting}[language=html,caption=CanvasJS HTML,label=lst:impl:canvasJSHTML]
+  <canvasjs-chart [options]="chartOptions" [styles]="{width: '100%', height: '360px'}"></canvasjs-chart>
+\end{lstlisting}
+
+Anschließend müssen Dateien, welche auf der canvasJS-Seite heruntergeladen werden können in die Dateiordner des gewünschten Angular-Projekts kopiert werden. Diese tragen die Namen \texttt{canvasjs.min.js} und \texttt{canvasjs.angular.component.ts}.
+
+Der vorletzte Schritt beinhaltet das importieren des CanvasJSChart-Moduls.
+Im letzten Schritt werden im TypeScript-File der Komponente, in der das Diagramm angezeigt werden soll, die Diagramm Optionen für das Diagramm festgelegt. Diese beinhalten in der einfachsten Form den Titel und die Daten, dies kann aber erweitert werden. \ref{lst:impl:canvasJSchartOptions}
+
+\begin{lstlisting}[language=html,caption=CanvasJS chartOptiones,label=lst:impl:canvasJSchartOptions]
+  chartOptions = {
+    title: {
+      text: "Basic Column Chart in Angular"
+    },
+    data: [{
+      type: "line",
+      dataPoints: [
+        { label: "Apple",  y: 10  },
+        { label: "Orange", y: 15  }
+      ]}]};
+\end{lstlisting}
+

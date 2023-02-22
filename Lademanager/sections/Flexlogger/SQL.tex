@@ -1,6 +1,48 @@
 \subsection{Allgemein}
+% Einführung in SQL - Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu
+% https://edufs.edu.htl-leonding.ac.at/moodle/pluginfile.php/102732/mod_resource/content/1/PLSQL-Skript%20v04.pdf
+SQL ist eine Programmiersprache, welche entwickelt wurde, um die Daten in einer relationalen Datenbank zu bearbeiten. Außerdem kann damit die Struktur der Datenbank abgeändert werden. 
 
-\subsection{Wie SQL funktioniert}
+Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen.
+
+\begin{center}
+    \begin{tabular}{ |c|c|c|c| } 
+     \hline
+     \multicolumn{3}{|c|}{SQL-Befehlsgruppen } \\
+     \hline
+     \hline
+     Database Manipulation (DML)  & Database Definition (DDL) & Database Operation  \\ 
+     \hline 
+     \hline
+     DELETE & CREATE & SERVERERROR \\ 
+     \hline
+     INSERT & ALTER & LOGON/LOGOFF \\ 
+     \hline
+     UPDATE & DROP & STARTUP/SHUTDOWN \\ 
+     \hline
+    \end{tabular}
+    \end{center}
+
+Mithilfe all dieser verschiedenen Gruppen ist es möglich, eine Datenbank zu erstellen, zu verwalten und zu löschen. 
+
+Um beispielsweise eine Tabelle in einer Datenbank zu erstellen, verwendet man das Schlüsselwort \texttt{CREATE} welches in der Data Definition Language gefunden werden kann. \ref{lst:impl:createTable}
+
+\begin{lstlisting}[language=sql,caption=CREATE table,label=lst:impl:createTable]
+    CREATE TABLE animal (
+        animalName VARCHAR(20),
+        animalAge NUMBER(3)
+        );
+\end{lstlisting}
+
+Um nun eine Zeile in die Tabelle hinzuzufügen wird ein INSERT-Statement benötigt. \ref{lst:impl:insertTable}
+
+\begin{lstlisting}[language=sql,caption=CREATE table,label=lst:impl:insertTable]
+        INSERT INTO animal (animalName, animalAge) VALUES ('snake', 3);
+\end{lstlisting}
+
+Ein anderer wichtiger Befehl in SQL ist der SELECT-Befehl. Mit ihm kann aus jeder beliebigen Tabelle ein bestimmter Teil ausgegeben werden. Dabei können verschiedenste Kriterien übergeben werden, wie z.B. das die auszugebenden Daten einen bestimmten Wert haben müssen.
+
+\subsection{PLSQL}
 
 \subsection{Kommunikation mit Datenbanken}
 
