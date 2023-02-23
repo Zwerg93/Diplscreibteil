@@ -23,7 +23,7 @@ Im Zentrum von Quarkus liegt die Kern Komponente, welche die Aufgabe hat, die Ap
 
 Des Weiteren gibt es noch einige Quarkus Extensions. Dazu gehören die MicroProfile Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager (Narayana), eine Verbindungs-Pool-Manager und viele mehr. 
 
-\begin{figure}[h t]
+\begin{figure}
     \centering
     \includegraphics[scale=0.5]{pics/quarkusArchitektur.JPG}
     \caption{Quarkus Architektur}
@@ -32,6 +32,25 @@ Des Weiteren gibt es noch einige Quarkus Extensions. Dazu gehören die MicroProf
 
 \subsection{Funktionen}
 \subsection{Vorteile gegenüber anderen Tools}
+% https://devm.io/java/micronaut-speed-test-170870-001
+
 \subsection{NodeJS im Vergleich}
 \subsection{http GET/POST/PUT Funktionen}
+% https://quarkus.io/guides/rest-json
+Mithilfe von GET/POST/PUT kann man Daten an einen Webserver schicken, um diese später z.B. in einer Webapplikation nutzen zu können.
+
+Um diese Annotations verwenden zu können, muss eine REST Ressource erstellt werden.
+Bei dieser Ressource muss zuallererst ein Pfad definiert werden. Dieser gilt für alle darauffolgenden Funktionen in der Ressource Klasse.
+
+Die Funktionen in der Klasse sind alle für verschiedene GET- bzw. POST-Requests mit verschiedenen Pfaden verantwortlich. Bei jedem von ihnen wird definiert ob es ein GET, POST oder PUT Request abgesetzt werden soll. In der darauffolgenden Zeile wird ein Pfad angegeben, welcher zusätzlich nach dem über der Klasse angegeben Pfad verwendet wird. Als letztes Attribut wird definiert, je nachdem ob der Request etwas auslesen soll oder etwas anzeigen lassen soll, ein @Produces bzw. ein @Consumes. In diesen wird jeweils der Typ von dem auszulesenden bzw anzuzeigenden angeführt. In dem Beispiel unterhalb ist es ein JSON-Format.
+
+\begin{lstlisting}[language=java,caption=Quarkus POST-Request,label=lst:impl:canvasJSchartOptions]
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/all/animal")
+    public Set<Animal> getAll() {
+        return animalRepository.getAll();
+    }
+  \end{lstlisting}
+
 \subsection{JDBC + JPA}
