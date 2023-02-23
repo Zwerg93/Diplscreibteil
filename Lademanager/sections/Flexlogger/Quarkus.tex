@@ -25,14 +25,36 @@ Des Weiteren gibt es noch einige Quarkus Extensions. Dazu gehören die MicroProf
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.5]{pics/quarkusArchitektur.JPG}
+    \includegraphics[scale=0.9]{pics/quarkusArchitektur.JPG}
     \caption{Quarkus Architektur}
     \label{fig:impl:QuarkusArchitektur}
 \end{figure}
 
 \subsection{Funktionen}
-\subsection{Vorteile gegenüber anderen Tools}
+\subsection{Vergleich zu anderen Tools}
 % https://devm.io/java/micronaut-speed-test-170870-001
+% https://micronaut.io/2020/04/07/micronaut-vs-quarkus-vs-spring-boot-performance-on-jdk-14/
+Drei sehr vergleichbare Frameworks sind Quarkus, Micronout und Spring Boot. Sie besitzen alle ähnliche Features und Fähigkeiten. 
+Am wichtigsten ist dabei, welches Framework ist am Schnellsten, welches am performantesten, welches benötigt den wenigsten Speicher?
+
+
+\begin{compactitem}
+    \item[Quarkus]
+    \item Kubernetes-nativ, für Java designed, für GraalVM und OpenJDK Hotspot, besitzt die besten JAVA Bibliotheken und Standards, schnell beim Starten
+    \item[Micronout]
+    \item Cloud-native, JVM-basiert, full-stack Framework für Mikro-Services und Serverlose Anwendungen, geringer Speicherverbrauch
+    \item[Spring Boot]
+    \item Open-Source Java Framework, einfach um Stand-alone Anwendungen und Mikroservices zu kreieren, benötigt sehr wenig Konfiguration um starten zu können
+\end{compactitem}
+
+Für einen näheren Verglich zwischen den Frameworks siehe \ref{fig:impl:Quarkusbenchmark}. Dabei kann man erkennen, dass Quarkus Response Zeit am bestbewerteten ist, Spring trotzt dabei mit einer Compilation Zeit von nur 1.33s wenn der Befehl \texttt{./mnv clean compile} verwendet wird. Insgesamt kann allerdings aus dem Benchmark Vergleich gezogen werden, dass Micronout in den meisten Kategorien als Sieger hervorgeht. Vor allem, wenn einem ein kleiner Speicherverbrauch wichtig ist, sollte man somit zu Micronout greifen. 
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{pics/quarkus_benchmark.jpg}
+    \caption{Quarkus Benchmark Test}
+    \label{fig:impl:Quarkusbenchmark}
+\end{figure}
 
 \subsection{NodeJS im Vergleich}
 \subsection{http GET/POST/PUT Funktionen}
