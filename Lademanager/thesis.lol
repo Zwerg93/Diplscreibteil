@@ -8,18 +8,18 @@
 \contentsline {lstlisting}{\numberline {8}{\ignorespaces Example multible datapoint usage}}{20}{lstlisting.3.8}%
 \contentsline {lstlisting}{\numberline {9}{\ignorespaces Example Element}}{21}{lstlisting.3.9}%
 \contentsline {lstlisting}{\numberline {10}{\ignorespaces Connect to SQL Database}}{28}{lstlisting.4.10}%
-\contentsline {lstlisting}{\numberline {11}{\ignorespaces Java Runnable}}{38}{lstlisting.4.11}%
-\contentsline {lstlisting}{\numberline {12}{\ignorespaces Einfaches Thread Beispiel}}{38}{lstlisting.4.12}%
-\contentsline {lstlisting}{\numberline {13}{\ignorespaces Thread erstellen/starten}}{38}{lstlisting.4.13}%
-\contentsline {lstlisting}{\numberline {14}{\ignorespaces Java BlockingQueue Beispiel}}{39}{lstlisting.4.14}%
-\contentsline {lstlisting}{\numberline {15}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{44}{lstlisting.4.15}%
-\contentsline {lstlisting}{\numberline {16}{\ignorespaces Beispiel für einen GET-Request}}{44}{lstlisting.4.16}%
-\contentsline {lstlisting}{\numberline {17}{\ignorespaces Beispiel für FormGroup eines Angular Formulars}}{45}{lstlisting.4.17}%
-\contentsline {lstlisting}{\numberline {18}{\ignorespaces Beispiel für ein reactives Formular}}{45}{lstlisting.4.18}%
-\contentsline {lstlisting}{\numberline {19}{\ignorespaces CanvasJS HTML}}{45}{lstlisting.4.19}%
-\contentsline {lstlisting}{\numberline {20}{\ignorespaces CanvasJS chartOptiones}}{46}{lstlisting.4.20}%
-\contentsline {lstlisting}{\numberline {21}{\ignorespaces Quarkus POST-Request}}{48}{lstlisting.4.21}%
-\contentsline {lstlisting}{\numberline {22}{\ignorespaces JSON Example}}{50}{lstlisting.4.22}%
-\contentsline {lstlisting}{\numberline {23}{\ignorespaces CREATE table}}{51}{lstlisting.4.23}%
-\contentsline {lstlisting}{\numberline {24}{\ignorespaces CREATE table}}{51}{lstlisting.4.24}%
-\contentsline {lstlisting}{\numberline {25}{\ignorespaces Some code}}{53}{lstlisting.5.25}%
+\contentsline {lstlisting}{\numberline {11}{\ignorespaces Java Runnable}}{39}{lstlisting.4.11}%
+\contentsline {lstlisting}{\numberline {12}{\ignorespaces Einfaches Thread Beispiel}}{39}{lstlisting.4.12}%
+\contentsline {lstlisting}{\numberline {13}{\ignorespaces Thread erstellen/starten}}{39}{lstlisting.4.13}%
+\contentsline {lstlisting}{\numberline {14}{\ignorespaces Java BlockingQueue Beispiel}}{40}{lstlisting.4.14}%
+\contentsline {lstlisting}{\numberline {15}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{45}{lstlisting.4.15}%
+\contentsline {lstlisting}{\numberline {16}{\ignorespaces Beispiel für einen GET-Request}}{45}{lstlisting.4.16}%
+\contentsline {lstlisting}{\numberline {17}{\ignorespaces Beispiel für FormGroup eines Angular Formulars}}{46}{lstlisting.4.17}%
+\contentsline {lstlisting}{\numberline {18}{\ignorespaces Beispiel für ein reactives Formular}}{46}{lstlisting.4.18}%
+\contentsline {lstlisting}{\numberline {19}{\ignorespaces CanvasJS HTML}}{46}{lstlisting.4.19}%
+\contentsline {lstlisting}{\numberline {20}{\ignorespaces CanvasJS chartOptiones}}{47}{lstlisting.4.20}%
+\contentsline {lstlisting}{\numberline {21}{\ignorespaces Quarkus POST-Request}}{49}{lstlisting.4.21}%
+\contentsline {lstlisting}{\numberline {22}{\ignorespaces JSON Example}}{51}{lstlisting.4.22}%
+\contentsline {lstlisting}{\numberline {23}{\ignorespaces CREATE table}}{52}{lstlisting.4.23}%
+\contentsline {lstlisting}{\numberline {24}{\ignorespaces CREATE table}}{52}{lstlisting.4.24}%
+\contentsline {lstlisting}{\numberline {25}{\ignorespaces Some code}}{54}{lstlisting.5.25}%
