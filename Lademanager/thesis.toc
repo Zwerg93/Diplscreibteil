@@ -60,72 +60,72 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Ressource}{26}{subsubsection*.26}%
 \contentsline {subsubsection}{\nonumberline LogEntry Repository}{28}{subsubsection*.28}%
 \contentsline {subsection}{\numberline {4.3.4}Angular Frontend (Beschreibend)}{30}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website Ansicht}{30}{subsubsection*.30}%
-\contentsline {subsubsection}{\nonumberline App-Component}{31}{subsubsection*.34}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{32}{subsubsection*.36}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{33}{subsubsection*.38}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{35}{subsubsection*.40}%
-\contentsline {subsubsection}{\nonumberline HttpService}{35}{subsubsection*.42}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{36}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{36}{subsubsection*.46}%
-\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{36}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Threads}{36}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Serialisierung (Nebenläufigkeit und Parallelität)}{36}{subsection.4.4.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{37}{subsubsection*.48}%
-\contentsline {subsection}{\numberline {4.4.2}Concurrency/Gleichzeitigkeit}{37}{subsection.4.4.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{37}{subsubsection*.50}%
-\contentsline {subsection}{\numberline {4.4.3}Aufbau eines Threads}{38}{subsection.4.4.3}%
-\contentsline {subsubsection}{\nonumberline Interface Runnable}{38}{subsubsection*.52}%
-\contentsline {subsection}{\numberline {4.4.4}BlockingQueue}{38}{subsection.4.4.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{39}{subsubsection*.55}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{39}{subsubsection*.57}%
-\contentsline {subsection}{\numberline {4.4.5}Service executer}{40}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Performance}{40}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{40}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Bandbreite}{40}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{40}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Datenbanken}{40}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{40}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}H2}{41}{subsection.4.6.2}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{41}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{41}{subsubsection*.61}%
-\contentsline {subsection}{\numberline {4.6.3}SQLite}{41}{subsection.4.6.3}%
-\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{41}{subsubsection*.63}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{41}{subsubsection*.65}%
-\contentsline {subsection}{\numberline {4.6.4}PostgreSQL}{42}{subsection.4.6.4}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{42}{subsubsection*.67}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{42}{subsubsection*.69}%
-\contentsline {subsection}{\numberline {4.6.5}Derby}{42}{subsection.4.6.5}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{42}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{42}{subsubsection*.73}%
-\contentsline {section}{\numberline {4.7}Visuelle Darestellung}{43}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Angular}{43}{subsection.4.7.1}%
-\contentsline {subsubsection}{\nonumberline Komponenten}{43}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline Anbindung einer Angular Applikation an einen Webserver}{44}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Angular Forms}{44}{subsubsection*.79}%
-\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{45}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Quarkus}{46}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Allgemeines}{46}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Architektur}{47}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}Funktionen}{48}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}Vorteile gegenüber anderen Tools}{48}{subsection.4.8.4}%
-\contentsline {subsection}{\numberline {4.8.5}NodeJS im Vergleich}{48}{subsection.4.8.5}%
-\contentsline {subsection}{\numberline {4.8.6}http GET/POST/PUT Funktionen}{48}{subsection.4.8.6}%
-\contentsline {subsection}{\numberline {4.8.7}JDBC + JPA}{48}{subsection.4.8.7}%
-\contentsline {section}{\numberline {4.9}Abspeicherung von Daten}{48}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{48}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}CSV}{49}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}JSON}{49}{subsection.4.9.3}%
-\contentsline {subsection}{\numberline {4.9.4}Datenbank}{50}{subsection.4.9.4}%
-\contentsline {section}{\numberline {4.10}SQL}{50}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Allgemein}{50}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}PLSQL}{51}{subsection.4.10.2}%
-\contentsline {subsection}{\numberline {4.10.3}Kommunikation mit Datenbanken}{51}{subsection.4.10.3}%
-\contentsline {chapter}{\numberline {5}test}{52}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{54}{chapter.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.83}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.84}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.85}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.86}%
-\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.87}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{30}{subsubsection*.30}%
+\contentsline {subsubsection}{\nonumberline App-Component}{33}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{34}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{35}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{36}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline HttpService}{37}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{37}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{38}{subsubsection*.50}%
+\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{38}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Threads}{38}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Serialisierung (Nebenläufigkeit und Parallelität)}{38}{subsection.4.4.1}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{38}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {4.4.2}Concurrency/Gleichzeitigkeit}{39}{subsection.4.4.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{39}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {4.4.3}Aufbau eines Threads}{39}{subsection.4.4.3}%
+\contentsline {subsubsection}{\nonumberline Interface Runnable}{39}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {4.4.4}BlockingQueue}{40}{subsection.4.4.4}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{40}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{41}{subsubsection*.61}%
+\contentsline {subsection}{\numberline {4.4.5}Service executer}{41}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Performance}{42}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{42}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Bandbreite}{42}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Menge der Datenpunkte}{42}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Datenbanken}{42}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Datenbanken allgemein}{42}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}H2}{42}{subsection.4.6.2}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{42}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{42}{subsubsection*.65}%
+\contentsline {subsection}{\numberline {4.6.3}SQLite}{43}{subsection.4.6.3}%
+\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{43}{subsubsection*.67}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{43}{subsubsection*.69}%
+\contentsline {subsection}{\numberline {4.6.4}PostgreSQL}{43}{subsection.4.6.4}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{43}{subsubsection*.71}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{43}{subsubsection*.73}%
+\contentsline {subsection}{\numberline {4.6.5}Derby}{44}{subsection.4.6.5}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{44}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{44}{subsubsection*.77}%
+\contentsline {section}{\numberline {4.7}Visuelle Darestellung}{44}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Angular}{44}{subsection.4.7.1}%
+\contentsline {subsubsection}{\nonumberline Komponenten}{45}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular Applikation an einen Webserver}{45}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline Angular Forms}{46}{subsubsection*.83}%
+\contentsline {subsection}{\numberline {4.7.2}CanvasJS}{46}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Quarkus}{47}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Allgemeines}{47}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Architektur}{48}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Funktionen}{49}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Vergleich zu anderen Tools}{49}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}NodeJS im Vergleich}{50}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}http GET/POST/PUT Funktionen}{50}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}JDBC + JPA}{51}{subsection.4.8.7}%
+\contentsline {section}{\numberline {4.9}Abspeicherung von Daten}{51}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Vergleich Vor und Nachteile JSON vs CSV vs Datenbank}{51}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}CSV}{52}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}JSON}{52}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}Datenbank}{53}{subsection.4.9.4}%
+\contentsline {section}{\numberline {4.10}SQL}{53}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Allgemein}{53}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}PLSQL}{54}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Kommunikation mit Datenbanken}{54}{subsection.4.10.3}%
+\contentsline {chapter}{\numberline {5}test}{55}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{57}{chapter.6}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.88}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.89}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.90}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{IX}{chapter*.91}%
+\contentsline {chapter}{\nonumberline Anhang}{X}{chapter*.92}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

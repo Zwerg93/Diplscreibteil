@@ -1,6 +1,4 @@
 \subsection{Beschreibung der Funktionen}
-%% sehr einfache Beschreibung der Website mit vielen Screenshots von de einzelnen Komponenten (Button/ EinagbeFeld / was wird wann angezeigt etc.)
-
 
 \subsection{Logger}
 Das sogenannte FS-Logger-Programm setzt sich aus mehreren Klassen zusammen, wie etwa einen DataJDBCAdapter, einer Hauptklasse namens FlexTaskFsLogger. Weiteres befindet sich in dem Programm eine Modelklasse namens LogEntry, welche die Attribute der eingetragenen LogEntries definiert. Um die einen reibungslosen Ablauf zu garantieren, wird eine Blocking-Queue verwendet, welche Multithreading unterstützt. Das ganze Programm baut auf dem Producer Consumer Pattern auf.	
@@ -109,21 +107,59 @@ Die letzte Methode im Repository ist die insertLogEntry-Methode. Wie der Name be
 Danach wird eine Verbindung zur Datenbank mithilfe der connect-Methode hergestellt. Durch ein PreparedStatement, welches aus SQL-String geformt wird, könne alle Parameter gesetzt werden. Diese beinhalten die dpId (der Name des Datenpunkts), die value (den Wert des Datenpunkts), die unit (die Einheit des Datenpunkts), sowie den timestamp (wann der Datenpunkt erstellt wurde). Nachdem alle Parameter gesetzt wurden, wird ein executeUpdate durchgeführt, mithilfe dessen der neue LogEntry in die Datenbank geschrieben wird. 
 
 \subsection{Angular Frontend (Beschreibend)}
-\subsubsection{Website Ansicht}
-Die erste Seite, welche man betritt, wenn man das Programm startet, ist die Hauptseite \ref{fig:impl:FlexLoggerHauptseitenAnsicht}. Auf ihr findet man 3 verschiedene Formulare. Jedes dieser Formulare hat eine andere Funktion. Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Wenn man den Button dieses Formulars betätigt, wird man auf eine Seite weitergeleitet. Auf dieser kann nun zwischen allen Diagrammen mithilfe von Buttons wechseln \ref{fig:impl:FlexLoggerDiagrammAnsicht}. Das zweite Formular hat eine ähnliche Funktion. Lediglich kann man hier das Diagramm, welches man angezeigt bekommen will, im Formular mitübergeben. Durch den Button wird man nun direkt zum gewünschten Diagramm weitergeleitet. 
-
-Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben, allerdings wird nach Betätigen des Buttons ein CSV-File generiert und anschließend gedownloadet. In diesem werden alle Daten übersichtlich angezeigt. 
+%% sehr einfache Beschreibung der Website mit vielen Screenshots von de einzelnen Komponenten (Button/ EinagbeFeld / was wird wann angezeigt etc.)
 
 
 
-\begin{figure}[h t]
+\subsubsection{Website - User/Anwender Ansicht}
+Die erste Seite, welche man betritt, wenn man das Programm startet, ist die Hauptseite \ref{fig:impl:FlexLoggerHauptseitenAnsicht}. Auf ihr findet man auf ihr zuerst ein großes Bild, gleich darunter kann man die Schrift "Lassen Sie sich ihre gewünschten Diagramme anzeigen" erkennen. 
+Durch drei verschiedene Formulare, welche sich direkt unter der großen Überschrift befinden, können verschiedenste Funktionen genutzt werden. Jedes dieser Formulare besitzt dabei einen anderen Zweck. 
+
+\begin{compactitem}
+    \item Formular 'Alle Diagramme': Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Wenn man den Button \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} dieses Formulars betätigt, wird man auf eine Seite weitergeleitet. Auf dieser kann nun zwischen allen Diagrammen mithilfe von automatisch generierten Buttons wechseln \ref{fig:impl:FlexLoggerDiagrammAnsicht}. 
+    \item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann man hier das Diagramm, welches man angezeigt bekommen will, im Formular mitübergeben. Durch den Button \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} wird man nun direkt zum gewünschten Diagramm weitergeleitet. 
+    \item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben, allerdings wird nach Betätigen des Buttons \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
+\end{compactitem}
+
+Die Formulare können dadurch genutzt werden, dass man zuerst jeweils die richtigen Von-, Bis-Daten angegeben muss. \ref{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum} Wenn die Daten falsch eingegeben wurden (d.h. es wurde ein Datum eingegeben, welches hinter dem Anfangsdatum liegt bzw. bei einem gleichen Anfangs- und Enddatum muss die Endzeit hinter der Anfangszeit liegen), wird eine Fehlermeldung ausgegeben, um den User auf seine fehlerhafte Eingabe aufmerksam zu machen. Bei dem Formular 'Diagramm per Name' muss zusätzlich ein Name angegeben werden, sonst wird erneut eine Fehlermeldung angezeigt. Wenn man allerdings das Formular 'CSV-File' betrachtet, gibt es eine zusätzliche Fehlerüberprüfung, welche direkt nach dem Betätigen des Buttons ausgeführt wird. Werden keine Daten aus der Datenbank für die eingegeben Zeitraum gefunden, wird eine passende Fehlermeldung angezeigt. \ref{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_zeitraum.jpg}
+    \caption{Formular Zeitraum}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
+    \caption{Formular Button}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/csv_datei_beispiel.jpg}
+    \caption{CSV-Datei Beispiel Ausgabe}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsite_Fehlermeldung.jpg}
+    \caption{Webseite Fehlermeldung}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
+\end{figure}
+
+
+\begin{figure}
     \centering
     \includegraphics[scale=0.45]{pics/FlexLoggerWebsiteFormulare.jpg}
     \caption{Website Hauptseitenansicht}
     \label{fig:impl:FlexLoggerHauptseitenAnsicht}
 \end{figure}
 
-\begin{figure}[h t]
+\begin{figure}
     \centering
     \includegraphics[scale=0.35]{pics/FlexLoggerWebsiteDiagramm.jpg}
     \caption{Website Diagrammansicht}
@@ -133,7 +169,7 @@ Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der 
 \subsubsection{App-Component}
 In der TypeScript Klasse der App-Komponente wird ansich ein Titel definiert, dieser trägt in diesem Fall den Namen „flexloggerFE2“. Im HTML-File ist dabei ein Router-Outlet definiert. Durch dieses wird das Routing im Projekt ermöglicht. Das heißt jede Komponente wird praktisch in der App-Komponente angezeigt. In der app-routing-module Klasse werden alle Pfade des Projekts definiert. Dabei wird jeweils ein String als Pfad angeben, sowie eine Komponente definiert, zu welcher der Pfad führen soll. Zusätzlich wird bei den Modulen des Projekts ein RouterModule hinzugefügt, welches zusätzlich die Methode forRoot verwendet, in welchem die vorher definierten Routen als Parameter übergeben werden. In der app-module Klasse werden noch weitere Module hinzugefügt: 
 
-\begin{compactitem}
+\begin{compactitem} 
     \item BrowserModule: Stellt einen Service zur Verfügung, mit welchem man eine Browser-app starten, sowie laufen lassen kann.    
     \item AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten.     
     \item HttpClientModule: Mithilfe dieses Moduls können Netzwerk Requests abgesetzt werden. Diese inkludieren GET, POST, PUT, PATCH und DELETE.    
