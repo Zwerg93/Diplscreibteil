@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  24 FEB 2023 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  24 FEB 2023 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1271,7 +1271,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 132
+Overfull \hbox (3.22041pt too wide) detected at line 133
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1281,20 +1281,20 @@ Overfull \hbox (3.22041pt too wide) detected at line 132
 
  [4]
 chapter 1.
-(sections/introduction.tex)
+(sections/introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \chapter
-             {Umfeldanalyse} [1
+l.27 
+      [1
 
-]
+]) [2]
 chapter 2.
 (sections/related_work.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 22.
  (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2
+) [3
 
 ] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1318,22 +1318,22 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 49--49
 [][][][][][][][] 
  []
 
-[3]
+[4]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
 [][][][][][][][] 
  []
 
-) [4]
+) [5]
 chapter 3.
 (sections/Wallbox.tex (sections/wallbox/Untersuchungsanliegen.tex) (sections/wallbox/Ist-Stand.tex) (sections/wallbox/AufbauDesProjektes.tex
-<pics/Infografik_FlexBoxen.png, id=209, 596.2275pt x 421.575pt>
+<pics/Infografik_FlexBoxen.png, id=214, 596.2275pt x 421.575pt>
 File: pics/Infografik_FlexBoxen.png Graphic file (type png)
 <use pics/Infografik_FlexBoxen.png>
 Package pdftex.def Info: pics/Infografik_FlexBoxen.png  used on input line 17.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
- [5
+ [6
 
-] [6 <./pics/Infografik_FlexBoxen.png>] [7] [8] [9] [10] [11] [12] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+] [7 <./pics/Infografik_FlexBoxen.png>] [8] [9] [10] [11] [12] [13] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -1342,25 +1342,25 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 137--137
 [][][][][][][][] 
  []
 
-[13]
-<pics/HMIWallboxÜbersicht.png, id=266, 402.50375pt x 649.42625pt>
+[14]
+<pics/HMIWallboxÜbersicht.png, id=271, 402.50375pt x 649.42625pt>
 File: pics/HMIWallboxÜbersicht.png Graphic file (type png)
 <use pics/HMIWallboxÜbersicht.png>
 Package pdftex.def Info: pics/HMIWallboxÜbersicht.png  used on input line 168.
 (pdftex.def)             Requested size: 201.25137pt x 324.71233pt.
- [14 <./pics/HMIWallboxÜbersicht.png>]
-<pics/DetailansichtWallbox2.png, id=274, 407.5225pt x 650.43pt>
+ [15 <./pics/HMIWallboxÜbersicht.png>]
+<pics/DetailansichtWallbox2.png, id=279, 407.5225pt x 650.43pt>
 File: pics/DetailansichtWallbox2.png Graphic file (type png)
 <use pics/DetailansichtWallbox2.png>
 Package pdftex.def Info: pics/DetailansichtWallbox2.png  used on input line 182.
 (pdftex.def)             Requested size: 203.76074pt x 325.2142pt.
 ) (sections/wallbox/FlexTasksinderFlexCloud.tex
-<pics/flexTasks.png, id=277, 596.7093pt x 421.575pt>
+<pics/flexTasks.png, id=282, 596.7093pt x 421.575pt>
 File: pics/flexTasks.png Graphic file (type png)
 <use pics/flexTasks.png>
 Package pdftex.def Info: pics/flexTasks.png  used on input line 7.
 (pdftex.def)             Requested size: 298.35393pt x 210.78697pt.
- [15 <./pics/DetailansichtWallbox2.png>] [16 <./pics/flexTasks.png>]
+ [16 <./pics/DetailansichtWallbox2.png>] [17 <./pics/flexTasks.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][][][][][][][] 
  []
@@ -1372,12 +1372,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][][] 
  []
 
-[17]
+[18]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][][] 
  []
 
-[18]) (sections/wallbox/Datenpunkte.tex
+[19]) (sections/wallbox/Datenpunkte.tex
 Overfull \hbox (185.91785pt too wide) in paragraph at lines 2--19
 []\T1/lmr/m/n/12 (-20) ======================================================================
  []
@@ -1417,7 +1417,7 @@ Overfull \hbox (550.23112pt too wide) in paragraph at lines 2--19
 \T1/lmr/m/n/12 (-20) 0.07 MB, 394.45 Mbit/s ex-trac-ting fi-les from la-te-xin-dent.tar.lzma... ====================================================================== 
  []
 
-[19] [20] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[20] [21] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
@@ -1439,57 +1439,57 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 54--54
 [][][][][][][][] 
  []
 
-[21]
+[22]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
 [][][][][][][][] 
  []
 
-[22]
+[23]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
 [][][][][][][][] 
  []
 
-) (sections/wallbox/Modbus.tex) (sections/wallbox/FlexHMI.tex) (sections/wallbox/Energiemanagement.tex) (sections/wallbox/Wallbox.tex) (sections/wallbox/Java.tex)) [23]
+) (sections/wallbox/Modbus.tex) (sections/wallbox/FlexHMI.tex) (sections/wallbox/Energiemanagement.tex) (sections/wallbox/Wallbox.tex) (sections/wallbox/Java.tex)) [24]
 chapter 4.
-(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [24
+(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [25
 
-] [25] [26] [27] [28] [29]
+] [26] [27] [28] [29] [30]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 81--81
 [][][][][][][][] 
  []
 
-[30] [31] [32]
-<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=484, 198.14024pt x 165.61874pt>
+[31] [32] [33]
+<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=489, 198.14024pt x 165.61874pt>
 File: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_zeitraum.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg  used on input line 128.
 (pdftex.def)             Requested size: 198.13974pt x 165.61833pt.
-<pics/FlexLoggerWebsiteFormulare_button.jpg, id=485, 195.73125pt x 49.3845pt>
+<pics/FlexLoggerWebsiteFormulare_button.jpg, id=490, 195.73125pt x 49.3845pt>
 File: pics/FlexLoggerWebsiteFormulare_button.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_button.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_button.jpg  used on input line 135.
 (pdftex.def)             Requested size: 195.73076pt x 49.38437pt.
-<pics/csv_datei_beispiel.jpg, id=486, 319.79475pt x 171.64125pt>
+<pics/csv_datei_beispiel.jpg, id=491, 319.79475pt x 171.64125pt>
 File: pics/csv_datei_beispiel.jpg Graphic file (type jpg)
 <use pics/csv_datei_beispiel.jpg>
 Package pdftex.def Info: pics/csv_datei_beispiel.jpg  used on input line 142.
 (pdftex.def)             Requested size: 319.79396pt x 171.64081pt.
-<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=487, 246.1697pt x 88.83188pt>
+<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=492, 246.1697pt x 88.83188pt>
 File: pics/FlexLoggerWebsite_Fehlermeldung.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsite_Fehlermeldung.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsite_Fehlermeldung.jpg  used on input line 149.
 (pdftex.def)             Requested size: 246.16908pt x 88.83165pt.
-<pics/FlexLoggerWebsiteFormulare.jpg, id=488, 907.59074pt x 531.1845pt>
+<pics/FlexLoggerWebsiteFormulare.jpg, id=493, 907.59074pt x 531.1845pt>
 File: pics/FlexLoggerWebsiteFormulare.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 157.
 (pdftex.def)             Requested size: 408.41206pt x 239.0308pt.
-<pics/FlexLoggerWebsiteDiagramm.jpg, id=489, 1140.05925pt x 526.3665pt>
+<pics/FlexLoggerWebsiteDiagramm.jpg, id=494, 1140.05925pt x 526.3665pt>
 File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteDiagramm.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 164.
 (pdftex.def)             Requested size: 399.02672pt x 184.23103pt.
- [33 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg>] [34 <./pics/csv_datei_beispiel.jpg> <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg>] [35 <./pics/FlexLoggerWebsiteDiagramm.jpg>] [36] [37] [38] [39]) (sections/Flexlogger/Threads.tex [40]
+ [34 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg>] [35 <./pics/csv_datei_beispiel.jpg> <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg>] [36 <./pics/FlexLoggerWebsiteDiagramm.jpg>] [37] [38] [39] [40]) (sections/Flexlogger/Threads.tex [41]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
 [][][][][][][][] 
  []
@@ -1499,22 +1499,22 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 50--50
 [][][][][][][][] 
  []
 
-[41]
+[42]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
 [][][][][][][][] 
  []
 
-<pics/blockingQueue.jpg, id=561, 425.79076pt x 143.3355pt>
+<pics/blockingQueue.jpg, id=566, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 76.
 (pdftex.def)             Requested size: 212.89485pt x 71.66756pt.
-[42 <./pics/blockingQueue.jpg>]
+[43 <./pics/blockingQueue.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 105--105
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex [43] [44] [45]) (sections/Flexlogger/VisuelleDarstellung.tex [46]
+) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex [44] [45] [46]) (sections/Flexlogger/VisuelleDarstellung.tex [47]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][][] 
  []
@@ -1524,7 +1524,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 45--45
 [][][][][][][][] 
  []
 
-[47]
+[48]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
 [][][][][][][][] 
  []
@@ -1539,24 +1539,24 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 88--88
 [][][][][][][][] 
  []
 
-[48]
+[49]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 97--97
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/Quarkus.tex [49]
-<pics/quarkusArchitektur.JPG, id=731, 404.10976pt x 268.6035pt>
+) (sections/Flexlogger/Quarkus.tex [50]
+<pics/quarkusArchitektur.JPG, id=736, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
 (pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
- [50] [51 <./pics/quarkusArchitektur.JPG>]
-<pics/quarkus_benchmark.jpg, id=745, 545.78906pt x 309.40594pt>
+ [51] [52 <./pics/quarkusArchitektur.JPG>]
+<pics/quarkus_benchmark.jpg, id=750, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
 Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
 (pdftex.def)             Requested size: 436.63184pt x 247.52509pt.
- [52 <./pics/quarkus_benchmark.jpg>]
+ [53 <./pics/quarkus_benchmark.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 69--69
 [][][][][][][][] 
  []
@@ -1566,12 +1566,12 @@ Overfull \hbox (11.88286pt too wide) in paragraph at lines 12--29
  [] 
  []
 
-[53]
+[54]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/SQL.tex [54]
+) (sections/Flexlogger/SQL.tex [55]
 Overfull \hbox (30.59204pt too wide) in paragraph at lines 9--24
  [] 
  []
@@ -1586,10 +1586,10 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
-)) [55] [56]
+)) [56] [57]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=801, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=806, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1599,11 +1599,11 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][][] 
  []
 
-) [57
+) [58
 
-] [58 <./pics/knuthi.jpg>]
+] [59 <./pics/knuthi.jpg>]
 chapter 6.
-(sections/summary.tex) [59
+(sections/summary.tex) [60
 
 ] (glossary.tex
 \@gls@deffile=\write9
@@ -1669,17 +1669,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35956 strings out of 478351
- 667983 string characters out of 2837053
+ 35958 strings out of 478351
+ 668006 string characters out of 2837053
  1442634 words of memory out of 3000000
  53002 multiletter control sequences out of 15000+600000
  523518 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,20n,109p,10667b,3674s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (71 pages, 1691069 bytes).
+Output written on thesis.pdf (72 pages, 1693086 bytes).
 PDF statistics:
- 1162 PDF objects out of 1200 (max. 8388607)
- 498 named destinations out of 1000 (max. 500000)
+ 1168 PDF objects out of 1200 (max. 8388607)
+ 500 named destinations out of 1000 (max. 500000)
  32644 words of extra memory for PDF output out of 35830 (max. 10000000)
 
