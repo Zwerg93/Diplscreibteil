@@ -33,16 +33,16 @@
 \contentsline {section}{\numberline {3.2}Ist-Stand}{6}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Aufbau des Projektes}{6}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Beschreibung der Funktionen}{6}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Beschreibung der Wallboxen}{6}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Beschreibung der Wallboxen}{7}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Beschreibung des Gateways}{8}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}FlexTasks in der Flexcloud}{17}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Was ist die Flexcloud?}{17}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.4}FlexTasks in der Flexcloud}{16}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Was ist die Flexcloud?}{16}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Grundaufbau der Tasks}{18}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Datenpunkte}{20}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Struktur eines Datenpunktes}{21}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Anlegen eines Datenpunktes}{22}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Nutzung eines Datenpunktes:}{22}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Datapoint mapping}{23}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.4}Datapoint mapping}{24}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Modbus}{24}{section.3.6}%
 \contentsline {section}{\numberline {3.7}FlexHMI}{24}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Energiemanagement}{24}{section.3.8}%
