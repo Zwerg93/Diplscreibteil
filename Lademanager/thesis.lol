@@ -1,5 +1,5 @@
 \contentsline {lstlisting}{\numberline {1}{\ignorespaces CSS Einbettung}}{4}{lstlisting.2.1}%
-\contentsline {lstlisting}{\numberline {2}{\ignorespaces HTML mit eingebetteten JavaScript}}{4}{lstlisting.2.2}%
+\contentsline {lstlisting}{\numberline {2}{\ignorespaces HTML mit eingebettetem JavaScript}}{4}{lstlisting.2.2}%
 \contentsline {lstlisting}{\numberline {3}{\ignorespaces TypeScript automatische Zuweisung}}{5}{lstlisting.2.3}%
 \contentsline {lstlisting}{\numberline {4}{\ignorespaces Example Element}}{14}{lstlisting.3.4}%
 \contentsline {lstlisting}{\numberline {5}{\ignorespaces Example Element}}{18}{lstlisting.3.5}%
@@ -18,7 +18,7 @@
 \contentsline {lstlisting}{\numberline {18}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{48}{lstlisting.4.18}%
 \contentsline {lstlisting}{\numberline {19}{\ignorespaces Beispiel für einen GET-Request}}{48}{lstlisting.4.19}%
 \contentsline {lstlisting}{\numberline {20}{\ignorespaces Beispiel für FormGroup eines Angular Formulars}}{49}{lstlisting.4.20}%
-\contentsline {lstlisting}{\numberline {21}{\ignorespaces Beispiel für ein reactives Formular}}{49}{lstlisting.4.21}%
+\contentsline {lstlisting}{\numberline {21}{\ignorespaces Beispiel für ein reaktives Formular}}{49}{lstlisting.4.21}%
 \contentsline {lstlisting}{\numberline {22}{\ignorespaces CanvasJS HTML}}{50}{lstlisting.4.22}%
 \contentsline {lstlisting}{\numberline {23}{\ignorespaces CanvasJS chartOptiones}}{50}{lstlisting.4.23}%
 \contentsline {lstlisting}{\numberline {24}{\ignorespaces Quarkus POST-Request}}{54}{lstlisting.4.24}%

@@ -106,7 +106,7 @@
 \contentsline {section}{\numberline {4.7}Visuelle Darestellung}{47}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Angular}{47}{subsection.4.7.1}%
 \contentsline {subsubsection}{\nonumberline Komponenten}{48}{subsubsection*.85}%
-\contentsline {subsubsection}{\nonumberline Anbindung einer Angular Applikation an einen Webserver}{48}{subsubsection*.87}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{48}{subsubsection*.87}%
 \contentsline {subsubsection}{\nonumberline Angular Forms}{49}{subsubsection*.89}%
 \contentsline {subsection}{\numberline {4.7.2}CanvasJS}{49}{subsection.4.7.2}%
 \contentsline {section}{\numberline {4.8}Quarkus}{50}{section.4.8}%

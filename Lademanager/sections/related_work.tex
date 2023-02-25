@@ -1,22 +1,22 @@
 \section{Allgemeiner Technologie-Part}
 \setauthor{Marcel Pouget}
-
-
+ 
+ 
 \subsection{Java}
 \subsection{CSV}
-CSV-Files werden dazu verwendet, eine große Menge von Daten in einem File abzuspeichern. Diese Daten werden mithilfe von Semikolons, Beistrichen oder anderen Trennzeichen geteilt. Durch diese Trennzeichen kann eine CSV-Datei jederzeit übersichtlich in Excel geöffnet werden. Mithilfe von CSV-Files können Daten sehr einfach von einer Anwendung zu einer anderen Anwendung transferiert werden.  
-
+CSV-Files werden dazu verwendet, eine große Menge von Daten in einem File abzuspeichern. Diese Daten werden mithilfe von Semikolons, Beistrichen oder anderen Trennzeichen geteilt. Durch diese Trennzeichen kann eine CSV-Datei jederzeit übersichtlich in Excel geöffnet werden. Mithilfe von CSV-Files können Daten sehr einfach von einer Anwendung zu einer anderen Anwendung transferiert werden. 
+ 
 \setauthor{Teresa Holzer}
-
+ 
 \subsection{HTML/CSS und Javascript}
-
-
+ 
+ 
 \subsubsection{HTML}
 % Durchstarten mit HTML5 Autor: von: Mark Pilgrim, 2011 S. 18-23
-HTML gilt als Grundgerüst einer Website. HTML besitzt verschiedenste Tags, welche alle über ihren eigenen Nutzen verfügen. Durch diese sogenannten Tags kann der Titel einer Website festgelegt werden, verschiedenste Bilder, Texte und anderer Content hinzugefügt werden. Außerdem bietet HTML die Möglichkeit einer Webseite die passende Struktur zu verleihen. 
-
-Um das Strukturieren einer Website zu vereinfachen gibt es fest-zugewiesene Tags. Um die wichtigsten kurz aufzulisten:
-
+HTML gilt als Grundgerüst einer Website. HTML besitzt verschiedenste Tags, welche alle über ihren eigenen Nutzen verfügen. Durch diese sogenannten Tags kann der Titel einer Website festgelegt werden, verschiedenste Bilder, Texte und anderer Content hinzugefügt werden. Außerdem bietet HTML die Möglichkeit einer Webseite die passende Struktur zu verleihen.
+ 
+Um das Strukturieren einer Website zu vereinfachen, gibt es fest zugewiesene Tags. Um die wichtigsten kurz aufzulisten:
+ 
 \begin{compactitem}
     \item [<title></title>]
     \item Definiert den Titel eines HTML Dokuments
@@ -27,26 +27,26 @@ Um das Strukturieren einer Website zu vereinfachen gibt es fest-zugewiesene Tags
     \item [<img> <video> <audio>]
     \item Mithilfe dieser Tags kann ein/e Bild/Video/Audio-Spur eingefügt werden
 \end{compactitem}
-
+ 
 Ein Beispiel für ein kurzes HTML-File kann im nächsten Abschnitt gefunden werden. \ref{lst:impl:htmlJavaScript}
-
+ 
 \subsubsection{CSS}
-Mithilfe von CSS können Farben, Formen, Abstände und vieles anderes in einer Webseite geändert werden. CSS geht Hand in Hand mit HTML und kann jede Klasse oder auch jeden Tag, der in einem HTML-File vorkommt ansprechen. Ein paar der wichtigsten Attribute, welche man mit CSS ansprechen und folglich verändern kann sind: color (Farbe), width und height (Breite und Höhe eines Elements), sowie margin und padding (Abstand eines Elements zu anderen Elementen).
-
-CSS kann wie JavaScript entweder direkt im HTML eingebettet werden \ref{lst:impl:cssEinbettung}, oder als externes File angegeben werden. Dies dient wiederum der Übersichtlichkeit und sollte je nach Größe des Projekts entschieden werden. 
-
+Mithilfe von CSS können Farben, Formen, Abstände und vieles andere in einer Webseite geändert werden. CSS geht Hand in Hand mit HTML und kann jede Klasse oder auch jeden Tag, der in einem HTML-File vorkommt, ansprechen. Ein paar der wichtigsten Attribute, welche man mit CSS ansprechen und folglich verändern kann, sind: color (Farbe), width und height (Breite und Höhe eines Elements), sowie margin und padding (Abstand eines Elements zu anderen Elementen).
+ 
+CSS kann wie JavaScript entweder direkt im HTML eingebettet werden \ref{lst:impl:cssEinbettung}, oder als externes File angegeben werden. Dies dient wiederum der Übersichtlichkeit und sollte je nach Größe des Projekts entschieden werden.
+ 
 \begin{lstlisting}[language=java,caption=CSS Einbettung,label=lst:impl:cssEinbettung]
     <link rel="stylesheet" href="style.css" type="type/css" />
 \end{lstlisting}
-
+ 
 \subsubsection{JavaScript}
 % https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
 % JavaScript für Java-Entwickler Autor: Oliver Zeigermann 2015 S9-12
-JavaScript wurde ursprünglich dafür entwickelt, um als einfache Skriptsprache für kurze Code-Snippets im Browser eingesetzt zu werden. Nach einiger Zeit wurde es allerdings populärer und wurde immer öfters und für längere Codestellen eingesetzt. Web Browser reagierten darauf sehr positiv und optimierten die Ausführung von JavaScript. Nach dem Erfolg, welchen JavaScript bei Browsern feierte, wurde es unter anderem auch für node.js und JS Server verwendet. 
-
-JavaScript kann verwendet werden, indem es in einem HTML-Dokument eingebettet wird \ref{lst:impl:htmlJavaScript}, allerdings ist es ab einer bestimmten Größe des Programms empfehlenswert HTML und JavaScript in verschiedene Files zu verlagern, um die Lesbarkeit zu unterstützen. 
-
-\begin{lstlisting}[language=java,caption=HTML mit eingebetteten JavaScript,label=lst:impl:htmlJavaScript]
+JavaScript wurde ursprünglich dafür entwickelt, um als einfache Skriptsprache für kurze Code-Snippets im Browser eingesetzt zu werden. Nach einiger Zeit wurde es allerdings populärer und wurde immer öfters und für längere Codestellen eingesetzt. Webbrowser reagierten darauf sehr positiv und optimierten die Ausführung von JavaScript. Nach dem Erfolg, den JavaScript bei Browsern feierte, wurde es unter anderem auch für node.js und JS-Server verwendet.
+ 
+JavaScript kann verwendet werden, indem es in ein HTML-Dokument eingebettet wird \ref{lst:impl:htmlJavaScript}, allerdings ist es ab einer bestimmten Größe des Programms empfehlenswert HTML und JavaScript in verschiedene Files zu verlagern, um die Lesbarkeit zu unterstützen.
+ 
+\begin{lstlisting}[language=java,caption=HTML mit eingebettetem JavaScript,label=lst:impl:htmlJavaScript]
     <!DOCTYPE html>
     <html>
         <head>
@@ -59,26 +59,26 @@ JavaScript kann verwendet werden, indem es in einem HTML-Dokument eingebettet wi
         </body>
     </html>
 \end{lstlisting}
-
+ 
 \subsection{Typescript}
 % https://www.typescriptlang.org/
 % JavaScript für Java-Entwickler Autor: Oliver Zeigermann 2015 S117-132
-TypeScript ist eine Weiterentwicklung von Javascript, welche einige Vorteile mit sich bringt. TypeScript fügt zum Beispiel zusätzliche Syntax zu JavaScript um eine engere Integration mit dem Editor der Wahl zu ermöglichen. Somit können Errors früher erkannt werden. TypeScript Code wird zu JavaScript Code umgewandelt und als dieser ausgeführt, somit läuft es überall wo auch JavaScript läuft: Dies beinhaltet einen beliebigen Browser, Node.js oder in einer App. Zusätzlich kann JavaScript auch in TypeScript verwendet werden. Ein weiterer großer Vorteil von TypeScript ist, dass es eine automatische Typendeklaration besitzt. Das heißt, dass bei der Erstellung einer Variable kein Typ mitangegeben werden muss, sondern dieser beim Kompilieren des Programms (aufgrund des Inhalts der Variable) selbst zugewiesen wird. \ref{lst:impl:automatischeZuweisung}
-
+TypeScript ist eine Weiterentwicklung von Javascript, welche einige Vorteile mit sich bringt. TypeScript fügt zum Beispiel zusätzliche Syntax zu JavaScript hinzu, um eine engere Integration mit dem Editor der Wahl zu ermöglichen. Somit können Errors früher erkannt werden. TypeScript Code wird zu JavaScript Code umgewandelt und als dieser ausgeführt, somit läuft es überall, wo auch JavaScript läuft: Dies beinhaltet einen beliebigen Browser, Node.js oder in einer App. Zusätzlich kann JavaScript auch in TypeScript verwendet werden. Ein weiterer großer Vorteil von TypeScript ist, dass es eine automatische Typendeklaration besitzt. Das heißt, dass bei der Erstellung einer Variable kein Typ mitangegeben werden muss, sondern dieser beim Kompilieren des Programms (aufgrund des Inhalts der Variable) selbst zugewiesen wird. \ref{lst:impl:automatischeZuweisung}
+ 
 \begin{lstlisting}[language=java,caption=TypeScript automatische Zuweisung,label=lst:impl:automatischeZuweisung]
     // Der Type String wird hier bei der Kompilation automatisch zugewiesen
     let helloWorld = "Hello World";
 \end{lstlisting}
-
+ 
 \subsection{Beckhoff}
 \subsection{Raspberry}
-
+ 
 \subsection{SQL}
-
+ 
 \section{Firmenstruktur}
 \setauthor{Marcel Pouget}
-
-
+ 
+ 
 \subsection{Beschreibung der Tätigkeiten der Firma}
 \subsection{Flex Tasks}
 \subsection{Datenpunkte}
