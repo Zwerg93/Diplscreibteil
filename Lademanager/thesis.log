@@ -1,48 +1,49 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  23 FEB 2023 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  24 FEB 2023 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Teresa5/Diplomarbeit/Diplscreibteil/Lademanager/thesis.tex
-(d:/Teresa5/Diplomarbeit/Diplscreibteil/Lademanager/thesis.tex
-LaTeX2e <2022-06-01> patch level 3
-L3 programming layer <2022-06-16> (header.tex (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cls
-Document Class: scrreprt 2022/05/01 v3.36 KOMA-Script document class (report)
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
-Package: scrkbase 2022/05/01 v3.36 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2022/05/01 v3.36 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
-Package: scrlfile 2022/05/01 v3.36 KOMA-Script package (file load hooks)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
-Package: scrlfile-hook 2022/05/01 v3.36 KOMA-Script package (using LaTeX hooks)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2022/05/01 v3.36 KOMA-Script package (logo)
-))) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+**/home/marcel/Desktop/Diplscreibteil/Lademanager/thesis.tex
+(/home/marcel/Desktop/Diplscreibteil/Lademanager/thesis.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-12-17> (header.tex (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
+(/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+))) (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
-Package: tocbasic 2022/05/01 v3.36 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip47
+)) (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
 \scr@dte@tocline@numbox=\box51
 )
-Package tocbasic Info: babel extension for `toc' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
 Package scrreprt Info: You've used standard option `12pt'.
 (scrreprt)             This is correct!
 (scrreprt)             Internally I'm using `fontsize=12pt'.
 (scrreprt)             If you'd like to set the option with \KOMAoptions,
 (scrreprt)             you'd have to use `fontsize=12pt' there
 (scrreprt)             instead of `12pt', too.
-Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input line 2502.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt.clo
-File: scrsize12pt.clo 2022/05/01 v3.36 KOMA-Script font size class option (12pt)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
-Package: typearea 2022/05/01 v3.36 KOMA-Script package (type area)
-\ta@bcor=\skip48
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input line 2614.
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (12pt)
+) (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/typearea.sty
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
+\ta@bcor=\skip49
 \ta@div=\count185
 Package typearea Info: You've used standard option `a4paper'.
 (typearea)             This is correct!
@@ -50,10 +51,10 @@ Package typearea Info: You've used standard option `a4paper'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=a4' there
 (typearea)             instead of `a4paper', too.
-\ta@hblk=\skip49
-\ta@vblk=\skip50
-\ta@temp=\skip51
-\footheight=\skip52
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
@@ -70,7 +71,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1744.
+(typearea)              on input line 1767.
 )
 \c@part=\count186
 \c@chapter=\count187
@@ -79,76 +80,78 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count190
 \c@paragraph=\count191
 \c@subparagraph=\count192
-\scr@dte@chapter@maxnumwidth=\skip53
+\scr@dte@chapter@maxnumwidth=\skip54
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 5741.
-\scr@dte@section@maxnumwidth=\skip54
+(scrreprt)           for `\chapter on input line 5902.
+\scr@dte@section@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 5752.
+(scrreprt)           for `\section on input line 5913.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 5752.
-\scr@dte@part@maxnumwidth=\skip55
+(scrreprt)           for `\section on input line 5913.
+\scr@dte@part@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 5761.
-\scr@dte@subsection@maxnumwidth=\skip56
+(scrreprt)           for `\part on input line 5922.
+\scr@dte@subsection@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 5771.
+(scrreprt)           for `\subsection on input line 5932.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 5771.
-\scr@dte@subsubsection@maxnumwidth=\skip57
+(scrreprt)           for `\subsection on input line 5932.
+\scr@dte@subsubsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 5781.
+(scrreprt)           for `\subsubsection on input line 5942.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 5781.
-\scr@dte@paragraph@maxnumwidth=\skip58
+(scrreprt)           for `\subsubsection on input line 5942.
+\scr@dte@paragraph@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 5792.
+(scrreprt)           for `\paragraph on input line 5953.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 5792.
-\scr@dte@subparagraph@maxnumwidth=\skip59
+(scrreprt)           for `\paragraph on input line 5953.
+\scr@dte@subparagraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 5802.
+(scrreprt)           for `\subparagraph on input line 5963.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 5802.
-\abovecaptionskip=\skip60
-\belowcaptionskip=\skip61
+(scrreprt)           for `\subparagraph on input line 5963.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
 \c@pti@nb@sid@b@x=\box52
-Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6965.
-\scr@dte@figure@maxnumwidth=\skip62
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7140.
+\scr@dte@figure@maxnumwidth=\skip63
 \c@figure=\count193
-Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6982.
-\scr@dte@table@maxnumwidth=\skip63
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7157.
+\scr@dte@table@maxnumwidth=\skip64
 \c@table=\count194
-Class scrreprt Info: Redefining `\numberline' on input line 7153.
-\bibindent=\dimen138
+Class scrreprt Info: Redefining `\numberline' on input line 7328.
+\bibindent=\dimen140
 )
 
 LaTeX Info: File `thesis.xmpdata' already exists on the system.
             Not generating it from this source.
 
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip64
+\@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen139
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen141
+)) (/home/marcel/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen140
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen142
+) (/home/marcel/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count195
@@ -168,7 +171,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen141
+\big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count266
@@ -186,51 +189,51 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count271
 \maxfields@=\count272
 \andhelp@=\toks21
-\eqnshift@=\dimen142
-\alignsep@=\dimen143
-\tagshift@=\dimen144
-\tagwidth@=\dimen145
-\totwidth@=\dimen146
-\lineht@=\dimen147
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks22
-\multlinegap=\skip65
-\multlinetaggap=\skip66
+\multlinegap=\skip66
+\multlinetaggap=\skip67
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/home/marcel/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen148
+ (/home/marcel/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/home/marcel/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen150
 \ar@mcellbox=\box55
-\extrarowheight=\dimen149
+\extrarowheight=\dimen151
 \NC@list=\toks24
-\extratabsurround=\skip67
-\backup@length=\skip68
+\extratabsurround=\skip68
+\backup@length=\skip69
 \ar@cellbox=\box56
 )
 \everycr=\toks25
-\minrowclearance=\skip69
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.ltx)
+\minrowclearance=\skip70
 \rownum=\count273
+) (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -240,50 +243,50 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/home/marcel/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (/home/marcel/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count274
 \Gm@cntv=\count275
 \c@Gm@tempcnt=\count276
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks26
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg)) (/home/marcel/.miktex/texmfs/install/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks27
-\footnotemargin=\dimen160
-\@outputbox@depth=\dimen161
+\footnotemargin=\dimen162
+\@outputbox@depth=\dimen163
 Package footmisc Info: Declaring symbol style bringhurst on input line 695.
 Package footmisc Info: Declaring symbol style chicago on input line 703.
 Package footmisc Info: Declaring symbol style wiley on input line 712.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
 Package footmisc Info: Declaring symbol style lamport* on input line 743.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 764.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -317,83 +320,92 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count277
 \calc@Bcount=\count278
-\calc@Adimen=\dimen162
-\calc@Bdimen=\dimen163
-\calc@Askip=\skip70
-\calc@Bskip=\skip71
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count279
-\calc@Cskip=\skip72
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+\calc@Cskip=\skip73
+) (/home/marcel/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen164
-\ESO@tempdimb=\dimen165
+\ESO@tempdima=\dimen166
+\ESO@tempdimb=\dimen167
 )
-\AM@pagewidth=\dimen166
-\AM@pageheight=\dimen167
-\AM@fboxrule=\dimen168
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
+\AM@pagewidth=\dimen168
+\AM@pageheight=\dimen169
+\AM@fboxrule=\dimen170
+ (/home/marcel/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count280
 \AM@pagebox=\box57
 \AM@global@opts=\toks28
 \AM@pagecnt=\count281
 \AM@toc@title=\toks29
+\AM@lof@heading=\toks30
 \c@AM@survey=\count282
 \AM@templatesizebox=\box58
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/06/06 3.76 The Babel package
+) (/home/marcel/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
 \babel@savecnt=\count283
-\U@D=\dimen169
-\l@unhyphenated=\language79
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\U@D=\dimen171
+\l@unhyphenated=\language1
+ (/home/marcel/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count284
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(/home/marcel/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+) (/home/marcel/.miktex/texmfs/install/tex/latex/babel-german/ngerman.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+ (/home/marcel/.miktex/texmfs/install/tex/latex/babel-german/ngermanb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'German (new orthography)' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 48.
+
 Package babel Info: Making " an active character on input line 122.
-))) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-ngerman.tex (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-german.tex
+))) (/home/marcel/.miktex/texmfs/install/tex/generic/babel/locale/de/babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+) (/home/marcel/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count285
 \mult@box=\box59
-\multicol@leftmargin=\dimen170
+\multicol@leftmargin=\dimen172
 \c@unbalance=\count286
 \c@collectmore=\count287
 \doublecol@number=\count288
 \multicoltolerance=\count289
 \multicolpretolerance=\count290
-\full@width=\dimen171
-\page@free=\dimen172
-\premulticols=\dimen173
-\postmulticols=\dimen174
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
+\full@width=\dimen173
+\page@free=\dimen174
+\premulticols=\dimen175
+\postmulticols=\dimen176
+\multicolsep=\skip74
+\multicolbaselineskip=\skip75
 \partial@page=\box60
 \last@line=\box61
-\maxbalancingoverflow=\dimen175
+\maxbalancingoverflow=\dimen177
 \mult@rightbox=\box62
 \mult@grightbox=\box63
 \mult@firstbox=\box64
@@ -437,122 +449,122 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@minrows=\count291
 \c@columnbadness=\count292
 \c@finalcolumnbadness=\count293
-\last@try=\dimen176
-\multicolovershoot=\dimen177
-\multicolundershoot=\dimen178
+\last@try=\dimen178
+\multicolovershoot=\dimen179
+\multicolundershoot=\dimen180
 \mult@nat@firstbox=\box102
 \colbreak@box=\box103
 \mc@col@check@num=\count294
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen179
-\captionmargin=\dimen180
-\caption@leftmargin=\dimen181
-\caption@rightmargin=\dimen182
-\caption@width=\dimen183
-\caption@indent=\dimen184
-\caption@parindent=\dimen185
-\caption@hangindent=\dimen186
+\caption@tempdima=\dimen181
+\captionmargin=\dimen182
+\caption@leftmargin=\dimen183
+\caption@rightmargin=\dimen184
+\caption@width=\dimen185
+\caption@indent=\dimen186
+\caption@parindent=\dimen187
+\caption@hangindent=\dimen188
 Package caption Info: KOMA-Script document class detected.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.sto
+ (/home/marcel/.miktex/texmfs/install/tex/latex/caption/caption-koma.sto
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
 \c@caption@flags=\count295
 \c@continuedfloat=\count296
 )
 \c@KVtest=\count297
-\sf@farskip=\skip75
-\sf@captopadj=\dimen187
-\sf@capskip=\skip76
-\sf@nearskip=\skip77
+\sf@farskip=\skip76
+\sf@captopadj=\dimen189
+\sf@capskip=\skip77
+\sf@nearskip=\skip78
 \c@subfigure=\count298
 \c@subfigure@save=\count299
 \c@lofdepth=\count300
 \c@subtable=\count301
 \c@subtable@save=\count302
 \c@lotdepth=\count303
-\sf@top=\skip78
-\sf@bottom=\skip79
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\sf@top=\skip79
+\sf@bottom=\skip80
+) (/home/marcel/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count304
-\float@exts=\toks30
+\float@exts=\toks31
 \float@box=\box104
-\@float@everytoks=\toks31
+\@float@everytoks=\toks32
 \@floatcapt=\box105
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen188
-\TX@old@table=\dimen189
-\TX@old@col=\dimen190
-\TX@target=\dimen191
-\TX@delta=\dimen192
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
 \TX@cols=\count305
-\TX@ftn=\toks32
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+\TX@ftn=\toks33
+) (/home/marcel/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen193
-\lightrulewidth=\dimen194
-\cmidrulewidth=\dimen195
-\belowrulesep=\dimen196
-\belowbottomsep=\dimen197
-\aboverulesep=\dimen198
-\abovetopsep=\dimen199
-\cmidrulesep=\dimen256
-\cmidrulekern=\dimen257
-\defaultaddspace=\dimen258
+\heavyrulewidth=\dimen195
+\lightrulewidth=\dimen196
+\cmidrulewidth=\dimen197
+\belowrulesep=\dimen198
+\belowbottomsep=\dimen199
+\aboverulesep=\dimen256
+\abovetopsep=\dimen257
+\cmidrulesep=\dimen258
+\cmidrulekern=\dimen259
+\defaultaddspace=\dimen260
 \@cmidla=\count306
 \@cmidlb=\count307
-\@aboverulesep=\dimen259
-\@belowrulesep=\dimen260
+\@aboverulesep=\dimen261
+\@belowrulesep=\dimen262
 \@thisruleclass=\count308
 \@lastruleclass=\count309
-\@thisrulewidth=\dimen261
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2021/12/15 v3.1 ragged2e Package
-\CenteringLeftskip=\skip80
-\RaggedLeftLeftskip=\skip81
-\RaggedRightLeftskip=\skip82
-\CenteringRightskip=\skip83
-\RaggedLeftRightskip=\skip84
-\RaggedRightRightskip=\skip85
-\CenteringParfillskip=\skip86
-\RaggedLeftParfillskip=\skip87
-\RaggedRightParfillskip=\skip88
-\JustifyingParfillskip=\skip89
-\CenteringParindent=\skip90
-\RaggedLeftParindent=\skip91
-\RaggedRightParindent=\skip92
-\JustifyingParindent=\skip93
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-06-16 L3 programming layer (loader) 
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\@thisrulewidth=\dimen263
+) (/home/marcel/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2022/11/13 v3.2 ragged2e Package
+\CenteringLeftskip=\skip81
+\RaggedLeftLeftskip=\skip82
+\RaggedRightLeftskip=\skip83
+\CenteringRightskip=\skip84
+\RaggedLeftRightskip=\skip85
+\RaggedRightRightskip=\skip86
+\CenteringParfillskip=\skip87
+\RaggedLeftParfillskip=\skip88
+\RaggedRightParfillskip=\skip89
+\JustifyingParfillskip=\skip90
+\CenteringParindent=\skip91
+\RaggedLeftParindent=\skip92
+\RaggedRightParindent=\skip93
+\JustifyingParindent=\skip94
+) (/home/marcel/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty (/home/marcel/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/home/marcel/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-12-17 L3 programming layer (loader) 
+ (/home/marcel/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box106
 ))
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count311
 \l__lipsum_a_int=\count312
 \l__lipsum_b_int=\count313
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen262
-\WF@size=\dimen263
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex)) (/home/marcel/.miktex/texmfs/install/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen264
+\WF@size=\dimen265
 \c@WF@wrappedlines=\count314
 \WF@box=\box107
-\WF@everypar=\toks33
+\WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip94
-\enit@outerparindent=\dimen264
-\enit@toks=\toks34
+\labelindent=\skip95
+\enit@outerparindent=\dimen266
+\enit@toks=\toks35
 \enit@inbox=\box108
 \enit@count@id=\count315
 \enitdp@description=\count316
@@ -563,30 +575,30 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@compactenumiii=\count320
 \enitdp@compactenum=\count321
 \enitdp@compactdesc=\count322
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count323
 )
-\MT@toks=\toks35
+\MT@toks=\toks36
 \MT@tempbox=\box109
 \MT@count=\count324
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
 LaTeX Info: Redefining \leftprotrusion on input line 1046.
 LaTeX Info: Redefining \rightprotrusion on input line 1056.
 LaTeX Info: Redefining \textls on input line 1234.
-\MT@outer@kern=\dimen265
+\MT@outer@kern=\dimen267
 LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
 \MT@listname@count=\count325
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+ (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
-\MT@outer@space=\skip95
+\MT@outer@space=\skip96
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
 ))
 
@@ -597,47 +609,47 @@ Class scrreprt Warning: Usage of package `parskip' together
 (scrreprt)              Nevertheless, using requested
 (scrreprt)              package `parskip' on input line 49.
 
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/home/marcel/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 Couldn't patch \@startsection
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count326
 \lst@gtempboxa=\box110
-\lst@token=\toks36
+\lst@token=\toks37
 \lst@length=\count327
-\lst@currlwidth=\dimen266
+\lst@currlwidth=\dimen268
 \lst@column=\count328
 \lst@pos=\count329
-\lst@lostspace=\dimen267
-\lst@width=\dimen268
+\lst@lostspace=\dimen269
+\lst@width=\dimen270
 \lst@newlines=\count330
 \lst@lineno=\count331
-\lst@maxwidth=\dimen269
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+\lst@maxwidth=\dimen271
+ (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count332
 \lst@skipnumbers=\count333
 \lst@framebox=\box111
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2022/05/01 v3.36 KOMA-Script package (end user interface for scrlayer)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
-Package: scrlayer 2022/05/01 v3.36 KOMA-Script package (defining layers and page styles)
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2134.
+) (/home/marcel/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interface for scrlayer)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2022/10/12 v3.38 KOMA-Script package (defining layers and page styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2176.
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 (scrlayer-scrpage)             alias to `pageheadfoot' on input line 1089.
@@ -660,68 +672,68 @@ Package scrlayer-scrpage Warning: Command deprecated!
 (scrlayer-scrpage)                `\setkomafont' or `\addtokomafont' to
 (scrlayer-scrpage)                setup the colour on input line 135.
 
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\pdfx.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/pdfx.sty
 Package: pdfx 2019/02/27 v1.6.3 PDF/X and PDF/A support (CVR/HTH/RRM/PS)
 \pdfx@minorversion=\count334
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/everyshi/everyshi.sty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-){C:/Users/holzd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\l8u-penc.def
+){/home/marcel/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/l8u-penc.def
 File: l8u-penc.def 2017/06/23 v0.8 Custom LaTeX file, for UTF8 encoded letters and symbols
 LaTeX Info: Composite with undeclared \b in encoding L8U on input line 278.
 )
-\pdfxsafeforxmp@toks=\toks37
-\pdfx@tmptoks=\toks38
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+\pdfxsafeforxmp@toks=\toks38
+\pdfx@tmptoks=\toks39
+ (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (/home/marcel/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-\@linkdim=\dimen270
+\@linkdim=\dimen272
 \Hy@linkcounter=\count336
 \Hy@pagecounter=\count337
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+) (/home/marcel/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count338
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `pdfa' set `true' on input line 4045.
 Package hyperref Info: Hyper figures OFF on input line 4162.
@@ -730,26 +742,26 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count339
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen271
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen273
+ (/home/marcel/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count340
-\Field@Width=\dimen272
-\Fld@charsize=\dimen273
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode ON on input line 6052.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+\Field@Width=\dimen274
+\Fld@charsize=\dimen275
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode ON on input line 6055.
+ (/home/marcel/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -758,56 +770,56 @@ package with kernel methods
 \c@Hfootnote=\count343
 )
 Package hyperref Info: Driver: hpdftex.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (/home/marcel/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count344
 \c@bookmark@seq@number=\count345
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/home/marcel/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip96
+\Hy@SectionHShift=\skip97
 )
 Package hyperref Info: Option `unicode' set `true' on input line 1463.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+ (/home/marcel/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 Package hyperref Info: Option `psdextra' set `true' on input line 1465.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc-greekbasic.def
-File: puenc-greekbasic.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (greek block) (HO)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\psdextra.def
-File: psdextra.def 2022-06-20 v7.00s Hyperref: Additions to PDF string support
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorprofiles.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/puenc-greekbasic.def
+File: puenc-greekbasic.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (greek block) (HO)
+) (/home/marcel/.miktex/texmfs/install/tex/latex/hyperref/psdextra.def
+File: psdextra.def 2022-11-13 v7.00u Hyperref: Additions to PDF string support
+) (/home/marcel/.miktex/texmfs/install/tex/generic/colorprofiles/colorprofiles.sty
 Package: colorprofiles 2018/11/01 v1.0.1 color profiles for PDF/X and PDF/A support
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/colorprofiles\colorprofiles.tex)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
+ (/home/marcel/.miktex/texmfs/install/tex/generic/colorprofiles/colorprofiles.tex)) (/home/marcel/.miktex/texmfs/install/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\AdobeColorProfiles.tex) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/AdobeColorProfiles.tex) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
 ** pdfx: Metadata file thesis.xmpdata read successfully.
-(thesis.xmpdata)<<sRGB.icc>> (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+(thesis.xmpdata)<<sRGB.icc>> (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+) (/home/marcel/.miktex/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 )
 Package hyperref Info: Option `unicode' set `true' on input line 2411.
 Package hyperref Info: Option `unicode' set `true' on input line 2412.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+ (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-cmr.tex) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\glyphtounicode-ntx.tex) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/xmpincl\xmpincl.sty
+) (/home/marcel/.miktex/texmfs/install/tex/generic/pdftex/glyphtounicode.tex) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-cmr.tex) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-ntx.tex) (/home/marcel/.miktex/texmfs/install/tex/latex/xmpincl/xmpincl.sty
 Package: xmpincl 2021/09/22 v2.4 Include XMP data in pdflatex
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdfx\8bit.def
+) (/home/marcel/.miktex/texmfs/install/tex/latex/pdfx/8bit.def
 File: 8bit.def 2008/03/30 v1.1d Input encoding file
 )
 Using XMP template file: pdfa.xmp
@@ -820,38 +832,35 @@ Using XMP template file: pdfa.xmp
 Package hyperref Warning: Option `pdfa' has already been used,
 (hyperref)                setting the option has no effect on input line 142.
 
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
-Package: glossaries 2021/11/01 v4.49 (NLCT)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2022/11/03 v4.52 (NLCT)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+ (/home/marcel/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex (/home/marcel/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
 \XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
-Package: mfirstuc 2021/10/15 v2.07 (NLCT)
-\@glsmfirst=\toks41
-\@glsmrest=\toks42
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
-Package: textcase 2022/06/12 v1.02 Text only upper/lower case changing (DPC)
-Package textcase Info: Defining Legacy names on input line 20.
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+)) (/home/marcel/.miktex/texmfs/install/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2022/10/14 v2.08 (NLCT)
+\@glsmfirst=\toks42
+\@glsmrest=\toks43
+) (/home/marcel/.miktex/texmfs/install/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count347
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/home/marcel/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count348
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count349
 \FP@xia=\count350
@@ -862,66 +871,64 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count355
 \FP@regs=\count356
 \FP@times=\count357
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count358
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks43
+\@dtl@toks=\toks44
 \@dtl@tmpcount=\count359
-\dtl@tmplength=\skip97
+\dtl@tmplength=\skip98
 \dtl@sortresult=\count360
 \@dtl@numgrpsepcount=\count361
 \@dtl@datatype=\count362
 \dtl@codeA=\count363
 \dtl@codeB=\count364
 \@dtl@foreach@level=\count365
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries-compatible-307.sty
-Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
-Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+ (/home/marcel/.miktex/texmfs/install/tex/generic/tracklang/tracklang.tex)) (/home/marcel/.miktex/texmfs/install/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-german\glossaries-german.ldf
+) (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries-german/glossaries-german.ldf
 File: glossaries-german.ldf 2014/11/23 v1.0
 )
 \gls@level=\count366
-\@gls@tmpb=\toks44
-\gls@tmplen=\skip98
-\glskeylisttok=\toks45
-\glslabeltok=\toks46
-\glsshorttok=\toks47
-\glslongtok=\toks48
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
-Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
-Package: glossary-list 2021/11/01 v4.49 (NLCT)
-\glslistdottedwidth=\skip99
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
-Package: glossary-long 2021/11/01 v4.49 (NLCT)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+\@gls@tmpb=\toks45
+\gls@tmplen=\skip99
+\glskeylisttok=\toks46
+\glslabeltok=\toks47
+\glsshorttok=\toks48
+\glslongtok=\toks49
+ (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
+) (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2022/11/03 v4.52 (NLCT)
+\glslistdottedwidth=\skip100
+) (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2022/11/03 v4.52 (NLCT)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip100
-\LTright=\skip101
-\LTpre=\skip102
-\LTpost=\skip103
+\LTleft=\skip101
+\LTright=\skip102
+\LTpre=\skip103
+\LTpost=\skip104
 \LTchunksize=\count367
-\LTcapwidth=\dimen274
+\LTcapwidth=\dimen276
 \LT@head=\box112
 \LT@firsthead=\box113
 \LT@foot=\box114
@@ -931,34 +938,34 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@rows=\count369
 \c@LT@tables=\count370
 \c@LT@chunks=\count371
-\LT@p@ftn=\toks49
+\LT@p@ftn=\toks50
 )
-Class scrreprt Info: longtable captions redefined on input line 43.
-\glsdescwidth=\skip104
-\glspagelistwidth=\skip105
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
-Package: glossary-super 2021/11/01 v4.49 (NLCT)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
+Class scrreprt Info: longtable captions redefined on input line 47.
+\glsdescwidth=\skip105
+\glspagelistwidth=\skip106
+) (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2022/11/03 v4.52 (NLCT)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count372
-\ST@wd=\dimen275
-\ST@rightskip=\skip106
-\ST@leftskip=\skip107
-\ST@parfillskip=\skip108
-\ST@pageleft=\dimen276
-\ST@headht=\dimen277
-\ST@tailht=\dimen278
-\ST@pagesofar=\dimen279
-\ST@pboxht=\dimen280
-\ST@lineht=\dimen281
-\ST@prevht=\dimen282
-\ST@toadd=\dimen283
-\ST@dimen=\dimen284
+\ST@wd=\dimen277
+\ST@rightskip=\skip107
+\ST@leftskip=\skip108
+\ST@parfillskip=\skip109
+\ST@pageleft=\dimen278
+\ST@headht=\dimen279
+\ST@tailht=\dimen280
+\ST@pagesofar=\dimen281
+\ST@pboxht=\dimen282
+\ST@lineht=\dimen283
+\ST@prevht=\dimen284
+\ST@toadd=\dimen285
+\ST@dimen=\dimen286
 \ST@pbox=\box117
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
-Package: glossary-tree 2021/11/01 v4.49 (NLCT)
-\glstreeindent=\skip109
-)) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+)) (/home/marcel/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2022/11/03 v4.52 (NLCT)
+\glstreeindent=\skip110
+)) (/home/marcel/.miktex/texmfs/install/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
@@ -976,7 +983,7 @@ Writing index file thesis.idx
 
 Package glossaries Info: Writing glossary file thesis.glo on input line 22.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23.
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+(/home/marcel/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (thesis.aux
 
@@ -1030,23 +1037,34 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+Package scrbase Info: activating ngerman \abstractname on input line 23.
+Package scrbase Info: activating ngerman \partname on input line 23.
+Package scrbase Info: activating ngerman \chaptername on input line 23.
+Package scrbase Info: activating ngerman \appendixname on input line 23.
+Package scrbase Info: activating ngerman \figurename on input line 23.
+Package scrbase Info: activating ngerman \tablename on input line 23.
+Package scrbase Info: activating ngerman \contentsname on input line 23.
+Package scrbase Info: activating ngerman \listfigurename on input line 23.
+Package scrbase Info: activating ngerman \listtablename on input line 23.
+Package scrbase Info: activating ngerman \bibname on input line 23.
+Package scrbase Info: activating ngerman \indexname on input line 23.
+ (/home/marcel/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count374
-\scratchdimen=\dimen285
+\scratchdimen=\dimen287
 \scratchbox=\box118
 \nofMPsegments=\count375
 \nofMParguments=\count376
-\everyMPshowfont=\toks50
+\everyMPshowfont=\toks51
 \MPscratchCnt=\count377
-\MPscratchDim=\dimen286
+\MPscratchDim=\dimen288
 \MPnumerator=\count378
 \makeMPintoPDFobject=\count379
-\everyMPtoPDFconversion=\toks51
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\everyMPtoPDFconversion=\toks52
+) (/home/marcel/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (/home/marcel/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -1083,20 +1101,22 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(/home/marcel/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/home/marcel/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/home/marcel/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
@@ -1117,7 +1137,7 @@ LaTeX Info: Redefining \showhyphens on input line 23.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+ (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 \c@lstlisting=\count380
@@ -1134,9 +1154,9 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
 (scrreprt)           before \begin{document} on input line 23.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+ (/home/marcel/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+ (/home/marcel/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count381
 )) (thesis.glsdefs)
@@ -1181,7 +1201,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 [1]) (sections/abstract.tex
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1194,19 +1214,19 @@ File: pics/question_mark.png Graphic file (type png)
 Package pdftex.def Info: pics/question_mark.png  used on input line 6.
 (pdftex.def)             Requested size: 88.2022pt x 114.13707pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1216,15 +1236,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 14.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+) (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+) (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
@@ -1295,20 +1315,39 @@ chapter 2.
 ]
 chapter 3.
 (sections/Wallbox.tex (sections/wallbox/Untersuchungsanliegen.tex) (sections/wallbox/Ist-Stand.tex) (sections/wallbox/AufbauDesProjektes.tex
+Overfull \hbox (9.14194pt too wide) in paragraph at lines 3--14
+\T1/lmr/m/n/12 (-20) Charge Controller, welcher dafür verantwortlich ist, die Befehle der GUI entgegenzunehmen
+ []
+
 <pics/Infografik_FlexBoxen.png, id=169, 596.2275pt x 421.575pt>
 File: pics/Infografik_FlexBoxen.png Graphic file (type png)
 <use pics/Infografik_FlexBoxen.png>
 Package pdftex.def Info: pics/Infografik_FlexBoxen.png  used on input line 17.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
- [3
+[3
 
 ] [4 <./pics/Infografik_FlexBoxen.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 49.
- (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5] [6] [7] [8] [9] [10] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+Overfull \hbox (22.50607pt too wide) in paragraph at lines 51--52
+[]\T1/lmr/m/n/12 (-20) setDataBits(8) -> Die Databits müssen 8 Bits betragen, da auch hier der Wallboxhersteller
+ []
+
+[5] [6] [7] [8]
+Overfull \hbox (30.28883pt too wide) in paragraph at lines 119--120
+\T1/lmr/m/n/12 (-20) iteriert. An jeden gefundenen Datenpunkt wird dann wieder der ^^PDatapointChangedCommand^^Q
+ []
+
+[9]
+Overfull \hbox (5.81973pt too wide) in paragraph at lines 127--128
+\T1/lmr/m/n/12 (-20) wird geschaut, ob das Icon ein bzw ausgeschaltet ist, dann, ob die Wallbox eingeschaltet
+ []
+
+[10] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 137.
@@ -1318,7 +1357,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 137--137
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 137.
-(C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+(/home/marcel/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1343,7 +1382,12 @@ File: pics/flexTasks.png Graphic file (type png)
 <use pics/flexTasks.png>
 Package pdftex.def Info: pics/flexTasks.png  used on input line 7.
 (pdftex.def)             Requested size: 298.35393pt x 210.78697pt.
- [13 <./pics/DetailansichtWallbox2.png>] [14 <./pics/flexTasks.png>] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+ [13 <./pics/DetailansichtWallbox2.png>]
+Overfull \hbox (32.743pt too wide) in paragraph at lines 12--13
+\T1/lmr/m/n/12 (-20) Dependencies erweitern. Das wird vor allem dann benötigt, wenn z.B. eine Datenbankanbindung
+ []
+
+[14 <./pics/flexTasks.png>] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
@@ -1362,47 +1406,52 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][][] 
  []
 
-[16]) (sections/wallbox/Datenpunkte.tex
+[16]
+Overfull \hbox (1.89307pt too wide) in paragraph at lines 54--55
+[]\T1/lmr/m/n/12 (-20) Wenn alle Pfade richtig benannt wurden, kann man im Verzeichnis einen Symbolischen
+ []
+
+) (sections/wallbox/Datenpunkte.tex
 Overfull \hbox (185.91785pt too wide) in paragraph at lines 2--19
 []\T1/lmr/m/n/12 (-20) ======================================================================
  []
 
 
 Overfull \hbox (18.81972pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) star-ting packa-ge main-te-nance... in-stal-la-ti-on di-rec-to-ry: /ho-me/-mar-cel/.miktex/texmfs/install
+\T1/lmr/m/n/12 (-20) starting package maintenance... installation directory: /home/marcel/.miktex/texmfs/install
  []
 
 
 Overfull \hbox (45.8434pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) packa-ge re-po-si-to-ry: htt-ps://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/
+\T1/lmr/m/n/12 (-20) package repository: https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/
  []
 
 
 Overfull \hbox (48.60686pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) vi-si-ting re-po-si-to-ry htt-ps://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/...
+\T1/lmr/m/n/12 (-20) visiting repository https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/...
  []
 
 
-Overfull \hbox (24.41397pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) loa-ding https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/miktex-
+Overfull \hbox (50.95618pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) downloading https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/miktex-
  []
 
 
 Overfull \hbox (96.5082pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) zzdb1-2.9.tar.lzma... 0.31 MB, 102.88 Mbit/s packa-ge re-po-si-to-ry di-gest: 6edf-daad7fdb845c308709d7554034b5
+\T1/lmr/m/n/12 (-20) zzdb1-2.9.tar.lzma... 0.31 MB, 102.88 Mbit/s package repository digest: 6edfdaad7fdb845c308709d7554034b5
  []
 
 
-Overfull \hbox (42.27644pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) ps://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/latexindent.tar.lzma...
+Overfull \hbox (57.30338pt too wide) in paragraph at lines 2--19
+\T1/lmr/m/n/12 (-20) https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/latexindent.tar.lzma...
  []
 
 
 Overfull \hbox (550.23112pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) 0.07 MB, 394.45 Mbit/s ex-trac-ting fi-les from la-te-xin-dent.tar.lzma... ====================================================================== 
+\T1/lmr/m/n/12 (-20) 0.07 MB, 394.45 Mbit/s extracting files from latexindent.tar.lzma... ====================================================================== 
  []
 
-[17] [18] (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[17] [18] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
@@ -1429,16 +1478,51 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
 [][][][][][][][] 
  []
 
+
+Overfull \hbox (1.65048pt too wide) in paragraph at lines 97--98
+[]\T1/lmr/m/n/12 (-20) Mit ^^Pdatapoint.setValue(value)^^Q kann man einem Datenpunkt einen neuen Wert zuweisen.
+ []
+
 [20]
+Overfull \hbox (90.29697pt too wide) in paragraph at lines 104--105
+\T1/lmr/m/n/12 (-20) Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man ^^Pmodbuswallbox.wb1.ladedauerWb1^^Q.
+ []
+
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
 [][][][][][][][] 
  []
 
 ) (sections/wallbox/Modbus.tex) (sections/wallbox/FlexHMI.tex) (sections/wallbox/Energiemanagement.tex) (sections/wallbox/Wallbox.tex) (sections/wallbox/Java.tex)) [21]
 chapter 4.
-(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [22
+(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex
+Overfull \hbox (11.2747pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 (-20) Datenbank aufzubauen und somit die benötigten Objekte in einer Datenbank abzuspeichern
+ []
 
-] [23] [24] [25] [26] [27]
+[22
+
+] [23]
+Overfull \hbox (83.14519pt too wide) in paragraph at lines 29--31
+\T1/lmr/m/n/12 (-20) schreibt keine Werte mehr in die Datenbank. Im Gegensatz dazu ist der \T1/lmtt/m/n/12 logger_nav_status_icon_State
+ []
+
+
+Overfull \hbox (12.05235pt too wide) in paragraph at lines 29--31
+\T1/lmtt/m/n/12 logger_nav_status_icon_State \T1/lmr/m/n/12 (-20) wird wieder auf den ursprünglichen Wert geändert. 
+ []
+
+[24]
+Overfull \hbox (12.03404pt too wide) in paragraph at lines 40--41
+[]\T1/lmr/m/n/12 (-20) Die Hauptmethode der Klasse ist die run-Methode. Hier wird ein neuer DatapointCommand
+ []
+
+[25] [26]
+Overfull \hbox (19.62201pt too wide) in paragraph at lines 68--69
+\T1/lmr/m/n/12 (-20) steht über der Methode ein \T1/lmtt/m/n/12 @Produces(MediaType.APPLICATION_JSON)\T1/lmr/m/n/12 (-20) , um festzulegen
+ []
+
+[27]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 81--81
 [][][][][][][][] 
  []
@@ -1474,7 +1558,37 @@ File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteDiagramm.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 164.
 (pdftex.def)             Requested size: 399.02672pt x 184.23103pt.
- [31 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg>] [32 <./pics/csv_datei_beispiel.jpg> <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg>] [33 <./pics/FlexLoggerWebsiteDiagramm.jpg>] [34] [35] [36] [37]) (sections/Flexlogger/Threads.tex [38]
+ [31 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg>] [32 <./pics/csv_datei_beispiel.jpg> <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg>]
+Overfull \hbox (3.59695pt too wide) in paragraph at lines 174--175
+[]\T1/lmr/m/n/12 (-20) AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten. 
+ []
+
+[33 <./pics/FlexLoggerWebsiteDiagramm.jpg>]
+Overfull \hbox (17.1614pt too wide) in paragraph at lines 198--199
+[]\T1/lmr/m/n/12 (-20) Wenn die checkCSV-Variable als true gesetzt wurde, wird überprüft, ob der Namenparameter
+ []
+
+
+Overfull \hbox (12.65332pt too wide) in paragraph at lines 198--199
+\T1/lmr/m/n/12 (-20) der Datei gestartet. Dieser Download wird mithilfe der window.open() Methode verwirklicht.
+ []
+
+[34] [35]
+Overfull \hbox (8.46214pt too wide) in paragraph at lines 223--225
+[]\T1/lmr/m/n/12 (-20) changeData() Hier werden die geänderten Daten in die Diagramm Optionen gespeichert.
+ []
+
+[36] [37]) (sections/Flexlogger/Threads.tex
+Overfull \hbox (4.3341pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/12 (-20) Wie nebenläufige Abarbeitung die Perfomance bei einem Einprozessorsystem beschleunigt,
+ []
+
+[38]
+Overfull \hbox (16.0402pt too wide) in paragraph at lines 29--30
+\T1/lmr/m/n/12 (-20) sondern die Threads. Dabei können die Threads auf den gleichen Adressraum zugreifen. 
+ []
+
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
 [][][][][][][][] 
  []
@@ -1489,17 +1603,37 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
 [][][][][][][][] 
  []
 
+
+Overfull \hbox (15.45094pt too wide) in paragraph at lines 65--66
+[]\T1/lmr/m/n/12 (-20) Zusätzlich ist es auch noch möglich den Thread mit (\T1/lmtt/m/n/12 thread.sleep(ms)\T1/lmr/m/n/12 (-20) ) zu pausieren. 
+ []
+
 <pics/blockingQueue.jpg, id=525, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 76.
 (pdftex.def)             Requested size: 212.89485pt x 71.66756pt.
+
+Overfull \hbox (2.2652pt too wide) in paragraph at lines 81--82
+[]\T1/lmr/m/n/12 (-20) Der produzierende Thread wird weiterhin Objekte produzieren und sie zur BlockingQueue
+ []
+
 [40 <./pics/blockingQueue.jpg>]
+Overfull \hbox (13.80125pt too wide) in paragraph at lines 101--102
+\T1/lmr/m/n/12 (-20) Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementation. 
+ []
+
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 105--105
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex [41] [42] [43]) (sections/Flexlogger/VisuelleDarstellung.tex [44]
+) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/Datenbanken.tex
+Overfull \hbox (2.49948pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/12 (-20) Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern,
+ []
+
+[41] [42] [43]) (sections/Flexlogger/VisuelleDarstellung.tex [44]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 24--24
 [][][][][][][][] 
  []
@@ -1530,12 +1664,26 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 97--97
  []
 
 ) (sections/Flexlogger/Quarkus.tex [47]
+Overfull \hbox (23.82683pt too wide) in paragraph at lines 18--19
+\T1/lmr/m/n/12 (-20) und Klassen Hierarchien für ein Set von Klassen in eine Speicher-effizienten Repräsentation
+ []
+
+
+Overfull \hbox (11.53499pt too wide) in paragraph at lines 24--25
+\T1/lmr/m/n/12 (-20) Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager
+ []
+
 <pics/quarkusArchitektur.JPG, id=694, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
 (pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
- [48] [49 <./pics/quarkusArchitektur.JPG>]
+[48]
+Overfull \hbox (12.09547pt too wide) in paragraph at lines 47--48
+[]\T1/lmr/m/n/12 (-20) Open-Source Java Framework, einfach um Stand-alone Anwendungen und Mikroservices
+ []
+
+[49 <./pics/quarkusArchitektur.JPG>]
 <pics/quarkus_benchmark.jpg, id=709, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
@@ -1556,7 +1704,17 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [][][][][][][][] 
  []
 
-) (sections/Flexlogger/SQL.tex [52]
+) (sections/Flexlogger/SQL.tex
+Overfull \hbox (0.28268pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/12 (-20) relationalen Datenbank zu bearbeiten. Auÿerdem kann damit die Struktur der Datenbank
+ []
+
+[52]
+Overfull \hbox (23.57762pt too wide) in paragraph at lines 6--7
+[]\T1/lmr/m/n/12 (-20) Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen. 
+ []
+
+
 Overfull \hbox (30.59204pt too wide) in paragraph at lines 9--24
  [] 
  []
@@ -1654,15 +1812,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35916 strings out of 478351
- 667392 string characters out of 2837053
- 1444177 words of memory out of 3000000
- 52988 multiletter control sequences out of 15000+600000
- 523518 words of font info for 131 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 113i,20n,109p,10667b,2606s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (69 pages, 1677868 bytes).
+ 35880 strings out of 478338
+ 660720 string characters out of 2841194
+ 1928793 words of memory out of 3000000
+ 54664 multiletter control sequences out of 15000+600000
+ 566601 words of font info for 135 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 113i,20n,109p,10664b,2606s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
+Output written on thesis.pdf (69 pages, 1677780 bytes).
 PDF statistics:
  1119 PDF objects out of 1200 (max. 8388607)
  472 named destinations out of 1000 (max. 500000)

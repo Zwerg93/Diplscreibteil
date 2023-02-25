@@ -62,7 +62,7 @@
 \contentsline {subsection}{\numberline {4.3.4}Angular Frontend (Beschreibend)}{30}{subsection.4.3.4}%
 \contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{30}{subsubsection*.30}%
 \contentsline {subsubsection}{\nonumberline App-Component}{33}{subsubsection*.38}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{34}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{33}{subsubsection*.40}%
 \contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{35}{subsubsection*.42}%
 \contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{36}{subsubsection*.44}%
 \contentsline {subsubsection}{\nonumberline HttpService}{37}{subsubsection*.46}%
