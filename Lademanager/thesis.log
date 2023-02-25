@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  25 FEB 2023 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  25 FEB 2023 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1450,95 +1450,60 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 26--26
 [][][][][][][][] 
  []
 
+
+Overfull \hbox (13.12863pt too wide) in paragraph at lines 29--30
+\T1/lmr/m/n/12 (-20) werden. In den meisten Fällen werden hierfür Datenpunkte und andere Kommunikations-
+ []
+
 [18 <./pics/flexTasks.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 33--33
 [][][][][][][][] 
  []
 
 [19]
-Overfull \hbox (1.89307pt too wide) in paragraph at lines 56--57
-[]\T1/lmr/m/n/12 (-20) Wenn alle Pfade richtig benannt wurden, kann man im Verzeichnis einen Symbolischen
+Overfull \hbox (10.79918pt too wide) in paragraph at lines 53--54
+[]\T1/lmr/m/n/12 (-20) datapoint_map: Diese Tabelle besteht aus einer datapoint1_id, einer datapoint2_id
  []
 
-) (sections/wallbox/Datenpunkte.tex
-Overfull \hbox (185.91785pt too wide) in paragraph at lines 2--19
-[]\T1/lmr/m/n/12 (-20) ======================================================================
- []
-
-
-Overfull \hbox (18.81972pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) starting package maintenance... installation directory: /home/marcel/.miktex/texmfs/install
- []
-
-
-Overfull \hbox (45.8434pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) package repository: https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/
- []
-
-
-Overfull \hbox (48.60686pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) visiting repository https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/...
- []
-
-
-Overfull \hbox (50.95618pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) downloading https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/miktex-
- []
-
-
-Overfull \hbox (96.5082pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) zzdb1-2.9.tar.lzma... 0.31 MB, 102.88 Mbit/s package repository digest: 6edfdaad7fdb845c308709d7554034b5
- []
-
-
-Overfull \hbox (57.30338pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/latexindent.tar.lzma...
- []
-
-
-Overfull \hbox (550.23112pt too wide) in paragraph at lines 2--19
-\T1/lmr/m/n/12 (-20) 0.07 MB, 394.45 Mbit/s extracting files from latexindent.tar.lzma... ====================================================================== 
- []
-
-[20] [21] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+) (sections/wallbox/Datenpunkte.tex [20] [21] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 47--47
+Overfull \hbox (6.0pt too wide) in paragraph at lines 29--29
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (49.88689pt too wide) in paragraph at lines 48--49
+Overfull \hbox (49.88689pt too wide) in paragraph at lines 30--31
 [][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 54--54
+Overfull \hbox (6.0pt too wide) in paragraph at lines 36--36
 [][][][][][][][] 
  []
 
 [22]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
+Overfull \hbox (6.0pt too wide) in paragraph at lines 50--50
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (1.65048pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.65048pt too wide) in paragraph at lines 79--80
 []\T1/lmr/m/n/12 (-20) Mit ^^Pdatapoint.setValue(value)^^Q kann man einem Datenpunkt einen neuen Wert zuweisen.
  []
 
 [23]
-Overfull \hbox (90.29697pt too wide) in paragraph at lines 104--105
+Overfull \hbox (90.29697pt too wide) in paragraph at lines 86--87
 \T1/lmr/m/n/12 (-20) Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man ^^Pmodbuswallbox.wb1.ladedauerWb1^^Q.
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 110--110
+Overfull \hbox (6.0pt too wide) in paragraph at lines 92--92
 [][][][][][][][] 
  []
 
@@ -1582,32 +1547,32 @@ Overfull \hbox (7.87813pt too wide) in paragraph at lines 115--117
  []
 
 [33]
-<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=488, 198.14024pt x 165.61874pt>
+<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=489, 198.14024pt x 165.61874pt>
 File: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_zeitraum.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg  used on input line 128.
 (pdftex.def)             Requested size: 198.13974pt x 165.61833pt.
-<pics/FlexLoggerWebsiteFormulare_button.jpg, id=489, 195.73125pt x 49.3845pt>
+<pics/FlexLoggerWebsiteFormulare_button.jpg, id=490, 195.73125pt x 49.3845pt>
 File: pics/FlexLoggerWebsiteFormulare_button.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_button.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_button.jpg  used on input line 135.
 (pdftex.def)             Requested size: 195.73076pt x 49.38437pt.
-<pics/csv_datei_beispiel.jpg, id=490, 319.79475pt x 171.64125pt>
+<pics/csv_datei_beispiel.jpg, id=491, 319.79475pt x 171.64125pt>
 File: pics/csv_datei_beispiel.jpg Graphic file (type jpg)
 <use pics/csv_datei_beispiel.jpg>
 Package pdftex.def Info: pics/csv_datei_beispiel.jpg  used on input line 142.
 (pdftex.def)             Requested size: 319.79396pt x 171.64081pt.
-<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=491, 246.1697pt x 88.83188pt>
+<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=492, 246.1697pt x 88.83188pt>
 File: pics/FlexLoggerWebsite_Fehlermeldung.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsite_Fehlermeldung.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsite_Fehlermeldung.jpg  used on input line 149.
 (pdftex.def)             Requested size: 246.16908pt x 88.83165pt.
-<pics/FlexLoggerWebsiteFormulare.jpg, id=492, 907.59074pt x 531.1845pt>
+<pics/FlexLoggerWebsiteFormulare.jpg, id=493, 907.59074pt x 531.1845pt>
 File: pics/FlexLoggerWebsiteFormulare.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 157.
 (pdftex.def)             Requested size: 408.41206pt x 239.0308pt.
-<pics/FlexLoggerWebsiteDiagramm.jpg, id=493, 1140.05925pt x 526.3665pt>
+<pics/FlexLoggerWebsiteDiagramm.jpg, id=494, 1140.05925pt x 526.3665pt>
 File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteDiagramm.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 164.
@@ -1667,7 +1632,7 @@ Overfull \hbox (18.65097pt too wide) in paragraph at lines 65--66
 []\T1/lmr/m/n/12 (-20) Zusätzlich ist es auch noch möglich, den Thread mit (\T1/lmtt/m/n/12 thread.sleep(ms)\T1/lmr/m/n/12 (-20) ) zu pausieren. 
  []
 
-<pics/blockingQueue.jpg, id=564, 425.79076pt x 143.3355pt>
+<pics/blockingQueue.jpg, id=565, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 76.
@@ -1732,7 +1697,7 @@ Overfull \hbox (11.53499pt too wide) in paragraph at lines 24--25
 \T1/lmr/m/n/12 (-20) Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager
  []
 
-<pics/quarkusArchitektur.JPG, id=735, 404.10976pt x 268.6035pt>
+<pics/quarkusArchitektur.JPG, id=736, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
@@ -1743,7 +1708,7 @@ Overfull \hbox (12.09547pt too wide) in paragraph at lines 47--48
  []
 
 [52 <./pics/quarkusArchitektur.JPG>]
-<pics/quarkus_benchmark.jpg, id=749, 545.78906pt x 309.40594pt>
+<pics/quarkus_benchmark.jpg, id=750, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
 Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
@@ -1801,7 +1766,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 )) [56] [57]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=805, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=806, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1885,17 +1850,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35935 strings out of 478338
- 661551 string characters out of 2841194
+ 35939 strings out of 478338
+ 661607 string characters out of 2841194
  1929793 words of memory out of 3000000
- 54692 multiletter control sequences out of 15000+600000
+ 54696 multiletter control sequences out of 15000+600000
  566601 words of font info for 135 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 113i,20n,109p,10664b,3821s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 113i,20n,109p,10664b,3688s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (72 pages, 1692030 bytes).
+Output written on thesis.pdf (72 pages, 1691594 bytes).
 PDF statistics:
- 1165 PDF objects out of 1200 (max. 8388607)
+ 1166 PDF objects out of 1200 (max. 8388607)
  499 named destinations out of 1000 (max. 500000)
  32644 words of extra memory for PDF output out of 35830 (max. 10000000)
 

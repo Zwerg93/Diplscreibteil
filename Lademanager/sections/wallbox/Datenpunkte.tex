@@ -1,40 +1,22 @@
+\subsection{Struktur eines Datenpunktes}\label{Datenpunkte}
 
-======================================================================
-starting package maintenance...
-installation directory: /home/marcel/.miktex/texmfs/install
-package repository: https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/
-visiting repository https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/...
-repository type: remote package repository
-loading package repository manifest...
-downloading https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
-0.31 MB, 102.88 Mbit/s
-package repository digest: 6edfdaad7fdb845c308709d7554034b5
-going to download 69965 bytes
-going to install 43 file(s) (1 package(s))
-downloading https://mirror.lyrahosting.com/CTAN/systems/win32/miktex/tm/packages/latexindent.tar.lzma...
-0.07 MB, 394.45 Mbit/s
-extracting files from latexindent.tar.lzma...
-======================================================================
-%\UseRawInputEncoding
-\subsection{Struktur eines Datenpunktes}
-
-Die Datenpunkte sind im Grunde alle gleich aufgebaut. Ein Datenpunkt (dp) besteht immer aus einer:
+Die Datenpunkte sind im Grunde alle gleich aufgebaut. Ein Datenpunkt (dp) besteht immer aus einer: 
 
 \begin{compactitem}
-    \item ID: kann nach Belieben benannt werden. Meist ein String, um den Nutzen zu veranschaulichen, und die DP´s voneinander unterscheiden zu können. Die ID muss für jedes Device eindeutig sein.
-    \item deviceId: gibt an, zu welchem Device der Datenpunt gehört. Ein Device kann in dem config.db File hinzugefügt werden. Das dient dazu, um mehrere Datenpunkte mit derselben ID für mehrere Devices verwenden zu können. Die deviceId besteht immer aus einem INT. Um Datenpunkte nutzen zu können, muss mindestens ein Device angelegt werden. Die ID wird automatisch immer um eins erhöht. Im Normalfall ist schon ein Device mit der ID 1 und dem Label dev1 angelegt.
+    \item ID: kann nach Belieben benannt werden. Meist ein String, um den Nutzen zu veranschaulichen und die DP´s voneinander unterscheiden zu können. Die ID muss für jedes Device eindeutig sein.
+    \item device\_id: gibt an, zu welchem Device der Datenpunt gehört. Ein Device kann in dem config.db-File hinzugefügt werden. Das dient dazu, um mehrere Datenpunkte mit derselben ID für mehrere Devices verwenden zu können. Die device\_id besteht immer aus einem INT. Um Datenpunkte nutzen zu können, muss mindestens ein Device angelegt werden. Die ID wird automatisch immer um eins erhöht. Im Normalfall ist schon ein Device mit der ID 1 und dem Label dev1 angelegt.
     \item Label: Hier kann man den Datenpunkt kurz beschreiben, um seine Funktion zu dokumentieren. Das wird dafür verwendet, um den Entwicklern das Verwalten der Datenpunkte zu vereinfachen.
     \item SpecificAddress: Ist meistens derselbe String wie die ID, kann jedoch auch etwas anderes sein. Wird dazu benötigt, um den Datenpunkt im Task anzulegen.
-    \item SpecificDatatype: Hier kann ein String mitgegeben werden, um in einem Task einen Datentyp für den Datenpunkt festzulegen, bzw. zwischen Gruppen von Dp zu unterscheiden. Im Task für das Gateway wird der specificDatatype dafür genutzt, um zwischen Datenpunkte, die nur für Modbus zuständig sind, und den anderen Datenpunkten zu unterscheiden.
-    \item Datatype: hier kann man angeben, welchen Datentyp die Value haben soll. Man kann hier zwischen “INT”, “REAL”, “BOOL” und “CMD” wählen.
-    \item Intervall: Hier kann man ein Intervall, angeben, mit welchen der Datenpunkt in die Flexcloud gepushed werden soll. Standardmäßig ist –1 eingestellt, was bedeutet, dass der Datenpunkt nur nach Anfrage des Tasks bzw. bei Änderung der Value gepublished wird.
-    \item Value: Hier werden die Werte eines DB gespeichert. Man kann in der conf.db Datei einen Standard-Wert angeben, doch meistens werden diese Werte in einem Task gesetzt bzw. ausgelesen.
+    \item SpecificDatatype: Hier kann ein String mitgegeben werden, um in einem Task einen Datentyp für den Datenpunkt festzulegen, bzw. zwischen Gruppen von Dp zu unterscheiden. Im Task für das Gateway wird der specificDatatype dafür genutzt, um zwischen Datenpunkten, die nur für Modbus zuständig sind, und den anderen Datenpunkten zu unterscheiden.
+    \item Datatype: hier kann man angeben, welchen Datentyp die Value haben soll. Man kann hier zwischen "INT", "REAL", "BOOL" und "CMD" wählen.
+    \item Intervall: Hier kann man ein Intervall angeben, mit welchem der Datenpunkt in die Flexcloud gepusht werden soll. Standardmäßig ist –1 eingestellt, was bedeutet, dass der Datenpunkt nur nach Anfrage des Tasks bzw. bei Änderung der Value gepublished wird.
+    \item Value: Hier werden die Werte eines Datenpunktes gespeichert. Man kann in der conf.db Datei einen Standardwert angeben, doch meistens werden diese Werte in einem Task gesetzt bzw. ausgelesen. 
 \end{compactitem}
 
 \subsection{Anlegen eines Datenpunktes}
 
 
-Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die VM (Virtual machine),  auf welcher der Flextask sich befindet, verbinden. In dem Verzeichnis mit der conf.db Datei muss man mit SQLITE3 die Datei öffnen. Dort kann man dann mit einem insert bzw. Update Statement einen neuen Datenpunkt hinzufügen, aktualisieren oder löschen.
+Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die VM (Virtual machine),  auf welcher der Flextask sich befindet, verbinden. In dem Verzeichnis mit der conf.db Datei muss man mit SQLITE3 die Datei öffnen. Dort kann man dann mit einem insert bzw. Update Statement einen neuen Datenpunkt hinzufügen, aktualisieren oder löschen. 
 
 \begin{lstlisting}[language=sql,caption=Example Element,label=lst:impl:foo]
     INSERT INTO datapoint VALUES ('Wallbox\textunderscore 1\textunderscore startCharching\textunderscore icon\textunderscore state',1,'','state\textunderscore [Wallbox\textunderscore 1\textunderscore startCharching\textunderscore icon]','','','INT',-1,-1,0.0,'');
@@ -42,13 +24,13 @@ Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die V
 
 \subsection{Nutzung eines Datenpunktes:}
 
-Somit ist der Datenpunkt in der Datenbank angelegt und ready to use. Um nun in einem Flextask auf so einen Datenpunkt Zugriff zu haben, muss man ihn erstmal anlegen und die “SPECIFICADDRESS” angeben:
+Somit ist der Datenpunkt in der Datenbank angelegt und ready to use. Um nun in einem Flextask auf so einen Datenpunkt Zugriff zu haben, muss man ihn erstmal anlegen und die “SPECIFIC\_ADDRESS” angeben: 
 
 \begin{lstlisting}[language=java,caption=Example Datapoint,label=lst:impl:foo]
     Datapoint datapoint = StaticData.datapoints.getDatapoint(Datapoints.DatapointField.SPECIFIC\textunderscore ADDRESS, "SPECIFIC\textunderscore ADDRESS\textunderscore DES\textunderscore DATENPUNKTES"); 
 \end{lstlisting}
 
-Nun hat man mehrere Möglichkeiten, wie man Daten aus dem Datenpunkt lesen kann:
+Nun hat man mehrere Möglichkeiten, wie man Daten aus dem Datenpunkt lesen kann: 
 \begin{compactenum}
     \item Man ruft die Methode “setDatapointChangedCommand()” auf. Diese Methode überschreibt eine in der Klasse Flextask, und ist dafür da, um auf Änderungen des Datenpunktes zu hören.
     \begin{lstlisting}[language=java,caption=Example catapoint usage,label=lst:impl:foo]
