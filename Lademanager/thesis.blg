@@ -10,51 +10,71 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bib.bib
+Warning--entry type for "ISO/OSI-Referenzmodell" isn't style-file defined
+--line 1 of file bib.bib
+Warning--entry type for "7schichtenModell" isn't style-file defined
+--line 25 of file bib.bib
+Warning--entry type for "macAddress" isn't style-file defined
+--line 33 of file bib.bib
+Warning--entry type for "ipAddress" isn't style-file defined
+--line 41 of file bib.bib
+Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
+--line 46 of file bib.bib
+Warning--entry type for "modbuskubunu" isn't style-file defined
+--line 52 of file bib.bib
+Warning--entry type for "modbusoverserial" isn't style-file defined
+--line 58 of file bib.bib
+Warning--entry type for "modbuswiki" isn't style-file defined
+--line 65 of file bib.bib
+Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
+--line 70 of file bib.bib
+Warning--entry type for "modbusaufbauimg" isn't style-file defined
+--line 91 of file bib.bib
 Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 0 entries,
+You've used 10 entries,
             3998 wiz_defined-function locations,
-            803 strings with 7238 characters,
-and the built_in function-call counts, 103 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 19
-:= -- 26
-add.period$ -- 0
-call.type$ -- 0
+            857 strings with 8600 characters,
+and the built_in function-call counts, 3688 in all, are:
+= -- 261
+> -- 38
+< -- 6
++ -- 22
+- -- 7
+* -- 153
+:= -- 653
+add.period$ -- 20
+call.type$ -- 10
 change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 3
+chr.to.int$ -- 15
+cite$ -- 10
+duplicate$ -- 310
+empty$ -- 372
+format.name$ -- 8
+if$ -- 776
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 23
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 10
+missing$ -- 68
+newline$ -- 73
+num.names$ -- 6
+pop$ -- 229
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1
+skip$ -- 265
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 45
+swap$ -- 177
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 0
+type$ -- 10
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 22
-(There was 1 warning)
+while$ -- 9
+width$ -- 12
+write$ -- 114
+(There were 11 warnings)

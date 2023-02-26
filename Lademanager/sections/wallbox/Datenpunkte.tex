@@ -43,10 +43,10 @@ Nun hat man mehrere Möglichkeiten, wie man Daten aus dem Datenpunkt lesen kann:
             } 
         }); 
     \end{lstlisting}
-    Diese Methode gibt bei jeder Änderung des Wertes den neuen Wert in die Konsole aus. Hier kann man den Wert speichern, andere Methoden ausführen, oder sonst alles machen, was man in einer Methode machen könnte.
+    Diese Methode gibt bei jeder Änderung des Wertes den neuen Wert in der Konsole aus. Hier kann man den Wert speichern, andere Methoden ausführen, oder sonst alles machen, was man in einer Methode machen könnte. 
 
-    \item Man kann Jederzeit im Code “datapoint.getValue()” aufrufen. Mit dieser Methode bekommt man immer den jetzigen Wert des Datenpunkt zurück.
-    \item Wie schon in den vorhergingen Kapiteln erwähnt, kann man über alle Datenpunkte jedes Device iterieren, und je nach Bedingung ein DatapointCahngedCommand anhängen. Dies bewirkt, dass eine Methode immer dann aufgerufen wird, wenn sich einer der Datenpunkte ändert. Mit der ID der einzelnen Devices kann man dann auf die SpecificAddress zugreifen, und die einzelnen Fälle mit einem switch Statement abdecken.
+    \item Man kann jederzeit im Code "datapoint.getValue()" aufrufen. Mit dieser Methode bekommt man immer den jetzigen Wert des Datenpunkts zurück.   
+    \item Wie schon in den vorhergegangenen Kapiteln erwähnt, kann man über alle Datenpunkte jedes Device iterieren, und je nach Bedingung ein DatapointCahngedCommand anhängen. Dies bewirkt, dass eine Methode immer dann aufgerufen wird, wenn sich einer der Datenpunkte ändert. Mit der ID der einzelnen Devices kann man dann auf die SpecificAddress zugreifen, und die einzelnen Fälle mit einem switch Statement abdecken. 
     \begin{lstlisting}[language=java,caption=Example multible datapoint usage,label=lst:impl:foo]
         for (Device dev : StaticData.devices.getDevices()) { 
     for (Datapoint dp : StaticData.datapoints.getDatapoints(dev.getId())) { 
@@ -76,19 +76,17 @@ DatapointCommand dpCmd = new DatapointCommand() {
     In diesem Beispiel werden die DeviceID und der aktuelle Wert des Datenpunktes, welcher sich geändert hat, ausgegeben.
 \end{compactenum}
 
-Mit “datapoint.setValue(value)” kann man einem Datenpunkt einen neuen Wert zuweisen. Dieser wird dann automatisch in die FLexcloud gepublished, und kann von einem anderen Task abgefangen werden.
+Mit “datapoint.setValue(value)” kann man einem Datenpunkt einen neuen Wert zuweisen. Dieser wird dann automatisch in die FLexcloud gepublished, und kann von einem anderen Task abgefangen werden.  
 
 
 \subsection{Datapoint mapping}
 
-Um zwei Datenpunkte von zwei verschiedenen Tasks zu mappen, und somit Daten zu übertragen, muss man einen Eintrag in der “datapointMap” hinzufügen. Um die Daten zu empfangen, muss man die conf.db des zweiten Tasks aktualisieren. Zu beachten ist, dass das Mapping nur bei dem Task gemacht werden muss, welcher die Daten bekommen soll. Man verbindet also den Datenpunkt eines anderen Tasks auf einen eigenen Datenpunkt. Wichtig dabei ist, dass man bei der “datapoint1Id” zuerst das Label des Devices, zu welchem der Datenpunkt gehört, und anschließend die ID des ersten Datenpunkt angibt. “datapoint2Id” wird zuerst der Name des anderen Tasks angegeben, dann das Label des Devices, und anschließend die ID des Datenpunktes.
+Um zwei Datenpunkte von zwei verschiedenen Tasks zu mappen, und somit Daten zu übertragen, muss man einen Eintrag in der “datapoint\_map” hinzufügen. Um die Daten zu empfangen, muss man die conf.db des zweiten Tasks aktualisieren. Zu beachten ist, dass das Mapping nur bei dem Task gemacht werden muss, welcher die Daten bekommen soll. Man verbindet also den Datenpunkt eines anderen Tasks auf einen eigenen Datenpunkt. Wichtig dabei ist, dass man bei der “datapoint1\_id” zuerst das Label des Devices, zu welchem der Datenpunkt gehört, und anschließend die ID des ersten Datenpunkt angibt. “datapoint2\_id” wird zuerst der Name des anderen Tasks angegeben, dann das Label des Devices, und anschließend die ID des Datenpunktes. 
 
-Beispiel: Ich möchte von dem Flextask “modbuswallbox”, welcher in dem Projekt als das Gateway bezeichnet wurde, den Wert der Ladedauer der ersten Wallbox zum “chargecontroller” schicken. In dem Task “modbuswallbox” muss dafür ein Device mit dem Label “wb1” und ein Datenpunkt mit der ID “ladedauerWb1” angelegt werden. Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man “modbuswallbox.wb1.ladedauerWb1”. Damit die Daten jetzt auch ankommen, muss im Task für den Charge-controller ein Datenpunkt mit der ID “ladedauerWb” angelegt werden. In die “datapointMap” Tabelle muss dann bei der “datapoint1Id” das Device und der Datenpunkt angegeben werden, und bei der “datapoint2Id” zuerst der Task Name, das Device und dann der Datenpunkt, der die Daten pulished.
+ 
 
-
-
-
+Beispiel: Ich möchte von dem Flextask “modbuswallbox”, welcher in dem Projekt als das Gateway bezeichnet wurde, den Wert der Ladedauer der ersten Wallbox zum “chargecontroller” schicken. In dem Task “modbuswallbox” muss dafür ein Device mit dem Label “wb1” und ein Datenpunkt mit der ID “ladedauer\_wb1” angelegt werden. Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man “modbuswallbox.wb1.ladedauer\_wb1”. Damit die Daten jetzt auch ankommen, muss im Task für den Charge-controller ein Datenpunkt mit der ID “ladedauer\_wb” angelegt werden. In die “datapoint\_map” Tabelle muss dann bei der “datapoint1\_id” das Device und der Datenpunkt angegeben werden, und bei der “datapoint2\_id” zuerst der Task Name, das Device und dann der Datenpunkt, der die Daten pulished. 
 
 \begin{lstlisting}[language=sql,caption=Example Element,label=lst:impl:foo]
-    dev1.ladedauer\textunderscore wb                       modbuswallbox.wb1.ladedauer\textunderscore wb1 
+    dev1.ladedauer_wb                       modbuswallbox.wb1.ladedauer_wb1
 \end{lstlisting}
