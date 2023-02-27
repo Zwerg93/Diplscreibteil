@@ -13,23 +13,23 @@ Database file #1: bib.bib
 Warning--entry type for "ISO/OSI-Referenzmodell" isn't style-file defined
 --line 1 of file bib.bib
 Warning--entry type for "7schichtenModell" isn't style-file defined
---line 25 of file bib.bib
+--line 49 of file bib.bib
 Warning--entry type for "macAddress" isn't style-file defined
---line 33 of file bib.bib
-Warning--entry type for "ipAddress" isn't style-file defined
---line 41 of file bib.bib
-Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
---line 46 of file bib.bib
-Warning--entry type for "modbuskubunu" isn't style-file defined
---line 52 of file bib.bib
-Warning--entry type for "modbusoverserial" isn't style-file defined
---line 58 of file bib.bib
-Warning--entry type for "modbuswiki" isn't style-file defined
 --line 65 of file bib.bib
-Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
---line 70 of file bib.bib
-Warning--entry type for "modbusaufbauimg" isn't style-file defined
+Warning--entry type for "ipAddress" isn't style-file defined
+--line 81 of file bib.bib
+Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
 --line 91 of file bib.bib
+Warning--entry type for "modbuskubunu" isn't style-file defined
+--line 103 of file bib.bib
+Warning--entry type for "modbusoverserial" isn't style-file defined
+--line 115 of file bib.bib
+Warning--entry type for "modbuswiki" isn't style-file defined
+--line 129 of file bib.bib
+Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
+--line 139 of file bib.bib
+Warning--entry type for "modbusaufbauimg" isn't style-file defined
+--line 181 of file bib.bib
 Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
