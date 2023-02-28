@@ -75,4 +75,14 @@ Die Funktionen in der Klasse sind alle für verschiedene GET- bzw. POST-Requests
     }
   \end{lstlisting}
  
-\subsection{JDBC + JPA}
+\subsection{JDBC und JPA}
+% 1 https://quarkus.io/guides/hibernate-orm
+
+Um Quarkus im Verbindung mit Datenbanken verwenden zu können, mus ein passender JDBC-Driver verwendet werden. Dabei gibt es für jede Datenbank einen eigenen passenden Driver. Bei einer PostgreSQL-Datenbank, welche in diesem Projekt verwendet wurde, lautet die artifactId (welche in verwendet wird um den JDBC-Driver als Dependency einzubinden), \texttt{quarkus-jdbc-postgresql}. \ref{lst:impl:JDBCDependency} Diese Dependency muss in die pom.xml Datei des Programms kopiert werden. Bei starten des Projekts wird der JDBC-Driver anschließend automatisch hinzugefügt.
+
+\begin{lstlisting}[language=html,caption=JDBC Dependency,label=lst:impl:JDBCDependency]
+    <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-jdbc-postgresql</artifactId>
+    </dependency>
+  \end{lstlisting}
