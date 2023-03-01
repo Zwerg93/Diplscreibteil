@@ -77,7 +77,20 @@ Die Funktionen in der Klasse sind alle für verschiedene GET- bzw. POST-Requests
  
 \subsection{JDBC und JPA}
 % 1 https://quarkus.io/guides/hibernate-orm
+% Java ist auch eine Insel, Christian Ullenboom, 2018 S1111-1121 
 
+%  https://books.google.at/books?hl=de&lr=&id=UHobxmgB714C&oi=fnd&pg=PR1&dq=jpa&ots=ijY_GdSJ5U&sig=IlRJxhMjrF4xF2-NXQ-OdM6f48Q&redir_esc=y#v=onepage&q=jpa&f=false, von  Mike Keith S5-16
+
+
+\begin{compactitem}
+    \item [JPA]
+    \item JPA ist die Abkürzung für Jakarta Persistance API. Es ist eine POJO-basiertes Framework für Java Persistance. Die Hauptaufgabe von JPA ist dabei das objekt-relationale Mapping, allerdings bietet JPA auch eine Lösungen für die architektonische Herausforderung der Integrierung von Persistance an. 
+    \item [JDBC]
+    \item Um in Java auf eine relationale Tabelle Zugriff zu erhalten, wird JDBC benötigt. JDBC ist dabei eine Abkürzung für Java Database Connectivity. JDBC fasst einen Satz von Schnittstellen zusammen, welcher nötig ist, damit sich Java an relationale Datenbanken anbinden kann. Durch JDBC kann somit eine Verbindung zu einer Datenbank aufgebaut werden, auf Tabellen zugegriffen werden, Daten ausgelesen oder verändert werden.  
+\end{compactitem}
+
+
+\subsubsection{Quarkus und JDBC}
 Um Quarkus im Verbindung mit Datenbanken verwenden zu können, mus ein passender JDBC-Driver verwendet werden. Dabei gibt es für jede Datenbank einen eigenen passenden Driver. Bei einer PostgreSQL-Datenbank, welche in diesem Projekt verwendet wurde, lautet die artifactId (welche in verwendet wird um den JDBC-Driver als Dependency einzubinden), \texttt{quarkus-jdbc-postgresql}. \ref{lst:impl:JDBCDependency} Diese Dependency muss in die pom.xml Datei des Programms kopiert werden. Bei starten des Projekts wird der JDBC-Driver anschließend automatisch hinzugefügt.
 
 \begin{lstlisting}[language=html,caption=JDBC Dependency,label=lst:impl:JDBCDependency]
@@ -86,3 +99,4 @@ Um Quarkus im Verbindung mit Datenbanken verwenden zu können, mus ein passender
         <artifactId>quarkus-jdbc-postgresql</artifactId>
     </dependency>
   \end{lstlisting}
+
