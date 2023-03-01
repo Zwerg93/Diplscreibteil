@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  1 MAR 2023 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  1 MAR 2023 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1271,7 +1271,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 147
+Overfull \hbox (3.22041pt too wide) detected at line 145
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1531,7 +1531,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
 [][][][][][][][] 
  []
 
-<pics/blockingQueue.jpg, id=667, 425.79076pt x 143.3355pt>
+<pics/blockingQueue.jpg, id=666, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 76.
@@ -1572,28 +1572,28 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 97--97
  []
 
 ) (sections/Flexlogger/Quarkus.tex [61]
-<pics/quarkusArchitektur.JPG, id=850, 404.10976pt x 268.6035pt>
+<pics/quarkusArchitektur.JPG, id=848, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
-Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 28.
+Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 27.
 (pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
- [62] [63 <./pics/quarkusArchitektur.JPG>]
-<pics/quarkus_benchmark.jpg, id=864, 545.78906pt x 309.40594pt>
+ [62]
+<pics/quarkus_benchmark.jpg, id=856, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
-Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
+Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 53.
 (pdftex.def)             Requested size: 436.63184pt x 247.52509pt.
- [64 <./pics/quarkus_benchmark.jpg>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 69--69
+ [63 <./pics/quarkusArchitektur.JPG>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
 [][][][][][][][] 
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 96--96
+[64 <./pics/quarkus_benchmark.jpg>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 95--95
 [][][][][][][][] 
  []
 
-) [65] (sections/Flexlogger/AbspeicherungVonDaten.tex
+) (sections/Flexlogger/AbspeicherungVonDaten.tex [65]
 Overfull \hbox (11.88286pt too wide) in paragraph at lines 12--29
  [] 
  []
@@ -1621,7 +1621,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
 [68])) [69]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=936, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=934, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1709,17 +1709,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36107 strings out of 478351
- 671249 string characters out of 2837053
+ 36105 strings out of 478351
+ 671217 string characters out of 2837053
  1422061 words of memory out of 3000000
  53086 multiletter control sequences out of 15000+600000
  523444 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,20n,109p,10667b,3676s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 113i,20n,109p,10667b,3678s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (84 pages, 1949461 bytes).
+Output written on thesis.pdf (84 pages, 1949249 bytes).
 PDF statistics:
- 1334 PDF objects out of 1440 (max. 8388607)
- 558 named destinations out of 1000 (max. 500000)
+ 1332 PDF objects out of 1440 (max. 8388607)
+ 556 named destinations out of 1000 (max. 500000)
  32682 words of extra memory for PDF output out of 35830 (max. 10000000)
 

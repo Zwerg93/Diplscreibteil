@@ -82,8 +82,7 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Model}{51}{subsubsection*.65}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{51}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Logging}{51}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Logging Allgemein}{51}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Log4J}{51}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.1}Log4J}{51}{subsection.4.4.1}%
 \contentsline {section}{\numberline {4.5}Threads}{52}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Serialisierung (Nebenläufigkeit und Parallelität)}{52}{subsection.4.5.1}%
 \contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{52}{subsubsection*.67}%
@@ -121,13 +120,12 @@
 \contentsline {subsubsection}{\nonumberline Angular Forms}{60}{subsubsection*.98}%
 \contentsline {subsection}{\numberline {4.8.2}CanvasJS}{60}{subsection.4.8.2}%
 \contentsline {section}{\numberline {4.9}Quarkus}{61}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Allgemeines}{61}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}Architektur}{62}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}Funktionen}{63}{subsection.4.9.3}%
-\contentsline {subsection}{\numberline {4.9.4}Vergleich zu anderen Tools}{63}{subsection.4.9.4}%
-\contentsline {subsection}{\numberline {4.9.5}NodeJS im Vergleich}{64}{subsection.4.9.5}%
-\contentsline {subsection}{\numberline {4.9.6}http GET/POST/PUT Funktionen}{64}{subsection.4.9.6}%
-\contentsline {subsection}{\numberline {4.9.7}JDBC und JPA}{65}{subsection.4.9.7}%
+\contentsline {subsection}{\numberline {4.9.1}Architektur}{62}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Funktionen}{63}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Vergleich zu anderen Tools}{63}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4.9.4}NodeJS im Vergleich}{64}{subsection.4.9.4}%
+\contentsline {subsection}{\numberline {4.9.5}http GET/POST/PUT Funktionen}{64}{subsection.4.9.5}%
+\contentsline {subsection}{\numberline {4.9.6}JDBC und JPA}{65}{subsection.4.9.6}%
 \contentsline {subsubsection}{\nonumberline Quarkus und JDBC}{65}{subsubsection*.102}%
 \contentsline {section}{\numberline {4.10}Abspeicherung von Daten}{66}{section.4.10}%
 \contentsline {subsection}{\numberline {4.10.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{66}{subsection.4.10.1}%
