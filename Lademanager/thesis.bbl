@@ -83,4 +83,119 @@ O.~Weis, ,, RS232 und RS485 Unterschiede | Serielle Protokolle im Vergleich,''
   \url{https://www.janitza.de/files/topics/wissen/Wissensdatenbank-Technischer-Anhang-Bilder/RS485-Schnittstelle-11.png}
 \BIBentrySTDinterwordspacing
 
+\bibitem{DataLogging}
+\BIBentryALTinterwordspacing
+,,Data-logging,'' 2023. Online verfügbar:
+  \url{https://www.omega.com/en-us/resources/data-loggers}
+\BIBentrySTDinterwordspacing
+
+\bibitem{BigDataBuch}
+J.~Freiknecht und S.~Papp, \emph{Big Data in der Praxis - Lösungen mit Hadoop,
+  Spark, HBase und Hive. Daten speichern, aufbereiten, visualisieren. 2.
+  erweiterte Auflage}, 2018.
+
+\bibitem{log4JBuch}
+\BIBentryALTinterwordspacing
+C.~Gülcü, \emph{The Complete Log4j Manual}, 2003. Online verfügbar:
+  \url{https://books.google.at/books?hl=de&lr=&id=hZBimlxiyAcC&oi=fnd&pg=PA9&dq=log4j&ots=QiOna081Z6&sig=9h3lwPqN-rm07kAHln-tLSUfgJY&redir_esc=y#v=onepage&q=log4j&f=false}
+\BIBentrySTDinterwordspacing
+
+\bibitem{javaInselBuch}
+C.~Ullenboom, \emph{Java ist auch eine Insel - Einführung, Ausbildung,
+  Praxis}, 2018.
+
+\bibitem{javaBlockingQueue}
+\BIBentryALTinterwordspacing
+J.~Jenkov, ,,Java Blocking Queue,'' 2021. Online verfügbar:
+  \url{https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video}
+\BIBentrySTDinterwordspacing
+
+\bibitem{databaseComparison}
+\BIBentryALTinterwordspacing
+,,Database Performance Comparison.'' Online verfügbar:
+  \url{http://www.h2database.com/html/performance.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sqlliteOfficialSite}
+\BIBentryALTinterwordspacing
+,,SQLLite Offizielle Seite,'' 2022. Online verfügbar:
+  \url{https://www.sqlite.org/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{PostgreSQLOfficialSite}
+\BIBentryALTinterwordspacing
+,,PostgreSQL Offizielle Seite.'' Online verfügbar:
+  \url{https://www.postgresql.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ApacheDerbyOfficialSite}
+\BIBentryALTinterwordspacing
+,,Apache Derby Offizielle Seite,'' 2022. Online verfügbar:
+  \url{https://db.apache.org/derby/#What+is+Apache+Derby%3F}
+\BIBentrySTDinterwordspacing
+
+\bibitem{angularOfficialSite}
+\BIBentryALTinterwordspacing
+,,Angular Offizielle Seite,'' 2023. Online verfügbar:
+  \url{https://angular.io/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{angularHandbuchBuch}
+C.~Höller, \emph{Angular - Das umfassende Handbuch}, 2019.
+
+\bibitem{canvasJsOfficialSite}
+\BIBentryALTinterwordspacing
+,,CanvasJS Offizielle Seite.'' Online verfügbar: \url{https://canvasjs.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{quarkusOfficialSite}
+\BIBentryALTinterwordspacing
+,,Quarkus Offizielle Seite.'' Online verfügbar: \url{https://quarkus.io}
+\BIBentrySTDinterwordspacing
+
+\bibitem{QuarkusBuch}
+\BIBentryALTinterwordspacing
+F.~Marchioni, \emph{Hands-On Cloud-Native Applications with Java and Quarkus},
+  2019. Online verfügbar:
+  \url{https://books.google.at/books?hl=de&lr=&id=AH_EDwAAQBAJ&oi=fnd&pg=PP1&dq=quarkus&ots=ZJfLHasMm9&sig=K7__BsdmoksvoLfJSrqqGOPac1Y&redir_esc=y#v=onepage&q=quarkus&f=false}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Micr/QuarBenchmark}
+\BIBentryALTinterwordspacing
+S.~Schlothauer, ,,Micronout/Quarkus Benchmark.'' Online verfügbar: \url{Sarah
+  Schlothauer}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MicrVSQuarVSSprin}
+\BIBentryALTinterwordspacing
+G.~Rocher, ,,Micronaut vs Quarkus vs Spring Boot,'' 2020. Online verfügbar:
+  \url{Graeme Rocher}
+\BIBentrySTDinterwordspacing
+
+\bibitem{quarkusRest}
+\BIBentryALTinterwordspacing
+,,Quarkus Rest JSON.'' Online verfügbar:
+  \url{https://quarkus.io/guides/rest-json}
+\BIBentrySTDinterwordspacing
+
+\bibitem{quarkusHibernate}
+\BIBentryALTinterwordspacing
+,,Quarkus Hibernate ORM.'' Online verfügbar:
+  \url{https://quarkus.io/guides/hibernate-orm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{csvOrJson}
+\BIBentryALTinterwordspacing
+,,CSV or JSON which format is better for your AI training data.'' Online
+  verfügbar:
+  \url{https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{einfuerhungSQLBuch}
+A.~Beaulieu, \emph{Einführung in SQL- Daten erzeugen, bearbeiten und
+  abfragen}, 2021.
+
+\bibitem{grundlagenSQL}
+T.~Stütz, ,,Grundlagen Oracle - PL/SQL,'' 2003.
+
 \end{thebibliography}

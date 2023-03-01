@@ -1,12 +1,13 @@
 \subsection{Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}
 % 0 https://www.naukri.com/learning/articles/csv-vs-json-for-your-data-science-projects/
-% 1 https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/
+% < 1 https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/
+
 Vor allem wenn es darum geht, große Datenmengen abzuspeichern, ist es besonders wichtig, das richtige Datenformat auszuwählen. In diesem Abschnitt wird das CSV, das JSON, und eine herkömmliche Datenbank verglichen. 
 
 Daten können intern oder extern generiert werden und dabei gibt es verschiedene Möglichkeiten, die Daten passend abzuspeichern. Es ist sehr wichtig, das richtige Format auszuwählen, da davon einige Faktoren abhängen. Dazu gehören die Verarbeitungsgeschwindigkeit, sowie die Speichergröße. 
 Außerdem kann das Format die Skalierbarkeit, die Kompatibilität, die Cloud-Speicherkosten und die Performance-Geschwindigkeit beeinflussen. 
 Konkrete Beispiele, warum bestimmte Dateiformate ausgewählt werden sollten, sind: Geld zu sparen, indem zu einem CSV-Dateiformat gewechselt wird, wenn große Datensets im Cloud-Speicher verarbeitet werden. JSON ist eine bessere Wahl, wenn es darum geht, kleinere Datensets mit einer komplexen Hierarchie zu speichern. 
-Im Allgemeinen bedeutet dies, dass das richtige Datenformat Geld und Zeit spart.  
+Im Allgemeinen bedeutet dies, dass das richtige Datenformat Geld und Zeit spart. \cite{csvOrJson}
 
 \begin{center}
     \begin{tabular}{ |c|c|c|c| } 
@@ -27,13 +28,14 @@ Im Allgemeinen bedeutet dies, dass das richtige Datenformat Geld und Zeit spart.
      \hline
     \end{tabular} 
     \end{center}
+    \cite{csvOrJson}
 
 \subsection{CSV}
-CSV ist ein Text-Dateiformat, mit der Besonderheit, dass die Werte durch Semikolons unterteilt werden. Dadurch eignet es sich sehr gut für eine Speicherung von sehr vielen Daten. Jede Reihe der CSV-Datei repräsentiert dabei eine Zeile von Daten, die Spalten werden dabei von den Strichpunkten unterteilt. Das CSV-Format kann die Nutzung von Speicherplatz, sowie das Austauschen von Daten maximieren. Strukturierte CSV-Files können außerdem einen Header enthalten, welcher jede Spalte einordnet. CSV-Dateien können außerdem nicht nur durch Semikolons, sondern auch durch Kommas, Tabs und Abstände unterteilt werden. CSV wird am meisten in Entwicklungseinrichtungen und technischen Konsumenten-Anwendungen verwendet. Ein weiterer Vorteil von dem CSV-Dateiformat ist, dass es von der meisten Datenverarbeitungs-Software importiert, konvertiert und exportiert werden kann. Mithilfe dieser Softwares kann die CSV-Dateien auch sehr einfach serialisiert oder deserialisiert werden. CSV ist ein sehr einfach aufgebautes Format und kann somit von fast jedem Datenanalysator ausgewertet werden. Als Nachteile von CSV kann aufgezählt werden, dass es im Rohformat schwer zu lesen ist, und es anfällig für menschliche Fehler ist. Der größte Nachteil gegenüber den anderen zwei Datenformaten sind auf jeden Fall die limitierten Möglichkeiten, die Daten komplex aufzubereiten.   
+CSV ist ein Text-Dateiformat, mit der Besonderheit, dass die Werte durch Semikolons unterteilt werden. Dadurch eignet es sich sehr gut für eine Speicherung von sehr vielen Daten. Jede Reihe der CSV-Datei repräsentiert dabei eine Zeile von Daten, die Spalten werden dabei von den Strichpunkten unterteilt. Das CSV-Format kann die Nutzung von Speicherplatz, sowie das Austauschen von Daten maximieren. Strukturierte CSV-Files können außerdem einen Header enthalten, welcher jede Spalte einordnet. CSV-Dateien können außerdem nicht nur durch Semikolons, sondern auch durch Kommas, Tabs und Abstände unterteilt werden. CSV wird am meisten in Entwicklungseinrichtungen und technischen Konsumenten-Anwendungen verwendet. Ein weiterer Vorteil von dem CSV-Dateiformat ist, dass es von der meisten Datenverarbeitungs-Software importiert, konvertiert und exportiert werden kann. Mithilfe dieser Softwares kann die CSV-Dateien auch sehr einfach serialisiert oder deserialisiert werden. CSV ist ein sehr einfach aufgebautes Format und kann somit von fast jedem Datenanalysator ausgewertet werden. Als Nachteile von CSV kann aufgezählt werden, dass es im Rohformat schwer zu lesen ist, und es anfällig für menschliche Fehler ist. Der größte Nachteil gegenüber den anderen zwei Datenformaten sind auf jeden Fall die limitierten Möglichkeiten, die Daten komplex aufzubereiten. \cite{csvOrJson} 
 
 
 \subsection{JSON}
-JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten werden als semi-strukturiert angezeigt. \ref{lst:impl:json} JSON ist sehr weit kompatibel und wird somit von vielen Software-Entwicklern verwendet, um configs und APIs zu designen. Da JSON von JavaScript entwickelt wurde, kann es sehr einfach in eine Java-basierte Umgebung integriert werden. Somit wird JSON sehr oft für die Datenverarbeitung von Front- und Backend verwendet. Mithilfe von JSON kann sehr einfach auf neue Daten zugegriffen werden. Gerade wenn es um rationales und hierarchisches Datenmanagement geht, eignet sich JSON sehr gut, da es dies sehr unterstützt. JSON-Dateien sind selbsterklärend und es ist für Systeme sehr leicht, eine JSON-Datei zu erkennen und zu verarbeiten. JSON ist somit auch sehr viel einfacher zu lesen als CSV-Dateien. 
+JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten werden als semi-strukturiert angezeigt. \ref{lst:impl:json} JSON ist sehr weit kompatibel und wird somit von vielen Software-Entwicklern verwendet, um configs und APIs zu designen. Da JSON von JavaScript entwickelt wurde, kann es sehr einfach in eine Java-basierte Umgebung integriert werden. Somit wird JSON sehr oft für die Datenverarbeitung von Front- und Backend verwendet. Mithilfe von JSON kann sehr einfach auf neue Daten zugegriffen werden. Gerade wenn es um rationales und hierarchisches Datenmanagement geht, eignet sich JSON sehr gut, da es dies sehr unterstützt. JSON-Dateien sind selbsterklärend und es ist für Systeme sehr leicht, eine JSON-Datei zu erkennen und zu verarbeiten. JSON ist somit auch sehr viel einfacher zu lesen als CSV-Dateien. \cite{csvOrJson}
 
 
 \begin{lstlisting}[language=java,caption=JSON Beispiel,label=lst:impl:json]
@@ -43,5 +45,7 @@ JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten wer
         }
     }
 \end{lstlisting}
+
+
 
 \subsection{Datenbank}

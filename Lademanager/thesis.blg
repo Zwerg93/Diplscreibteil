@@ -30,51 +30,87 @@ Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
 --line 139 of file bib.bib
 Warning--entry type for "modbusaufbauimg" isn't style-file defined
 --line 181 of file bib.bib
+Warning--entry type for "csvOrJson" isn't style-file defined
+--line 195 of file bib.bib
+Warning--entry type for "PostgreSQLOfficialSite" isn't style-file defined
+--line 203 of file bib.bib
+Warning--entry type for "databaseComparison" isn't style-file defined
+--line 225 of file bib.bib
+Warning--entry type for "sqlliteOfficialSite" isn't style-file defined
+--line 235 of file bib.bib
+Warning--entry type for "ApacheDerbyOfficialSite" isn't style-file defined
+--line 247 of file bib.bib
+Warning--entry type for "DataLogging" isn't style-file defined
+--line 269 of file bib.bib
+Warning--entry type for "QuarkusOfficialSite" isn't style-file defined
+--line 295 of file bib.bib
+Warning--entry type for "Micr/QuarBenchmark" isn't style-file defined
+--line 319 of file bib.bib
+Warning--entry type for "MicrVSQuarVSSprin" isn't style-file defined
+--line 329 of file bib.bib
+Warning--entry type for "quarkusRest" isn't style-file defined
+--line 343 of file bib.bib
+Warning--entry type for "quarkusHibernate" isn't style-file defined
+--line 353 of file bib.bib
+Warning--entry type for "grundlagenSQL" isn't style-file defined
+--line 387 of file bib.bib
+Warning--entry type for "javaBlockingQueue" isn't style-file defined
+--line 397 of file bib.bib
+Warning--entry type for "angularOfficialSite" isn't style-file defined
+--line 409 of file bib.bib
+Warning--entry type for "canvasJsOfficialSite" isn't style-file defined
+--line 431 of file bib.bib
 Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in BigDataBuch
+Warning--missing publisher in log4JBuch
+Warning--missing publisher in javaInselBuch
+Warning--missing publisher in angularHandbuchBuch
+Warning--missing publisher in QuarkusBuch
+Warning--missing publisher in einfuerhungSQLBuch
 
 Done.
-You've used 10 entries,
+You've used 31 entries,
             3998 wiz_defined-function locations,
-            857 strings with 8600 characters,
-and the built_in function-call counts, 3688 in all, are:
-= -- 261
-> -- 38
+            960 strings with 11251 characters,
+and the built_in function-call counts, 10254 in all, are:
+= -- 711
+> -- 94
 < -- 6
-+ -- 22
-- -- 7
-* -- 153
-:= -- 653
-add.period$ -- 20
-call.type$ -- 10
++ -- 55
+- -- 18
+* -- 385
+:= -- 1797
+add.period$ -- 56
+call.type$ -- 31
 change.case$ -- 0
 chr.to.int$ -- 15
-cite$ -- 10
-duplicate$ -- 310
-empty$ -- 372
-format.name$ -- 8
-if$ -- 776
+cite$ -- 37
+duplicate$ -- 889
+empty$ -- 1148
+format.name$ -- 20
+if$ -- 2205
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 68
-newline$ -- 73
-num.names$ -- 6
-pop$ -- 229
+int.to.str$ -- 31
+missing$ -- 193
+newline$ -- 168
+num.names$ -- 16
+pop$ -- 666
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 265
+skip$ -- 809
 stack$ -- 0
-substring$ -- 45
-swap$ -- 177
+substring$ -- 60
+swap$ -- 456
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
-warning$ -- 0
-while$ -- 9
-width$ -- 12
-write$ -- 114
-(There were 11 warnings)
+type$ -- 31
+warning$ -- 6
+while$ -- 19
+width$ -- 33
+write$ -- 290
+(There were 32 warnings)

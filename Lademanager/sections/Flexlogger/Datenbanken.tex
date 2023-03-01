@@ -1,33 +1,33 @@
-\subsection{Datenbanken allgemein}
-% 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis ; von: Christian Ullenboom
-% Kapitel 19
+
+% < 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis ; von: Christian Ullenboom
 Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern, um diese später weiterzuverwenden. Daten werden immer und immer wichtiger und wichtiger in unserer Gesellschaft und diese verlässlich und zugänglich abspeichern zu können ist nicht mehr wegzudenken.
  
-Der Grundaufbau einer relationalen Datenbank (welche in den folgenden Beispielen behandelt wird) besteht aus Zeilen und Spalten, welche zusammen eine Sammlung an Daten halten. Dabei erfüllen die Zeilen die Rolle der einzelnen Elemente und die Spalten teilen die Elemente in seine Unterelemente ein.
+Der Grundaufbau einer relationalen Datenbank (welche in den folgenden Beispielen behandelt wird) besteht aus Zeilen und Spalten, welche zusammen eine Sammlung an Daten halten. Dabei erfüllen die Zeilen die Rolle der einzelnen Elemente und die Spalten teilen die Elemente in seine Unterelemente ein. \cite{javaInselBuch}
  
  
 \subsection{H2}
-% 1 http://www.h2database.com/html/performance.html
+% < 1 http://www.h2database.com/html/performance.html
  
 \subsubsection{Performance (Version 2.0.202)}
-Die Datenbank ist langsamer bei größeren ResultSets, da sie ab einer bestimmten Anzahl von zurückgegebenen Records zwischengespeichert werden.
+Die Datenbank ist langsamer bei größeren ResultSets, da sie ab einer bestimmten Anzahl von zurückgegebenen Records zwischengespeichert werden. \cite{databaseComparison}
  
 \subsubsection{Hauptmerkmale}
- 
 \begin{compactitem}
     \item Sehr schnell, open source, JDBC API
     \item Embedded und Server Modus, in-memory databases        
     \item Konsolen Anwendung für den Browser
     \item Das Jar-File hat nur eine Größe von 2.5 MB
-\end{compactitem}
+\end{compactitem} 
+\cite{databaseComparison}
+
  
 \subsection{SQLite}
-% https://www.sqlite.org/index.html
-% 1 http://www.h2database.com/html/performance.html
+% < 1 https://www.sqlite.org/index.html
+% < 1 http://www.h2database.com/html/performance.html
  
 \subsubsection{Performance (SQLite 3.36.0.3)}
-Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einer niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren.
- 
+Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einer niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren. \cite{databaseComparison}
+
 \subsubsection{Hauptmerkmale}
  
 \begin{compactitem}
@@ -36,16 +36,17 @@ Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies fü
     \item Sehr verlässlich
     \item Stand-allone
     \item Full-featured SQL-Implementierung
-\end{compactitem}
+\end{compactitem} 
+\cite{sqlliteOfficialSite}
  
-Meistgenutzte Datenbank der Welt, benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen weniger bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten.
- 
+Meistgenutzte Datenbank der Welt, benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen weniger bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. \cite{databaseComparison}
+
 \subsection{PostgreSQL}
-% https://www.postgresql.org/about/
-% 1 http://www.h2database.com/html/performance.html
+% < 1 https://www.postgresql.org/about/
+% < 1 http://www.h2database.com/html/performance.html
 \subsubsection{Performance (Version 13.4)}
-Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby- und der H2-Datenbank, wobei sie teilweise etwas schneller als H2 abschneiden kann.
- 
+Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby- und der H2-Datenbank, wobei sie teilweise etwas schneller als H2 abschneiden kann. \cite{databaseComparison}
+
 \subsubsection{Hauptmerkmale}
  
 \begin{compactitem}
@@ -56,13 +57,14 @@ Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby- und de
     \item Datenintegrität
     \item Viele Features/Add-Ons
 \end{compactitem}
+\cite{PostgreSQLOfficialSite}
  
-\subsection{Derby}
-% 1 http://www.h2database.com/html/performance.html
-% 1 https://db.apache.org/derby/#What+is+Apache+Derby%3F
+\subsection{Apache Derby}
+% < 1 http://www.h2database.com/html/performance.html
+% < 1 https://db.apache.org/derby/#What+is+Apache+Derby%3F
 \subsubsection{Performance (Version 10.14.2.0)}
-Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20 \texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank.
- 
+Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20 \texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. \cite{databaseComparison}
+
 \subsubsection{Hauptmerkmale}
  
 \begin{compactitem}
@@ -73,6 +75,7 @@ Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Dat
     \item Supportet den Client/Server Modus
     \item Einfach zu installieren, einzurichten, sowie zu benutzen
 \end{compactitem}
+\cite{ApacheDerbyOfficialSite}
  
 Implementiert in Java.
 
