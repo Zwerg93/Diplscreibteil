@@ -1,5 +1,15 @@
+Der Aufbau des Projekts dreht sich rund um das Abspeichern, sowie die sinnvolle visuelle Darstellung von Daten. Dabei werden verschiedenste Programmiersprachen, Plattformen und Frameworks verwendet.
+
 \subsection{Beschreibung der Funktionen}
- 
+Die Funktionen des Projekts beziehen sich großteils auf 
+\begin{compactitem}
+    \item das Auslesen von Daten aus Datenpunkten mithilfe von Threads
+    \item das Abspeichern von Daten in einer Datenbank durch Threads
+    \item das spätere Auslesen der Daten aus der Datenbank, um diese sinnhaft visuell darstellen zu können
+    \item die Verwendung von Formularen um (ausgewählte) Daten, in einem bestimmten Zeitpunkt graphisch in einem Diagramm darzustellen, oder eine CSV-Datei aus den Daten erstellen zu können
+\end{compactitem}
+
+
 \subsection{Logger}
 Das sogenannte FS-Logger-Programm setzt sich aus mehreren Klassen zusammen, wie etwa einem DataJDBCAdapter und einer Hauptklasse namens FlexTaskFsLogger. Weiteres befindet sich in dem Programm eine Modelklasse namens LogEntry, welche die Attribute der eingetragenen LogEntries definiert. Um einen reibungslosen Ablauf zu garantieren, wird eine Blocking-Queue verwendet, welche Multithreading unterstützt. Das ganze Programm baut auf dem Producer-Consumer-Pattern auf.          
  
@@ -50,8 +60,8 @@ In der run-Methode der Klasse wird in einem while-True ein if-Statement ausgefü
  
 Unterhalb befindet sich noch eine Getter- und Setter-Methode für den StringBuilder sowie die run-Variable.
  
-\subsection{Quarkus Backend (Beschreibend)}
-Das Backend besteht aus Java und dem Java-Framework Quarkus.
+\subsection{Quarkus Backend}
+Das Backend besteht aus der Programmiersprache Java und dem Java-Framework Quarkus.
  
 \subsubsection{LogEntry Klasse}
 Hier werden die Attribute des LogEntries festgelegt. Diese beinhalten wie auch im Programm FlexTaskFsLogger die dp-id, den Wert, die Einheit und einen aktuellen Timestamp des Eintrags.
@@ -106,9 +116,9 @@ Die erste Zeile in der writeToCSVFile-Methode konvertiert das eben übergebene S
 Die letzte Methode im Repository ist die insertLogEntry-Methode. Wie der Name bereits verrät, ist sie dafür zuständig, neue LogEntries in der Datenbank zu speichern. Um einen neuen LogEntry zu speichern, wird zuallererst ein String erstellt, welcher ein Insert-Statement enthält.
 Danach wird eine Verbindung zur Datenbank mithilfe der connect-Methode hergestellt. Durch ein PreparedStatement, welches aus einem SQL-String geformt wird, können alle Parameter gesetzt werden. Diese beinhalten die dpId (der Name des Datenpunkts), die value (den Wert des Datenpunkts), die unit (die Einheit des Datenpunkts), sowie den timestamp (wann der Datenpunkt erstellt wurde). Nachdem alle Parameter gesetzt wurden, wird ein executeUpdate durchgeführt, mithilfe dessen der neue LogEntry in die Datenbank geschrieben wird.
  
-\subsection{Angular Frontend (Beschreibend)}
+\subsection{Angular Frontend}
 %% sehr einfache Beschreibung der Website mit vielen Screenshots von den einzelnen Komponenten (Button/ Eingabefeld / was wird wann angezeigt etc.)
- 
+Die Website des Projekts wurde mithilfe von Angular umgesetzt. Die Hauptfunktion liegt dabei bei dem Anzeigen von Diagrammen mit den jeweiligen ausgewählten Daten, sowie dem Generieren einer CSV-Datei.
  
  
 \subsubsection{Website - User/Anwender Ansicht}

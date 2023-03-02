@@ -1,14 +1,23 @@
  
+% http://box.cs.istu.ru/public/docs/other/_New/Books/Lang/Java/Java%20Threads,%202Ed%20(O'Reilly).pdf
+Thread steht als Abkürzung für thread of control, und dies bedeutet, der Thread ist unabhängig von anderen Threads innerhalb eines einzelnen Programms.  \cite{JavaThreadsBuch}
 % \subsection{Streams}
  
 % \subsection{Lambda}
  
 \subsection{Serialisierung (Nebenläufigkeit und Parallelität)}
 % < 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis ; von: Christian Ullenboom
-Wenn in Java über Nebenläufigkeit gesprochen wird, sind dabei Threads gemeint. Diese sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und diese parallel Prozesse abarbeiten können.
- 
+Wenn in Java über Nebenläufigkeit gesprochen wird, sind dabei Threads gemeint. Diese sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und diese parallel Prozesse abarbeiten können. \ref{fig:impl:javaThreadMultitasking}
+
+\begin{figure}[h t]
+    \centering
+    \includegraphics[scale=1]{pics/javaThreadMultitasking.jpg}
+    \caption{Java Thread Multitasking Umgebung \cite{JavaThreadsBuch}}
+    \label{fig:impl:javaThreadMultitasking}
+\end{figure}
+
 Bei einem modernen Ein-Prozessor-Betriebssystem wirkt es oft, als wären die Prozesse parallel, doch dies wird einem nur vorgespielt, indem der Prozessor alle paar Sekunden auf einen anderen Prozess wechselt. Bei einem Betriebssystem mit mehreren Kernen, werden die Prozesse wirklich parallel bearbeitet. \cite{javaInselBuch}
- 
+
 \subsubsection{Nebenläufigkeit von Programmen steigert Geschwindigkeit}
 Wie nebenläufige Abarbeitung die Performance bei einem Einprozessorsystem beschleunigt, kann an folgendem Beispiel-Programm betrachtet werden:
  
@@ -39,7 +48,7 @@ Die Ausführung des Programmcodes wird bei einem modernen Betriebssystem von Pro
 \cite{javaInselBuch} 
 
 \subsection{Aufbau eines Threads}
-\subsubsection{Interface Runnable}
+Ein wichtiger Bestandteil eines Threads ist das Runnable Interface. 
 Dem Thread muss ein Befehlsobjekt des Typs Runnable übergeben werden \ref{lst:impl:javaRunnable}, um wissen zu können, welcher Code ausgeführt werden soll.
 Wenn der Thread gestartet wird, werden die Codezeilen im Befehlsobjekt nebenläufig zum anderen Code in dem Programm ab. \cite{javaInselBuch}
  

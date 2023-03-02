@@ -100,6 +100,12 @@ C.~Gülcü, \emph{The Complete Log4j Manual}, 2003. Online verfügbar:
   \url{https://books.google.at/books?hl=de&lr=&id=hZBimlxiyAcC&oi=fnd&pg=PA9&dq=log4j&ots=QiOna081Z6&sig=9h3lwPqN-rm07kAHln-tLSUfgJY&redir_esc=y#v=onepage&q=log4j&f=false}
 \BIBentrySTDinterwordspacing
 
+\bibitem{JavaThreadsBuch}
+\BIBentryALTinterwordspacing
+S.~Oaks und H.~Wong, \emph{Java Threads, 2nd Edition}, 1999. Online verfügbar:
+  \url{http://box.cs.istu.ru/public/docs/other/_New/Books/Lang/Java/Java%20Threads,%202Ed%20(O'Reilly).pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{javaInselBuch}
 C.~Ullenboom, \emph{Java ist auch eine Insel - Einführung, Ausbildung,
   Praxis}, 2018.
