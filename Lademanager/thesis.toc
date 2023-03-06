@@ -12,134 +12,128 @@
 \contentsline {subsection}{\numberline {1.3.7}Google drive}{1}{subsection.1.3.7}%
 \contentsline {subsection}{\numberline {1.3.8}Visual Studio Code}{2}{subsection.1.3.8}%
 \contentsline {subsection}{\numberline {1.3.9}Github}{2}{subsection.1.3.9}%
-\contentsline {chapter}{\numberline {2}Umfeldanalyse}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Allgemeiner Technologie-Part}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Java}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}CSV}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}HTML/CSS und Javascript}{3}{subsection.2.1.3}%
-\contentsline {subsubsection}{\nonumberline HTML}{3}{subsubsection*.7}%
-\contentsline {subsubsection}{\nonumberline CSS}{4}{subsubsection*.9}%
-\contentsline {subsubsection}{\nonumberline JavaScript}{4}{subsubsection*.11}%
-\contentsline {subsection}{\numberline {2.1.4}Typescript}{5}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Beckhoff}{5}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Raspberry}{5}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}SQL}{5}{subsection.2.1.7}%
-\contentsline {section}{\numberline {2.2}Firmenstruktur}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Beschreibung der Tätigkeiten der Firma}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Flex Tasks}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Datenpunkte}{5}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}Wallbox}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Untersuchungsanliegen}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Ist-Stand}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Aufbau des Projektes}{6}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Beschreibung der Funktionen}{6}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Beschreibung der Wallboxen}{7}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Beschreibung des Gateways}{8}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}FlexTasks in der Flexcloud}{16}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Was ist die Flexcloud?}{16}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Grundaufbau der Tasks}{18}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Datenpunkte}{21}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Struktur eines Datenpunktes}{21}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Anlegen eines Datenpunktes}{22}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Nutzung eines Datenpunktes:}{22}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Datapoint mapping}{23}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Modbus}{24}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}7 Schichten OSI-Modell}{24}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Modbus Protokoll}{26}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Was genau ist jetzt das Modbus-Protokol?}{27}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Die verschiedenen Layer des Modbus Protokoll}{27}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Wie funktioniert Modbus RTU, und wie ist das Protokoll aufgebaut?}{27}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}{29}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}Modbus RS485 vs RS232}{29}{subsection.3.6.7}%
-\contentsline {subsection}{\numberline {3.6.8}Modbus tools + libraries}{31}{subsection.3.6.8}%
-\contentsline {section}{\numberline {3.7}FlexHMI}{33}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Energiemanagement}{33}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Wallboxen}{33}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Java}{33}{subsection.3.9.1}%
-\contentsline {chapter}{\numberline {4}Flexlogger}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Untersuchungsanliegen}{35}{section.4.1}%
-\contentsline {section}{\numberline {4.2}IST-Stand}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Aufbau des Projektes}{35}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Beschreibung der Funktionen}{35}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Logger}{36}{subsection.4.3.2}%
-\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{36}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{36}{subsubsection*.31}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{38}{subsubsection*.33}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{38}{subsubsection*.35}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{39}{subsubsection*.37}%
-\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{40}{subsection.4.3.3}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{40}{subsubsection*.39}%
-\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{40}{subsubsection*.41}%
-\contentsline {subsubsection}{\nonumberline LogEntry Repository}{41}{subsubsection*.43}%
-\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{44}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{44}{subsubsection*.45}%
-\contentsline {subsubsection}{\nonumberline App-Component}{45}{subsubsection*.53}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{47}{subsubsection*.55}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{48}{subsubsection*.57}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{50}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline HttpService}{50}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{51}{subsubsection*.63}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{51}{subsubsection*.65}%
-\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{51}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Logging}{52}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Log4J}{52}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Threads}{52}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{52}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{53}{subsubsection*.68}%
-\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{54}{subsection.4.5.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{54}{subsubsection*.70}%
-\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{54}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{55}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{55}{subsubsection*.73}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{56}{subsubsection*.75}%
-\contentsline {subsection}{\numberline {4.5.5}Service executer}{56}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}Performance}{57}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{57}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{57}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{57}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Datenbanken}{57}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}H2}{57}{subsection.4.7.1}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{57}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{57}{subsubsection*.79}%
-\contentsline {subsection}{\numberline {4.7.2}SQLite}{58}{subsection.4.7.2}%
-\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{58}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{58}{subsubsection*.83}%
-\contentsline {subsection}{\numberline {4.7.3}PostgreSQL}{58}{subsection.4.7.3}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{58}{subsubsection*.85}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{58}{subsubsection*.87}%
-\contentsline {subsection}{\numberline {4.7.4}Apache Derby}{59}{subsection.4.7.4}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{59}{subsubsection*.89}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{59}{subsubsection*.91}%
-\contentsline {subsection}{\numberline {4.7.5}Wahl der Datenbank für das Projekt}{59}{subsection.4.7.5}%
-\contentsline {section}{\numberline {4.8}Visuelle Darstellung}{60}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Angular}{60}{subsection.4.8.1}%
-\contentsline {subsubsection}{\nonumberline Komponenten}{60}{subsubsection*.93}%
-\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{61}{subsubsection*.95}%
-\contentsline {subsubsection}{\nonumberline Angular Forms}{61}{subsubsection*.97}%
-\contentsline {subsection}{\numberline {4.8.2}Bootstrap}{62}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}CanvasJS}{62}{subsection.4.8.3}%
-\contentsline {section}{\numberline {4.9}Quarkus}{63}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Architektur}{64}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}Funktionen}{64}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}Vergleich zu anderen Tools}{64}{subsection.4.9.3}%
-\contentsline {subsection}{\numberline {4.9.4}NodeJS im Vergleich}{66}{subsection.4.9.4}%
-\contentsline {subsection}{\numberline {4.9.5}http GET/POST/PUT Funktionen}{66}{subsection.4.9.5}%
-\contentsline {subsection}{\numberline {4.9.6}JDBC und JPA}{67}{subsection.4.9.6}%
-\contentsline {section}{\numberline {4.10}Abspeicherung von Daten}{68}{section.4.10}%
-\contentsline {subsection}{\numberline {4.10.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{68}{subsection.4.10.1}%
-\contentsline {subsection}{\numberline {4.10.2}CSV}{68}{subsection.4.10.2}%
-\contentsline {subsection}{\numberline {4.10.3}JSON}{69}{subsection.4.10.3}%
-\contentsline {subsection}{\numberline {4.10.4}Datenbank}{70}{subsection.4.10.4}%
-\contentsline {section}{\numberline {4.11}SQL}{70}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}PLSQL}{71}{subsection.4.11.1}%
-\contentsline {subsection}{\numberline {4.11.2}Kommunikation mit Datenbanken}{71}{subsection.4.11.2}%
-\contentsline {subsection}{\numberline {4.11.3}Daten aus einer Datenbank auslesen}{71}{subsection.4.11.3}%
-\contentsline {subsection}{\numberline {4.11.4}SQL und Java in Verbindung}{71}{subsection.4.11.4}%
+\contentsline {chapter}{\numberline {2}Allgemeiner Technologie-Part}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Java}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}CSV}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}HTML/CSS und Javascript}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}HTML}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}CSS}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}JavaScript}{4}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}TypeScript}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Datenbanken}{5}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}H2}{5}{subsection.2.5.1}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{5}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{6}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {2.5.2}SQLite}{6}{subsection.2.5.2}%
+\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{6}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{6}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.5.3}PostgreSQL}{7}{subsection.2.5.3}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{7}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{7}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {2.5.4}Apache Derby}{7}{subsection.2.5.4}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{7}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{7}{subsubsection*.21}%
+\contentsline {subsection}{\numberline {2.5.5}Wahl der Datenbank für das Projekt}{8}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.6}Visuelle Darstellung}{8}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Angular}{8}{subsection.2.6.1}%
+\contentsline {subsubsection}{\nonumberline Komponenten}{8}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{9}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Angular Forms}{10}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {2.6.2}Bootstrap}{10}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}CanvasJS}{10}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Quarkus}{11}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Architektur}{12}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Funktionen}{13}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Vergleich zu anderen Tools}{13}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}NodeJS im Vergleich}{14}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}http GET/POST/PUT Funktionen}{14}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}JDBC und JPA}{15}{subsection.2.7.6}%
+\contentsline {section}{\numberline {2.8}SQL}{16}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}PLSQL}{17}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Kommunikation mit Datenbanken}{17}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Daten aus einer Datenbank auslesen}{17}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}SQL und Java in Verbindung}{17}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Beckhoff}{17}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Raspberry}{17}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Wallbox}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Untersuchungsanliegen}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ist-Stand}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Aufbau des Projektes}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Beschreibung der Funktionen}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Beschreibung der Wallboxen}{19}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Beschreibung des Gateways}{20}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}FlexTasks in der Flexcloud}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Was ist die Flexcloud?}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Grundaufbau der Tasks}{30}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Datenpunkte}{33}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Struktur eines Datenpunktes}{33}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Anlegen eines Datenpunktes}{34}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Nutzung eines Datenpunktes:}{34}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Datapoint mapping}{35}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Modbus}{36}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}7 Schichten OSI-Modell}{36}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Modbus Protokoll}{38}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Was genau ist jetzt das Modbus-Protokol?}{39}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Die verschiedenen Layer des Modbus Protokoll}{39}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Wie funktioniert Modbus RTU, und wie ist das Protokoll aufgebaut?}{39}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}{41}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Modbus RS485 vs RS232}{41}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}Modbus tools + libraries}{43}{subsection.3.6.8}%
+\contentsline {section}{\numberline {3.7}FlexHMI}{45}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Energiemanagement}{45}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Wallboxen}{45}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Java}{45}{subsection.3.9.1}%
+\contentsline {chapter}{\numberline {4}Flexlogger}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Untersuchungsanliegen}{47}{section.4.1}%
+\contentsline {section}{\numberline {4.2}IST-Stand}{47}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Aufbau des Projektes}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Beschreibung der Funktionen}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Logger}{48}{subsection.4.3.2}%
+\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{48}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{48}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{50}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{50}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{51}{subsubsection*.55}%
+\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{52}{subsection.4.3.3}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{52}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{52}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline LogEntry Repository}{53}{subsubsection*.61}%
+\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{56}{subsection.4.3.4}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{56}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline App-Component}{57}{subsubsection*.71}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{59}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{60}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{62}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline HttpService}{62}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{63}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{63}{subsubsection*.83}%
+\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{63}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Logging}{64}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Log4J}{64}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Threads}{64}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{64}{subsection.4.5.1}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{65}{subsubsection*.86}%
+\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{66}{subsection.4.5.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{66}{subsubsection*.88}%
+\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{66}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{67}{subsection.4.5.4}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{67}{subsubsection*.91}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{68}{subsubsection*.93}%
+\contentsline {subsection}{\numberline {4.5.5}Service executer}{68}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}Performance}{69}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{69}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{69}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{69}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Abspeicherung von Daten}{69}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{69}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}CSV}{70}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}JSON}{70}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Datenbank}{71}{subsection.4.7.4}%
 \contentsline {chapter}{\numberline {5}test}{72}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Zusammenfassung}{74}{chapter.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.102}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.103}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.104}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{X}{chapter*.105}%
-\contentsline {chapter}{\nonumberline Anhang}{XI}{chapter*.106}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.96}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.97}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.98}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{X}{chapter*.99}%
+\contentsline {chapter}{\nonumberline Anhang}{XI}{chapter*.100}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

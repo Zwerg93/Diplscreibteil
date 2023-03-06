@@ -64,20 +64,20 @@ Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--missing publisher in BigDataBuch
-Warning--missing publisher in log4JBuch
-Warning--missing publisher in JavaThreadsBuch
 Warning--missing publisher in javaInselBuch
 Warning--missing publisher in angularHandbuchBuch
 Warning--missing publisher in QuarkusBuch
 Warning--missing publisher in einfuerhungSQLBuch
+Warning--missing publisher in BigDataBuch
+Warning--missing publisher in log4JBuch
+Warning--missing publisher in JavaThreadsBuch
 
 Done.
 You've used 32 entries,
             3998 wiz_defined-function locations,
             966 strings with 11434 characters,
-and the built_in function-call counts, 10668 in all, are:
-= -- 742
+and the built_in function-call counts, 10670 in all, are:
+= -- 743
 > -- 103
 < -- 6
 + -- 59
@@ -92,7 +92,7 @@ cite$ -- 39
 duplicate$ -- 918
 empty$ -- 1194
 format.name$ -- 23
-if$ -- 2297
+if$ -- 2298
 int.to.chr$ -- 0
 int.to.str$ -- 32
 missing$ -- 199
