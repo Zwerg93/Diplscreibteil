@@ -48,6 +48,7 @@
 \contentsline {subsection}{\numberline {2.7.4}NodeJS im Vergleich}{14}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}http GET/POST/PUT Funktionen}{14}{subsection.2.7.5}%
 \contentsline {subsection}{\numberline {2.7.6}JDBC und JPA}{15}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7}Quarkus und JDBC}{15}{subsection.2.7.7}%
 \contentsline {section}{\numberline {2.8}SQL}{16}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}PLSQL}{17}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Kommunikation mit Datenbanken}{17}{subsection.2.8.2}%
