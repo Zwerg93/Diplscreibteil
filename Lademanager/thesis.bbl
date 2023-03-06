@@ -58,6 +58,12 @@ C.~Ullenboom, \emph{Java ist auch eine Insel - Einführung, Ausbildung,
 \bibitem{angularHandbuchBuch}
 C.~Höller, \emph{Angular - Das umfassende Handbuch}, 2019.
 
+\bibitem{bootstrap}
+\BIBentryALTinterwordspacing
+,,Bootstrap Offizielle Seite.'' Online verfügbar:
+  \url{https://getbootstrap.com/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{canvasJsOfficialSite}
 \BIBentryALTinterwordspacing
 ,,CanvasJS Offizielle Seite.'' Online verfügbar: \url{https://canvasjs.com/}
@@ -183,6 +189,12 @@ J.~Freiknecht und S.~Papp, \emph{Big Data in der Praxis - Lösungen mit Hadoop,
 \BIBentryALTinterwordspacing
 C.~Gülcü, \emph{The Complete Log4j Manual}, 2003. Online verfügbar:
   \url{https://books.google.at/books?hl=de&lr=&id=hZBimlxiyAcC&oi=fnd&pg=PA9&dq=log4j&ots=QiOna081Z6&sig=9h3lwPqN-rm07kAHln-tLSUfgJY&redir_esc=y#v=onepage&q=log4j&f=false}
+\BIBentrySTDinterwordspacing
+
+\bibitem{log4J}
+\BIBentryALTinterwordspacing
+,,Log4j Offizielle Seite,'' 2023. Online verfügbar:
+  \url{https://logging.apache.org/log4j/2.x/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{JavaThreadsBuch}

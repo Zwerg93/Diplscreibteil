@@ -43,13 +43,12 @@ Um nun eine Zeile in die Tabelle hinzuzufügen, wird ein INSERT-Statement benöt
  
 Ein anderer wichtiger Befehl in SQL ist der SELECT-Befehl. Mit ihm kann aus jeder beliebigen Tabelle ein bestimmter Teil ausgegeben werden. Dabei können verschiedenste Kriterien übergeben werden, wie z.B. dass die auszugebenden Daten einen bestimmten Wert haben müssen. \cite{grundlagenSQL}
  
-\subsection{PLSQL}
  
 \subsection{Kommunikation mit Datenbanken}
 % < 1 Einführung in SQL - Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu p29-47
 Um SQL in einer Datenbank zu verwenden, muss dazu aller erst eine Datenbank angelegt werden. Dabei gibt es verschiedenste Datenbanken, welche je nach Performance, bzw. benötigter Größe ausgewählt werden sollte. Siehe dazu \ref{section:database}.
  
-\subsection{Daten aus einer Datenbank auslesen}
+\subsubsection{Daten aus einer Datenbank auslesen}
 Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus der Datenbank geholt werden. Dies passiert über einer einzelnes SQL-Statement welches ausgeführt werden muss. Dabei können einzelne Zeilen aus der Datenbank ausgewählt werden, oder auch mehrere Zeilen beziehungsweise ganze Tabelle. Dabei können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene Ergebnisse zu erhalten. \cite{einfuerhungSQLBuch}
 
 \begin{center}
@@ -73,3 +72,18 @@ Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus d
 
 
 \subsection{SQL und Java in Verbindung}
+
+SQL und Java lassen sich sehr leicht verbinden. Durch eine einfache Verbindung auf eine Datenbank mithilfe eines Connection-Blocks \ref{lst:impl:connect} können leicht Daten aus der Datenbank bearbeitet werden, Daten ausgelesen werden und Daten hinzugefügt werden. Dies wird umgesetzt mithilfe eines Strings, welches ein SQL-Statement enthält \ref{lst:impl:SQLString}, welches kurz darauf ausgeführt wird. 
+
+\begin{lstlisting}[language=java,caption=SQL-String,label=lst:impl:SQLString]
+    String sql = "SELECT * FROM flexlogger where timestamp > ? AND timestamp < ? order by timestamp";
+\end{lstlisting}
+
+Anschließend wird dieses in ein \texttt{PreparedStatement} umgewandelt und anschließend ausgeführt. Das Resultat daraus ist ein ResultSet. \ref{lst:impl:SQLStatement}
+
+\begin{lstlisting}[language=java,caption=SQL-Statement ausführen,label=lst:impl:SQLStatement]
+    try (Connection conn = connect()) {
+        try (PreparedStatement ps = conn.prepareStatement(sql)) {
+            ResultSet rs = ps.executeQuery();
+    }}
+\end{lstlisting}
