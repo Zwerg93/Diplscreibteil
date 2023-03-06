@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  2 MAR 2023 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  6 MAR 2023 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1271,7 +1271,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 142
+Overfull \hbox (3.22041pt too wide) detected at line 141
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1596,7 +1596,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
  []
 
 [66 <./pics/quarkus_benchmark.jpg>]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 96--96
+Overfull \hbox (6.0pt too wide) in paragraph at lines 99--99
 [][][][][][][][] 
  []
 
@@ -1628,7 +1628,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 40--40
 [70])) [71]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=1020, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=1017, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1741,17 +1741,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36162 strings out of 478351
- 672383 string characters out of 2837053
- 1443061 words of memory out of 3000000
+ 36159 strings out of 478351
+ 672340 string characters out of 2837053
+ 1444061 words of memory out of 3000000
  53115 multiletter control sequences out of 15000+600000
  523702 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,20n,109p,10667b,3687s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (87 pages, 2017641 bytes).
+Output written on thesis.pdf (87 pages, 2017133 bytes).
 PDF statistics:
- 1462 PDF objects out of 1728 (max. 8388607)
- 579 named destinations out of 1000 (max. 500000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 576 named destinations out of 1000 (max. 500000)
  32687 words of extra memory for PDF output out of 35830 (max. 10000000)
 
