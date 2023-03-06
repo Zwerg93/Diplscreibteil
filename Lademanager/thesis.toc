@@ -80,58 +80,62 @@
 \contentsline {subsection}{\numberline {3.6.6}Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}{41}{subsection.3.6.6}%
 \contentsline {subsection}{\numberline {3.6.7}Modbus RS485 vs RS232}{41}{subsection.3.6.7}%
 \contentsline {subsection}{\numberline {3.6.8}Modbus tools + libraries}{43}{subsection.3.6.8}%
-\contentsline {section}{\numberline {3.7}FlexHMI}{45}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Energiemanagement}{45}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Wallboxen}{45}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Java}{45}{subsection.3.9.1}%
-\contentsline {chapter}{\numberline {4}Flexlogger}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Untersuchungsanliegen}{47}{section.4.1}%
-\contentsline {section}{\numberline {4.2}IST-Stand}{47}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Aufbau des Projektes}{47}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Beschreibung der Funktionen}{47}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Logger}{48}{subsection.4.3.2}%
-\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{48}{subsubsection*.47}%
-\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{48}{subsubsection*.49}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{50}{subsubsection*.51}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{50}{subsubsection*.53}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{51}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{52}{subsection.4.3.3}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{52}{subsubsection*.57}%
-\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{52}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline LogEntry Repository}{53}{subsubsection*.61}%
-\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{56}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{56}{subsubsection*.63}%
-\contentsline {subsubsection}{\nonumberline App-Component}{57}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{59}{subsubsection*.73}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{60}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{62}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline HttpService}{62}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{63}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{63}{subsubsection*.83}%
-\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{63}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Logging}{64}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Log4J}{64}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Threads}{64}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{64}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{65}{subsubsection*.86}%
-\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{66}{subsection.4.5.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{66}{subsubsection*.88}%
-\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{66}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{67}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{67}{subsubsection*.91}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{68}{subsubsection*.93}%
-\contentsline {subsection}{\numberline {4.5.5}Service executer}{68}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}Performance}{69}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{69}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{69}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{69}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Abspeicherung von Daten}{69}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{69}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}CSV}{70}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}JSON}{70}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Datenbank}{71}{subsection.4.7.4}%
-\contentsline {chapter}{\numberline {5}test}{72}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{74}{chapter.6}%
+\contentsline {subsection}{\numberline {3.6.9}Modbus Librarys für Java}{45}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}Kommunikationsaufbau zu den Wallboxen}{45}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}Kommunikationsaufbau zu der Fronius PV Anlage}{47}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}Kommunikationsaufbau zu den Janitza Klemmen:}{47}{subsection.3.6.12}%
+\contentsline {section}{\numberline {3.7}FlexHMI}{48}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Energiemanagement}{48}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Wallboxen}{48}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Java}{48}{subsection.3.9.1}%
+\contentsline {chapter}{\numberline {4}Flexlogger}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Untersuchungsanliegen}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}IST-Stand}{50}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Aufbau des Projektes}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Beschreibung der Funktionen}{50}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Logger}{51}{subsection.4.3.2}%
+\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{51}{subsubsection*.47}%
+\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{51}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{53}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{53}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{54}{subsubsection*.55}%
+\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{55}{subsection.4.3.3}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{55}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{55}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline LogEntry Repository}{56}{subsubsection*.61}%
+\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{59}{subsection.4.3.4}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{59}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline App-Component}{60}{subsubsection*.71}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{62}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{63}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{65}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline HttpService}{65}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{66}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{66}{subsubsection*.83}%
+\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{66}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Logging}{66}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Log4J}{67}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Threads}{67}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{67}{subsection.4.5.1}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{68}{subsubsection*.86}%
+\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{68}{subsection.4.5.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{69}{subsubsection*.88}%
+\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{69}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{70}{subsection.4.5.4}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{70}{subsubsection*.91}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{70}{subsubsection*.93}%
+\contentsline {subsection}{\numberline {4.5.5}Service executer}{71}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}Performance}{72}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{72}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{72}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{72}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Abspeicherung von Daten}{72}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{72}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}CSV}{73}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}JSON}{73}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Datenbank}{74}{subsection.4.7.4}%
+\contentsline {chapter}{\numberline {5}test}{75}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{77}{chapter.6}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.96}%
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.97}%
 \contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.98}%

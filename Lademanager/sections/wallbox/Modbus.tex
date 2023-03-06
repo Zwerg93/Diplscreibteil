@@ -177,3 +177,42 @@ Wenn man mit QModbusMaster eine Modbus TCP Verbindung aufbauen möchte, muss man
     \caption{Einstellungen für Modbus RTU}
     \label{fig:impl:QmodbusMasterTCP}
 \end{figure}
+
+Hier ist der größte Unterschied zu der Modbus RTU. Denn anstatt der ganzen Parameter für die serielle Übertragung, wird hier nur der Port und die IP-Adresse des Teilnehmers eingestellt. Der Port ist standartmäßig 502. Sollte ein anderer Port konfiguriert sein, wird dies immer in der Dokumentation des Herstellers angegeben. 
+
+ \subsection{Modbus Librarys für Java }
+
+ Es gibt viele Librarys für Modbus, doch viele von ihnen bauen auf eine Schnittstelle auf, welche in C++ geschrieben wurde. Für das Projekt kam aber aufgrund der Firmenarchitektur nur ein Dependency mit einer nativen Java Anbindung in Frage. Jlibmodbus ist ein Projekt, welches von dem Github-User kochedykov entwickelt und betreut wird. Dabei handelt es sich um ein gut dokumentiertes Projekt, welches sich einfach in jedes Maven-Projekt einbinden lässt 
+
+ \begin{lstlisting}[language=java,caption=Dependency in Pom.xml,label=lst:impl:foo]
+    <dependency> 
+    <groupId>com.intelligt.modbus</groupId> 
+    <artifactId>jlibmodbus</artifactId> 
+    <version>1.2.9.7</version> 
+  </dependency> 
+\end{lstlisting}
+
+
+Um die Architektur besser zu verstehen, gibt es einige Anwendungsbeispiele. Diese fassen die Bereiche von Modbus RTU, RTU over TCP oder TCP gut zusammen. Dank diesen Beispielen gab es bei der Entwicklung des Projektes keine Probleme. Auf “sourceforge” gibt es die aktuelle Version der Library, mit der 
+
+\subsection{Kommunikationsaufbau zu den Wallboxen }
+
+Bei dem Aufbau der Kommunikation zu den Wallboxen gab es die ersten Probleme der Arbeit, denn es gab für die Hardware, die genutzt wurde, keine Dokumentation. Zwar wurde von dem Hersteller der Wallboxen erklärt, welche 2 Pins für die Verkabelung von Nöten waren, jedoch gab der Hersteller des Modbus USB Konverters keine Angaben dazu, welcher der neun Pins für die Kommunikation verantwortlich ist. Dadurch wurden die ersten Tage der Projektarbeit sehr viel probiert, wie man mithilfe des Adapters und 2 Kabeln eine Verbindung zu den Wallboxen aufbauen kann. In QmodMaster wurden alle Parameter eingestellt und die Signale erfolgreich losgeschickt (dies wurde durch ein Blinken einer LED gekennzeichnet), jedoch bekam die Wallbox nie das Paket an, und so wurde immer ein Fehler in QModbusMaster geworfen. Erst nach dem Versuch, einfach alle neun Kabel anzuschließen und jedes Paar nacheinander zu testen, konnte festgestellt werden, dass nur durch Pin 1 und Pin 2 die Signale gesendet wurden. Doch laut Internetrecherchen hätten es Pin 5 und 6 sein müssen. Dadurch konnte die erste Verbindung mit der Wallbox, welche extra für die Modbus-Tests wieder abmontiert wurde, aufgebaut werden.   
+
+ 
+
+Zuerst wurden die vom Hersteller angegebenen Register-Adressen getestet und die zurückgegebenen Werte mit den Erwartungswerten verglichen. Nachdem auch das Setzen der Ladestromvorgabe erfolgreich getestet wurde, war die erste Testphase abgeschlossen. Nach dem Zusammenbau der Wallbox und der erneuten Installation wurden die Wallboxen das erste Mal an den Autos getestet. Nach erfolgreicher erster Kommunikation wurde der Modbus-zu-USB-Adapter endgültig an das Kabel für die Kommunikation angelötet. Um erste, wirklich brauchbare Daten aus den Wallboxen zu bekommen und dynamisch alle 5 Wallboxen testen zu können, wurde ein kleines, eigenes Modbus-Tool entwickelt, welches mit Java und dem JlibModbus für Linux entwickelt wurde. Dieses Tool war nur dafür gedacht, die einzelnen 5 Wallboxen ansprechen zu können und mögliche Fehler direkt zu beheben. Das Tool war ein einfaches Interface, auf welchem man die ID der jeweiligen Wallbox auswählen konnte, die Registeradresse eingeben und zwischen Lesen oder Schreiben entscheiden konnte. Dadurch wurde dann auch der Effekt auf die Autos und somit auch auf die Wallboxen überprüft. Nachdem die von dem Tool vorgegebenen Werte dem entsprachen, was das Auto als Ladegeschwindigkeit anzeigte, waren die Tests erfolgreich abgeschlossen. Der nächste Schritt war es, in einem Schaltschrank, durch den auch die Stromkabel der Wallboxen liefen, einen Raspberry Pi 4 zu montieren und korrekt an das Stromnetz anzuschließen. Dieser bekam von einem Mitarbeiter der Firma die IP 10.50.30.101 zugewiesen, mit welcher er dann via SSH erreichbar war. Durch das Linux-basierte Commandoline-Tool Modpoll wurde überprüft, ob auch außerhalb der Testumgebung die Kommunikation korrekt funktioniert. Nachdem dies der Fall war, konnte es an die Entwicklung der Tasks gehen. 
+
+\subsection{Kommunikationsaufbau zu der Fronius PV Anlage }
+Hier gestaltete sich die ganze Angelegenheit etwas schwerer, da es sich um eine Modbus TCP-Schnittstelle handelte. Und da hier die Dokumentation für JLibModbus nicht ganz so gut war wie für Modbus RTU, dauerte der Verbindungsaufbau etwas länger. Der Wechselrichter, welcher die Kommunikation ermöglicht, bekam bei der Installation der Anlage die IP 20.50.30.200.   
+
+Der erste Aufbau zur Anlage folgte über QModbusMaster, welcher sich als reibungslos herausstellte. Der Port 502 war in der Dokumentation des Wechselrichters zu finden. Doch bei der Suche nach der richtigen Register-Adresse fingen die Probleme an. Denn die Liste der Register ist unübersichtlich, und es dauerte wirklich lange, um das Register zu finden, in welchem der aktuelle Wert der Stromproduktion gespeichert wird. Und als dann endlich die richtigen Werte zurückgeliefert wurden, trat schon das nächste Problem auf.   
+
+Denn egal, wie viel Strom die PV gerade produzierte (dies konnte immer mit der Onlineanzeige des Wechselrichters überprüft werden, welche man auf der Seite der Anlage aufrufen konnte. Dafür muss die IP des Wechselrichters in den Browser eingegeben werden), der Wert wurde nie größer als 65536. Nach einiger Recherche und einer Anfrage in einem Photovoltaik-Forum (Hier den Link einfügen) wurde das Problem gefunden. Denn in der Dokumentation waren 2 Register angegeben. Das erste wurde standardmäßig gefüllt, doch wenn es seine maximale Größe von 65536 überschritt, wurde das zweite Register um einen Zähler erhöht und das erste Register auf Null gesetzt. Das bewirkt, dass man eine deutlich höhere Zahl speichern konnte und somit immer ein korrekter Wert bei einer Anfrage zurückkommt. Die  
+
+\subsection{Kommunikationsaufbau zu den Janitza Klemmen: }
+
+Die Kommunikation zu den Janitza-Klemmen besteht aus denselben Einstellungen wie bei der Fronius Anlage. Die IP-Adresse der Klemmen ist 10.50.30.201. Auch hier gibt es eine Website, auf welcher man die Daten der Klemme überprüfen kann, somit konnte direkt überprüft werden, ob die Daten, welche ausgelesen wurden, überprüft werden. Auch hier gab es wieder mit den Rückgabewerte Probleme, da der Wert als FLoat angegeben wurde, und es keine Angaben dazu gab, wie man den Wert wieder in einen Integer zurückwandeln konnte. Aber zum Glück gab es in einem Beitrag in dem Forum Stack Overflow eine Anleitung dazu, wie mithilfe einer Umrechnung die richtigen Werte ausgelesen werden können.  
+
+Nach einem Abgleich zwischen den Werten des Modbus-tool und der Webanzeige, konnte eine Richtigkeit der Daten gewährleistet werden. Aus einem Abgleich der verschiedenen Daten aus dem Wechselrichter und den Mesklemmen ergibt sich dann der Verbrauch der Firma. Ist der Wert der Janitza-Klemme im negativen Bereich, verbrauchen die Anlagen der Firma mehr, als die Fronius PV generieren kann. Dies ist vor allem dann der Fall, wenn es sehr bewölkt ist, oder die Sonne nicht am Himmel steht. Ansonsten ist der Wert des Janitza-Klemme meist über 50 kWh, was das Automatische Laden der E-Autos ermöglicht.  
+
