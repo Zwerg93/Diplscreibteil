@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  8 MAR 2023 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  8 MAR 2023 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,7 +1294,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 135
+Overfull \hbox (3.22041pt too wide) detected at line 137
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -2059,15 +2059,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36281 strings out of 478338
- 669730 string characters out of 2841194
+ 36279 strings out of 478338
+ 669655 string characters out of 2841194
  1926793 words of memory out of 3000000
- 54886 multiletter control sequences out of 15000+600000
+ 54884 multiletter control sequences out of 15000+600000
  570988 words of font info for 144 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  113i,21n,109p,10664b,3699s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (99 pages, 2484706 bytes).
+Output written on thesis.pdf (99 pages, 2485016 bytes).
 PDF statistics:
  1578 PDF objects out of 1728 (max. 8388607)
  603 named destinations out of 1000 (max. 500000)

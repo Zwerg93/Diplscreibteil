@@ -1,4 +1,4 @@
-\subsection{Struktur eines Datenpunktes}\label{Datenpunkte}
+\subsection{Struktur eines Datenpunktes}\label{Datenpunkte} \setauthor{Pouget Marcel}
 
 Die Datenpunkte sind im Grunde alle gleich aufgebaut. Ein Datenpunkt (dp) besteht immer aus einer: 
 
@@ -13,7 +13,7 @@ Die Datenpunkte sind im Grunde alle gleich aufgebaut. Ein Datenpunkt (dp) besteh
     \item Value: Hier werden die Werte eines Datenpunktes gespeichert. Man kann in der conf.db Datei einen Standardwert angeben, doch meistens werden diese Werte in einem Task gesetzt bzw. ausgelesen. 
 \end{compactitem}
 
-\subsection{Anlegen eines Datenpunktes}
+\subsection{Anlegen eines Datenpunktes} \setauthor{Pouget Marcel}
 
 
 Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die VM (Virtual machine),  auf welcher der Flextask sich befindet, verbinden. In dem Verzeichnis mit der conf.db Datei muss man mit SQLITE3 die Datei öffnen. Dort kann man dann mit einem insert bzw. Update Statement einen neuen Datenpunkt hinzufügen, aktualisieren oder löschen. 
@@ -22,7 +22,7 @@ Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die V
     INSERT INTO datapoint VALUES ('Wallbox_1_startCharching_icon_state',1,'' ,'state_[Wallbox_1_startCharching_icon]','','','INT',-1,-1,0.0,'');
 \end{lstlisting}
 
-\subsection{Nutzung eines Datenpunktes:}
+\subsection{Nutzung eines Datenpunktes} \setauthor{Pouget Marcel}
 
 Somit ist der Datenpunkt in der Datenbank angelegt und ready to use. Um nun in einem Flextask auf so einen Datenpunkt Zugriff zu haben, muss man ihn erstmal anlegen und die “SPECIFIC\_ADDRESS” angeben: 
 
@@ -79,7 +79,7 @@ DatapointCommand dpCmd = new DatapointCommand() {
 Mit “datapoint.setValue(value)” kann man einem Datenpunkt einen neuen Wert zuweisen. Dieser wird dann automatisch in die FLexcloud gepublished, und kann von einem anderen Task abgefangen werden.  
 
 
-\subsection{Datapoint mapping}
+\subsection{Datapoint mapping} \setauthor{Pouget Marcel}
 
 Um zwei Datenpunkte von zwei verschiedenen Tasks zu mappen, und somit Daten zu übertragen, muss man einen Eintrag in der “datapoint\_map” hinzufügen. Um die Daten zu empfangen, muss man die conf.db des zweiten Tasks aktualisieren. Zu beachten ist, dass das Mapping nur bei dem Task gemacht werden muss, welcher die Daten bekommen soll. Man verbindet also den Datenpunkt eines anderen Tasks auf einen eigenen Datenpunkt. Wichtig dabei ist, dass man bei der “datapoint1\_id” zuerst das Label des Devices, zu welchem der Datenpunkt gehört, und anschließend die ID des ersten Datenpunkt angibt. “datapoint2\_id” wird zuerst der Name des anderen Tasks angegeben, dann das Label des Devices, und anschließend die ID des Datenpunktes. 
 

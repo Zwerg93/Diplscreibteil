@@ -1,4 +1,4 @@
-\label{ModbusErklärung}
+\label{ModbusErklärung} \setauthor{Pouget Marcel}
 Um die Art der Kommunikation zwischen den Wallboxen, der PV-Anlagen, den Janitza Klemmen und dem Raspberry PI zu verstehen, muss man sich erstmals mit der Übertragung an sich beschäftigen.
 \subsection{7 Schichten OSI-Modell} \label{OsiModell}
 
@@ -27,7 +27,7 @@ Das OSI-Referenzmodell hilft, die Kommunikation in einem Netzwerk zu beschreiben
 \end{figure}
 
 
-\subsection{Modbus Protokoll}\label{modbusprotokoll}
+\subsection{Modbus Protokoll}\label{modbusprotokoll} \setauthor{Pouget Marcel}
 
 Modbus ist ein Protokoll, welches 1979 entwickelt wurde, und vor allem in der Industrie große Bedeutung hat. Es ermöglicht eine Kommunikation zwischen automatisierten Maschinen, und wurde damals als Protokoll auf der Anwendungsebene implementiert, das Daten über die serielle Schicht übertragen soll. Das Protokoll gehört mittlerweile zu den Industriestandards, und wird vor allem in der Automatisierungstechnik gerne benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen gibt. Der Datenaustausch ist mittlerweile über TCP/IP, seriell oder über das “User-datagram-protocol", kurz UDP, möglich.
 \cite{ModbusgrundlagenKubunu} \cite{modbuskubunu}
@@ -108,7 +108,7 @@ Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach komm
 
 
 
-\subsection{Modbus RS485 vs RS232}
+\subsection{Modbus RS485 vs RS232} \setauthor{Pouget Marcel}
 Es gibt bei Modbus RTU noch weitere Unterteilungen, welche sich in der physikalischen Ebene unterscheiden. Die größten Unterschiede sind dabei die Länge der Kabel, welche verwendet werden, die Art, wie die Teilnehmer mit dem Master verbunden sind, und der Pegel, welcher in den Leitungen herrscht.   
 
 Bei Modbus 485 ist aufgrund der physischen Bauweise eine viel größere Länge der Kabel möglich. Während bei Modbus 232 meist nur eine Kabellänge von 10-15 Metern wirklich gut funktioniert, kann bei RS485 eine Länge von bis zu 1200 Metern erreicht werden.   
@@ -127,7 +127,7 @@ Ein weiterer wichtiger Punkt ist die Verkabelung der einzelnen Teilnehmer. Währ
     \label{fig:impl:WallboxModbusnetzwerk}
 \end{figure}
 
-\subsection{Modbus tools + libraries}
+\subsection{Modbus tools + libraries} \setauthor{Pouget Marcel}
 
 Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme “QModMaster” und “Hercules” verwendet. Es handelt sich bei beiden um kostenlose Programme.  \ref{fig:impl:QmodMasterverview}
 
