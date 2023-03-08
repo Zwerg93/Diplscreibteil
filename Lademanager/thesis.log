@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  7 MAR 2023 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  8 MAR 2023 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,7 +1294,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43.
  (thesis.toc [3
 
 ]
-Overfull \hbox (3.22041pt too wide) detected at line 136
+Overfull \hbox (3.22041pt too wide) detected at line 135
  []\T1/lmss/bx/n/12 VIII
  []
 
@@ -1305,40 +1305,66 @@ Overfull \hbox (3.22041pt too wide) detected at line 136
  [4]
 chapter 1.
 (sections/introduction.tex
-Overfull \hbox (20.99818pt too wide) in paragraph at lines 19--20
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 18.
+ (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23     \item L
+                atex ist opensource, und sehr gut dokumentiert.  Es gibt vie... [1
+
+]
+Overfull \hbox (6.09802pt too wide) in paragraph at lines 42--43
+\T1/lmr/m/n/12 (-20) vereinfachen. Von intelligenter Code-completion bis zu intuitiven Debugging Möglichkeiten
+ []
+
+[2]
+<pics/MavenOverfiew.png, id=166, 726.715pt x 361.35pt>
+File: pics/MavenOverfiew.png Graphic file (type png)
+<use pics/MavenOverfiew.png>
+Package pdftex.def Info: pics/MavenOverfiew.png  used on input line 46.
+(pdftex.def)             Requested size: 363.3566pt x 180.67456pt.
+<pics/IntellijOverfiew.png, id=167, 1927.2pt x 1002.74625pt>
+File: pics/IntellijOverfiew.png Graphic file (type png)
+<use pics/IntellijOverfiew.png>
+Package pdftex.def Info: pics/IntellijOverfiew.png  used on input line 57.
+(pdftex.def)             Requested size: 385.43318pt x 200.5457pt.
+ [3 <./pics/MavenOverfiew.png>]
+Overfull \hbox (20.99818pt too wide) in paragraph at lines 66--67
 \T1/lmr/m/n/12 (-20) können in WebStorm verschiedenste Plugins hinzugefügt werden, welche das Erscheinungsbild
  []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 
-      [1
-
-]) [2]
-chapter 2.
-(sections/allgemeinTechnologie.tex (sections/allgemeinTechnologie/Java.tex) (sections/allgemeinTechnologie/CSV.tex
-Overfull \hbox (11.78009pt too wide) in paragraph at lines 1--2
-\T1/lmr/m/n/12 (-20) CSV-Files werden dazu verwendet, eine groÿe Menge von Daten in einem File abzuspeichern.
+Overfull \hbox (2.8656pt too wide) in paragraph at lines 69--70
+\T1/lmr/m/n/12 (-20) Vieles der Entwicklung fand in der Kommandozeile von Linux statt. Von der Überwachung
  []
 
-) (sections/allgemeinTechnologie/HTMLCSS.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
- (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3
 
-] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+Overfull \hbox (17.88542pt too wide) in paragraph at lines 71--72
+\T1/lmr/m/n/12 (-20) graphische Useroberfläche bedienen, Ordner und Files verwalten, und ganze Serverstrukturen
+ []
+
+[4 <./pics/IntellijOverfiew.png>]) [5] [6]
+chapter 2.
+(sections/allgemeinTechnologie.tex (sections/allgemeinTechnologie/Java.tex
+Overfull \hbox (10.85796pt too wide) in paragraph at lines 5--6
+\T1/lmr/m/n/12 (-20) Punkt in Java sind die sogenannten Build Tools, die es erlauben, Librarys und Dependencies
+ []
+
+(/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 27.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 9.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 27--27
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
 [][][][][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9.
 (/home/marcel/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1346,12 +1372,26 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+) (sections/allgemeinTechnologie/CSV.tex
+Overfull \hbox (11.78009pt too wide) in paragraph at lines 1--2
+[]\T1/lmr/m/n/12 (-20) CSV-Files werden dazu verwendet, eine groÿe Menge von Daten in einem File abzuspeichern.
+ []
+
+[7
+
+]) (sections/allgemeinTechnologie/HTMLCSS.tex [8] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 27--27
+[][][][][][][][] 
+ []
+
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 38--38
 [][][][][][][][] 
  []
 
-[4]) (sections/allgemeinTechnologie/TypeScript.tex
+) (sections/allgemeinTechnologie/TypeScript.tex [9]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
 [][][][][][][][] 
  []
@@ -1361,7 +1401,7 @@ Overfull \hbox (2.49948pt too wide) in paragraph at lines 3--4
 []\T1/lmr/m/n/12 (-20) Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern,
  []
 
-[5] [6]) [7] (sections/allgemeinTechnologie/VisuelleDarstellung.tex [8]
+[10] [11]) (sections/allgemeinTechnologie/VisuelleDarstellung.tex [12] [13]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 26--26
 [][][][][][][][] 
  []
@@ -1373,7 +1413,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
 [][][][][][][][] 
  []
 
-[9]
+[14]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
 [][][][][][][][] 
  []
@@ -1388,21 +1428,17 @@ Overfull \hbox (5.87991pt too wide) in paragraph at lines 86--88
 \T1/lmr/m/n/12 (-20) ist leistungsstart, erweiterbar und mit vielen Features versehen. Bootstrap stellt vielzählige
  []
 
-[10] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-)
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 96--96
 [][][][][][][][] 
  []
 
-
+[15]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 105--105
 [][][][][][][][] 
  []
 
-) (sections/allgemeinTechnologie/Quarkus.tex [11]
+) (sections/allgemeinTechnologie/Quarkus.tex [16]
 Overfull \hbox (59.91061pt too wide) in paragraph at lines 14--15
 \T1/lmr/m/n/12 (-20) Kern diese Arbeit erledigen kann, müssen einige verschiedene Komponenten zusammenarbeiten: 
  []
@@ -1412,27 +1448,28 @@ Overfull \hbox (17.76552pt too wide) in paragraph at lines 17--18
 \T1/lmr/m/n/12 (-20) und Klassenhierarchien für ein Set von Klassen in einer speichereffizienten Repräsentation
  []
 
-[12]
+
 Overfull \hbox (11.53499pt too wide) in paragraph at lines 23--24
 \T1/lmr/m/n/12 (-20) Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager
  []
 
-<pics/quarkusArchitektur.JPG, id=345, 404.10976pt x 268.6035pt>
+<pics/quarkusArchitektur.JPG, id=371, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 27.
 (pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
-[13 <./pics/quarkusArchitektur.JPG>]
+[17]
 Overfull \hbox (12.09547pt too wide) in paragraph at lines 46--47
 []\T1/lmr/m/n/12 (-20) Open-Source Java Framework, einfach um Stand-alone Anwendungen und Mikroservices
  []
 
-<pics/quarkus_benchmark.jpg, id=360, 545.78906pt x 309.40594pt>
+[18 <./pics/quarkusArchitektur.JPG>]
+<pics/quarkus_benchmark.jpg, id=393, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
 Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
 (pdftex.def)             Requested size: 436.63184pt x 247.52509pt.
-[14 <./pics/quarkus_benchmark.jpg>]
+ [19 <./pics/quarkus_benchmark.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 68--68
 [][][][][][][][] 
  []
@@ -1442,12 +1479,12 @@ Overfull \hbox (1.88329pt too wide) in paragraph at lines 88--89
 \T1/lmr/m/n/12 (-20) relationale Mapping, allerdings bietet JPA auch eine Lösungen für die architektonische
  []
 
-[15]
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 98--98
 [][][][][][][][] 
  []
 
-) (sections/allgemeinTechnologie/SQL.tex
+[20]) (sections/allgemeinTechnologie/SQL.tex
 Overfull \hbox (0.28268pt too wide) in paragraph at lines 4--5
 \T1/lmr/m/n/12 (-20) relationalen Datenbank zu bearbeiten. Auÿerdem kann damit die Struktur der Datenbank
  []
@@ -1474,51 +1511,73 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 40--40
 [][][][][][][][] 
  []
 
-[16]
+[21]
 Overfull \hbox (14.97992pt too wide) in paragraph at lines 52--53
 \T1/lmr/m/n/12 (-20) können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene
  []
 
-[17]
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 78--78
 [][][][][][][][] 
  []
 
-
+[22]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 84--84
 [][][][][][][][] 
  []
 
-) (sections/allgemeinTechnologie/Beckhoff.tex) (sections/allgemeinTechnologie/Raspberry.tex)) [18]
+) (sections/allgemeinTechnologie/Beckhoff.tex
+Overfull \hbox (1.21022pt too wide) in paragraph at lines 3--4
+\T1/lmr/m/n/12 (-20) Twincat. Die Produkte, welche von Industrie-PCs, Steuerungssystemen und Softwaretools
+ []
+
+<pics/twincat Ã¼bersicht.png, id=462, 1927.2pt x 866.23625pt>
+File: pics/twincat Ã¼bersicht.png Graphic file (type png)
+<use pics/twincat Ã¼bersicht.png>
+Package pdftex.def Info: pics/twincat Ã¼bersicht.png  used on input line 13.
+(pdftex.def)             Requested size: 385.43318pt x 173.24417pt.
+[23 <./pics/twincat Ã¼bersicht.png>]
+<pics/LadestationTwincat.png, id=474, 1926.19624pt x 817.0525pt>
+File: pics/LadestationTwincat.png Graphic file (type png)
+<use pics/LadestationTwincat.png>
+Package pdftex.def Info: pics/LadestationTwincat.png  used on input line 24.
+(pdftex.def)             Requested size: 385.23242pt x 163.40761pt.
+) (sections/allgemeinTechnologie/Raspberry.tex
+<pics/raspberry-pi.png, id=475, 846.16125pt x 536.0025pt>
+File: pics/raspberry-pi.png Graphic file (type png)
+<use pics/raspberry-pi.png>
+Package pdftex.def Info: pics/raspberry-pi.png  used on input line 5.
+(pdftex.def)             Requested size: 423.07959pt x 268.0006pt.
+ [24 <./pics/LadestationTwincat.png>])) [25 <./pics/raspberry-pi.png>]
 chapter 3.
 (sections/Wallbox.tex (sections/wallbox/Untersuchungsanliegen.tex) (sections/wallbox/Ist-Stand.tex) (sections/wallbox/AufbauDesProjektes.tex
 Overfull \hbox (9.14194pt too wide) in paragraph at lines 3--5
 \T1/lmr/m/n/12 (-20) Charge Controller, welcher dafür verantwortlich ist, die Befehle der GUI entgegenzunehmen
  []
 
-<pics/Infografik_FlexBoxen.png, id=439, 596.2275pt x 421.575pt>
+<pics/Infografik_FlexBoxen.png, id=489, 596.2275pt x 421.575pt>
 File: pics/Infografik_FlexBoxen.png Graphic file (type png)
 <use pics/Infografik_FlexBoxen.png>
 Package pdftex.def Info: pics/Infografik_FlexBoxen.png  used on input line 8.
 (pdftex.def)             Requested size: 298.11302pt x 210.78697pt.
-[19
+[26
 
-] [20 <./pics/Infografik_FlexBoxen.png>]
+] [27 <./pics/Infografik_FlexBoxen.png>]
 Overfull \hbox (22.50607pt too wide) in paragraph at lines 48--49
 []\T1/lmr/m/n/12 (-20) setDataBits(8) -> Die Databits müssen 8 Bits betragen, da auch hier der Wallboxhersteller
  []
 
-[21]
+[28]
 Overfull \hbox (4.58858pt too wide) in paragraph at lines 67--68
 []\T1/lmr/m/n/12 (-20) Die Werte, welche das Modbus-Protokoll zurückliefert, werden an Datenpunkte übergeben,
  []
 
-[22] [23] [24]
+[29] [30] [31]
 Overfull \hbox (12.65315pt too wide) in paragraph at lines 117--118
 \T1/lmr/m/n/12 (-20) jeden gefundenen Datenpunkt wird dann wieder der "DatapointChangedCommand"gehängt.
  []
 
-[25]
+[32]
 Overfull \hbox (1.42992pt too wide) in paragraph at lines 121--122
 []\T1/lmr/m/n/12 (-20) ladedauer_wb -> Sollte sich der Wert des Datenpunktes mit der Ladedauer verändern,
  []
@@ -1533,30 +1592,25 @@ Overfull \hbox (23.04204pt too wide) in paragraph at lines 122--123
 \T1/lmr/m/n/12 (-20) wieder in W/h umgerechnet und an den Datenpunkt "wallbox_lädt_mit_kW"gepublished. 
  []
 
-
-Overfull \hbox (55.16748pt too wide) in paragraph at lines 124--125
-\T1/lmr/m/n/12 (-20) (Value 2) gesetzt, und der aktuelle Wert des Sliders wird "wallbox_ladestromvorgabe"mitgegeben.
- []
-
-[26]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 135--135
+[33]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 137--137
 [][][][][][][][] 
  []
 
-[27]
-<pics/HMIWallboxÃœbersicht.png, id=497, 402.50375pt x 649.42625pt>
+[34]
+<pics/HMIWallboxÃœbersicht.png, id=546, 402.50375pt x 649.42625pt>
 File: pics/HMIWallboxÃœbersicht.png Graphic file (type png)
 <use pics/HMIWallboxÃœbersicht.png>
-Package pdftex.def Info: pics/HMIWallboxÃœbersicht.png  used on input line 166.
+Package pdftex.def Info: pics/HMIWallboxÃœbersicht.png  used on input line 168.
 (pdftex.def)             Requested size: 201.25137pt x 324.71233pt.
- [28 <./pics/HMIWallboxÃœbersicht.png>]
-<pics/DetailansichtWallbox2.png, id=505, 407.5225pt x 650.43pt>
+ [35 <./pics/HMIWallboxÃœbersicht.png>]
+<pics/DetailansichtWallbox2.png, id=554, 407.5225pt x 650.43pt>
 File: pics/DetailansichtWallbox2.png Graphic file (type png)
 <use pics/DetailansichtWallbox2.png>
-Package pdftex.def Info: pics/DetailansichtWallbox2.png  used on input line 180.
+Package pdftex.def Info: pics/DetailansichtWallbox2.png  used on input line 182.
 (pdftex.def)             Requested size: 203.76074pt x 325.2142pt.
 ) (sections/wallbox/FlexTasksinderFlexCloud.tex
-<pics/flexTasks.png, id=508, 596.7093pt x 421.575pt>
+<pics/flexTasks.png, id=557, 596.7093pt x 421.575pt>
 File: pics/flexTasks.png Graphic file (type png)
 <use pics/flexTasks.png>
 Package pdftex.def Info: pics/flexTasks.png  used on input line 7.
@@ -1571,7 +1625,7 @@ Overfull \hbox (7.5932pt too wide) in paragraph at lines 12--16
 \T1/lmr/m/n/12 (-20) gebraucht werden. So ist es z.B. in Planung, einen eigenen Modbus-Task zu implementieren,
  []
 
-[29] [30 <./pics/DetailansichtWallbox2.png>]
+[36] [37 <./pics/DetailansichtWallbox2.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 22--22
 [][][][][][][][] 
  []
@@ -1586,17 +1640,17 @@ Overfull \hbox (13.12863pt too wide) in paragraph at lines 29--30
 \T1/lmr/m/n/12 (-20) werden. In den meisten Fällen werden hierfür Datenpunkte und andere Kommunikations-
  []
 
-[31 <./pics/flexTasks.png>]
+[38 <./pics/flexTasks.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 33--33
 [][][][][][][][] 
  []
 
-[32]
+[39]
 Overfull \hbox (10.79918pt too wide) in paragraph at lines 53--54
 []\T1/lmr/m/n/12 (-20) datapoint_map: Diese Tabelle besteht aus einer datapoint1_id, einer datapoint2_id
  []
 
-) (sections/wallbox/Datenpunkte.tex [33] [34]
+) (sections/wallbox/Datenpunkte.tex [40] [41]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][][][][][][][] 
  []
@@ -1607,8 +1661,8 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 29--29
  []
 
 
-Overfull \hbox (49.88689pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][] 
+Overfull \hbox (19.28658pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][] 
  []
 
 
@@ -1616,12 +1670,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 36--36
 [][][][][][][][] 
  []
 
-[35]
+
 Overfull \hbox (8.59184pt too wide) in paragraph at lines 49--50
 []\T1/lmr/m/n/12 (-20) Wie schon in den vorhergegangenen Kapiteln erwähnt, kann man über alle Datenpunkte
  []
 
-
+[42]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 50--50
 [][][][][][][][] 
  []
@@ -1631,33 +1685,33 @@ Overfull \hbox (1.65048pt too wide) in paragraph at lines 79--80
 []\T1/lmr/m/n/12 (-20) Mit ^^Pdatapoint.setValue(value)^^Q kann man einem Datenpunkt einen neuen Wert zuweisen.
  []
 
-[36]
+
 Overfull \hbox (95.41449pt too wide) in paragraph at lines 88--89
 \T1/lmr/m/n/12 (-20) Wird nun im Code auf diesen Datenpunkt was gepublished, sieht man ^^Pmodbuswallbox.wb1.ladedauer_wb1^^Q.
  []
 
-
+[43]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 90--90
 [][][][][][][][] 
  []
 
-) (sections/wallbox/Modbus.tex [37] [38]
-<pics/ISO-OSI-Modell-768x486.png, id=646, 770.88pt x 487.8225pt>
+) (sections/wallbox/Modbus.tex [44] [45]
+<pics/ISO-OSI-Modell-768x486.png, id=695, 770.88pt x 487.8225pt>
 File: pics/ISO-OSI-Modell-768x486.png Graphic file (type png)
 <use pics/ISO-OSI-Modell-768x486.png>
 Package pdftex.def Info: pics/ISO-OSI-Modell-768x486.png  used on input line 24.
-(pdftex.def)             Requested size: 269.81204pt x 170.74043pt.
+(pdftex.def)             Requested size: 385.43906pt x 243.91064pt.
 
 Overfull \hbox (24.5968pt too wide) in paragraph at lines 32--34
 \T1/lmr/m/n/12 (-20) benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen
  []
 
-[39 <./pics/ISO-OSI-Modell-768x486.png>]
+[46 <./pics/ISO-OSI-Modell-768x486.png>]
 Overfull \hbox (4.49817pt too wide) in paragraph at lines 39--41
 \T1/lmr/m/n/12 (-20) (Modbus RTU) Über einen längeren Zeitraum wurden neue Implementierungen vorgestellt,
  []
 
-[40]
+[47]
 Overfull \hbox (1.3052pt too wide) in paragraph at lines 53--54
 []\T1/lmr/m/n/12 (-20) Vor und nach jedem gesendeten Paket gibt es eine Sendepause (Wartezeit) von mindestens
  []
@@ -1667,96 +1721,86 @@ Package caption Warning: \label without proper reference on input line 59.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `functionsfromModbus' on page 41 undefined on input line 57.
+LaTeX Warning: Reference `functionsfromModbus' on page 48 undefined on input line 57.
 
-[41]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 61.
+[48]
 
-Package caption Warning: \label without proper reference on input line 86.
+Package caption Warning: \label without proper reference on input line 82.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `ModbusRTUprotokolltable' on page 42 undefined on input line 78.
+LaTeX Warning: Reference `abb:ModbusRTUprotokolltable' on page 49 undefined on input line 80.
 
 
-Overfull \hbox (97.52666pt too wide) in paragraph at lines 81--87
-[][]
- []
-
-
-Package caption Warning: \label without proper reference on input line 101.
+Package caption Warning: \label without proper reference on input line 105.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `modbusTCPtable' on page 42 undefined on input line 93.
+LaTeX Warning: Reference `modbusTCPtable' on page 49 undefined on input line 96.
 
-
-Overfull \hbox (138.04149pt too wide) in paragraph at lines 96--102
-[][]
- []
-
-
-Overfull \hbox (10.68008pt too wide) in paragraph at lines 112--113
+[49]
+Overfull \hbox (10.68008pt too wide) in paragraph at lines 116--117
 []\T1/lmr/m/n/12 (-20) Auch der Signalpegel ist ein groÿer und wichtiger Unterschied. Während RS485 differentielle
  []
 
-[42] [43]
-<pics/RS485-Schnittstelle-11.png, id=698, 725.71124pt x 161.60374pt>
+<pics/RS485-Schnittstelle-11.png, id=741, 725.71124pt x 161.60374pt>
 File: pics/RS485-Schnittstelle-11.png Graphic file (type png)
 <use pics/RS485-Schnittstelle-11.png>
-Package pdftex.def Info: pics/RS485-Schnittstelle-11.png  used on input line 121.
-(pdftex.def)             Requested size: 254.00273pt x 56.56215pt.
+Package pdftex.def Info: pics/RS485-Schnittstelle-11.png  used on input line 125.
+(pdftex.def)             Requested size: 362.85474pt x 80.80167pt.
 
-Overfull \hbox (24.55061pt too wide) in paragraph at lines 128--129
+Overfull \hbox (24.55061pt too wide) in paragraph at lines 132--133
 \T1/lmr/m/n/12 (-20) Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme ^^PQModMaster^^Q
  []
 
-<pics/QmodMasterverview.png, id=700, 476.78125pt x 363.3575pt>
+<pics/QmodMasterverview.png, id=743, 476.78125pt x 363.3575pt>
 File: pics/QmodMasterverview.png Graphic file (type png)
 <use pics/QmodMasterverview.png>
-Package pdftex.def Info: pics/QmodMasterverview.png  used on input line 132.
-(pdftex.def)             Requested size: 166.87593pt x 127.17702pt.
-
-Overfull \hbox (35.033pt too wide) in paragraph at lines 140--141
+Package pdftex.def Info: pics/QmodMasterverview.png  used on input line 136.
+(pdftex.def)             Requested size: 333.74458pt x 254.3485pt.
+[50 <./pics/RS485-Schnittstelle-11.png>]
+Overfull \hbox (35.033pt too wide) in paragraph at lines 144--145
 []\T1/lmr/m/n/12 (-20) Bei dem Abschnitt "Function Code"kann man auswählen, welche Funktion [rev Funktionstabelle]
  []
 
-[44 <./pics/RS485-Schnittstelle-11.png> <./pics/QmodMasterverview.png>]
-<pics/Settingsforqmodmaster.png, id=712, 479.7925pt x 364.36125pt>
+<pics/Settingsforqmodmaster.png, id=755, 479.7925pt x 364.36125pt>
 File: pics/Settingsforqmodmaster.png Graphic file (type png)
 <use pics/Settingsforqmodmaster.png>
-Package pdftex.def Info: pics/Settingsforqmodmaster.png  used on input line 148.
-(pdftex.def)             Requested size: 167.92987pt x 127.52834pt.
-<pics/ToolsQModbusMaster.png, id=714, 478.78876pt x 363.3575pt>
+Package pdftex.def Info: pics/Settingsforqmodmaster.png  used on input line 152.
+(pdftex.def)             Requested size: 335.85245pt x 255.05113pt.
+[51 <./pics/QmodMasterverview.png>]
+<pics/ToolsQModbusMaster.png, id=763, 478.78876pt x 363.3575pt>
 File: pics/ToolsQModbusMaster.png Graphic file (type png)
 <use pics/ToolsQModbusMaster.png>
-Package pdftex.def Info: pics/ToolsQModbusMaster.png  used on input line 164.
-(pdftex.def)             Requested size: 167.57857pt x 127.17702pt.
- [45 <./pics/Settingsforqmodmaster.png>]
-<pics/QmodbusMasterTCP setting.png, id=723, 480.79625pt x 367.3725pt>
+Package pdftex.def Info: pics/ToolsQModbusMaster.png  used on input line 168.
+(pdftex.def)             Requested size: 335.14984pt x 254.3485pt.
+<pics/QmodbusMasterTCP setting.png, id=766, 480.79625pt x 367.3725pt>
 File: pics/QmodbusMasterTCP setting.png Graphic file (type png)
 <use pics/QmodbusMasterTCP setting.png>
-Package pdftex.def Info: pics/QmodbusMasterTCP setting.png  used on input line 176.
-(pdftex.def)             Requested size: 168.2812pt x 128.58229pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 187--187
+Package pdftex.def Info: pics/QmodbusMasterTCP setting.png  used on input line 180.
+(pdftex.def)             Requested size: 336.55507pt x 257.15898pt.
+ [52 <./pics/Settingsforqmodmaster.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 191--191
 [][][][][][][][] 
  []
 
-[46] [47] [48]) (sections/wallbox/FlexHMI.tex) (sections/wallbox/Energiemanagement.tex) (sections/wallbox/Wallbox.tex) (sections/wallbox/Java.tex)) [49] [50 <./pics/ToolsQModbusMaster.png> <./pics/QmodbusMasterTCP setting.png>]
+[53 <./pics/ToolsQModbusMaster.png>] [54 <./pics/QmodbusMasterTCP setting.png>] [55]) (sections/wallbox/FlexHMI.tex) (sections/wallbox/Energiemanagement.tex) (sections/wallbox/Wallbox.tex) (sections/wallbox/Java.tex)) [56] [57]
 chapter 4.
-(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [51
+(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex [58
 
 ]
 Overfull \hbox (11.2747pt too wide) in paragraph at lines 17--18
 \T1/lmr/m/n/12 (-20) Datenbank aufzubauen und somit die benötigten Objekte in einer Datenbank abzuspeichern
  []
 
-[52]
+[59]
 Overfull \hbox (83.14519pt too wide) in paragraph at lines 39--41
 \T1/lmr/m/n/12 (-20) schreibt keine Werte mehr in die Datenbank. Im Gegensatz dazu ist der \T1/lmtt/m/n/12 logger_nav_status_icon_State
  []
 
-[53] [54]
+[60] [61]
 Overfull \hbox (12.03404pt too wide) in paragraph at lines 50--51
 []\T1/lmr/m/n/12 (-20) Die Hauptmethode der Klasse ist die run-Methode. Hier wird ein neuer DatapointCommand
  []
@@ -1766,48 +1810,48 @@ Overfull \hbox (2.81439pt too wide) in paragraph at lines 57--58
 \T1/lmr/m/n/12 (-20) Consumer werden Objekte aus der Blocking Queue genommen und diese weiterverarbeitet.
  []
 
-[55] [56]
+[62] [63]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 91--91
 [][][][][][][][] 
  []
 
-[57] [58] [59] [60]
-<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=844, 198.14024pt x 165.61874pt>
+[64] [65] [66] [67]
+<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=894, 198.14024pt x 165.61874pt>
 File: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_zeitraum.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg  used on input line 138.
 (pdftex.def)             Requested size: 198.13974pt x 165.61833pt.
-<pics/FlexLoggerWebsiteFormulare_button.jpg, id=845, 195.73125pt x 49.3845pt>
+<pics/FlexLoggerWebsiteFormulare_button.jpg, id=895, 195.73125pt x 49.3845pt>
 File: pics/FlexLoggerWebsiteFormulare_button.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare_button.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_button.jpg  used on input line 145.
 (pdftex.def)             Requested size: 195.73076pt x 49.38437pt.
-<pics/csv_datei_beispiel.jpg, id=846, 319.79475pt x 171.64125pt>
+<pics/csv_datei_beispiel.jpg, id=896, 319.79475pt x 171.64125pt>
 File: pics/csv_datei_beispiel.jpg Graphic file (type jpg)
 <use pics/csv_datei_beispiel.jpg>
 Package pdftex.def Info: pics/csv_datei_beispiel.jpg  used on input line 152.
 (pdftex.def)             Requested size: 319.79396pt x 171.64081pt.
-<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=847, 246.1697pt x 88.83188pt>
+<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=897, 246.1697pt x 88.83188pt>
 File: pics/FlexLoggerWebsite_Fehlermeldung.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsite_Fehlermeldung.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsite_Fehlermeldung.jpg  used on input line 159.
 (pdftex.def)             Requested size: 246.16908pt x 88.83165pt.
-<pics/FlexLoggerWebsiteFormulare.jpg, id=848, 907.59074pt x 531.1845pt>
+<pics/FlexLoggerWebsiteFormulare.jpg, id=898, 907.59074pt x 531.1845pt>
 File: pics/FlexLoggerWebsiteFormulare.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteFormulare.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 167.
 (pdftex.def)             Requested size: 408.41206pt x 239.0308pt.
-<pics/FlexLoggerWebsiteDiagramm.jpg, id=849, 1140.05925pt x 526.3665pt>
+<pics/FlexLoggerWebsiteDiagramm.jpg, id=899, 1140.05925pt x 526.3665pt>
 File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
 <use pics/FlexLoggerWebsiteDiagramm.jpg>
 Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 174.
 (pdftex.def)             Requested size: 399.02672pt x 184.23103pt.
- [61 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg> <./pics/csv_datei_beispiel.jpg>] [62 <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg> <./pics/FlexLoggerWebsiteDiagramm.jpg>]
+ [68 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg> <./pics/csv_datei_beispiel.jpg>] [69 <./pics/FlexLoggerWebsite_Fehlermeldung.jpg> <./pics/FlexLoggerWebsiteFormulare.jpg> <./pics/FlexLoggerWebsiteDiagramm.jpg>]
 Overfull \hbox (3.59695pt too wide) in paragraph at lines 184--185
 []\T1/lmr/m/n/12 (-20) AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten. 
  []
 
-[63]
+[70]
 Overfull \hbox (17.1614pt too wide) in paragraph at lines 208--209
 []\T1/lmr/m/n/12 (-20) Wenn die checkCSV-Variable als true gesetzt wurde, wird überprüft, ob der Namenparameter
  []
@@ -1817,7 +1861,7 @@ Overfull \hbox (12.65332pt too wide) in paragraph at lines 208--209
 \T1/lmr/m/n/12 (-20) der Datei gestartet. Dieser Download wird mithilfe der window.open() Methode verwirklicht.
  []
 
-[64]
+[71]
 Overfull \hbox (5.4315pt too wide) in paragraph at lines 227--228
 \T1/lmr/m/n/12 (-20) gefunden.äusgegeben. Bei einem positiven Ergebnis des IF-Statements werden nachfolgend
  []
@@ -1827,28 +1871,28 @@ Overfull \hbox (5.85106pt too wide) in paragraph at lines 233--235
 []\T1/lmr/m/n/12 (-20) changeData() Hier werden die geänderten Daten in den Diagrammoptionen gespeichert.
  []
 
-[65] [66]) (sections/Flexlogger/Logging.tex [67]
+[72] [73]) (sections/Flexlogger/Logging.tex [74]
 Overfull \hbox (0.9472pt too wide) in paragraph at lines 21--23
 \T1/lmr/m/n/12 (-20) Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten
  []
 
-<pics/log4jArchitektur.jpg, id=901, 461.3235pt x 283.65974pt>
+<pics/log4jArchitektur.jpg, id=950, 461.3235pt x 283.65974pt>
 File: pics/log4jArchitektur.jpg Graphic file (type jpg)
 <use pics/log4jArchitektur.jpg>
 Package pdftex.def Info: pics/log4jArchitektur.jpg  used on input line 41.
 (pdftex.def)             Requested size: 322.92424pt x 198.56046pt.
-[68]) (sections/Flexlogger/Threads.tex
-<pics/javaThreadMultitasking.jpg, id=917, 396.2805pt x 157.7895pt>
+[75]) (sections/Flexlogger/Threads.tex
+<pics/javaThreadMultitasking.jpg, id=966, 396.2805pt x 157.7895pt>
 File: pics/javaThreadMultitasking.jpg Graphic file (type jpg)
 <use pics/javaThreadMultitasking.jpg>
 Package pdftex.def Info: pics/javaThreadMultitasking.jpg  used on input line 14.
 (pdftex.def)             Requested size: 396.27953pt x 157.78911pt.
- [69 <./pics/log4jArchitektur.jpg>]
+ [76 <./pics/log4jArchitektur.jpg>]
 Overfull \hbox (8.81206pt too wide) in paragraph at lines 22--23
 \T1/lmr/m/n/12 (-20) Wie nebenläufige Abarbeitung die Performance bei einem Einprozessorsystem beschleunigt,
  []
 
-[70 <./pics/javaThreadMultitasking.jpg>]
+[77 <./pics/javaThreadMultitasking.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 55--55
 [][][][][][][][] 
  []
@@ -1863,8 +1907,8 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 71--71
 [][][][][][][][] 
  []
 
-[71]
-<pics/blockingQueue.jpg, id=964, 425.79076pt x 143.3355pt>
+[78]
+<pics/blockingQueue.jpg, id=1013, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 87.
@@ -1884,7 +1928,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 116--116
 [][][][][][][][] 
  []
 
-[72 <./pics/blockingQueue.jpg>]) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/AbspeicherungVonDaten.tex [73]
+[79 <./pics/blockingQueue.jpg>]) (sections/Flexlogger/Performance.tex) (sections/Flexlogger/AbspeicherungVonDaten.tex [80]
 Overfull \hbox (44.44328pt too wide) in paragraph at lines 7--11
 \T1/lmr/m/n/12 (-20) auszuwählen, da davon einige Faktoren abhängen. Dazu gehören die Verarbeitungsgeschwindigkeit,
  []
@@ -1899,15 +1943,15 @@ Overfull \hbox (12.86124pt too wide) in paragraph at lines 13--30
  [] 
  []
 
-[74]
+[81]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 41--41
 [][][][][][][][] 
  []
 
-)) [75] [76]
+)) [82] [83]
 chapter 5.
 (sections/implementation.tex
-<pics/knuthi.jpg, id=1057, 474.27188pt x 266.49562pt>
+<pics/knuthi.jpg, id=1106, 474.27188pt x 266.49562pt>
 File: pics/knuthi.jpg Graphic file (type jpg)
 <use pics/knuthi.jpg>
 Package pdftex.def Info: pics/knuthi.jpg  used on input line 20.
@@ -1917,11 +1961,11 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
 [][][][][][][][] 
  []
 
-) [77
+) [84
 
-] [78 <./pics/knuthi.jpg>]
+] [85 <./pics/knuthi.jpg>]
 chapter 6.
-(sections/summary.tex) [79
+(sections/summary.tex) [86
 
 ] (glossary.tex
 \@gls@deffile=\write9
@@ -2015,17 +2059,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 88 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36203 strings out of 478338
- 668109 string characters out of 2841194
+ 36281 strings out of 478338
+ 669730 string characters out of 2841194
  1926793 words of memory out of 3000000
- 54839 multiletter control sequences out of 15000+600000
- 566859 words of font info for 137 fonts, out of 8000000 for 9000
+ 54886 multiletter control sequences out of 15000+600000
+ 570988 words of font info for 144 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 113i,20n,109p,10664b,3699s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 113i,21n,109p,10664b,3699s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (92 pages, 2093445 bytes).
+Output written on thesis.pdf (99 pages, 2484706 bytes).
 PDF statistics:
- 1520 PDF objects out of 1728 (max. 8388607)
- 586 named destinations out of 1000 (max. 500000)
- 32724 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1578 PDF objects out of 1728 (max. 8388607)
+ 603 named destinations out of 1000 (max. 500000)
+ 34797 words of extra memory for PDF output out of 35830 (max. 10000000)
 

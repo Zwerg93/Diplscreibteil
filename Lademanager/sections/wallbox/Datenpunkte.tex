@@ -19,7 +19,7 @@ Die Datenpunkte sind im Grunde alle gleich aufgebaut. Ein Datenpunkt (dp) besteh
 Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die VM (Virtual machine),  auf welcher der Flextask sich befindet, verbinden. In dem Verzeichnis mit der conf.db Datei muss man mit SQLITE3 die Datei öffnen. Dort kann man dann mit einem insert bzw. Update Statement einen neuen Datenpunkt hinzufügen, aktualisieren oder löschen. 
 
 \begin{lstlisting}[language=sql,caption=Example Element,label=lst:impl:foo]
-    INSERT INTO datapoint VALUES ('Wallbox\textunderscore 1\textunderscore startCharching\textunderscore icon\textunderscore state',1,'','state\textunderscore [Wallbox\textunderscore 1\textunderscore startCharching\textunderscore icon]','','','INT',-1,-1,0.0,'');
+    INSERT INTO datapoint VALUES ('Wallbox_1_startCharching_icon_state',1,'' ,'state_[Wallbox_1_startCharching_icon]','','','INT',-1,-1,0.0,'');
 \end{lstlisting}
 
 \subsection{Nutzung eines Datenpunktes:}
@@ -27,7 +27,7 @@ Um einen neuen Datenpunk in einem Task anzulegen, muss man sich zuerst auf die V
 Somit ist der Datenpunkt in der Datenbank angelegt und ready to use. Um nun in einem Flextask auf so einen Datenpunkt Zugriff zu haben, muss man ihn erstmal anlegen und die “SPECIFIC\_ADDRESS” angeben: 
 
 \begin{lstlisting}[language=java,caption=Example Datapoint,label=lst:impl:foo]
-    Datapoint datapoint = StaticData.datapoints.getDatapoint(Datapoints.DatapointField.SPECIFIC\textunderscore ADDRESS, "SPECIFIC\textunderscore ADDRESS\textunderscore DES\textunderscore DATENPUNKTES"); 
+    Datapoint datapoint = StaticData.datapoints.getDatapoint(Datapoints.DatapointField.SPECIFIC_ADDRESS, "SPECIFIC_ADDRESS_DES_DATENPUNKTES"); 
 \end{lstlisting}
 
 Nun hat man mehrere Möglichkeiten, wie man Daten aus dem Datenpunkt lesen kann: 
@@ -64,7 +64,7 @@ DatapointCommand dpCmd = new DatapointCommand() {
  
         int deviceID= datapointResult.getDeviceId();  
         switch (datapointResult.getDpId()) { 
-            case "datapoint\textunderscore example\textunderscore id": 
+            case "datapoint_example_id": 
                 System.out.println(datapointResult.getValue() + " " + deviceID ); 
                  break; 
                     } 

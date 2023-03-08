@@ -1,8 +1,8 @@
 \label{ModbusErklärung}
-
+Um die Art der Kommunikation zwischen den Wallboxen, der PV-Anlagen, den Janitza Klemmen und dem Raspberry PI zu verstehen, muss man sich erstmals mit der Übertragung an sich beschäftigen.
 \subsection{7 Schichten OSI-Modell} \label{OsiModell}
 
-Um die Art der Kommunikation zwischen den Wallboxen, der PV-Anlagen, den Janitza Klemmen und dem Raspberry PI zu verstehen, muss man sich erstmals mit der Übertragung an sich beschäftigen. Denn mit dem Open System Interconnection Reference Model (kurz OSI-Referenzmodell) lässt sich am besten beschreiben, wie und auf welchen Ebenen die Daten übertragen werden.  Kurz zusammengefasst ist es ein Modell, das die Kommunikation in einem Netzwerk in sieben Schichten unterteilt. Die Entwicklung, welche seit 1983 als Standard veröffentlicht wird, begann bereits 1977.  Der Fokus der Entwicklung war es, ein Modell zu erschaffen, mit welchem sich die Kommunikation zwischen Systemen, auch innerhalb eines Netzwerkes, beschreiben lassen. Es gibt dabei sieben Schichten, auf welche sich unterschiedliche Übertragungsarten abspielen. 
+Mit dem Open System Interconnection Reference Model (kurz OSI-Referenzmodell) lässt sich am besten beschreiben, wie und auf welchen Ebenen die Daten übertragen werden.  Kurz zusammengefasst ist es ein Modell, das die Kommunikation in einem Netzwerk in sieben Schichten unterteilt. Die Entwicklung, welche seit 1983 als Standard veröffentlicht wird, begann bereits 1977.  Der Fokus der Entwicklung war es, ein Modell zu erschaffen, mit welchem sich die Kommunikation zwischen Systemen, auch innerhalb eines Netzwerkes, beschreiben lassen. Es gibt dabei sieben Schichten, auf welche sich unterschiedliche Übertragungsarten abspielen. 
 
 Die sieben Schichten des OSI-Modells sind:  
 
@@ -21,7 +21,7 @@ Das OSI-Referenzmodell hilft, die Kommunikation in einem Netzwerk zu beschreiben
 
 \begin{figure}[h p] \cite{7schichtenModell}
     \centering
-    \includegraphics[scale=0.35]{pics/ISO-OSI-Modell-768x486.png}
+    \includegraphics[scale=0.5]{pics/ISO-OSI-Modell-768x486.png}
     \caption{Das 7 Schichten OSI/ISO Modell}
     \label{fig:impl:Wallbox7schichtenmodell}
 \end{figure}
@@ -56,9 +56,11 @@ Nach der Pause fängt das Packet mit der Adresse des jeweiligen Slaves an. So ka
 
 Das nächste Byte enthält die Information über die Funktion. Folgende sind in der Produktion wichtig: \ref{functionsfromModbus}
 
-\begin{table}[h p] \label{functionsfromModbus}
+\begin{table}[h t] \label{functionsfromModbus}
+    \tiny
     \begin{tabular}{|l|l|}
     \hline
+    
     Code & Description                                                         \\ \hline
     1    & \begin{tabular}[c]{@{}l@{}}Read \\ coils\end{tabular}               \\ \hline
     2    & \begin{tabular}[c]{@{}l@{}}Read \\ discrete\\  Inputs\end{tabular}  \\ \hline
@@ -75,15 +77,16 @@ Bei der Kommunikation mit den Wallboxen wurde nur die Funktion 4 und 6 benutzt, 
 Nach der Funktion kommen die eigentlichen Daten des Paketes. Diese bestehen immer aus einem Register. Je nach Funktion kommen noch andere Werte hinzu, zum Beispiel der Wert, den man auf ein Register schreiben möchte. Ein Register lässt sich hier sehr gut mit einer Adresse in dem jeweiligen Device vergleichen. Dort stehen nämlich die Daten des Gerätes bzw. dort können Werte gesetzt werden. Die Daten können dabei beliebig groß sein.  
 
 Der CR-Check am Ende ist eine Prüfsumme des Paketes, um die Gültigkeit der Daten zu überprüfen. Diese Überprüfung ist vor allem bei der seriellen Kommunikation sehr wichtig, da es immer wieder zu Differenzen kommen kann, wo Daten verloren gehen und das Paket unvollständig ankommt. 
-\ref{ModbusRTUprotokolltable}
+\ref{abb:ModbusRTUprotokolltable}
 
- \begin{table}[h p] 
+ \begin{table}[h t] \label{abb:ModbusRTUprotokolltable}
+    
+    \tiny
     \begin{tabular}{|l|l|l|l|l|l|}
     \hline
     Start                        & Adresse & Funktion & Daten  & CR-Check & Ende                        \\ \hline
     Wartezeit (min. 3.5 Zeichen) & 1 Byte  & 1 Byte   & n Byte & 2 Byte   & Wartezeit (min 3.5 Zeichen) \\ \hline
     \end{tabular}
-    \label{ModbusRTUprotokolltable}
  \end{table}
 
 \subsection{Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}
@@ -92,7 +95,8 @@ Die Modbus-Kommunikation über TCP ist der über RTU sehr ähnlich. Der größte
 
 Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach kommt, mit derselben Länge, ein Protokollkennzeichen, welches immer gleich ist (0x0000). Der nächste Abschnitt beschreibt, wie viele Bytes noch folgen werden. Dieser Bereich ist immer um 2 Byte größer als die tatsächliche Anzahl der Bytes.  Die Länge der Adresse, der Funktion und der Daten ist dieselbe wie bei Modbus TCP. \ref{modbusTCPtable}
 
-\begin{table}[h p]
+\begin{table}[h t]
+    \tiny
     \begin{tabular}{|l|l|l|l|l|l|}
     \hline
     Transaktionsnummer & Protokollkennzeichen  & Zahl der noch folgenden Bytes & Adresse & Funktion & Daten  \\ \hline
@@ -116,9 +120,9 @@ Ein weiterer wichtiger Punkt ist die Verkabelung der einzelnen Teilnehmer. Währ
 
 
 
-\begin{figure}[h p] \cite{modbusaufbauimg}
+\begin{figure}[h t] \cite{modbusaufbauimg}
     \centering
-    \includegraphics[scale=0.35]{pics/RS485-Schnittstelle-11.png}
+    \includegraphics[scale=0.5]{pics/RS485-Schnittstelle-11.png}
     \caption{Aufau eines Modbus-Netzwerkes}
     \label{fig:impl:WallboxModbusnetzwerk}
 \end{figure}
@@ -127,9 +131,9 @@ Ein weiterer wichtiger Punkt ist die Verkabelung der einzelnen Teilnehmer. Währ
 
 Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme “QModMaster” und “Hercules” verwendet. Es handelt sich bei beiden um kostenlose Programme.  \ref{fig:impl:QmodMasterverview}
 
-\begin{figure}[h p] 
+\begin{figure}[h t] 
     \centering
-    \includegraphics[scale=0.35]{pics/QmodMasterverview.png}
+    \includegraphics[scale=0.7]{pics/QmodMasterverview.png}
     \caption{Overview von QModMaster }
     \label{fig:impl:QmodMasterverview}
 \end{figure}
@@ -143,9 +147,9 @@ Die "Number of Coils" sagt an, wie viele Register auf einmal ausgelesen / beschr
 
 Der untere Bereich ist das Ergebnis, welches der Slave zurücksendet. Hier kann man auch auswählen, in welcher Form die Daten angezeigt werden sollen. Ganz unten sieht man noch eine Zusammenfassung der Einstellungen, wie viele Packages gesendet wurden und wie viele davon fehlerhaft waren.   
 
-\begin{figure}[h p] 
+\begin{figure}[h t] 
     \centering
-    \includegraphics[scale=0.35]{pics/Settingsforqmodmaster.png}
+    \includegraphics[scale=0.7]{pics/Settingsforqmodmaster.png}
     \caption{Einstellungen für Modbus RTU}
     \label{fig:impl:Settingsforqmodmaster}
 \end{figure}
@@ -159,9 +163,9 @@ Data-Bits beschreibt die Länge des Protokolls. Dieser Wert ist auch im Datenbla
 
 Die Stop-bits findet man auch in den Angaben des Herstellers. Der Wert beträgt meist 1 oder 2 Bits. Parity und RTS sind meist disabled, können aber bei Bedarf auch konfiguriert werden.  
 
-\begin{figure}[h p] 
+\begin{figure}[h t] 
     \centering
-    \includegraphics[scale=0.35]{pics/ToolsQModbusMaster.png}
+    \includegraphics[scale=0.7]{pics/ToolsQModbusMaster.png}
     \caption{Einstellungen für Modbus RTU}
     \label{fig:impl:ToolsQModbusMaster}
 \end{figure}
@@ -171,9 +175,9 @@ Außerdem gibt es einen Monitor, auf welchem man genau die einzelnen Abfragen de
 
 Wenn man mit QModbusMaster eine Modbus TCP Verbindung aufbauen möchte, muss man den Mode auf TCP stellen. Die Einstellmöglichkeiten sind fast identisch zu der Modbus RTU Verbindung, hier muss man lediglich die Unit ID anstatt der SlaveID einstellen, jedoch ist es derselbe Wert. \ref{fig:impl:QmodbusMasterTCP}
 
-\begin{figure}[h p] 
+\begin{figure}[h t] 
     \centering
-    \includegraphics[scale=0.35]{pics/QmodbusMasterTCP setting.png}
+    \includegraphics[scale=0.7]{pics/QmodbusMasterTCP setting.png}
     \caption{Einstellungen für Modbus RTU}
     \label{fig:impl:QmodbusMasterTCP}
 \end{figure}
