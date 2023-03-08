@@ -44,11 +44,11 @@
 \contentsline {subsection}{\numberline {2.7.4}NodeJS im Vergleich}{14}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}http GET/POST/PUT Funktionen}{14}{subsection.2.7.5}%
 \contentsline {subsection}{\numberline {2.7.6}JDBC und JPA}{15}{subsection.2.7.6}%
-\contentsline {subsection}{\numberline {2.7.7}Quarkus und JDBC}{16}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2.7.7}Quarkus und JDBC}{15}{subsection.2.7.7}%
 \contentsline {section}{\numberline {2.8}SQL}{16}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Kommunikation mit Datenbanken}{17}{subsection.2.8.1}%
 \contentsline {subsubsection}{\nonumberline Daten aus einer Datenbank auslesen}{17}{subsubsection*.23}%
-\contentsline {subsection}{\numberline {2.8.2}SQL und Java in Verbindung}{18}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.2}SQL und Java in Verbindung}{17}{subsection.2.8.2}%
 \contentsline {section}{\numberline {2.9}Beckhoff}{18}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Raspberry}{18}{section.2.10}%
 \contentsline {chapter}{\numberline {3}Wallbox}{19}{chapter.3}%
@@ -108,7 +108,7 @@
 \contentsline {subsubsection}{\nonumberline ValidatorService}{67}{subsubsection*.75}%
 \contentsline {subsubsection}{\nonumberline LogEntry Model}{67}{subsubsection*.77}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{67}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Logging}{68}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Logging}{67}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{68}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Log4J}{68}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Threads}{69}{section.4.5}%

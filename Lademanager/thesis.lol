@@ -27,6 +27,6 @@
 \contentsline {lstlisting}{\numberline {27}{\ignorespaces Java Runnable}}{71}{lstlisting.4.27}%
 \contentsline {lstlisting}{\numberline {28}{\ignorespaces Einfaches Thread Beispiel}}{71}{lstlisting.4.28}%
 \contentsline {lstlisting}{\numberline {29}{\ignorespaces Thread erstellen/starten}}{71}{lstlisting.4.29}%
-\contentsline {lstlisting}{\numberline {30}{\ignorespaces Java BlockingQueue Beispiel}}{73}{lstlisting.4.30}%
+\contentsline {lstlisting}{\numberline {30}{\ignorespaces Java BlockingQueue Beispiel}}{72}{lstlisting.4.30}%
 \contentsline {lstlisting}{\numberline {31}{\ignorespaces JSON Beispiel}}{75}{lstlisting.4.31}%
 \contentsline {lstlisting}{\numberline {32}{\ignorespaces Some code}}{77}{lstlisting.5.32}%
