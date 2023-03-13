@@ -95,44 +95,44 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Klasse}{61}{subsubsection*.49}%
 \contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{61}{subsubsection*.51}%
 \contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{62}{subsubsection*.53}%
-\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{62}{subsection.4.3.3}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{62}{subsubsection*.55}%
-\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{62}{subsubsection*.57}%
+\contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{63}{subsection.4.3.3}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{63}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{63}{subsubsection*.57}%
 \contentsline {subsubsection}{\nonumberline LogEntry Repository}{64}{subsubsection*.59}%
-\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{66}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{66}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline App-Component}{69}{subsubsection*.69}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{70}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{71}{subsubsection*.73}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{72}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline HttpService}{73}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{73}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{74}{subsubsection*.81}%
-\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{74}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Logging}{74}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{75}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Log4J}{75}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Threads}{76}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{76}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{77}{subsubsection*.85}%
-\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{77}{subsection.4.5.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{77}{subsubsection*.87}%
-\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{78}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{78}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{79}{subsubsection*.90}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{79}{subsubsection*.92}%
-\contentsline {subsection}{\numberline {4.5.5}Service executer}{80}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}Performance}{80}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{80}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{80}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{80}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Abspeicherung von Daten}{80}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{80}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}CSV}{81}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}JSON}{82}{subsection.4.7.3}%
-\contentsline {subsection}{\numberline {4.7.4}Datenbank}{82}{subsection.4.7.4}%
-\contentsline {chapter}{\numberline {5}test}{83}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{85}{chapter.6}%
+\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{67}{subsection.4.3.4}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{67}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline App-Component}{70}{subsubsection*.69}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{71}{subsubsection*.71}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{72}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{73}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline HttpService}{74}{subsubsection*.77}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{74}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{75}{subsubsection*.81}%
+\contentsline {subsection}{\numberline {4.3.5}CanvasJS}{75}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Logging}{75}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{76}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Log4J}{76}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Threads}{77}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{77}{subsection.4.5.1}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{78}{subsubsection*.85}%
+\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{78}{subsection.4.5.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{78}{subsubsection*.87}%
+\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{79}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{79}{subsection.4.5.4}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{80}{subsubsection*.90}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{80}{subsubsection*.92}%
+\contentsline {subsection}{\numberline {4.5.5}Service executer}{81}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}Performance}{81}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{81}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Bandbreite}{81}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Menge der Datenpunkte}{81}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Abspeicherung von Daten}{81}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{81}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}CSV}{82}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}JSON}{83}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Datenbank}{83}{subsection.4.7.4}%
+\contentsline {chapter}{\numberline {5}test}{84}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{86}{chapter.6}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.95}%
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.96}%
 \contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.97}%

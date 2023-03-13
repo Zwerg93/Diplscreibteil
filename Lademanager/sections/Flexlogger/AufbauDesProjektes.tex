@@ -33,13 +33,36 @@ Die Klasse FlexTaskFsLogger ist die Main-Klasse des Programms. Sie führt das Pr
     \item initTask
 \end{compactitem}
  
-Zusätzlich befindet sich noch in der Klasse eine Getter- und Setter-Methode, diese sind allerdings lediglich für eine Zählvariable zuständig, um bestimmte Daten weniger oft in die Datenbank einzuspeichern.
- 
-Die Hauptmethode des FlexTaskFsLogger ist die initTask-Methode. In ihr wird eine BlockingQueue mit dem generic Type LogEntry erstellt. Mithilfe dieser Blocking-Queue werden darauffolgend ein Producer und ein Consumer erstellt, welche die Blocking-Queue als Parameter übergeben bekommen. Nachfolgend werden jeweils zwei Producer-Threads und zwei Consumer-Threads erstellt und gestartet. Um eine zeitliche Einteilung zu haben, wird ein sogenannter TimerTask erstellt, welcher wiederum auch ein neuer, unabhängiger Thread ist. Er wird dazu genutzt, um in einem gewissen Intervall Methoden oder Code-Blöcke aufzurufen. In diesem Fall wird der Task dazu verwendet, über den DataJDBCAdapter einen neuen Eintrag in der Datenbank zu speichern. Dazu wird zuallererst überprüft, ob eine Variable, welche für das Starten und Stoppen des Tasks zuständig ist, auf true gesetzt wurde. Anschließend wird ein sogenannter StringBuilder, welcher aus einer Kette von Strings besteht, aus dem vorher erstellten Consumer geholt. Dieser StringBuilder besteht aus einem aneinandergeketteten Insert-Statement. Um die Ausführbarkeit des Stringbuilders zu gewährleisten, muss die letzte Stelle (an welcher sich ein Beistrich befindet) gelöscht werden und durch einen Strichpunkt ersetzt werden.
- 
+Zusätzlich befindet sich noch in der Klasse eine Getter- und Setter-Methode, diese sind allerdings lediglich für eine Zählvariable zuständig, um bestimmte Daten weniger oft in die Datenbank einzuspeichern. 
+Die Hauptmethode des FlexTaskFsLogger ist die initTask-Methode. In ihr wird eine BlockingQueue mit dem generic Type LogEntry erstellt. Mithilfe dieser Blocking-Queue werden darauffolgend ein Producer und ein Consumer erstellt, welche die Blocking-Queue als Parameter übergeben bekommen. Nachfolgend werden jeweils zwei Producer-Threads und zwei Consumer-Threads erstellt und gestartet. Um eine zeitliche Einteilung zu haben, wird ein sogenannter TimerTask erstellt \ref{lst:impl:timerTask}, welcher wiederum auch ein neuer, unabhängiger Thread ist. Er wird dazu genutzt, um in einem gewissen Intervall Methoden oder Code-Blöcke aufzurufen. In diesem Fall wird der Task dazu verwendet, über den DataJDBCAdapter einen neuen Eintrag in der Datenbank zu speichern. Dazu wird zuallererst überprüft, ob eine Variable, welche für das Starten und Stoppen des Tasks zuständig ist, auf true gesetzt wurde. Anschließend wird ein sogenannter StringBuilder, welcher aus einer Kette von Strings besteht, aus dem vorher erstellten Consumer geholt. Dieser StringBuilder besteht aus einem aneinandergeketteten Insert-Statement. Um die Ausführbarkeit des Stringbuilders zu gewährleisten, muss die letzte Stelle (an welcher sich ein Beistrich befindet) gelöscht werden und durch einen Strichpunkt ersetzt werden. \ref{lst:impl:timerTask}
+
+
+\begin{lstlisting}[language=java,caption=TimerTask,label=lst:impl:timerTask]
+    TimerTask timerTask = new TimerTask() {
+        @Override
+        public void run() {
+            counter = true;
+            if (producer.getRun()) {
+                StringBuilder stringBuilder = consumer.getStringBuilder();
+                stringBuilder.deleteCharAt(stringBuilder.length() - 1);
+                stringBuilder.append(";");
+                try {
+                    dba.insertLogEntry(stringBuilder.toString());
+                    // System.out.println("successful writing to db");
+                } catch (Exception e) {
+                    System.out.println(e);
+                }
+
+                stringBuilder.delete(0, stringBuilder.length());
+                consumer.setStringBuilder(stringBuilder.append("INSERT INTO flexlogger(dp_name, value, unit, timestamp) VALUES "));
+            }
+        }
+    }; 
+\end{lstlisting}
+
 Um das korrekt erstellte SQL-Statement nun ausführen zu können, wird in einem try and catch Statement die insertLogEntry-Methode des DataJDBCAdapters ausgeführt. Dabei wird der StringBuilder mit dem SQL-Statement, welches mithilfe der toString-Methode in einen String umgewandelt wird, übergeben.
  
-Anschließend wird der eben verwendete StringBuilder geleert, indem die delete-Methode aufgerufen wird. Um einen neuen Insert-Aufruf zu ermöglichen, wird ein insert-Header (siehe Abb.1) über die setStringBuilder-Methode aus dem Consumer gesetzt.
+Anschließend wird der eben verwendete StringBuilder geleert, indem die delete-Methode aufgerufen wird. Um einen neuen Insert-Aufruf zu ermöglichen, wird ein insert-Header über die setStringBuilder-Methode aus dem Consumer gesetzt.
  
 Nun wird der vorher beschriebene TimerTask in einem eine Zeile davor erstellten Timer als Parameter übergeben.
  
@@ -53,18 +76,47 @@ Dies ist die Model-Klasse des Programms. In ihr werden die Attribute des LogEntr
 Diese Klasse ist der Producer der Blocking Queue, soll heißen in dieser Klasse werden die Objekte in die Blocking Queue hinzugefügt.
  
 Es lassen sich zwei Attribute im Producer finden, die Blocking Queue, in welche die Objekte später hinzugefügt werden und eine Boolean Variable, welche den Namen "run" trägt. Sie ist dafür verantwortlich, den Producer zu deaktivieren bzw. zu aktivieren. Unterhalb der Attribute befinden sich ein Konstruktor, um die Blocking-Queue zu übergeben und ein Getter und ein Setter für die run-Variable.
- 
+
 Die Hauptmethode der Klasse ist die run-Methode. Hier wird ein neuer DatapointCommand erstellt, in welchem die execute-Methode überschrieben wird. Innerhalb der execute-Methode wird ganz oben eine Counter Variable initialisiert, sie ist dafür verantwortlich, bestimmte Daten von Datenpunkten nur jedes zweite Mal in die Blocking Queue hinzuzufügen. Danach befindet sich ein if-Statement, welches überprüft, ob der Code im Consumer ausgeführt werden soll oder nicht. In diesem if-Statement befindet sich ein Switch für den specificDataType, welcher je nach DataType einen bestimmten Codeteil ausführt. In dem einen Codeteil wird die counter-Variable auf true oder false überprüft (bei einem false wird der Datenteil nicht in die Blocking-Queue hinzugefügt), in dem anderen wird dies ignoriert.
  
-Allerdings kümmern sich beide Codeteile darum, die jeweiligen Daten als LogEntry zu erstellen und diesen anschließend in die Blocking Queue zu pushen.
+Allerdings kümmern sich beide Codeteile darum, die jeweiligen Daten als LogEntry zu erstellen und diesen anschließend in die Blocking Queue zu pushen. \ref{lst:impl:logEntryBlockingQueue}
+
+\begin{lstlisting}[language=java,caption=LogEntry in BlockingQueue hinzufügen,label=lst:impl:logEntryBlockingQueue]
+    try {
+            LogEntry logEntry = new LogEntry(datapointResult.getDpId(), datapointResult.getValue(), "A", datapointResult.getTimestamp());
+            blockingQueue.put(logEntry);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+\end{lstlisting}
+
  
-Mithilfe des Codes, welcher sich unterhalb des erstellten DataPointCommands befindet, wird über die Datenpunkte des jeweiligen Geräts iteriert und sorgt dafür, dass der oben liegende Codeteil bei einer Änderung ausgeführt wird. 
+Mithilfe des Codes, welcher sich unterhalb des erstellten DataPointCommands befindet, wird über die Datenpunkte des jeweiligen Geräts iteriert und anschließend wird der oben liegende Codeteil bei einer Änderung ausgeführt. \ref{lst:impl:datenpunkteIterieren}
  
+\begin{lstlisting}[language=java,caption=Datenpunkte des jeweiligen Geräts iterieren,label=lst:impl:datenpunkteIterieren]
+    for (Device dev : StaticData.devices.getDevices()) {
+        for (Datapoint dp : StaticData.datapoints.getDatapoints(dev.getId())) {
+            if (!dp.getSpecificDataType().isEmpty()) {
+                dp.setDatapointChangedCommand(dpCmd);
+            }
+        }
+}
+\end{lstlisting}
+
 \subsubsection{Blocking Queue - Consumer }
 In dieser Klasse geht es um den Consumer der Blocking Queue, das bedeutet vom Consumer werden Objekte aus der Blocking Queue genommen und diese weiterverarbeitet. Die Attribute in dieser Klasse sind so wie in der Producer Klasse eine Blocking-Queue, sowie die run-Variable, um den Consumer zu aktivieren bzw. zu deaktivieren. Im Konstruktor wird wiederum die Blocking-Queue übergeben.
  
-In der run-Methode der Klasse wird in einem while-True ein if-Statement ausgeführt, in welchem sich ein Try-and-Catch-Statement befindet. In diesem wird das benötigte Objekt aus der Blocking-Queue geholt und anschließend in einen StringBuilder als gültiges SQL-Statement hinzugefügt.
- 
+In der run-Methode der Klasse wird in einem while-True ein if-Statement ausgeführt, in welchem sich ein Try-and-Catch-Statement befindet. In diesem wird das benötigte Objekt aus der Blocking-Queue geholt und anschließend in einen StringBuilder als gültiges SQL-Statement hinzugefügt. \ref{lst:impl:logEntryBlockingQueueConsumer}
+
+ \begin{lstlisting}[language=java,caption=Daten aus BlockingQueue herausnehmen,label=lst:impl:logEntryBlockingQueueConsumer]
+    try {
+        LogEntry logEntry = this.blockingQueue.take();
+        stringBuilder.append("('" + logEntry.getDpId() + "'," + logEntry.getValue() + "," + "'A'," + logEntry.getTimeStamp() + "),");
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+\end{lstlisting}
+
 Unterhalb befindet sich noch eine Getter- und Setter-Methode für den StringBuilder sowie die run-Variable.
  
 \subsection{Quarkus Backend}
@@ -116,10 +168,31 @@ Die getByName-Methode ist sehr ähnlich zur getAll-Methode. Der einzige Untersch
  
 Die bereits verwendete convertToMillis-Methode befindet sich direkt unter der vorigen Methode. In ihr wird das Datum und die Zeit als gemeinsamer String erstellt. Dieser String wird nun verwendet, um eine Variable des Typs LocalDateTime zu erstellen. Dieses wird nach dem richtigen Formatieren bzw. Umwandeln zurückgegeben.
  
-Der nächste Abschnitt des Repositories ist für alle Methoden rund um das Erstellen von CSV-Dateien zuständig. Die ersten beiden Methoden unterteilen jeweils, ob ein Name mitübergeben wurde, oder nicht. Die Parameter sind dabei das Anfangs- und Enddatum, sowie die Anfangs- und Endzeit. Bei der zweiten Methode wird nun ein Name zusätzlich übergeben. Der meiste Teil der Methoden ist relativ ähnlich, zuerst wird ein Set von LogEntries erstellt. Je nach Methode werden mithilfe der Parameter die richtigen LogEntries mit der getByName-Methode bzw. der getAll-Methode in dem Set gespeichert. Nachfolgend wird aus dem Set ein Stream erstellt, dabei wird jedes logEntry-Objekt zu einem String umgewandelt. Anschließend wird jeweils die Methode writeToCSVFile aufgerufen, welche sich direkt unter den anderen zwei Methoden befindet. Übergeben wird dabei beide Male der zuvor erstellte Stream mit den Strings, sowie ein neu erstelltes File mit einem vorher erstellen FilePath.
- 
-Die erste Zeile in der writeToCSVFile-Methode konvertiert das eben übergebene Set zu einer Liste. In diesem Prozess wird eine weitere Methode angewendet, welche den Namen convertToCSVFormat trägt. Mithilfe eines Map-Befehls wird die Methode auf jeder Zeile des Sets angewendet. Die convertToCSVFormat-Methode gibt dabei die übergebene Zeile als Stream zurück, wobei zwischen den einzelnen Werten in einer Zeile ein Semikolon eingefügt wird. Als nächstes wird ein BufferedWriter verwendet. Dieser wird als neue Instanz erstellt, mit dem Übergabeparameter eines neuen FileWriters, in welchem das am Kopf der Methode übergebene File übergeben wird. Der BufferedWriter ist von einem Try-and-Catch umgeben. Dies ist erforderlich, um bei einem eventuell auftretenden Fehler, wie etwa einem falschen Filepath oder fehlenden Berechtigungen, mit einer Fehlermeldung richtig reagieren zu können. In diesem Try-and-Catch wird nun jede Zeile der vorher erstellten Liste mithilfe einer For-Schleife durchgegangen. Mit den Methoden write() und newLine() wird somit die CSV-Datei Zeile für Zeile erstellt.
- 
+Der nächste Abschnitt des Repositories ist für alle Methoden rund um das Erstellen von CSV-Dateien zuständig. Die ersten beiden Methoden unterteilen jeweils, ob ein Name mitübergeben wurde, oder nicht. Die Parameter sind dabei das Anfangs- und Enddatum, sowie die Anfangs- und Endzeit. Bei der zweiten Methode wird nun ein Name zusätzlich übergeben. Der meiste Teil der Methoden ist relativ ähnlich, zuerst wird ein Set von LogEntries erstellt. Je nach Methode werden mithilfe der Parameter die richtigen LogEntries mit der getByName-Methode bzw. der getAll-Methode in dem Set gespeichert. Nachfolgend wird aus dem Set ein Stream erstellt, dabei wird jedes logEntry-Objekt zu einem String umgewandelt. Anschließend wird jeweils die Methode writeToCSVFile aufgerufen, welche sich direkt unter den anderen zwei Methoden befindet. Übergeben wird dabei beide Male der zuvor erstellte Stream mit den Strings, sowie ein neu erstelltes File mit einem vorher erstellen FilePath. \ref{lst:impl:logEntryZuCSV}
+
+\begin{lstlisting}[language=java,caption=LogEntrySet zu CSV umwandeln,label=lst:impl:logEntryZuCSV]
+    Set<LogEntry> logEntrySet = getAll(startDate, startTime, endDate, endTime);
+    Stream<String> stringSet = logEntrySet.stream().map(logEntry -> logEntry.toString());
+    writeToCsvFile(stringSet, new File(filePath));
+\end{lstlisting}
+
+Die erste Zeile in der writeToCSVFile-Methode \ref{lst:impl:downloadCSV} konvertiert das eben übergebene Set zu einer Liste. In diesem Prozess wird eine weitere Methode angewendet, welche den Namen convertToCSVFormat trägt. Mithilfe eines Map-Befehls wird die Methode auf jeder Zeile des Sets angewendet. Die convertToCSVFormat-Methode gibt dabei die übergebene Zeile als Stream zurück, wobei zwischen den einzelnen Werten in einer Zeile ein Semikolon eingefügt wird. Als nächstes wird ein BufferedWriter verwendet. Dieser wird als neue Instanz erstellt, mit dem Übergabeparameter eines neuen FileWriters, in welchem das am Kopf der Methode übergebene File übergeben wird. Der BufferedWriter ist von einem Try-and-Catch umgeben. Dies ist erforderlich, um bei einem eventuell auftretenden Fehler, wie etwa einem falschen Filepath oder fehlenden Berechtigungen, mit einer Fehlermeldung richtig reagieren zu können. In diesem Try-and-Catch wird nun jede Zeile der vorher erstellten Liste mithilfe einer For-Schleife durchgegangen. Mit den Methoden write() und newLine() wird somit die CSV-Datei Zeile für Zeile erstellt.
+
+\begin{lstlisting}[language=java,caption=CSV-File herunterladen,label=lst:impl:downloadCSV]
+    List<String> collect = logEntrySet
+                .map(this::convertToCsvFormat)
+                .collect(Collectors.toList());
+        
+    try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
+        for (String line : collect) {
+            bw.write(line);
+            bw.newLine();
+        }
+    }   catch (Exception e){
+        e.printStackTrace();
+    }
+\end{lstlisting}
+
 Die letzte Methode im Repository ist die insertLogEntry-Methode. Wie der Name bereits verrät, ist sie dafür zuständig, neue LogEntries in der Datenbank zu speichern. Um einen neuen LogEntry zu speichern, wird zuallererst ein String erstellt, welcher ein Insert-Statement enthält.
 Danach wird eine Verbindung zur Datenbank mithilfe der connect-Methode hergestellt. Durch ein PreparedStatement, welches aus einem SQL-String geformt wird, können alle Parameter gesetzt werden. Diese beinhalten die dpId (der Name des Datenpunkts), die value (den Wert des Datenpunkts), die unit (die Einheit des Datenpunkts), sowie den timestamp (wann der Datenpunkt erstellt wurde). Nachdem alle Parameter gesetzt wurden, wird ein executeUpdate durchgeführt, mithilfe dessen der neue LogEntry in die Datenbank geschrieben wird.
  

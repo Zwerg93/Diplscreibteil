@@ -24,10 +24,16 @@
 \contentsline {lstlisting}{\numberline {24}{\ignorespaces Example multible datapoint usage}}{42}{lstlisting.3.24}%
 \contentsline {lstlisting}{\numberline {25}{\ignorespaces Example Element}}{43}{lstlisting.3.25}%
 \contentsline {lstlisting}{\numberline {26}{\ignorespaces Dependency in Pom.xml}}{52}{lstlisting.3.26}%
-\contentsline {lstlisting}{\numberline {27}{\ignorespaces Connect to SQL Database}}{64}{lstlisting.4.27}%
-\contentsline {lstlisting}{\numberline {28}{\ignorespaces Java Runnable}}{78}{lstlisting.4.28}%
-\contentsline {lstlisting}{\numberline {29}{\ignorespaces Einfaches Thread Beispiel}}{78}{lstlisting.4.29}%
-\contentsline {lstlisting}{\numberline {30}{\ignorespaces Thread erstellen/starten}}{78}{lstlisting.4.30}%
-\contentsline {lstlisting}{\numberline {31}{\ignorespaces Java BlockingQueue Beispiel}}{79}{lstlisting.4.31}%
-\contentsline {lstlisting}{\numberline {32}{\ignorespaces JSON Beispiel}}{82}{lstlisting.4.32}%
-\contentsline {lstlisting}{\numberline {33}{\ignorespaces Some code}}{83}{lstlisting.5.33}%
+\contentsline {lstlisting}{\numberline {27}{\ignorespaces TimerTask}}{59}{lstlisting.4.27}%
+\contentsline {lstlisting}{\numberline {28}{\ignorespaces LogEntry in BlockingQueue hinzufügen}}{62}{lstlisting.4.28}%
+\contentsline {lstlisting}{\numberline {29}{\ignorespaces Datenpunkte des jeweiligen Geräts iterieren}}{62}{lstlisting.4.29}%
+\contentsline {lstlisting}{\numberline {30}{\ignorespaces Daten aus BlockingQueue herausnehmen}}{62}{lstlisting.4.30}%
+\contentsline {lstlisting}{\numberline {31}{\ignorespaces Connect to SQL Database}}{65}{lstlisting.4.31}%
+\contentsline {lstlisting}{\numberline {32}{\ignorespaces LogEntrySet zu CSV umwandeln}}{66}{lstlisting.4.32}%
+\contentsline {lstlisting}{\numberline {33}{\ignorespaces CSV-File herunterladen}}{66}{lstlisting.4.33}%
+\contentsline {lstlisting}{\numberline {34}{\ignorespaces Java Runnable}}{79}{lstlisting.4.34}%
+\contentsline {lstlisting}{\numberline {35}{\ignorespaces Einfaches Thread Beispiel}}{79}{lstlisting.4.35}%
+\contentsline {lstlisting}{\numberline {36}{\ignorespaces Thread erstellen/starten}}{79}{lstlisting.4.36}%
+\contentsline {lstlisting}{\numberline {37}{\ignorespaces Java BlockingQueue Beispiel}}{80}{lstlisting.4.37}%
+\contentsline {lstlisting}{\numberline {38}{\ignorespaces JSON Beispiel}}{83}{lstlisting.4.38}%
+\contentsline {lstlisting}{\numberline {39}{\ignorespaces Some code}}{84}{lstlisting.5.39}%
