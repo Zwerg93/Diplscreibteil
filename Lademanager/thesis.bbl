@@ -21,6 +21,53 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{webstormOfficialSite}
+\BIBentryALTinterwordspacing
+,,Webstorm Offizielle Seite.'' Online verfügbar:
+  \url{https://www.jetbrains.com/de-de/webstorm/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{OneDriveOfficialSite}
+\BIBentryALTinterwordspacing
+,,OneDrive.'' Online verfügbar: \url{https://one.google.com/about}
+\BIBentrySTDinterwordspacing
+
+\bibitem{VSCodeOfficialSite}
+\BIBentryALTinterwordspacing
+,,Visual Studio Code Offizielle Seite.'' Online verfügbar:
+  \url{https://code.visualstudio.com/docs}
+\BIBentrySTDinterwordspacing
+
+\bibitem{GitHubOfficialSite}
+\BIBentryALTinterwordspacing
+,,GitHub.'' Online verfügbar: \url{https://github.com/features}
+\BIBentrySTDinterwordspacing
+
+\bibitem{csvOrJson}
+\BIBentryALTinterwordspacing
+,,CSV or JSON which format is better for your AI training data.'' Online
+  verfügbar:
+  \url{https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{durchstartenHTML}
+M.~Pilgrim, \emph{Durchstarten mit HTML5}, 2011.
+
+\bibitem{typeJavaScript}
+\BIBentryALTinterwordspacing
+,,TypeScript - JavaScript,'' 2023. Online verfügbar:
+  \url{https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{JavaScriptJavaEntwickler}
+O.~Zeigermann, \emph{JavaScript für Java-Entwickler}, 2015.
+
+\bibitem{TypeScriptOverview}
+\BIBentryALTinterwordspacing
+,,TypeScript Overview,'' 2023. Online verfügbar:
+  \url{https://www.typescriptlang.org/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{javaInselBuch}
 C.~Ullenboom, \emph{Java ist auch eine Insel - Einführung, Ausbildung,
   Praxis}, 2018.
@@ -207,13 +254,6 @@ S.~Oaks und H.~Wong, \emph{Java Threads, 2nd Edition}, 1999. Online verfügbar:
 \BIBentryALTinterwordspacing
 J.~Jenkov, ,,Java Blocking Queue,'' 2021. Online verfügbar:
   \url{https://jenkov.com/tutorials/java-util-concurrent/blockingqueue.html#java-blockingqueue-tutorial-video}
-\BIBentrySTDinterwordspacing
-
-\bibitem{csvOrJson}
-\BIBentryALTinterwordspacing
-,,CSV or JSON which format is better for your AI training data.'' Online
-  verfügbar:
-  \url{https://www.analyticsinsight.net/csv-or-json-which-format-is-better-for-your-ai-training-data/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

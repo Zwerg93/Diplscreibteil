@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.3.5}Discord [T]}{5}{subsection.1.3.5}%
 \contentsline {subsection}{\numberline {1.3.6}Google drive [T]}{5}{subsection.1.3.6}%
 \contentsline {subsection}{\numberline {1.3.7}Visual Studio Code [T]}{5}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Github [T]}{6}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.8}Github [T]}{5}{subsection.1.3.8}%
 \contentsline {chapter}{\numberline {2}Allgemeiner Technologie-Part}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Java [M]}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}CSV}{8}{section.2.2}%
@@ -21,19 +21,19 @@
 \contentsline {section}{\numberline {2.4}TypeScript}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Datenbanken}{10}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}H2}{10}{subsection.2.5.1}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{11}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{11}{subsubsection*.11}%
 \contentsline {subsection}{\numberline {2.5.2}SQLite}{11}{subsection.2.5.2}%
-\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{11}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Performance (SQLite 3.36.0.3)}{11}{subsubsection*.13}%
 \contentsline {subsection}{\numberline {2.5.3}PostgreSQL}{11}{subsection.2.5.3}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{12}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 13.4)}{12}{subsubsection*.15}%
 \contentsline {subsection}{\numberline {2.5.4}Apache Derby}{12}{subsection.2.5.4}%
-\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{12}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{12}{subsubsection*.17}%
 \contentsline {subsection}{\numberline {2.5.5}Wahl der Datenbank für das Projekt}{12}{subsection.2.5.5}%
 \contentsline {section}{\numberline {2.6}Visuelle Darstellung}{13}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Angular}{13}{subsection.2.6.1}%
-\contentsline {subsubsection}{\nonumberline Komponenten}{13}{subsubsection*.17}%
-\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{14}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline Angular Forms}{14}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Komponenten}{13}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{14}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Angular Forms}{14}{subsubsection*.23}%
 \contentsline {subsection}{\numberline {2.6.2}Bootstrap}{15}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}CanvasJS}{15}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Quarkus}{16}{section.2.7}%
@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {2.7.7}Quarkus und JDBC}{20}{subsection.2.7.7}%
 \contentsline {section}{\numberline {2.8}SQL}{21}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Kommunikation mit Datenbanken}{22}{subsection.2.8.1}%
-\contentsline {subsubsection}{\nonumberline Daten aus einer Datenbank auslesen}{22}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Daten aus einer Datenbank auslesen}{22}{subsubsection*.28}%
 \contentsline {subsection}{\numberline {2.8.2}SQL und Java in Verbindung}{22}{subsection.2.8.2}%
 \contentsline {section}{\numberline {2.9}Beckhoff [M]}{23}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Raspberry [M]}{24}{section.2.10}%
@@ -90,37 +90,37 @@
 \contentsline {section}{\numberline {4.3}Aufbau des Projektes}{58}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Beschreibung der Funktionen}{58}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Logger}{59}{subsection.4.3.2}%
-\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{59}{subsubsection*.45}%
-\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{60}{subsubsection*.47}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{62}{subsubsection*.49}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{62}{subsubsection*.51}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{63}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{59}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{60}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{62}{subsubsection*.52}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{62}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{63}{subsubsection*.56}%
 \contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{64}{subsection.4.3.3}%
-\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{64}{subsubsection*.55}%
-\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{64}{subsubsection*.57}%
-\contentsline {subsubsection}{\nonumberline LogEntry Repository}{65}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline LogEntry Klasse}{64}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline LogEntry Ressource}{64}{subsubsection*.60}%
+\contentsline {subsubsection}{\nonumberline LogEntry Repository}{65}{subsubsection*.62}%
 \contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{68}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{68}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline App-Component}{71}{subsubsection*.69}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{72}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{73}{subsubsection*.73}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{74}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline HttpService}{75}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{75}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{76}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{68}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline App-Component}{71}{subsubsection*.72}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{72}{subsubsection*.74}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{73}{subsubsection*.76}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{74}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline HttpService}{75}{subsubsection*.80}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{75}{subsubsection*.82}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{76}{subsubsection*.84}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{76}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Logging}{76}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{77}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Log4J}{77}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Threads}{78}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{78}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{79}{subsubsection*.85}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{79}{subsubsection*.88}%
 \contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{79}{subsection.4.5.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{79}{subsubsection*.87}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{79}{subsubsection*.90}%
 \contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{80}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{80}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{81}{subsubsection*.90}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{81}{subsubsection*.92}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{81}{subsubsection*.93}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{81}{subsubsection*.95}%
 \contentsline {subsection}{\numberline {4.5.5}Service executer}{82}{subsection.4.5.5}%
 \contentsline {section}{\numberline {4.6}Performance}{82}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Grenzen (Wie viel Daten gleichzeitig kommen können)}{82}{subsection.4.6.1}%
@@ -133,9 +133,9 @@
 \contentsline {subsection}{\numberline {4.7.4}Datenbank}{84}{subsection.4.7.4}%
 \contentsline {chapter}{\numberline {5}test}{85}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Zusammenfassung}{87}{chapter.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.95}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.96}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.97}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{X}{chapter*.98}%
-\contentsline {chapter}{\nonumberline Anhang}{XI}{chapter*.99}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.98}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IX}{chapter*.99}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.100}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{XI}{chapter*.101}%
+\contentsline {chapter}{\nonumberline Anhang}{XII}{chapter*.102}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
