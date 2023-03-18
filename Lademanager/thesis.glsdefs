@@ -1,14 +1,14 @@
 \glsdefs@newdocentry{guid}%
 {%
-name={GUID},%
+name={\acronymfont {\glsentryshort {guid}}},%
 sort={GUID},%
 type={main},%
-first={Globally Unique Identifier\glsspace (GUID)},%
-firstplural={Globally Unique Identifier\acrpluralsuffix \glsspace (GUID\acrpluralsuffix )},%
+first={GUID},%
+firstplural={GUIDs},%
 text={GUID},%
-plural={GUID\acrpluralsuffix },%
+plural={GUIDs},%
 description={Globally Unique Identifier},%
-descriptionplural={Globally Unique Identifier\acrpluralsuffix },%
+descriptionplural={Globally Unique Identifier},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -28,15 +28,15 @@ parent={},%
 
 \glsdefs@newdocentry{jit}%
 {%
-name={JIT},%
+name={\acronymfont {\glsentryshort {jit}}},%
 sort={JIT},%
 type={main},%
-first={Just In Time Compiler\glsspace (JIT)},%
-firstplural={Just In Time Compiler\acrpluralsuffix \glsspace (JIT\acrpluralsuffix )},%
+first={JIT},%
+firstplural={JITs},%
 text={JIT},%
-plural={JIT\acrpluralsuffix },%
+plural={JITs},%
 description={Just In Time Compiler},%
-descriptionplural={Just In Time Compiler\acrpluralsuffix },%
+descriptionplural={Just In Time Compiler},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -56,15 +56,15 @@ parent={},%
 
 \glsdefs@newdocentry{nfc}%
 {%
-name={NFC},%
+name={\acronymfont {\glsentryshort {nfc}}},%
 sort={NFC},%
 type={main},%
-first={Near Field Communication\glsspace (NFC)},%
-firstplural={Near Field Communication\acrpluralsuffix \glsspace (NFC\acrpluralsuffix )},%
+first={NFC},%
+firstplural={NFCs},%
 text={NFC},%
-plural={NFC\acrpluralsuffix },%
+plural={NFCs},%
 description={Near Field Communication},%
-descriptionplural={Near Field Communication\acrpluralsuffix },%
+descriptionplural={Near Field Communication},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -84,15 +84,15 @@ parent={},%
 
 \glsdefs@newdocentry{rfid}%
 {%
-name={RFID},%
+name={\acronymfont {\glsentryshort {rfid}}},%
 sort={RFID},%
 type={main},%
-first={Radio Frequency Identification\glsspace (RFID)},%
-firstplural={Radio Frequency Identification\acrpluralsuffix \glsspace (RFID\acrpluralsuffix )},%
+first={RFID},%
+firstplural={RFIDs},%
 text={RFID},%
-plural={RFID\acrpluralsuffix },%
+plural={RFIDs},%
 description={Radio Frequency Identification},%
-descriptionplural={Radio Frequency Identification\acrpluralsuffix },%
+descriptionplural={Radio Frequency Identification},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

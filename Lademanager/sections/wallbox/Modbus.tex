@@ -27,20 +27,20 @@ Das OSI-Referenzmodell hilft, die Kommunikation in einem Netzwerk zu beschreiben
 \end{figure}
 
 
-\subsection{Modbus Protokoll}\label{modbusprotokoll} \setauthor{Pouget Marcel}
+\subsection{Modbus}\label{modbusprotokoll} \setauthor{Pouget Marcel}
 
 Modbus ist ein Protokoll, welches 1979 entwickelt wurde, und vor allem in der Industrie große Bedeutung hat. Es ermöglicht eine Kommunikation zwischen automatisierten Maschinen, und wurde damals als Protokoll auf der Anwendungsebene implementiert, das Daten über die serielle Schicht übertragen soll. Das Protokoll gehört mittlerweile zu den Industriestandards, und wird vor allem in der Automatisierungstechnik gerne benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen gibt. Der Datenaustausch ist mittlerweile über TCP/IP, seriell oder über das 'User-datagram-protocol', kurz UDP, möglich.
 \cite{ModbusgrundlagenKubunu} \cite{modbuskubunu}
 
-\subsection{Was genau ist jetzt das Modbus-Protokol?}
+\subsection{Das Modbus Protokol}
 Modbus ist ein sogenanntes request-response Protokoll, welches eine 'Master-slave' Beziehung nutzt. In so einer 'Master-slave' Beziehung funktioniert die Kommunikation immer paarweise – ein Gerät schickt eine Anfrage an einen 'Slave', und wartet auf eine Antwort. Der Master ist dabei für jede Interaktion verantwortlich. Der Master ist normalerweise ein einfaches HMI (human machine interface), oder ein 'Supervisory Control and Data Acquisition (SCADA) system'.  Der Slave ist meistens ein Sensor, eine Messklemme, ein programmable logic controller (PLC) oder ein Interface. Der Inhalt der Anfragen und Antworten sowie die Netzwerkschichten, über die diese Nachrichten gesendet werden, werden von den verschiedenen Schichten des Protokolls definiert. 
 \cite{modbusoverserial}
 \subsection{Die verschiedenen Layer des Modbus Protokoll }
 In der ersten Implementierung war Modbus ein einzelnes Protokoll, welches auf Serielle Protokolle aufbaut, es konnte also nicht in mehreren Schichten aufgeteilt werden. (Modbus RTU) 
 Über einen längeren Zeitraum wurden neue Implementierungen vorgestellt, um entweder das serielle Paketformat zu ändern oder die Verwendung von TCP/IP- und UDP-Netzwerken (User Datagram Protocol) zu ermöglichen. TCP, Remote Terminal Unit (RTU) und ASCII sind die drei am häufigsten verwendeten ADU-Formate. RTU- und ASCII-ADUs werden traditionell über eine serielle Verbindung verwendet, während TCP über zeitgenössische TCP/IP- oder UDP-IP-Netzwerke verwendet wird. 
 
-\subsection{Wie funktioniert Modbus RTU, und wie ist das Protokoll aufgebaut?}
-Am Anfang ist es wichtig zu erwähnen, dass jeder einzelne Teilnehmer (Slave) eine sogenannte Slave Id besitzt. Diese muss in einem 'Netzwerk' eindeutig identifizierbar sein, und kann je nach Hersteller fest vergeben, automatisch konfiguriert oder frei wählbar sein. Die Adresse 0 ist für den Master reserviert. Die einzelnen Teilnehmer können die Adressen von 1 bis 247 annehmen, da die Adressen von 248 bis 255 reserviert sind. Die Daten von den Slaves sind in sogenannte Register gespeichert. Diese sind immer 16 Bit groß.  
+\subsection{Aufbau des Modbus-Protokolls}
+Am Anfang ist es wichtig zu erwähnen, dass jeder einzelne Teilnehmer (Slave) eine sogenannte Slave Id besitzt. Diese muss in einem 'Netzwerk' eindeutig identifizierbar sein, und kann je nach Hersteller fest vergeben, automatisch konfiguriert oder frei wählbar sein. Die Adresse 0 ist für den Master reserviert. Die einzelnen Teilnehmer können die Adressen von 1 bis 247 annehmen, da die Adressen von 248 bis 255 reserviert sind. Die Daten von den Slaves sind in sogenannten Registern gespeichert. Diese sind immer 16 Bit groß.  
 
 Das Protokoll Modbus überträgt die Daten in binärer Form. Das führt dazu, dass man die Daten nicht direkt auswerden kann, sondern eine Möglichkeit des Parsens braucht, um auf die ursprünglichen Werte zu kommen. Vorteil ist jedoch, dass dadurch eine großer Datendurchsatz ermöglicht wird. 
 
@@ -52,7 +52,7 @@ Soll nun ein Paket über Modbus geschickt werden, muss man zuerst ein paar varia
 
 Vor und nach jedem gesendeten Paket gibt es eine Sendepause (Wartezeit) von mindestens 3.5 Zeichen. Da ein Zeichen eine Länge von 11 Bit besitzt, hängt die Wartezeit von der Bitrate ab. Dabei ist zu beachten, dass vor allem bei einer niedrigen Übertragungsrate es sehr wichtig ist, diese Zeit genau einzuhalten, da es sonst zu Überschneidungen und zu Datenverlusten kommen würde.  
 
-Nach der Pause fängt das Packet mit der Adresse des jeweiligen Slaves an. So kann jeder Teilnehmer direkt auf sein Packt reagieren. Bei jeder Antwort wird die Adresse zurückgesendet, damit der Master das Packet zuordnen kann. Die Adresse ist immer 8 Bits lange, und kann somit 256 Zustände einnehmen (ausgeschlossen sind die oben beschriebenen vordefinierten Adressen) 
+Nach der Pause fängt das Paket mit der Adresse des jeweiligen Slaves an. So kann jeder Teilnehmer direkt auf sein Packt reagieren. Bei jeder Antwort wird die Adresse zurückgesendet, damit der Master das Paket zuordnen kann. Die Adresse ist immer 8 Bits lange, und kann somit 256 Zustände einnehmen (ausgeschlossen sind die oben beschriebenen vordefinierten Adressen) 
 
 Das nächste Byte enthält die Information über die Funktion. Folgende sind in der Produktion wichtig: \ref{tab:functionsfromModbus}
 
@@ -94,9 +94,9 @@ Der CR-Check am Ende ist eine Prüfsumme des Paketes, um die Gültigkeit der Dat
     \label{tab:modbusprotokollaufbautabelleRTU}
  \end{table}
 
-\subsection{Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}
+\subsection{Unterschiede zwischen Modbus TCP und RTU}
 
-Die Modbus-Kommunikation über TCP ist der über RTU sehr ähnlich. Der größte Unterschied ist, wie der Name schon erraten lässt, hier wird das Packet über TCP verschickt. Die ganze Datenübertragung läuft über den Port 502, und der Master ist immer über eine IP-Adresse erreichbar. Es gibt noch folgende Unterschiede am Packet selber:  
+Die Modbus-Kommunikation über TCP ist der über RTU sehr ähnlich. Der größte Unterschied ist, wie der Name schon erraten lässt, hier wird das Paket über TCP verschickt. Die ganze Datenübertragung läuft über den Port 502, und der Master ist immer über eine IP-Adresse erreichbar. Es gibt noch folgende Unterschiede am Paket selber:  
 
 Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach kommt, mit derselben Länge, ein Protokollkennzeichen, welches immer gleich ist (0x0000). Der nächste Abschnitt beschreibt, wie viele Bytes noch folgen werden. Dieser Bereich ist immer um 2 Byte größer als die tatsächliche Anzahl der Bytes.  Die Länge der Adresse, der Funktion und der Daten ist dieselbe wie bei Modbus TCP. \ref{tab:allgemein:modbusprotokollaufbautabelle}
 
@@ -148,9 +148,9 @@ Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-R
 
 In QModMaster kann man beim Modbus-Modus zwischen dem Modus RTU und TCP wechseln, da das Programm beides unterstützt. Unter der Slave Adresse kann man den gewünschten Teilnehmer auswählen. Hier ist es in dem Beispiel der Slave mit der ID 10. Mit der Scan-Rate kann man ein Intervall einstellen, mit welchem das Tool den Port abfragt.   
 
-Bei dem Abschnitt 'Function Code' kann man auswählen, welche Funktion [rev Funktionstabelle] ausgeführt werden soll. Die Start-Adresse ist das Register, welches beschrieben oder ausgelesen werden soll. Hier kann man auch noch angeben, auf welche Art die Daten übermittelt werden sollen. Es gibt die Möglichkeit für Binär-, Dezimal- und Hexadecimal-Zahlen. 
+Bei dem Abschnitt 'Function Code' kann man auswählen, welche Funktion \ref{tab:functionsfromModbus} ausgeführt werden soll. Die Start-Adresse ist das Register, welches beschrieben oder ausgelesen werden soll. Hier kann man auch noch angeben, auf welche Art die Daten übermittelt werden sollen. Es gibt die Möglichkeit für Binär-, Dezimal- und Hexadecimal-Zahlen. 
 
-Die 'Number of Coils' sagt an, wie viele Register auf einmal ausgelesen / beschrieben werden sollen, da bei manchen Geräten die Werte für ein Register zu groß ist (über 65536). In solchen Fällen werden die Daten je nach Hersteller in 2 oder mehreren Registern abgespeichert. Sollte dies der Fall sein, ist es aber immer vom Hersteller dokumentiert.   
+Die 'Number of Coils' sagt an, wie viele Register auf einmal ausgelesen / beschrieben werden sollen, da bei manchen Geräten die Werte für ein Register zu groß sind (über 65536). In solchen Fällen werden die Daten je nach Hersteller in 2 oder mehreren Registern abgespeichert. Sollte dies der Fall sein, ist es aber immer vom Hersteller dokumentiert.   
 
 Der untere Bereich ist das Ergebnis, welches der Slave zurücksendet. Hier kann man auch auswählen, in welcher Form die Daten angezeigt werden sollen. Ganz unten sieht man noch eine Zusammenfassung der Einstellungen, wie viele Packages gesendet wurden und wie viele davon fehlerhaft waren.   
 
@@ -204,11 +204,11 @@ Hier ist der größte Unterschied zu der Modbus RTU. Denn anstatt der ganzen Par
 \end{lstlisting}
 
 
-Um die Architektur besser zu verstehen, gibt es einige Anwendungsbeispiele. Diese fassen die Bereiche von Modbus RTU, RTU over TCP oder TCP gut zusammen. Dank diesen Beispielen gab es bei der Entwicklung des Projektes keine Probleme. Auf 'sourceforge' gibt es die aktuelle Version der Library, mit der 
+Um die Architektur besser zu verstehen, gibt es einige Anwendungsbeispiele. Diese fassen die Bereiche von Modbus RTU, RTU over TCP oder TCP gut zusammen. Dank diesen Beispielen gab es bei der Entwicklung des Projektes keine Probleme. Auf 'sourceforge' gibt es die aktuelle Version der Library, mit welcher man einfach Java-Anwendungen erweitern kann.
 
 \subsection{Kommunikationsaufbau zu den Wallboxen }
 
-Bei dem Aufbau der Kommunikation zu den Wallboxen gab es die ersten Probleme der Arbeit, denn es gab für die Hardware, die genutzt wurde, keine Dokumentation. Zwar wurde von dem Hersteller der Wallboxen erklärt, welche 2 Pins für die Verkabelung von Nöten waren, jedoch gab der Hersteller des Modbus USB Konverters keine Angaben dazu, welcher der neun Pins für die Kommunikation verantwortlich ist. Dadurch wurden die ersten Tage der Projektarbeit sehr viel probiert, wie man mithilfe des Adapters und 2 Kabeln eine Verbindung zu den Wallboxen aufbauen kann. In QmodMaster wurden alle Parameter eingestellt und die Signale erfolgreich losgeschickt (dies wurde durch ein Blinken einer LED gekennzeichnet), jedoch bekam die Wallbox nie das Paket an, und so wurde immer ein Fehler in QModbusMaster geworfen. Erst nach dem Versuch, einfach alle neun Kabel anzuschließen und jedes Paar nacheinander zu testen, konnte festgestellt werden, dass nur durch Pin 1 und Pin 2 die Signale gesendet wurden. Doch laut Internetrecherchen hätten es Pin 5 und 6 sein müssen. Dadurch konnte die erste Verbindung mit der Wallbox, welche extra für die Modbus-Tests wieder abmontiert wurde, aufgebaut werden.   
+Bei dem Aufbau der Kommunikation zu den Wallboxen gab es die ersten Probleme der Arbeit, denn es gab für die Hardware, die genutzt wurde, keine Dokumentation. Zwar wurde von dem Hersteller der Wallboxen erklärt, welche 2 Pins für die Verkabelung von Nöten waren, jedoch gab der Hersteller des Modbus USB Konverters keine Angaben dazu, welcher der neun Pins für die Kommunikation verantwortlich ist. Dadurch wurden in den ersten Tagen der Projektarbeit sehr viel probiert, wie man mithilfe des Adapters und 2 Kabeln eine Verbindung zu den Wallboxen aufbauen kann. In QmodMaster wurden alle Parameter eingestellt und die Signale erfolgreich losgeschickt (dies wurde durch ein Blinken einer LED gekennzeichnet), jedoch bekam die Wallbox  das Paket nie, und so wurde immer ein Fehler in QModbusMaster geworfen. Erst nach dem Versuch, einfach alle neun Kabel anzuschließen und jedes Paar nacheinander zu testen, konnte festgestellt werden, dass nur durch Pin 1 und Pin 2 die Signale gesendet wurden. Doch laut Internetrecherchen hätten es Pin 5 und 6 sein müssen. Dadurch konnte die erste Verbindung mit der Wallbox, welche extra für die Modbus-Tests wieder abmontiert wurde, aufgebaut werden.   
 
  
 
@@ -217,13 +217,13 @@ Zuerst wurden die vom Hersteller angegebenen Register-Adressen getestet und die 
 \subsection{Kommunikationsaufbau zu der Fronius PV Anlage }
 Hier gestaltete sich die ganze Angelegenheit etwas schwerer, da es sich um eine Modbus TCP-Schnittstelle handelte. Und da hier die Dokumentation für JLibModbus nicht ganz so gut war wie für Modbus RTU, dauerte der Verbindungsaufbau etwas länger. Der Wechselrichter, welcher die Kommunikation ermöglicht, bekam bei der Installation der Anlage die IP 20.50.30.200.   
 
-Der erste Aufbau zur Anlage folgte über QModbusMaster, welcher sich als reibungslos herausstellte. Der Port 502 war in der Dokumentation des Wechselrichters zu finden. Doch bei der Suche nach der richtigen Register-Adresse fingen die Probleme an. Denn die Liste der Register ist unübersichtlich, und es dauerte wirklich lange, um das Register zu finden, in welchem der aktuelle Wert der Stromproduktion gespeichert wird. Und als dann endlich die richtigen Werte zurückgeliefert wurden, trat schon das nächste Problem auf.   
+Der erste Aufbau zur Anlage folgte über QModbusMaster, welcher sich als reibungslos herausstellte. Der Port 502 war in der Dokumentation des Wechselrichters zu finden. Doch bei der Suche nach der richtigen Register-Adresse fingen die Probleme an. Denn die Liste der Register war unübersichtlich, und es dauerte wirklich lange, um das Register zu finden, in welchem der aktuelle Wert der Stromproduktion gespeichert wird. Und als dann endlich die richtigen Werte zurückgeliefert wurden, trat schon das nächste Problem auf.   
 
-Denn egal, wie viel Strom die PV gerade produzierte (dies konnte immer mit der Onlineanzeige des Wechselrichters überprüft werden, welche man auf der Seite der Anlage aufrufen konnte. Dafür muss die IP des Wechselrichters in den Browser eingegeben werden), der Wert wurde nie größer als 65536. Nach einiger Recherche und einer Anfrage in einem Photovoltaik-Forum (Hier den Link einfügen) wurde das Problem gefunden. Denn in der Dokumentation waren 2 Register angegeben. Das erste wurde standardmäßig gefüllt, doch wenn es seine maximale Größe von 65536 überschritt, wurde das zweite Register um einen Zähler erhöht und das erste Register auf Null gesetzt. Das bewirkt, dass man eine deutlich höhere Zahl speichern konnte und somit immer ein korrekter Wert bei einer Anfrage zurückkommt. Die  
+Denn egal, wie viel Strom die PV gerade produzierte (dies konnte immer mit der Onlineanzeige des Wechselrichters überprüft werden, welche man auf der Seite der Anlage aufrufen konnte. Dafür muss die IP des Wechselrichters in den Browser eingegeben werden), der Wert wurde nie größer als 65536. Nach einiger Recherche und einer Anfrage in einem Photovoltaik-Forum (Hier den Link einfügen) wurde das Problem gefunden. Denn in der Dokumentation waren 2 Register angegeben. Das erste wurde standardmäßig gefüllt, doch wenn es seine maximale Größe von 65536 überschritt, wurde das zweite Register um einen Zähler erhöht und das erste Register auf Null gesetzt. Das bewirkt, dass man eine deutlich höhere Zahl speichern konnte und somit immer ein korrekter Wert bei einer Anfrage zurückkommt. 
 
-\subsection{Kommunikationsaufbau zu den Janitza Klemmen: }
+\subsection{Kommunikationsaufbau zu den Janitza Klemmen: } \label{text:Janitza}
 
-Die Kommunikation zu den Janitza-Klemmen besteht aus denselben Einstellungen wie bei der Fronius Anlage. Die IP-Adresse der Klemmen ist 10.50.30.201. Auch hier gibt es eine Website, auf welcher man die Daten der Klemme überprüfen kann, somit konnte direkt überprüft werden, ob die Daten, welche ausgelesen wurden, überprüft werden. Auch hier gab es wieder mit den Rückgabewerte Probleme, da der Wert als FLoat angegeben wurde, und es keine Angaben dazu gab, wie man den Wert wieder in einen Integer zurückwandeln konnte. Aber zum Glück gab es in einem Beitrag in dem Forum Stack Overflow eine Anleitung dazu, wie mithilfe einer Umrechnung die richtigen Werte ausgelesen werden können.  
+Die Kommunikation zu den Janitza-Klemmen besteht aus denselben Einstellungen wie bei der Fronius Anlage. Die IP-Adresse der Klemmen ist 10.50.30.201. Auch hier gibt es eine Website, auf welcher man die Daten der Klemme überprüfen kann, somit konnte direkt überprüft werden, ob die Daten, welche ausgelesen wurden, stimmen. Auch hier gab es wieder mit den Rückgabewerte Probleme, da der Wert als FLoat angegeben wurde, und es keine Angaben dazu gab, wie man den Wert wieder in einen Integer zurückwandeln konnte. Aber zum Glück gab es in einem Beitrag in dem Forum Stack Overflow eine Anleitung dazu, wie mithilfe einer Umrechnung die richtigen Werte ausgelesen werden können.  
 
-Nach einem Abgleich zwischen den Werten des Modbus-tool und der Webanzeige, konnte eine Richtigkeit der Daten gewährleistet werden. Aus einem Abgleich der verschiedenen Daten aus dem Wechselrichter und den Mesklemmen ergibt sich dann der Verbrauch der Firma. Ist der Wert der Janitza-Klemme im negativen Bereich, verbrauchen die Anlagen der Firma mehr, als die Fronius PV generieren kann. Dies ist vor allem dann der Fall, wenn es sehr bewölkt ist, oder die Sonne nicht am Himmel steht. Ansonsten ist der Wert des Janitza-Klemme meist über 50 kWh, was das Automatische Laden der E-Autos ermöglicht.  
+Nach einem Abgleich zwischen den Werten des Modbus-tool und der Webanzeige, konnte eine Richtigkeit der Daten gewährleistet werden. Aus einem Abgleich der verschiedenen Daten aus dem Wechselrichter und den Messklemmen ergibt sich dann der Verbrauch der Firma. Ist der Wert der Janitza-Klemme im negativen Bereich, verbrauchen die Anlagen der Firma mehr, als die Fronius PV generieren kann. Dies ist vor allem dann der Fall, wenn es sehr bewölkt ist, oder die Sonne nicht am Himmel steht. Ansonsten ist der Wert des Janitza-Klemme meist über 50 kWh, was das Automatische Laden der E-Autos ermöglicht.  
 
