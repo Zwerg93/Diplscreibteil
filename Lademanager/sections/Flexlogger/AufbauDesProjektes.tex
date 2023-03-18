@@ -212,8 +212,13 @@ Durch drei verschiedene Formulare, welche sich direkt unter der großen Übersch
     \item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann hier das Diagramm, welches angezeigt werden soll, im Formular mitübergeben werden. Durch den Button \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} erfolgt nun eine direkte Weiterleitung zum gewünschten Diagramm.
     \item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben, allerdings wird nach Betätigen des Buttons \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
 \end{compactitem}
- 
-Die Formulare können dadurch genutzt werden, dass zuerst jeweils die richtigen Von-, Bis-Daten angegeben werden müssen. \ref{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum} Wenn die Daten falsch eingegeben wurden (soll heißen es wurde ein Datum eingegeben, welches hinter dem Anfangsdatum liegt bzw. bei einem gleichen Anfangs- und Enddatum muss die Endzeit hinter der Anfangszeit liegen), wird eine Fehlermeldung ausgegeben, um den User auf seine fehlerhafte Eingabe aufmerksam zu machen. Bei dem Formular 'Diagramm per Name' muss zusätzlich ein Name angegeben werden, sonst wird erneut eine Fehlermeldung angezeigt. Wenn allerdings das Formular 'CSV-File' betrachtet wird, gibt es eine zusätzliche Fehlerüberprüfung, welche direkt nach dem Betätigen des Buttons ausgeführt wird. Werden keine Daten aus der Datenbank für den eingegebenen Zeitraum gefunden, wird eine passende Fehlermeldung angezeigt. \ref{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
+    \caption{Formular Button}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
+\end{figure}
  
 \begin{figure}
     \centering
@@ -221,13 +226,9 @@ Die Formulare können dadurch genutzt werden, dass zuerst jeweils die richtigen 
     \caption{Formular Zeitraum}
     \label{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}
 \end{figure}
+
+Die Formulare können dadurch genutzt werden, dass zuerst jeweils die richtigen Von-, Bis-Daten angegeben werden müssen. \ref{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum} Wenn die Daten falsch eingegeben wurden (soll heißen es wurde ein Datum eingegeben, welches hinter dem Anfangsdatum liegt bzw. bei einem gleichen Anfangs- und Enddatum muss die Endzeit hinter der Anfangszeit liegen), wird eine Fehlermeldung ausgegeben, um den User auf seine fehlerhafte Eingabe aufmerksam zu machen. Bei dem Formular 'Diagramm per Name' muss zusätzlich ein Name angegeben werden, sonst wird erneut eine Fehlermeldung angezeigt. Wenn allerdings das Formular 'CSV-File' betrachtet wird, gibt es eine zusätzliche Fehlerüberprüfung, welche direkt nach dem Betätigen des Buttons ausgeführt wird. Werden keine Daten aus der Datenbank für den eingegebenen Zeitraum gefunden, wird eine passende Fehlermeldung angezeigt. \ref{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
  
-\begin{figure}
-    \centering
-    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
-    \caption{Formular Button}
-    \label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
-\end{figure}
  
 \begin{figure}
     \centering

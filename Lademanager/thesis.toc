@@ -97,7 +97,7 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Repository}{69}{subsubsection*.65}%
 \contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{71}{subsection.4.3.4}%
 \contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{72}{subsubsection*.67}%
-\contentsline {subsubsection}{\nonumberline App-Component}{72}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline App-Component}{73}{subsubsection*.75}%
 \contentsline {subsubsection}{\nonumberline Home-Component}{75}{subsubsection*.77}%
 \contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{76}{subsubsection*.79}%
 \contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{78}{subsubsection*.81}%
