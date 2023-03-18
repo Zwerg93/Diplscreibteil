@@ -1,32 +1,32 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces So sieht der Maven-Tap in Intellij aus\relax }}{3}{figure.caption.6}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Ansicht von einem Intellij Projekt\relax }}{4}{figure.caption.7}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Ansicht Visual Studio Code\relax }}{6}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Beispiel eines GitHub Repo\relax }}{6}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Quarkus Architektur \cite {QuarkusBuch}\relax }}{18}{figure.caption.24}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Quarkus Benchmark Test \cite {MicrVSQuarVSSprin}\relax }}{19}{figure.caption.25}%
-\contentsline {figure}{\numberline {7}{\ignorespaces So sieht die Twincat Übersicht aus\relax }}{23}{figure.caption.29}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Abschnitt der Wallboxen in Twincat\relax }}{24}{figure.caption.30}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Aufbau eines Raspberry Pis\relax }}{25}{figure.caption.31}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Darstellung des Aufbaues\relax }}{27}{figure.caption.32}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Übersicht über die fünf Wallboxen auf der HMI: \relax }}{35}{figure.caption.34}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Detailansicht der Oberfläche für die Einzelnen Wallboxen \relax }}{37}{figure.caption.35}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Darstellung des Aufbaues\relax }}{38}{figure.caption.36}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Das 7 Schichten OSI/ISO Modell\relax }}{46}{figure.caption.37}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Aufau eines Modbus-Netzwerkes\relax }}{50}{figure.caption.41}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Overview von QModMaster \relax }}{51}{figure.caption.42}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Einstellungen für Modbus RTU\relax }}{52}{figure.caption.43}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Einstellungen für Modbus RTU\relax }}{53}{figure.caption.44}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Einstellungen für Modbus RTU\relax }}{54}{figure.caption.45}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Aufbau des Flexloggers visuell dargestellt\relax }}{59}{figure.caption.46}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Formular Zeitraum\relax }}{69}{figure.caption.65}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Formular Button\relax }}{70}{figure.caption.66}%
-\contentsline {figure}{\numberline {23}{\ignorespaces CSV-Datei Beispiel Ausgabe\relax }}{70}{figure.caption.67}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Webseite Fehlermeldung\relax }}{70}{figure.caption.68}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Website Hauptseitenansicht\relax }}{70}{figure.caption.69}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Website Diagrammansicht\relax }}{71}{figure.caption.70}%
-\contentsline {figure}{\numberline {27}{\ignorespaces log4J Architektur \cite {log4J}\relax }}{77}{figure.caption.85}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Java Thread Multitasking Umgebung \cite {JavaThreadsBuch}\relax }}{78}{figure.caption.86}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Blocking Queue \cite {javaBlockingQueue}\relax }}{80}{figure.caption.91}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Don Knuth -- CS Allfather\relax }}{86}{figure.caption.97}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Erste Planung auf einem Whiteboard\relax }}{1}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces So sieht der Maven-Tap in Intellij aus\relax }}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Ansicht von einem Intellij Projekt\relax }}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Ansicht Visual Studio Code\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Beispiel eines GitHub Repo\relax }}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Quarkus Architektur \cite {QuarkusBuch}\relax }}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Quarkus Benchmark Test \cite {MicrVSQuarVSSprin}\relax }}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {8}{\ignorespaces So sieht die Twincat Übersicht aus\relax }}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Abschnitt der Wallboxen in Twincat\relax }}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Aufbau eines Raspberry Pis\relax }}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Darstellung des Aufbaues\relax }}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Übersicht über die fünf Wallboxen auf der HMI: \relax }}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Detailansicht der Oberfläche für die Einzelnen Wallboxen \relax }}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Darstellung des Aufbaues\relax }}{41}{figure.caption.37}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Das 7 Schichten OSI/ISO Modell\relax }}{50}{figure.caption.38}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Aufau eines Modbus-Netzwerkes\relax }}{54}{figure.caption.42}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Overview von QModMaster \relax }}{55}{figure.caption.43}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Einstellungen für Modbus RTU\relax }}{56}{figure.caption.44}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Einstellungen für Modbus RTU\relax }}{57}{figure.caption.45}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Einstellungen für Modbus RTU\relax }}{58}{figure.caption.46}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Aufbau des Flexloggers visuell dargestellt\relax }}{62}{figure.caption.47}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Formular Zeitraum\relax }}{72}{figure.caption.66}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Formular Button\relax }}{73}{figure.caption.67}%
+\contentsline {figure}{\numberline {24}{\ignorespaces CSV-Datei Beispiel Ausgabe\relax }}{73}{figure.caption.68}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Webseite Fehlermeldung\relax }}{73}{figure.caption.69}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Website Hauptseitenansicht\relax }}{73}{figure.caption.70}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Website Diagrammansicht\relax }}{74}{figure.caption.71}%
+\contentsline {figure}{\numberline {28}{\ignorespaces log4J Architektur \cite {log4J}\relax }}{81}{figure.caption.86}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Java Thread Multitasking Umgebung \cite {JavaThreadsBuch}\relax }}{81}{figure.caption.87}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Blocking Queue \cite {javaBlockingQueue}\relax }}{83}{figure.caption.92}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

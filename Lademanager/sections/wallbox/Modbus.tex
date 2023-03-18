@@ -19,7 +19,7 @@ Die sieben Schichten des OSI-Modells sind:
 
 Das OSI-Referenzmodell hilft, die Kommunikation in einem Netzwerk zu beschreiben und zu verstehen, indem es die verschiedenen Aspekte der Netzwerkkommunikation in logische Schichten unterteilt. Dies ermöglicht es, Netzwerkprotokolle zu standardisieren und die Kompatibilität von Geräten und Software in verschiedenen Netzwerken zu gewährleisten. 
 
-\begin{figure}[h p] \cite{7schichtenModell}
+\begin{figure}[h t] \cite{7schichtenModell}
     \centering
     \includegraphics[scale=0.5]{pics/ISO-OSI-Modell-768x486.png}
     \caption{Das 7 Schichten OSI/ISO Modell}
@@ -29,24 +29,24 @@ Das OSI-Referenzmodell hilft, die Kommunikation in einem Netzwerk zu beschreiben
 
 \subsection{Modbus Protokoll}\label{modbusprotokoll} \setauthor{Pouget Marcel}
 
-Modbus ist ein Protokoll, welches 1979 entwickelt wurde, und vor allem in der Industrie große Bedeutung hat. Es ermöglicht eine Kommunikation zwischen automatisierten Maschinen, und wurde damals als Protokoll auf der Anwendungsebene implementiert, das Daten über die serielle Schicht übertragen soll. Das Protokoll gehört mittlerweile zu den Industriestandards, und wird vor allem in der Automatisierungstechnik gerne benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen gibt. Der Datenaustausch ist mittlerweile über TCP/IP, seriell oder über das “User-datagram-protocol", kurz UDP, möglich.
+Modbus ist ein Protokoll, welches 1979 entwickelt wurde, und vor allem in der Industrie große Bedeutung hat. Es ermöglicht eine Kommunikation zwischen automatisierten Maschinen, und wurde damals als Protokoll auf der Anwendungsebene implementiert, das Daten über die serielle Schicht übertragen soll. Das Protokoll gehört mittlerweile zu den Industriestandards, und wird vor allem in der Automatisierungstechnik gerne benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen gibt. Der Datenaustausch ist mittlerweile über TCP/IP, seriell oder über das 'User-datagram-protocol', kurz UDP, möglich.
 \cite{ModbusgrundlagenKubunu} \cite{modbuskubunu}
 
 \subsection{Was genau ist jetzt das Modbus-Protokol?}
-Modbus ist ein sogenanntes request-response Protokoll, welches eine “Master-slave” Beziehung nutzt. In so einer “Master-slave” Beziehung funktioniert die Kommunikation immer paarweise – ein Gerät schickt eine Anfrage an einen “Slave”, und wartet auf eine Antwort. Der Master ist dabei für jede Interaktion verantwortlich. Der Master ist normalerweise ein einfaches HMI (human machine interface), oder ein “Supervisory Control and Data Acquisition (SCADA) system”.  Der Slave ist meistens ein Sensor, eine Messklemme, ein programmable logic controller (PLC) oder ein Interface. Der Inhalt der Anfragen und Antworten sowie die Netzwerkschichten, über die diese Nachrichten gesendet werden, werden von den verschiedenen Schichten des Protokolls definiert. 
+Modbus ist ein sogenanntes request-response Protokoll, welches eine 'Master-slave' Beziehung nutzt. In so einer 'Master-slave' Beziehung funktioniert die Kommunikation immer paarweise – ein Gerät schickt eine Anfrage an einen 'Slave', und wartet auf eine Antwort. Der Master ist dabei für jede Interaktion verantwortlich. Der Master ist normalerweise ein einfaches HMI (human machine interface), oder ein 'Supervisory Control and Data Acquisition (SCADA) system'.  Der Slave ist meistens ein Sensor, eine Messklemme, ein programmable logic controller (PLC) oder ein Interface. Der Inhalt der Anfragen und Antworten sowie die Netzwerkschichten, über die diese Nachrichten gesendet werden, werden von den verschiedenen Schichten des Protokolls definiert. 
 \cite{modbusoverserial}
 \subsection{Die verschiedenen Layer des Modbus Protokoll }
 In der ersten Implementierung war Modbus ein einzelnes Protokoll, welches auf Serielle Protokolle aufbaut, es konnte also nicht in mehreren Schichten aufgeteilt werden. (Modbus RTU) 
 Über einen längeren Zeitraum wurden neue Implementierungen vorgestellt, um entweder das serielle Paketformat zu ändern oder die Verwendung von TCP/IP- und UDP-Netzwerken (User Datagram Protocol) zu ermöglichen. TCP, Remote Terminal Unit (RTU) und ASCII sind die drei am häufigsten verwendeten ADU-Formate. RTU- und ASCII-ADUs werden traditionell über eine serielle Verbindung verwendet, während TCP über zeitgenössische TCP/IP- oder UDP-IP-Netzwerke verwendet wird. 
 
 \subsection{Wie funktioniert Modbus RTU, und wie ist das Protokoll aufgebaut?}
-Am Anfang ist es wichtig zu erwähnen, dass jeder einzelne Teilnehmer (Slave) eine sogenannte Slave Id besitzt. Diese muss in einem “Netzwerk” eindeutig identifizierbar sein, und kann je nach Hersteller fest vergeben, automatisch konfiguriert oder frei wählbar sein. Die Adresse 0 ist für den Master reserviert. Die einzelnen Teilnehmer können die Adressen von 1 bis 247 annehmen, da die Adressen von 248 bis 255 reserviert sind. Die Daten von den Slaves sind in sogenannte Register gespeichert. Diese sind immer 16 Bit groß.  
+Am Anfang ist es wichtig zu erwähnen, dass jeder einzelne Teilnehmer (Slave) eine sogenannte Slave Id besitzt. Diese muss in einem 'Netzwerk' eindeutig identifizierbar sein, und kann je nach Hersteller fest vergeben, automatisch konfiguriert oder frei wählbar sein. Die Adresse 0 ist für den Master reserviert. Die einzelnen Teilnehmer können die Adressen von 1 bis 247 annehmen, da die Adressen von 248 bis 255 reserviert sind. Die Daten von den Slaves sind in sogenannte Register gespeichert. Diese sind immer 16 Bit groß.  
 
 Das Protokoll Modbus überträgt die Daten in binärer Form. Das führt dazu, dass man die Daten nicht direkt auswerden kann, sondern eine Möglichkeit des Parsens braucht, um auf die ursprünglichen Werte zu kommen. Vorteil ist jedoch, dass dadurch eine großer Datendurchsatz ermöglicht wird. 
 
  
 
-Soll nun ein Paket über Modbus geschickt werden, muss man zuerst ein paar variablen Einstellungen treffen. So kann die Baudrate (Bitrate) oft frei gewählt werden (solange sie nicht von dem Hersteller festgelegt wurde, wie es bei den Wallboxen der Fall war). Außerdem gibt es sogenannte “Stopbits”, welche bei jedem Hersteller anders konfiguriert sind. Die Defaultwerte sind dafür 1 oder 2 Bits. 
+Soll nun ein Paket über Modbus geschickt werden, muss man zuerst ein paar variablen Einstellungen treffen. So kann die Baudrate (Bitrate) oft frei gewählt werden (solange sie nicht von dem Hersteller festgelegt wurde, wie es bei den Wallboxen der Fall war). Außerdem gibt es sogenannte 'Stopbits', welche bei jedem Hersteller anders konfiguriert sind. Die Defaultwerte sind dafür 1 oder 2 Bits. 
 
  
 
@@ -54,10 +54,10 @@ Vor und nach jedem gesendeten Paket gibt es eine Sendepause (Wartezeit) von mind
 
 Nach der Pause fängt das Packet mit der Adresse des jeweiligen Slaves an. So kann jeder Teilnehmer direkt auf sein Packt reagieren. Bei jeder Antwort wird die Adresse zurückgesendet, damit der Master das Packet zuordnen kann. Die Adresse ist immer 8 Bits lange, und kann somit 256 Zustände einnehmen (ausgeschlossen sind die oben beschriebenen vordefinierten Adressen) 
 
-Das nächste Byte enthält die Information über die Funktion. Folgende sind in der Produktion wichtig: \ref{functionsfromModbus}
+Das nächste Byte enthält die Information über die Funktion. Folgende sind in der Produktion wichtig: \ref{tab:functionsfromModbus}
 
-\begin{table}[h t] \label{functionsfromModbus}
-    \tiny
+\begin{table}[h t]  \label{tab:functionsfromModbus}
+    \small
     \begin{tabular}{|l|l|}
     \hline
     
@@ -70,6 +70,7 @@ Das nächste Byte enthält die Information über die Funktion. Folgende sind in 
     6    & \begin{tabular}[c]{@{}l@{}}Wirte \\ single\\  Register\end{tabular} \\ \hline
     7    & Read Exception Status (nur für serielle Übertragung)                \\ \hline
     \end{tabular}
+    \caption{Die verschiedenen Functions von Modbus}
 \end{table}\cite{modbuswiki}
 
 Bei der Kommunikation mit den Wallboxen wurde nur die Funktion 4 und 6 benutzt, um die Register auszulesen und neu zu beschreiben.   
@@ -77,23 +78,25 @@ Bei der Kommunikation mit den Wallboxen wurde nur die Funktion 4 und 6 benutzt, 
 Nach der Funktion kommen die eigentlichen Daten des Paketes. Diese bestehen immer aus einem Register. Je nach Funktion kommen noch andere Werte hinzu, zum Beispiel der Wert, den man auf ein Register schreiben möchte. Ein Register lässt sich hier sehr gut mit einer Adresse in dem jeweiligen Device vergleichen. Dort stehen nämlich die Daten des Gerätes bzw. dort können Werte gesetzt werden. Die Daten können dabei beliebig groß sein.  
 
 Der CR-Check am Ende ist eine Prüfsumme des Paketes, um die Gültigkeit der Daten zu überprüfen. Diese Überprüfung ist vor allem bei der seriellen Kommunikation sehr wichtig, da es immer wieder zu Differenzen kommen kann, wo Daten verloren gehen und das Paket unvollständig ankommt. 
-\ref{abb:ModbusRTUprotokolltable}
+\ref{tab:modbusprotokollaufbautabelleRTU}
 
- \begin{table}[h t] \label{abb:ModbusRTUprotokolltable}
+ \begin{table}[h t] \label{tab:modbusprotokollaufbautabelleRTU}
     
-    \tiny
+    \small
     \begin{tabular}{|l|l|l|l|l|l|}
     \hline
     Start                        & Adresse & Funktion & Daten  & CR-Check & Ende                        \\ \hline
-    Wartezeit (min. 3.5 Zeichen) & 1 Byte  & 1 Byte   & n Byte & 2 Byte   & Wartezeit (min 3.5 Zeichen) \\ \hline
+    Wartezeit  & 1 Byte  & 1 Byte   & n Byte & 2 Byte   & Wartezeit \\ \hline
     \end{tabular}
+    
+    \caption{Der Aufbau eines Modbus RTU Paketes}
  \end{table}
 
 \subsection{Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}
 
 Die Modbus-Kommunikation über TCP ist der über RTU sehr ähnlich. Der größte Unterschied ist, wie der Name schon erraten lässt, hier wird das Packet über TCP verschickt. Die ganze Datenübertragung läuft über den Port 502, und der Master ist immer über eine IP-Adresse erreichbar. Es gibt noch folgende Unterschiede am Packet selber:  
 
-Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach kommt, mit derselben Länge, ein Protokollkennzeichen, welches immer gleich ist (0x0000). Der nächste Abschnitt beschreibt, wie viele Bytes noch folgen werden. Dieser Bereich ist immer um 2 Byte größer als die tatsächliche Anzahl der Bytes.  Die Länge der Adresse, der Funktion und der Daten ist dieselbe wie bei Modbus TCP. \ref{modbusTCPtable}
+Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach kommt, mit derselben Länge, ein Protokollkennzeichen, welches immer gleich ist (0x0000). Der nächste Abschnitt beschreibt, wie viele Bytes noch folgen werden. Dieser Bereich ist immer um 2 Byte größer als die tatsächliche Anzahl der Bytes.  Die Länge der Adresse, der Funktion und der Daten ist dieselbe wie bei Modbus TCP. \ref{tab:allgemein:modbusprotokollaufbautabelle}
 
 \begin{table}[h t]
     \tiny
@@ -102,9 +105,11 @@ Jedes Paket hat eine Transaktionsnummer, die immer 16 Bits lang ist. Danach komm
     Transaktionsnummer & Protokollkennzeichen  & Zahl der noch folgenden Bytes & Adresse & Funktion & Daten  \\ \hline
     2 Byte             & 2 Byte (immer 0x0000) & 2 Byte (n + 2)                & 1 Byte  & 1 Byte   & n Byte \\ \hline
     \end{tabular}
-    \label{modbusTCPtable}
+    \caption{Der Aufbau eines Modbus TCP Paketes }
+    \label{tab:allgemein:modbusprotokollaufbautabelle}
+   % \cite{modbuserklärunginnovations}
 \end{table}
-%\cite{modbuserklärunginnovations}
+
 
 
 
@@ -129,7 +134,7 @@ Ein weiterer wichtiger Punkt ist die Verkabelung der einzelnen Teilnehmer. Währ
 
 \subsection{Modbus tools + libraries} \setauthor{Pouget Marcel}
 
-Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme “QModMaster” und “Hercules” verwendet. Es handelt sich bei beiden um kostenlose Programme.  \ref{fig:impl:QmodMasterverview}
+Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme 'QModMaster' und 'Hercules' verwendet. Es handelt sich bei beiden um kostenlose Programme.  \ref{fig:impl:QmodMasterverview}
 
 \begin{figure}[h t] 
     \centering
@@ -141,9 +146,9 @@ Es gibt viele tools, mit denen man über einen USB zu Modbus Konvertern Modbus-R
 
 In QModMaster kann man beim Modbus-Modus zwischen dem Modus RTU und TCP wechseln, da das Programm beides unterstützt. Unter der Slave Adresse kann man den gewünschten Teilnehmer auswählen. Hier ist es in dem Beispiel der Slave mit der ID 10. Mit der Scan-Rate kann man ein Intervall einstellen, mit welchem das Tool den Port abfragt.   
 
-Bei dem Abschnitt "Function Code" kann man auswählen, welche Funktion [rev Funktionstabelle] ausgeführt werden soll. Die Start-Adresse ist das Register, welches beschrieben oder ausgelesen werden soll. Hier kann man auch noch angeben, auf welche Art die Daten übermittelt werden sollen. Es gibt die Möglichkeit für Binär-, Dezimal- und Hexadecimal-Zahlen. 
+Bei dem Abschnitt 'Function Code' kann man auswählen, welche Funktion [rev Funktionstabelle] ausgeführt werden soll. Die Start-Adresse ist das Register, welches beschrieben oder ausgelesen werden soll. Hier kann man auch noch angeben, auf welche Art die Daten übermittelt werden sollen. Es gibt die Möglichkeit für Binär-, Dezimal- und Hexadecimal-Zahlen. 
 
-Die "Number of Coils" sagt an, wie viele Register auf einmal ausgelesen / beschrieben werden sollen, da bei manchen Geräten die Werte für ein Register zu groß ist (über 65536). In solchen Fällen werden die Daten je nach Hersteller in 2 oder mehreren Registern abgespeichert. Sollte dies der Fall sein, ist es aber immer vom Hersteller dokumentiert.   
+Die 'Number of Coils' sagt an, wie viele Register auf einmal ausgelesen / beschrieben werden sollen, da bei manchen Geräten die Werte für ein Register zu groß ist (über 65536). In solchen Fällen werden die Daten je nach Hersteller in 2 oder mehreren Registern abgespeichert. Sollte dies der Fall sein, ist es aber immer vom Hersteller dokumentiert.   
 
 Der untere Bereich ist das Ergebnis, welches der Slave zurücksendet. Hier kann man auch auswählen, in welcher Form die Daten angezeigt werden sollen. Ganz unten sieht man noch eine Zusammenfassung der Einstellungen, wie viele Packages gesendet wurden und wie viele davon fehlerhaft waren.   
 
@@ -155,9 +160,9 @@ Der untere Bereich ist das Ergebnis, welches der Slave zurücksendet. Hier kann 
 \end{figure}
 
 
-\ref{fig:impl:Settingsforqmodmaster} Hier kann man die Werte der Parameter einstellen. Das “Serial-device” ist in diesem Fall der USB-Port des Computers, und der “Serial-port” ist der Steckplatz, in welchem der Modbus-Konverter steckt. Falls man den Port des Adapters nicht kennt, findet man diesen in Windows unter den verbundenen Geräten im Gerätemanager.  
+\ref{fig:impl:Settingsforqmodmaster} Hier kann man die Werte der Parameter einstellen. Das 'Serial-device' ist in diesem Fall der USB-Port des Computers, und der 'Serial-port' ist der Steckplatz, in welchem der Modbus-Konverter steckt. Falls man den Port des Adapters nicht kennt, findet man diesen in Windows unter den verbundenen Geräten im Gerätemanager.  
 
-“Baud” ist die Konfiguration für die Baudrate. Diese muss mit den Angaben des Herstellers übereinstimmen.  
+'Baud' ist die Konfiguration für die Baudrate. Diese muss mit den Angaben des Herstellers übereinstimmen.  
 
 Data-Bits beschreibt die Länge des Protokolls. Dieser Wert ist auch im Datenblatt des jeweiligen Gerätes zu finden.  
 
@@ -197,7 +202,7 @@ Hier ist der größte Unterschied zu der Modbus RTU. Denn anstatt der ganzen Par
 \end{lstlisting}
 
 
-Um die Architektur besser zu verstehen, gibt es einige Anwendungsbeispiele. Diese fassen die Bereiche von Modbus RTU, RTU over TCP oder TCP gut zusammen. Dank diesen Beispielen gab es bei der Entwicklung des Projektes keine Probleme. Auf “sourceforge” gibt es die aktuelle Version der Library, mit der 
+Um die Architektur besser zu verstehen, gibt es einige Anwendungsbeispiele. Diese fassen die Bereiche von Modbus RTU, RTU over TCP oder TCP gut zusammen. Dank diesen Beispielen gab es bei der Entwicklung des Projektes keine Probleme. Auf 'sourceforge' gibt es die aktuelle Version der Library, mit der 
 
 \subsection{Kommunikationsaufbau zu den Wallboxen }
 

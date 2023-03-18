@@ -1,10 +1,42 @@
+Die Arbeit wurde zusammen mit der Firma FelxSolution GMBH entwickelt. Diese stellten auch die benötigte Hardware in Form von Raspberrys, den Ladestationen und Arbeitsplätzen zur Verfügung. Bei Problemen standen zwei Mitarbeiter immer zu Verfügung und halfen mit, Probleme zu lösen. Die Basis der Arbeit wurde schon in einem Ferialpraktikum im Sommer 2021 gelegt, in welchem mit Zusammenarbeit qualifizierter Arbeiter die Ladestationen montiert wurden. Der programmierende Anteil des Projektes wurde im Zuge eines Praktikums im Jahre 2022 umgesetzt. Dieses dauerte 4 Wochen und war nur für die Entwicklung der Arbeit gedacht.
+
+Die Idee eines Lademanagers entstand im Frühjahr 2021, als die Photovoltaikanlage der Firma fertiggestellt wurde. Marcel war zu dieser Zeit als Werksstudent bei der Firma angestellt und bekam das Angebot, dieses Projekt als Diplomarbeit umzusetzen.
+
 \section{Herangehensweise}
+
+Nach einem ersten Briefing mit Alfred Pimminger wurden erste Pläne für das Projekt ausgearbeitet. Vor allem der Aufbau und das Zusammenspiel mit den firmeninternen Systemen war dabei sehr wichtig. Die erste Skizze des Projektes sah dabei wie folgt aus: 
+\ref{fig:impl:ersteSkizze}
+
+\begin{figure}[h t]
+  \centering
+  \includegraphics[scale=0.1]{pics/ersteSkizze.jpg}
+  \caption{Erste Planung auf einem Whiteboard}
+  \label{fig:impl:ersteSkizze}
+\end{figure}
+ 
+
+Der Aufbau hat sich im Laufe der Entwicklung leicht verändert, jedoch blieb die Grundbasis erhalten. Siehe \ref{section:aufbaudesProjektesFlexlogger}. Das Projekt über einen Logger entstand erst etwas später. Auch hier wurde der Aufbau der Arbeit während eines Meetings mit Alfred besprochen, jedoch geschah die Umsetzung erst einige Monate später. Hier war der Plan, von verschiedensten Flextasks die Daten zu speichern, da diese bis jetzt immer gelöscht wurden. Die Planung für den Aufbau des Projektes geschah erst im Zuge der Entwicklung, siehe \ref{AufbauDesProjektesWallbox} 
 \setauthor{Marcel Pouget}
  
  
 \section{Zeitplan}
 \setauthor{Marcel Pouget | Teresa Holzer}
  
+
+Um das Projekt problemlos umsetzen zu können, wurden noch vor dem eigentlichen Projektstart zehn Meilensteine angelegt.   
+
+\begin{compactitem}
+  \item 30.06.2022 Fertigstellung Pflichtenheft  
+  \item 07.08.2022 Datenbank aufsetzen (Flexlogger)  
+  \item 07.08.2022 Flexlogger Server aufsetzen (Flexlogger)  
+  \item 07.08.2022 Task für Kommunikation mit den Wallboxen aufsetzen (Wallboxen)  
+  \item 14.08.2022 Geloggte Daten kommen bei dem Frontend an (Flexlogger)  
+  \item 14.08.2022 Task für das Steuern der Wallboxen aufsetzen (Wallboxen)  
+  \item 21.08.2022 Daten werden visualisiert (Flexlogger)  
+  \item 21.08.2022 Die Verbindung zwischen UI und den Wallboxen steht (Wallboxen)  
+  \item 31.08.2022 Fertigstellung der Website für die Wallboxen (Wallboxen)  
+  \item 31.08.2022 Fertigstellung des Flexloggers (Flexlogger) 
+\end{compactitem}
  
 \section{Verwendete Tools}
  

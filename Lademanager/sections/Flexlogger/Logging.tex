@@ -36,12 +36,14 @@ Das Design von Log4J konzentriert sich vor allem darauf, schnell, flexibel und l
 
 Sehr populär als Logging Package für Java. Logging liefert sehr präzise Informationen über den Ablauf einer Applikation. \cite{log4J}
 
-\begin{figure}
+
+
+Anwendungen, welche Log4j verwenden, fordern vom LogManager einen Logger mit einem bestimmten Namen an. Der LogManager sucht den entsprechenden LoggerContext und ruft dann den Logger von diesem ab. 
+Wenn der Logger erstellt werden muss, wird er mit der LoggerConfig verknüpft, die entweder a) den gleichen Namen wie der Logger, b) den Namen eines übergeordneten Pakets oder c) die Stamm-LoggerConfig enthält. LoggerConfig-Objekte werden aus Logger-Deklarationen in der Konfiguration erstellt. Die LoggerConfig ist mit den Appendern verbunden, die die LogEvents tatsächlich liefern. \ref{fig:impl:log4jArchitektur} \cite{log4J}
+
+\begin{figure}[h t]
     \centering
     \includegraphics[scale=0.7]{pics/log4jArchitektur.jpg}
     \caption{log4J Architektur \cite{log4J}}
     \label{fig:impl:log4jArchitektur}
 \end{figure}
-
-Anwendungen, welche Log4j verwenden, fordern vom LogManager einen Logger mit einem bestimmten Namen an. Der LogManager sucht den entsprechenden LoggerContext und ruft dann den Logger von diesem ab. 
-Wenn der Logger erstellt werden muss, wird er mit der LoggerConfig verknüpft, die entweder a) den gleichen Namen wie der Logger, b) den Namen eines übergeordneten Pakets oder c) die Stamm-LoggerConfig enthält. LoggerConfig-Objekte werden aus Logger-Deklarationen in der Konfiguration erstellt. Die LoggerConfig ist mit den Appendern verbunden, die die LogEvents tatsächlich liefern. \ref{fig:impl:log4jArchitektur} \cite{log4J}
