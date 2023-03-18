@@ -56,7 +56,7 @@ Nach der Pause fängt das Packet mit der Adresse des jeweiligen Slaves an. So ka
 
 Das nächste Byte enthält die Information über die Funktion. Folgende sind in der Produktion wichtig: \ref{tab:functionsfromModbus}
 
-\begin{table}[h t]  \label{tab:functionsfromModbus}
+\begin{table}[h t]  
     \small
     \begin{tabular}{|l|l|}
     \hline
@@ -71,6 +71,7 @@ Das nächste Byte enthält die Information über die Funktion. Folgende sind in 
     7    & Read Exception Status (nur für serielle Übertragung)                \\ \hline
     \end{tabular}
     \caption{Die verschiedenen Functions von Modbus}
+    \label{tab:functionsfromModbus}
 \end{table}\cite{modbuswiki}
 
 Bei der Kommunikation mit den Wallboxen wurde nur die Funktion 4 und 6 benutzt, um die Register auszulesen und neu zu beschreiben.   
@@ -80,7 +81,7 @@ Nach der Funktion kommen die eigentlichen Daten des Paketes. Diese bestehen imme
 Der CR-Check am Ende ist eine Prüfsumme des Paketes, um die Gültigkeit der Daten zu überprüfen. Diese Überprüfung ist vor allem bei der seriellen Kommunikation sehr wichtig, da es immer wieder zu Differenzen kommen kann, wo Daten verloren gehen und das Paket unvollständig ankommt. 
 \ref{tab:modbusprotokollaufbautabelleRTU}
 
- \begin{table}[h t] \label{tab:modbusprotokollaufbautabelleRTU}
+ \begin{table}[h t] 
     
     \small
     \begin{tabular}{|l|l|l|l|l|l|}
@@ -90,6 +91,7 @@ Der CR-Check am Ende ist eine Prüfsumme des Paketes, um die Gültigkeit der Dat
     \end{tabular}
     
     \caption{Der Aufbau eines Modbus RTU Paketes}
+    \label{tab:modbusprotokollaufbautabelleRTU}
  \end{table}
 
 \subsection{Wie funktioniert Modbus TCP/IP, und wie ist das Protokoll aufgebaut? Was sind die Unterschiede zu RTU?}

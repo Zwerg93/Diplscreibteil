@@ -2067,7 +2067,6 @@ INPUT .\pics\ISO-OSI-Modell-768x486.png
 INPUT .\pics\ISO-OSI-Modell-768x486.png
 INPUT .\pics\ISO-OSI-Modell-768x486.png
 INPUT .\pics\ISO-OSI-Modell-768x486.png
-INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
@@ -2130,13 +2129,13 @@ INPUT .\sections\Flexlogger\AufbauDesProjektes.tex
 INPUT sections\Flexlogger\AufbauDesProjektes.tex
 INPUT .\sections\Flexlogger\AufbauDesProjektes.tex
 INPUT sections\Flexlogger\AufbauDesProjektes.tex
-INPUT .\pics\webinterface.png
-INPUT .\pics\webinterface.png
-INPUT pics\webinterface.png
-INPUT .\pics\webinterface.png
-INPUT .\pics\webinterface.png
-INPUT .\pics\webinterface.png
-INPUT .\pics\webinterface.png
+INPUT .\pics\webinertface2.png
+INPUT .\pics\webinertface2.png
+INPUT pics\webinertface2.png
+INPUT .\pics\webinertface2.png
+INPUT .\pics\webinertface2.png
+INPUT .\pics\webinertface2.png
+INPUT .\pics\webinertface2.png
 INPUT .\pics\FlexLoggerWebsiteFormulare_zeitraum.jpg
 INPUT .\pics\FlexLoggerWebsiteFormulare_zeitraum.jpg
 INPUT pics\FlexLoggerWebsiteFormulare_zeitraum.jpg
@@ -2264,8 +2263,6 @@ INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss17.pfb
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
-INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
-INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\holzd\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
