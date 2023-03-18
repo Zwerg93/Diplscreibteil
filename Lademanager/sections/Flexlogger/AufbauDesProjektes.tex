@@ -1,5 +1,6 @@
 
 Der Aufbau des Projekts dreht sich rund um das Abspeichern, sowie die sinnvolle visuelle Darstellung von Daten. Dabei werden verschiedenste Programmiersprachen, Plattformen und Frameworks verwendet. \ref{fig:impl:FlexLoggerAufbau} 
+Dabei wird im Backend Java und das Framework Quarkus verwendet, welches verbunden ist mit einer Datenbank. Die Daten aus dieser Datenbank werden davor mithilfe eines Java-Programms, welches Threads verwendet, aus Datenpunkten geholt. Anschließend speichert das Programm die Daten in einer PostgreSQL-Datenbank ab. Durch das bereits erwähnte Quarkus-Backend wird darauffolgend auf die Daten zugegriffen und diese anschließend an ein Angular-Frontend geschickt. Durch das Angular-Fronten können nun die Daten in bestimmten Zeiträumen ansprechend dargestellt angesehen werden, beziehungsweise als CSV-Datei heruntergeladen werden.
 
 \begin{figure}
     \centering
@@ -284,12 +285,27 @@ Um die Komponente zu initialisieren, wird in der ngOnInit()-Methode die initForm
  
 Weiteres finden sich in der Komponente zwei Methoden, welche sich um das Routing kümmern. Diese kommen beim Klicken der Buttons der Formulare zum Einsatz, um die Komponente, welche angezeigt wird, zu wechseln. Die benötigten Daten werden dabei in der URL übergeben.
  
-Die nachfolgende Methode ist für das Generieren sowie das Downloaden einer CSV-Datei zuständig. Zuallererst wird die checkCSV-Methode aufgerufen, in welcher überprüft wird, ob in dem ausgewählten Zeitraum Daten verfügbar sind.
- 
+Die nachfolgende Methode ist für das Generieren sowie das Downloaden einer CSV-Datei zuständig. Zuallererst wird die checkCSV-Methode aufgerufen, in welcher überprüft wird, ob in dem ausgewählten Zeitraum Daten verfügbar sind. \ref{lst:impl:generateCSV}
+
 Wenn die checkCSV-Variable als true gesetzt wurde, wird überprüft, ob der Namenparameter im Formular nicht leer ist. Trifft dies ein, wird mithilfe eines Timers und des Http-Service eine CSV-Datei generiert, welche alle Datenpunkte in dem richtigen Datumsbereich generiert. Nachdem das Generieren erfolgreich abgeschlossen wurde, wird der Download der Datei gestartet. Dieser Download wird mithilfe der window.open() Methode verwirklicht. Wenn der Namenparameter in dem Formular einen Namen enthält, so wird ein CSV-File generiert, welches nur die Daten eines Datenpunkts beinhält.
  
 Wenn der Fall eintrifft, dass die checkCSV-Variable auf false gesetzt wurde, dann werden die Errors des Namenparameters auf true gesetzt. Dadurch wird unter dem Formular eine Fehlermeldung ausgegeben, um dem User eine Rückmeldung der Formulareingabe zu geben.
  
+\begin{lstlisting}[language=java,caption=CSV-File generieren,label=lst:impl:generateCSV]
+    generateCSV() {
+      if (this.csvForm.value.dataName3 == "") {
+        this.csvForm.setErrors(null);
+        timer(100).subscribe(x => {
+          this.http.createCSV(this.csvForm.value.dateBegin3, this.csvForm.value.dateEnd3, this.csvForm.value.timeBegin3, this.csvForm.value.timeEnd3, "C:/angular1/monitor.csv").subscribe(value => { window.open("http://localhost:8081/logEntry/download/");
+          }, error => console.log(error));
+        })
+
+      } else {
+        ...
+    }}
+\end{lstlisting}
+
+
 \subsubsection{Canvas-Chart-Component}
  
 In dieser Komponente wird ein Diagramm erstellt, in welchem anschließend mithilfe von verschiedenen Buttons die gewünschten Daten angezeigt werden. 

@@ -1,6 +1,6 @@
  
 % http://box.cs.istu.ru/public/docs/other/_New/Books/Lang/Java/Java%20Threads,%202Ed%20(O'Reilly).pdf
-Thread steht als Abkürzung für thread of control, und dies bedeutet, der Thread ist unabhängig von anderen Threads innerhalb eines einzelnen Programms.  \cite{JavaThreadsBuch}
+Thread steht als Abkürzung für thread of control, und dies bedeutet, der Thread ist unabhängig von anderen Threads innerhalb eines einzelnen Programms. Anders gesagt, ein Thread ist ein Teil eines Prozesses, er ist mit anderen Threads für die Abarbeitung eines Programms zuständig.  \cite{JavaThreadsBuch}
 % \subsection{Streams}
  
 % \subsection{Lambda}
@@ -94,9 +94,10 @@ Der produzierende Thread wird weiterhin Objekte produzieren und sie zur Blocking
 Auf der anderen Seite nimmt der Consumer Thread Objekte aus der Queue, um sie weiter zu verarbeiten. Wenn der Thread versucht ein Objekt aus einer leeren Queue zu nehmen, wird er blockiert, bis der Producer-Thread ein Objekt in die Queue hinzufügt. \cite{javaBlockingQueue}
  
 \subsubsection{BlockingQueue Methoden}
-Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden.
+Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden. \ref{tab:allgemein:blockingQueueMethoden}
  
-\begin{center}
+\begin{table}
+    \centering
     \begin{tabular}{ |c|c| }
      \hline
      put(o) & fügt Objekte in die BlockingQueue hinzu \\
@@ -104,8 +105,10 @@ Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden.
      take() & nimmt Objekte aus der BlockingQueue \\
      \hline
     \end{tabular}
-    \end{center}
- 
+    \caption{Blocking Queue Methoden \cite{javaBlockingQueue}}
+    \label{tab:allgemein:blockingQueueMethoden}
+\end{table}
+
 Wenn die Operation bei einer der Methoden erfolglos war, blockiert die Methode, bis die Operation erfolgreich war. \cite{javaBlockingQueue}
  
 \subsubsection{Java Blocking Queue Beispiel}

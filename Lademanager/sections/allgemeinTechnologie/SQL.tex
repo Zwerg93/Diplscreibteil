@@ -1,10 +1,11 @@
 
 % < 1 Einführung in SQL- Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu p15-27
 % < 1 https://edufs.edu.htl-leonding.ac.at/moodle/pluginfile.php/102732/mod_resource/content/1/PLSQL-Skript%20v04.pdf
-SQL ist eine Programmiersprache, welche entwickelt wurde, um die Daten in einer relationalen Datenbank zu bearbeiten. Außerdem kann damit die Struktur der Datenbank abgeändert werden. \cite{einfuerhungSQLBuch}
+SQL ist eine Programmiersprache, welche entwickelt wurde, um die Daten in einer relationalen Datenbank zu bearbeiten. Außerdem kann damit die Struktur der Datenbank abgeändert werden. \cite{einfuerhungSQLBuch} 
  
-Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen. 
- 
+Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen. \ref{tab:allgemein:grundlagenSQL}
+Mithilfe all dieser verschiedenen Gruppen ist es möglich, eine Datenbank zu erstellen, zu verwalten und zu löschen.
+
 \begin{table}
     \centering
     \begin{tabular}{ |c|c|c|c| }
@@ -12,7 +13,7 @@ Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck er
      \multicolumn{3}{|c|}{SQL-Befehlsgruppen } \\
      \hline
      \hline
-     Database Manipulation (DML) & Database Definition (DDL) & Database Operation  \\
+     DB Manipulation (DML) & DB Definition (DDL) & DB Operation  \\
      \hline
      \hline
      DELETE & CREATE & SERVERERROR \\
@@ -27,7 +28,7 @@ Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck er
     \label{tab:allgemein:grundlagenSQL}
 \end{table}
  
-Mithilfe all dieser verschiedenen Gruppen ist es möglich, eine Datenbank zu erstellen, zu verwalten und zu löschen.
+
  
 Um beispielsweise eine Tabelle in einer Datenbank zu erstellen, wird das Schlüsselwort \texttt{CREATE} verwendet, welches in der Data Definition Language gefunden werden kann. \ref{lst:impl:createTable}
  
@@ -52,9 +53,10 @@ Ein anderer wichtiger Befehl in SQL ist der SELECT-Befehl. Mit ihm kann aus jede
 Um SQL in einer Datenbank zu verwenden, muss dazu aller erst eine Datenbank angelegt werden. Dabei gibt es verschiedenste Datenbanken, welche je nach Performance, bzw. benötigter Größe ausgewählt werden sollte. Siehe dazu \ref{section:database}.
  
 \subsubsection{Daten aus einer Datenbank auslesen}
-Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus der Datenbank geholt werden. Dies passiert über einer einzelnes SQL-Statement welches ausgeführt werden muss. Dabei können einzelne Zeilen aus der Datenbank ausgewählt werden, oder auch mehrere Zeilen beziehungsweise ganze Tabelle. Dabei können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene Ergebnisse zu erhalten. \cite{einfuerhungSQLBuch}
+Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus der Datenbank geholt werden. Dies passiert über einer einzelnes SQL-Statement welches ausgeführt werden muss. Dabei können einzelne Zeilen aus der Datenbank ausgewählt werden, oder auch mehrere Zeilen beziehungsweise ganze Tabelle. Dabei können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene Ergebnisse zu erhalten. \cite{einfuerhungSQLBuch} \ref{tab:allgemein:selects}
 
-\begin{center}
+\begin{table}
+    \centering
     \begin{tabular}{ |c|c| }
      \hline
      \multicolumn{2}{|c|}{SELECT * FROM students } \\
@@ -70,8 +72,11 @@ Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus d
      UPDATE & DROP  \\
      \hline
     \end{tabular}
-    \end{center}
-    \cite{einfuerhungSQLBuch}
+    \caption{SQL-Select-Statements \cite{einfuerhungSQLBuch}}
+    \label{tab:allgemein:selects}
+\end{table}
+
+    
 
 
 \subsection{SQL und Java in Verbindung}

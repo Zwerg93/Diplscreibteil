@@ -1,6 +1,9 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Grundlagen SQL \cite {grundlagenSQL}\relax }}{23}{table.caption.27}%
-\contentsline {table}{\numberline {2}{\ignorespaces Die verschiedenen Functions von Modbus\relax }}{52}{table.caption.39}%
-\contentsline {table}{\numberline {3}{\ignorespaces Der Aufbau eines Modbus RTU Paketes\relax }}{53}{table.caption.40}%
-\contentsline {table}{\numberline {4}{\ignorespaces Der Aufbau eines Modbus TCP Paketes \relax }}{53}{table.caption.41}%
+\contentsline {table}{\numberline {1}{\ignorespaces Grundlagen SQL \cite {grundlagenSQL}\relax }}{23}{table.caption.28}%
+\contentsline {table}{\numberline {2}{\ignorespaces SQL-Select-Statements \cite {einfuerhungSQLBuch}\relax }}{24}{table.caption.31}%
+\contentsline {table}{\numberline {3}{\ignorespaces Die verschiedenen Functions von Modbus\relax }}{52}{table.caption.41}%
+\contentsline {table}{\numberline {4}{\ignorespaces Der Aufbau eines Modbus RTU Paketes\relax }}{53}{table.caption.42}%
+\contentsline {table}{\numberline {5}{\ignorespaces Der Aufbau eines Modbus TCP Paketes \relax }}{53}{table.caption.43}%
+\contentsline {table}{\numberline {6}{\ignorespaces Blocking Queue Methoden \cite {javaBlockingQueue}\relax }}{85}{table.caption.97}%
+\contentsline {table}{\numberline {7}{\ignorespaces Csv, Json und Datenbanken im genaueren Vergleich \cite {csvOrJson}\relax }}{87}{table.caption.100}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

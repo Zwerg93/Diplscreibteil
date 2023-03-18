@@ -8,7 +8,7 @@
 \contentsline {lstlisting}{\numberline {8}{\ignorespaces Beispiel für ein reaktives Formular}}{17}{lstlisting.2.8}%
 \contentsline {lstlisting}{\numberline {9}{\ignorespaces CanvasJS HTML}}{17}{lstlisting.2.9}%
 \contentsline {lstlisting}{\numberline {10}{\ignorespaces CanvasJS chartOptiones}}{18}{lstlisting.2.10}%
-\contentsline {lstlisting}{\numberline {11}{\ignorespaces Quarkus POST-Request}}{22}{lstlisting.2.11}%
+\contentsline {lstlisting}{\numberline {11}{\ignorespaces Quarkus POST-Request}}{21}{lstlisting.2.11}%
 \contentsline {lstlisting}{\numberline {12}{\ignorespaces JDBC Dependency}}{22}{lstlisting.2.12}%
 \contentsline {lstlisting}{\numberline {13}{\ignorespaces CREATE table}}{23}{lstlisting.2.13}%
 \contentsline {lstlisting}{\numberline {14}{\ignorespaces INSERT INTO table}}{23}{lstlisting.2.14}%
@@ -27,12 +27,13 @@
 \contentsline {lstlisting}{\numberline {27}{\ignorespaces TimerTask}}{64}{lstlisting.4.27}%
 \contentsline {lstlisting}{\numberline {28}{\ignorespaces LogEntry in BlockingQueue hinzufügen}}{66}{lstlisting.4.28}%
 \contentsline {lstlisting}{\numberline {29}{\ignorespaces Datenpunkte des jeweiligen Geräts iterieren}}{66}{lstlisting.4.29}%
-\contentsline {lstlisting}{\numberline {30}{\ignorespaces Daten aus BlockingQueue herausnehmen}}{66}{lstlisting.4.30}%
+\contentsline {lstlisting}{\numberline {30}{\ignorespaces Daten aus BlockingQueue herausnehmen}}{67}{lstlisting.4.30}%
 \contentsline {lstlisting}{\numberline {31}{\ignorespaces Connect to SQL Database}}{69}{lstlisting.4.31}%
 \contentsline {lstlisting}{\numberline {32}{\ignorespaces LogEntrySet zu CSV umwandeln}}{70}{lstlisting.4.32}%
 \contentsline {lstlisting}{\numberline {33}{\ignorespaces CSV-File herunterladen}}{71}{lstlisting.4.33}%
-\contentsline {lstlisting}{\numberline {34}{\ignorespaces Java Runnable}}{83}{lstlisting.4.34}%
-\contentsline {lstlisting}{\numberline {35}{\ignorespaces Einfaches Thread Beispiel}}{83}{lstlisting.4.35}%
-\contentsline {lstlisting}{\numberline {36}{\ignorespaces Thread erstellen/starten}}{83}{lstlisting.4.36}%
-\contentsline {lstlisting}{\numberline {37}{\ignorespaces Java BlockingQueue Beispiel}}{84}{lstlisting.4.37}%
-\contentsline {lstlisting}{\numberline {38}{\ignorespaces JSON Beispiel}}{87}{lstlisting.4.38}%
+\contentsline {lstlisting}{\numberline {34}{\ignorespaces CSV-File generieren}}{76}{lstlisting.4.34}%
+\contentsline {lstlisting}{\numberline {35}{\ignorespaces Java Runnable}}{84}{lstlisting.4.35}%
+\contentsline {lstlisting}{\numberline {36}{\ignorespaces Einfaches Thread Beispiel}}{84}{lstlisting.4.36}%
+\contentsline {lstlisting}{\numberline {37}{\ignorespaces Thread erstellen/starten}}{84}{lstlisting.4.37}%
+\contentsline {lstlisting}{\numberline {38}{\ignorespaces Java BlockingQueue Beispiel}}{85}{lstlisting.4.38}%
+\contentsline {lstlisting}{\numberline {39}{\ignorespaces JSON Beispiel}}{88}{lstlisting.4.39}%
