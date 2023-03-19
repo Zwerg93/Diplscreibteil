@@ -1,13 +1,14 @@
 
 % < 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis ; von: Christian Ullenboom
-Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern, um diese später weiterzuverwenden. Daten werden immer und immer wichtiger und wichtiger in unserer Gesellschaft und diese verlässlich und zugänglich abspeichern zu können ist nicht mehr wegzudenken.
+Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern, um diese später weiterzuverwenden. Daten gewinnen an Wichtigkeit in unserer Gesellschaft und diese verlässlich und zugänglich abspeichern zu können ist nicht mehr wegzudenken.
  
-Der Grundaufbau einer relationalen Datenbank (welche in den folgenden Beispielen behandelt wird) besteht aus Zeilen und Spalten, welche zusammen eine Sammlung an Daten halten. Dabei erfüllen die Zeilen die Rolle der einzelnen Elemente und die Spalten teilen die Elemente in seine Unterelemente ein. \cite{javaInselBuch}
+Der Grundaufbau einer relationalen Datenbank besteht aus Zeilen und Spalten, welche zusammen eine Sammlung an Daten halten. Dabei erfüllen die Zeilen die Rolle der einzelnen Elemente und die Spalten teilen die Elemente in seine Unterelemente ein. \cite{javaInselBuch}
  
- 
+ Verschiedene Arten von Datenbanken werden in den folgenden Unterkapiteln behandelt.
+
 \subsection{H2}
 % < 1 http://www.h2database.com/html/performance.html
-
+% TODO Huemer fragen ob noch mehr zu H2 und Co
 \begin{compactitem}
     \item[Hauptmerkmale]
     \item Sehr schnell, open source, JDBC API
@@ -38,9 +39,9 @@ Die Datenbank ist langsamer bei größeren ResultSets, da sie ab einer bestimmte
 \cite{sqlliteOfficialSite}
 
 \subsubsection{Performance (SQLite 3.36.0.3)}
-Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einer niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren. \cite{databaseComparison}
+Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einem niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren. \cite{databaseComparison}
 
-Meistgenutzte Datenbank der Welt, benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen weniger bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. \cite{databaseComparison}
+SQLite ist die meistgenutzte Datenbank der Welt und benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen wenig bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. \cite{databaseComparison}
 
 \subsection{PostgreSQL}
 % < 1 https://www.postgresql.org/about/
@@ -78,7 +79,7 @@ Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby- und de
  
 
 \subsubsection{Performance (Version 10.14.2.0)}
-Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20 \texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. \cite{databaseComparison}
+Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20\texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. \cite{databaseComparison}
 
 \subsection{Wahl der Datenbank für das Projekt}
-Aufgrund der großen Datenmenge, welche in dem Programm verarbeitet werden müssen, fiel die Entscheidung auf eine PostgreSQL-Datenbank. Die Entscheidung basiert darauf, dass PostgreSQL sehr verlässlich ist und als Datenbank dafür ausgelegt ist, viele Daten speichern zu können. 
+Aufgrund der großen Datenmenge, welche in dem Programm verarbeitet werden müssen, fiel die Entscheidung im Rahmen von Flexlogger auf eine PostgreSQL-Datenbank. Die Entscheidung basiert darauf, dass PostgreSQL sehr verlässlich ist und als Datenbank dafür ausgelegt ist, viele Daten speichern zu können.

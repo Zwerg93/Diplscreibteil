@@ -1,3 +1,4 @@
+\setauthor{Marcel Pouget}
 Die Arbeit wurde zusammen mit der Firma FlexSolution GmbH entwickelt. Diese stellten auch die benötigte Hardware in Form von Raspberrys, den Ladestationen und Arbeitsplätzen zur Verfügung. Bei Problemen standen zwei Mitarbeiter immer zu Verfügung und halfen mit, Probleme zu lösen. Die Basis der Arbeit wurde schon in einem Ferialpraktikum im Sommer 2021 gelegt, in welchem mit Zusammenarbeit qualifizierter Arbeiter die Ladestationen montiert wurden. Der programmierende Anteil des Projektes wurde im Zuge eines Praktikums im Jahre 2022 umgesetzt. Dieses dauerte 4 Wochen und war nur für die Entwicklung der Arbeit gedacht.
 
 Die Idee eines Lademanagers entstand im Frühjahr 2021, als die Photovoltaikanlage der Firma fertiggestellt wurde. Marcel war zu dieser Zeit als Werksstudent bei der Firma angestellt und bekam das Angebot, dieses Projekt als Diplomarbeit umzusetzen.
@@ -42,7 +43,7 @@ Um das Projekt problemlos umsetzen zu können, wurden noch vor dem eigentlichen 
  Während der Entwicklung des Projektes wurden viele verschiedene Systeme verwendet, um den Verlauf des Projektes zu beschläunigen. Welche dieser Tools in verwendung waren, und wie sie eingesetzt wurden, wird in diesem Kapitel beschrieben.
  
  
-\subsection{Latex [M]} \setauthor{Marce Pouget}
+\subsection{Latex [M]} \setauthor{Marcel Pouget}
 
 Latex ist eine Software, welche es ermöglicht, Texte, Graphiken und Bilder zu layoutieren und zu exportieren. Sie basiert auf dem Textsatzsystem TeX und arbeitet nach der Methode WYSIWYM (What You See Is What You Mean). Das heißt, dass der Text, welcher im Endprodukt angezeigt werden soll, in einem Quelldokument erstellt wird und erst nach dem Kompelieren eine Formatierung enthält. Das ermöglicht es, schnell Verweise zu anderen Textstellen zu integrieren, eine automatische Beschriftung für Bilder und Quellen, ein Literaturverzeichnis, welches einen guten Überblick bietet. Natürlich darf ein automatisch-generiertes Inhaltsverzeichnis nicht fehlen, welches mit Verschieben der Komponenten aktualisiert werden kann. Das ermöglicht es, ganze Kapitel innerhalb von Sekunden neu zu strukturieren, ohne dass Beschriftungen oder andere Layouts ihre Gültigkeit verlieren. Ein paar weitere Vorteile von Latex sind:  
 
@@ -96,7 +97,7 @@ Und auch wenn IntelliJ IDEA in erster Linie für die Java- und Kotlin-Entwicklun
 \subsection{Webstorm [T]} \setauthor{Teresa Holzer}
 % < https://www.jetbrains.com/de-de/webstorm/
 \setauthor{Teresa Holzer [T]}\setauthor{Teresa Holzer}
-WebStorm \ref{fig:impl:webstorm} wird als Entwicklungsumgebung für JavaScript und JavaScript-ähnliche Sprachen definiert. Es ist außerdem sehr gut geeignet für die Entwicklung mit Angular, da ein neues Projekt direkt in WebStorm erstellt werden kann und dieses auch direkt in der Entwicklungsumgebung gestartete werden kann. WebStrom wurde, genau wie IntelliJ, von JetBrains entwickelt und liefert eine Reihe von Hilfestellungen, um JavaScript optimal programmieren zu können. WebStorm beinhaltet eine automatische Code-Überprüfung sowie die automatische Komplettierung von einzelnen Codezeilen. WebStorm beinhaltet außerdem einen bereits eingebauten Run- sowie Debug-Button, durch welchen das Starten in der Konsole wegfällt. Zusätzlich können in WebStorm verschiedenste Plugins hinzugefügt werden, welche das Erscheinungsbild verändern, andere Sprachen überprüfen können und vieles mehr. \cite{webstormOfficialSite}
+WebStorm, Interface siehe Abb. \ref{fig:impl:webstorm}, wird als Entwicklungsumgebung für JavaScript und JavaScript-ähnliche Sprachen definiert. Es ist außerdem geeignet für die Entwicklung mit Angular, da ein neues Projekt direkt in WebStorm erstellt und in der Entwicklungsumgebung gestartete werden kann. WebStrom wurde, genau wie IntelliJ, von JetBrains entwickelt und liefert eine Reihe von Hilfestellungen, um JavaScript optimal programmieren zu können. WebStorm beinhaltet eine automatische Code-Überprüfung sowie die automatische Komplettierung von einzelnen Codezeilen. WebStorm beinhaltet außerdem einen bereits eingebauten Run- sowie Debug-Button, durch welchen das Starten in der Konsole wegfällt. Zusätzlich können in WebStorm verschiedenste Plugins hinzugefügt werden, welche das Erscheinungsbild verändern, andere Sprachen überprüfen können und vieles mehr. \cite{webstormOfficialSite}
 
 \begin{figure}[h t]
     \centering
@@ -113,20 +114,21 @@ Mit einer sogenannten CLI (Command Line Interface) lassen sich Programme ohne gr
 \subsection{Discord [T]} \setauthor{Teresa Holzer}
 Discord ist eine kostenlose App für Kommunikation via Sprache, Chat und Video. Dies ermöglicht einen schnellen, reibungslosen Austausch zwischen einzelnen Personen bis hin zu großen Gruppen. Im Zusammenhang dieser Arbeit wurde die Applikation dafür benutzt, um Aufgaben zu verteilen, Informationen auszutauschen und Meetings zu halten. Ein Server für dieses Projekt wurde erstellt, um immer einen Überblick der aktuellen Dokumente zu bekommen. Auch die Links zu Informationen, Terminen und dem Google Drive-Laufwerk wurden gespeichert.   
 
-Discord half vor allem bei der Organisation unter den Teilnehmern. Dadurch konnte eine reibungslose Kommunikation gewährleistet werden  
+Discord half vor allem bei der Organisation unter den Projektmitgliedern. Dadurch konnte eine reibungslose Kommunikation gewährleistet werden  
 \subsection{Google drive [T]} \setauthor{Teresa Holzer}
 
 % < https://one.google.com/about
 Google Drive ist ein Cloud-Speicher, welcher für das Online-Speichern von Google Docs, Google Tabellen, Google Präsentationen und Google Formularen verwendet werden kann. Außerdem können Bild- und andere Formate hochgeladen und somit gesichert werden. Google Drive kann kostenlos durch das Erstellen eines Google-Accounts verwendet werden. Google stellt dabei 15GB Speicher frei zur Verfügung, danach kann durch ein monatliches Abo-Modell mehr Speicherplatz erlangt werden. \cite{OneDriveOfficialSite}
 
+Google Drive wurde im Rahmen dieser Diplomarbeit genutzt, um Dokumente und Dateien für alle Projektmitglieder leicht zugänglich zu machen.
 
 \subsection{Visual Studio Code [T]} \setauthor{Teresa Holzer}
 % < https://code.visualstudio.com/docs
-Visual Studio Code \ref{fig:impl:vsCode} ist ein leistungsstarker Code Editor. Es ist verfügbar für Windows, Linux und macOS. 
-Einer der größten Vorteile von VS Code ist ein eingebautes Support-Tool für JavaScript, TypeScript und Node.js. Außerdem verfügt über zahllose Erweiterungen für andere Programmiersprachen. VS Code besitzt auch einen Run und Debug Modus, um Programme direkt in der Umgebung ausführen zu können. 
-VS Code kann sehr vielfältig eingesetzt werden und kann aufgrund der Erweiterungen nach Belieben personalisiert werden. \cite{VSCodeOfficialSite}
+Visual Studio Code, Interface siehe Abb. \ref{fig:impl:vsCode}, ist ein leistungsstarker Code Editor. Es ist verfügbar für Windows, Linux und macOS. 
+Einer der größten Vorteile von VS Code ist ein eingebautes Support-Tool für JavaScript, TypeScript und Node.js. Außerdem verfügt es über zahllose Erweiterungen für andere Programmiersprachen. VS Code besitzt auch einen Run und Debug Modus, um Programme direkt in der Umgebung ausführen zu können. 
+VS Code kann sehr vielfältig eingesetzt werden und aufgrund der Erweiterungen nach Belieben personalisiert werden. \cite{VSCodeOfficialSite}
 
-Um nur ein paar der Erweiterungen zu nennen, welche VS Code so wandelbar machen: 
+Um nur ein paar der Erweiterungen zu nennen, welche VS Code wandelbar machen: 
 
 \begin{compactitem}
     \item Microsoft Visual Studio Live Share: Mithilfe dieser Extension ist es möglich, gleichzeitig von mehreren Computern an einem Projekt zu arbeiten.
@@ -135,6 +137,7 @@ Um nur ein paar der Erweiterungen zu nennen, welche VS Code so wandelbar machen:
 \end{compactitem}
 \cite{VSCodeOfficialSite}
 
+Zur einfachen Ansicht von Code und zum Schreiben von Latex wurde VS Code verwendet.
 
 \begin{figure}[h t]
   \centering
@@ -145,8 +148,9 @@ Um nur ein paar der Erweiterungen zu nennen, welche VS Code so wandelbar machen:
 
 \subsection{Github [T]} \setauthor{Teresa Holzer}
 % < https://github.com/features
-GitHub ist ein Online-Tool, um zusammen mit Teammitgliedern einfach an Projekten zusammenzuarbeiten. Projekte können dabei einfach neu heruntergeladen werden, es kann auf neue Versionen aktualisiert werden, und es können Versionen mit verschiedenen Versionsnummern zusammengefügt werden. GitHub kann über das Terminal oder GitHub Desktop verwendet werden. \cite{GitHubOfficialSite}
-Bei der Verwendung von GitHub können sogenannte Repositories \ref{fig:impl:githubRepository} erstellt werden. In diese können neue Dokumente bzw. Dateien hinzugefügt werden. Ein Repository besitzt zusätzlich eine Beschreibung des Repositories sowie eine Übersicht der Geschichte der hinzugefügten Dateien. Mithilfe dieser können vorherige Versionen wiederhergestellt bzw. gesichtet werden. Wenn also zum Beispiel die aktuelle Version eines Programms auf Discord einen Fehler enthält, kann einfach zu der vorherigen Version gewechselt werden.
+GitHub ist ein Online-Tool, das ermöglicht, zusammen mit Teammitgliedern  an Projekten zusammenzuarbeiten. Projekte können dabei einfach neu heruntergeladen werden, es kann auf neue Versionen aktualisiert werden, und es können Versionen mit verschiedenen Versionsnummern zusammengefügt werden. GitHub kann über das Terminal oder GitHub Desktop verwendet werden. \cite{GitHubOfficialSite}
+% TODO Grafik Terminal Github Desktop in Subfigur
+Bei der Verwendung von GitHub können sogenannte Repositories, siehe Abb. \ref{fig:impl:githubRepository}, erstellt werden. In diese können neue Dokumente bzw. Dateien hinzugefügt werden. Ein Repository besitzt zusätzlich eine Beschreibung sowie eine Übersicht der Historie der hinzugefügten Dateien. Mithilfe dieser können vorherige Versionen wiederhergestellt bzw. gesichtet werden. Wenn also zum Beispiel die aktuelle Version eines Programms auf Discord einen Fehler enthält, kann einfach zu der vorherigen Version gewechselt werden.
 
 \begin{figure}[h t]
   \centering

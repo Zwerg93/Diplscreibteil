@@ -1,4 +1,5 @@
 Um davor aufbereitete Daten sinnvoll visuell darzustellen, ist es wichtig, die richtigen Plattformen beziehungsweise Frameworks zu verwenden. In folgendem Kapitel werden verwendete Plattformen und Frameworks erklärt. 
+% Huemer fragen 3 Zeilen zu kurz?
 \subsection{Angular}
 % < 1 https://angular.io/
  
@@ -16,10 +17,11 @@ Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer
 \begin{compactitem}
     \item ein HTML-Template
     \item ein CSS-Style Template
-    \item einem @Component-Part, in welchem folgende Informationen definiert werden:
+    \item einem @Component-Part, in welchem folgende Informationen geklärt werden:
     \subitem Ein CSS-Selektor, welcher definiert, wie die Komponente in einem Template verwendet wird. Dieser Selektor kann anschließend in ein HTML-File eingebunden werden. Passiert dies, wird dieser Selektor eine Instanz der Komponente des HTML-Files.
     \subitem Ein HTML-Template, welches Angular anleitet, wie es diese Komponente zu rendern hat.
     \subitem Ein optionales Set von CSS-Styles, welche das Aussehen des HTML-Elements definieren.
+    %Subitems mit Punkten formatieren
 \end{compactitem}
 \cite{angularOfficialSite}
  
@@ -43,7 +45,7 @@ Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer
 % < Angular - Das umfassende Handbuch von: Christoph Höller
 Um eine Anbindung an einen Webserver zu ermöglichen, stellt Angular ein Modul, welches den Namen HttpClientModule trägt, zur Verfügung. Nachdem dieses in die Klasse AppModule importiert wurde, kann es verwendet werden.
  
-Wenn nun zum Beispiel die Daten eines GET-Requests aus dem Backend ausgelesen werden sollen, muss zuerst der HttpClient aufgerufen werden, definieren, ob ein GET, POST oder ein anderer Request benutzt werden soll und diesem muss anschließend eine passende URL übergeben werden. \ref{lst:impl:angularHTTPBsp}
+Wenn nun zum Beispiel die Daten eines GET-Requests aus dem Backend ausgelesen werden sollen, muss zuerst der HttpClient aufgerufen und definiert werden, ob ein GET, POST oder ein anderer Request benutzt werden soll. Diesem muss anschließend eine passende URL übergeben werden. \ref{lst:impl:angularHTTPBsp}
  
 \begin{lstlisting}[language=java,caption=Beispiel für einen GET-Request,label=lst:impl:angularHTTPBsp]
   this.http.get<Animal[]>(`http://localhost:8080/api/animals`)
@@ -52,13 +54,13 @@ Wenn nun zum Beispiel die Daten eines GET-Requests aus dem Backend ausgelesen we
     });
 \end{lstlisting}
  
-Mit den spitzen Klammern wird dabei der Type der übergebenen Daten definiert, in diesem Fall wäre es eine Liste des Typs Animal. Die erhaltenen Daten werden dann auf die Variable this.animalArray gesetzt. \cite{angularHandbuchBuch}
+Mit den spitzen Klammern wird dabei der Typ der übergebenen Daten definiert, in diesem Fall wäre es eine Liste des Typs Animal. Die erhaltenen Daten werden dann auf die Variable this.animalArray gesetzt. \cite{angularHandbuchBuch}
  
 \subsubsection{Angular Forms}
 % <  Angular - Das umfassende Handbuch von: Christoph Höller
-Um in einem Angular-Projekt ein Formular verwenden zu können, muss zuerst die Forms-API hinzugefügt werden. Dies kann mit dem Befehl \texttt{npm install @angular/forms --save} umgesetzt werden. Nachdem die Module in der gewünschten Komponente eingebaut wurden, kann ein reaktives Formular erstellt werden.
+Um in einem Angular-Projekt ein Formular verwenden zu können, muss zuerst die Forms-API hinzugefügt werden. Dies kann mit dem Befehl \texttt{npm install @angular/forms --save} umgesetzt werden. Nachdem die Module in der gewünschten Komponente eingebaut wurden, kann ein reaktives Formular (eine sogenannte reactive Form) erstellt werden.
  
-Um auf die Eingabewerte eines Formulars zugreifen zu können, kann eine FormGroup verwendet werden. Bei dieser muss lediglich ein FormGroup-Element angelegt werden, welches die Namen der Eingabefelder trägt. \ref{lst:impl:angularFormGroup} Der linke Parameter ist dabei dazu da, einen Default-Wert festzulegen, der rechte ist dazu da, eine Überprüfung der Eingabewerte zu aktivieren.
+Um auf die Eingabewerte eines Formulars zugreifen zu können, kann eine FormGroup verwendet werden. Bei dieser muss lediglich ein FormGroup-Element angelegt werden, welches die Namen der Eingabefelder trägt. \ref{lst:impl:angularFormGroup} Der linke Parameter ist dabei dazu da, einen Default-Wert festzulegen, der rechte dient dazu, eine Überprüfung der Eingabewerte zu aktivieren.
  
 \begin{lstlisting}[language=java,caption=Beispiel für FormGroup eines Angular Formulars,label=lst:impl:angularFormGroup]
   this.animalForm = this.fb.group({
@@ -86,12 +88,15 @@ Das zugehörige HTML-Form hat in der Praxis diese Form:  \ref{lst:impl:angularFo
 Mithilfe von Bootstrap können schnelle und responsive Seiten gebaut werden. Bootstrap ist leistungsstark, erweiterbar und mit vielen Features versehen. Bootstrap stellt vielzählige Variablen für Farben, Schriftstile und mehr auf :root-Ebene zur Verfügung, welche überall verwendet werden können. Bei Komponenten sind CSS-Variablen auf die jeweilige Klasse beschränkt, können aber leicht geändert werden. Bootstrap kann im Allgemeinen sehr großflächig individuell angepasst werden.
 \cite{bootstrap}
 
+Bootstrap wurde gemeinsam mit CSS verwendet, um das Aussehen der Flexlogger-Website anzupassen.
+
 
 \subsection{CanvasJS}
 % < 1 https://canvasjs.com/
  
-CanvasJS ist ein Framework, mit welchem sich einfach Diagramme erstellen lassen können. Es besitzt eine hervorragende Integration in Angular, dies wird bestätigt durch eine eigene Unterseite auf der CanvasJS-Seite, welche der Integration mit Angular gewidmet ist. Auf dieser können unterschiedlichste Diagramme mit dem passenden Komponenten-, Modul- sowie HTML-Code gefunden werden.
- 
+CanvasJS ist ein Framework, mit welchem sich Diagramme erstellen lassen. Es besitzt eine Integration in Angular. Auf der CanvaJS Website auf der Unterseite für Angular können unterschiedlichste Diagramme mit dem passenden Komponenten-, Modul- sowie HTML-Code gefunden werden.
+\cite{canvasJsOfficialSite}
+
 Um CanvasChart in Angular zu verwenden, müssen verschiedene Codeteile eingefügt werden. Diese beinhalten einen HTML-Teil, welcher das Chart anzeigt. \ref{lst:impl:canvasJSHTML}
  
 \begin{lstlisting}[language=html,caption=CanvasJS HTML,label=lst:impl:canvasJSHTML]
@@ -101,7 +106,7 @@ Um CanvasChart in Angular zu verwenden, müssen verschiedene Codeteile eingefüg
 Anschließend müssen Dateien, welche auf der canvasJS-Seite heruntergeladen werden können, in die Dateiordner des gewünschten Angular-Projekts kopiert werden. Diese tragen die Namen \texttt{canvasjs.min.js} und \texttt{canvasjs.angular.component.ts}.
  
 Der vorletzte Schritt beinhaltet das Importieren des CanvasJSChart-Moduls.
-Im letzten Schritt werden im TypeScript-File der Komponente, in der das Diagramm angezeigt werden soll, die Diagrammoptionen für das Diagramm festgelegt. Diese beinhalten in der einfachsten Form den Titel und die Daten, dies kann aber erweitert werden. \ref{lst:impl:canvasJSchartOptions}
+Im letzten Schritt werden im TypeScript-File der Komponente, in der das Diagramm angezeigt werden soll, die Diagrammoptionen für das Diagramm festgelegt. Diese beinhalten in der einfachsten Form den Titel und die Daten, kann aber erweitert werden. \ref{lst:impl:canvasJSchartOptions}
  
 \begin{lstlisting}[language=html,caption=CanvasJS chartOptiones,label=lst:impl:canvasJSchartOptions]
   chartOptions = {

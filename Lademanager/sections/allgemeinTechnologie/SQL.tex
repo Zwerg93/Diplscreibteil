@@ -3,7 +3,7 @@
 % < 1 https://edufs.edu.htl-leonding.ac.at/moodle/pluginfile.php/102732/mod_resource/content/1/PLSQL-Skript%20v04.pdf
 SQL ist eine Programmiersprache, welche entwickelt wurde, um die Daten in einer relationalen Datenbank zu bearbeiten. Außerdem kann damit die Struktur der Datenbank abgeändert werden. \cite{einfuerhungSQLBuch} 
  
-Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen. \ref{tab:allgemein:grundlagenSQL}
+Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen, siehe Abb. \ref{tab:allgemein:grundlagenSQL}.
 Mithilfe all dieser verschiedenen Gruppen ist es möglich, eine Datenbank zu erstellen, zu verwalten und zu löschen.
 
 \begin{table}
@@ -30,7 +30,7 @@ Mithilfe all dieser verschiedenen Gruppen ist es möglich, eine Datenbank zu ers
  
 
  
-Um beispielsweise eine Tabelle in einer Datenbank zu erstellen, wird das Schlüsselwort \texttt{CREATE} verwendet, welches in der Data Definition Language gefunden werden kann. \ref{lst:impl:createTable}
+Um beispielsweise eine Tabelle in einer Datenbank zu erstellen, wird das Schlüsselwort \texttt{CREATE} verwendet, welches in der Data Definition Language (DDL) gefunden werden kann. \ref{lst:impl:createTable}
  
 \begin{lstlisting}[language=sql,caption=CREATE table,label=lst:impl:createTable]
     CREATE TABLE animal (
@@ -50,10 +50,10 @@ Ein anderer wichtiger Befehl in SQL ist der SELECT-Befehl. Mit ihm kann aus jede
  
 \subsection{Kommunikation mit Datenbanken}
 % < 1 Einführung in SQL - Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu p29-47
-Um SQL in einer Datenbank zu verwenden, muss dazu aller erst eine Datenbank angelegt werden. Dabei gibt es verschiedenste Datenbanken, welche je nach Performance, bzw. benötigter Größe ausgewählt werden sollte. Siehe dazu \ref{section:database}.
+Um SQL in einer Datenbank zu verwenden, muss dazu erst eine Datenbank angelegt werden. Dabei gibt es verschiedenste Datenbanken, welche je nach Performance, bzw. benötigter Größe ausgewählt werden sollte. Siehe dazu \ref{section:database}.
  
 \subsubsection{Daten aus einer Datenbank auslesen}
-Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus der Datenbank geholt werden. Dies passiert über einer einzelnes SQL-Statement welches ausgeführt werden muss. Dabei können einzelne Zeilen aus der Datenbank ausgewählt werden, oder auch mehrere Zeilen beziehungsweise ganze Tabelle. Dabei können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene Ergebnisse zu erhalten. \cite{einfuerhungSQLBuch} \ref{tab:allgemein:selects}
+Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus der Datenbank geholt werden. Dies passiert über ein SQL-Statement, welches ausgeführt werden muss. Dabei können einzelne Zeilen aus der Datenbank ausgewählt werden, oder auch mehrere Zeilen sowie ganze Tabelle. Es können verschiedene Kriterien in das SQL-Statement hinzugefügt werden, um unterschiedliche Ergebnisse zu erhalten. \cite{einfuerhungSQLBuch} \ref{tab:allgemein:selects}
 
 \begin{table}
     \centering
@@ -81,13 +81,13 @@ Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus d
 
 \subsection{SQL und Java in Verbindung}
 
-SQL und Java lassen sich sehr leicht verbinden. Durch eine einfache Verbindung auf eine Datenbank mithilfe eines Connection-Blocks \ref{lst:impl:connect} können leicht Daten aus der Datenbank bearbeitet werden, Daten ausgelesen werden und Daten hinzugefügt werden. Dies wird umgesetzt mithilfe eines Strings, welches ein SQL-Statement enthält \ref{lst:impl:SQLString}, welches kurz darauf ausgeführt wird. 
+SQL und Java lassen sich verbinden. Durch eine Verbindung auf eine Datenbank mithilfe eines Connection-Blocks \ref{lst:impl:connect} können leicht Daten aus der Datenbank bearbeitet, Daten ausgelesen und Daten hinzugefügt werden. Dies wird mithilfe eines Strings, welches ein SQL-Statement enthält, umgesetzt  \ref{lst:impl:SQLString} und kurz darauf ausgeführt. 
 
 \begin{lstlisting}[language=java,caption=SQL-String,label=lst:impl:SQLString]
     String sql = "SELECT * FROM flexlogger where timestamp > ? AND timestamp < ? order by timestamp";
 \end{lstlisting}
 
-Anschließend wird dieses in ein \texttt{PreparedStatement} umgewandelt und anschließend ausgeführt. Das Resultat daraus ist ein ResultSet. \ref{lst:impl:SQLStatement}
+Anschließend wird dieses in ein \texttt{PreparedStatement} umgewandelt und ausgeführt. Das Resultat daraus ist ein ResultSet. \ref{lst:impl:SQLStatement}
 
 \begin{lstlisting}[language=java,caption=SQL-Statement ausführen,label=lst:impl:SQLStatement]
     try (Connection conn = connect()) {
