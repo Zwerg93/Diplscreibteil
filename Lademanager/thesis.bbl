@@ -159,10 +159,10 @@ A.~Beaulieu, \emph{Einführung in SQL- Daten erzeugen, bearbeiten und
 \bibitem{grundlagenSQL}
 T.~Stütz, ,,Grundlagen Oracle - PL/SQL,'' 2003.
 
-\bibitem{macAddress}
+\bibitem{wieisteineMacaufgebaut}
 \BIBentryALTinterwordspacing
-M.~Mertens, ,,MAC Adresse: Definition, Funktion Und Einsatz.'' 10 2021. Online
-  verfügbar: \url{https://www.placetel.de/ratgeber/mac-adresse}
+M.~Mertens, ,,Wie ist eine MAC Adresse aufgebaut?'' Online verfügbar:
+  \url{https://www.placetel.de/ratgeber/mac-adresse}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ipAddress}

@@ -76,8 +76,8 @@
 \contentsline {subsection}{\numberline {3.6.6}Unterschiede zwischen Modbus TCP und RTU}{54}{subsection.3.6.6}%
 \contentsline {subsection}{\numberline {3.6.7}Modbus RS485 vs RS232}{54}{subsection.3.6.7}%
 \contentsline {subsection}{\numberline {3.6.8}Modbus tools + libraries}{55}{subsection.3.6.8}%
-\contentsline {subsection}{\numberline {3.6.9}Modbus Librarys für Java}{58}{subsection.3.6.9}%
-\contentsline {subsection}{\numberline {3.6.10}Kommunikationsaufbau zu den Wallboxen}{59}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.9}Modbus Librarys für Java}{57}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}Kommunikationsaufbau zu den Wallboxen}{58}{subsection.3.6.10}%
 \contentsline {subsection}{\numberline {3.6.11}Kommunikationsaufbau zu der Fronius PV Anlage}{60}{subsection.3.6.11}%
 \contentsline {subsection}{\numberline {3.6.12}Kommunikationsaufbau zu den Janitza Klemmen:}{61}{subsection.3.6.12}%
 \contentsline {chapter}{\numberline {4}Flexlogger}{62}{chapter.4}%
@@ -95,32 +95,32 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Klasse}{68}{subsubsection*.61}%
 \contentsline {subsubsection}{\nonumberline LogEntry Ressource}{68}{subsubsection*.63}%
 \contentsline {subsubsection}{\nonumberline LogEntry Repository}{70}{subsubsection*.65}%
-\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{73}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{72}{subsection.4.3.4}%
 \contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{73}{subsubsection*.67}%
-\contentsline {subsubsection}{\nonumberline App-Component}{76}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline App-Component}{74}{subsubsection*.75}%
 \contentsline {subsubsection}{\nonumberline Home-Component}{76}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{78}{subsubsection*.79}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{77}{subsubsection*.79}%
 \contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{79}{subsubsection*.81}%
 \contentsline {subsubsection}{\nonumberline HttpService}{79}{subsubsection*.83}%
 \contentsline {subsubsection}{\nonumberline ValidatorService}{80}{subsubsection*.85}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{81}{subsubsection*.87}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{80}{subsubsection*.87}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{81}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Logging}{81}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{82}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{81}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Log4J}{82}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Threads}{82}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{83}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{84}{subsubsection*.91}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{83}{subsubsection*.91}%
 \contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{84}{subsection.4.5.2}%
 \contentsline {subsubsection}{\nonumberline Zustände eines Threads}{84}{subsubsection*.93}%
-\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{85}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{84}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{85}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{86}{subsubsection*.96}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{85}{subsubsection*.96}%
 \contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{86}{subsubsection*.99}%
-\contentsline {subsection}{\numberline {4.5.5}Service executer}{87}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.5}Service executer}{86}{subsection.4.5.5}%
 \contentsline {section}{\numberline {4.6}Abspeicherung von Daten}{87}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{87}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}CSV}{88}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.2}CSV}{87}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}JSON}{88}{subsection.4.6.3}%
 \contentsline {subsection}{\numberline {4.6.4}Datenbanken}{89}{subsection.4.6.4}%
 \contentsline {chapter}{\numberline {5}Zusammenfassung}{90}{chapter.5}%
