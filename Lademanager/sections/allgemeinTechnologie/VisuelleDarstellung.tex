@@ -1,4 +1,4 @@
-Um davor aufbereitete Daten sinnvoll visuell darzustellen, ist es wichtig, die richtigen Plattformen beziehungsweise Frameworks zu verwenden. In folgendem Kapitel werden verwendete Plattformen und Frameworks erklärt. 
+Um davor aufbereitete Daten sinnvoll visuell darzustellen, ist es wichtig, die richtigen Plattformen beziehungsweise Frameworks zu verwenden. In folgendem Kapitel werden verwendete Plattformen und Frameworks, wie Angular, BootsTrap und CanvasJS erklärt. 
 % Huemer fragen 3 Zeilen zu kurz?
 \subsection{Angular}
 % < 1 https://angular.io/
@@ -15,13 +15,12 @@ Angular ist eine Plattform, um Web-Applikationen zu erstellen, welche für die D
 Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer Komponente sind folgende Segmente:
  
 \begin{compactitem}
-    \item ein HTML-Template
-    \item ein CSS-Style Template
-    \item einem @Component-Part, in welchem folgende Informationen geklärt werden:
-    \subitem Ein CSS-Selektor, welcher definiert, wie die Komponente in einem Template verwendet wird. Dieser Selektor kann anschließend in ein HTML-File eingebunden werden. Passiert dies, wird dieser Selektor eine Instanz der Komponente des HTML-Files.
-    \subitem Ein HTML-Template, welches Angular anleitet, wie es diese Komponente zu rendern hat.
-    \subitem Ein optionales Set von CSS-Styles, welche das Aussehen des HTML-Elements definieren.
-    %Subitems mit Punkten formatieren
+    \item Ein HTML-Template
+    \item Ein CSS-Style Template
+    \item Einem @Component-Part, in welchem folgende Informationen geklärt werden:
+    \subitem • Ein CSS-Selektor, welcher definiert, wie die Komponente in einem Template verwendet wird. Dieser Selektor kann anschließend in ein HTML-File eingebunden werden. Passiert dies, wird dieser Selektor eine Instanz der Komponente des HTML-Files.
+    \subitem • Ein HTML-Template, welches Angular anleitet, wie es diese Komponente zu rendern hat.
+    \subitem • Ein optionales Set von CSS-Styles, welche das Aussehen des HTML-Elements definieren.
 \end{compactitem}
 \cite{angularOfficialSite}
  
@@ -36,7 +35,7 @@ Komponenten sind die Baublöcke, um eine Applikation zusammenzustellen. In einer
       `
     })
     export class HelloWorldComponent {
-      // The code in this class drives the component's behavior.
+
     }
 \end{lstlisting}
 \cite{angularOfficialSite}
@@ -85,13 +84,14 @@ Das zugehörige HTML-Form hat in der Praxis diese Form:  \ref{lst:impl:angularFo
  
 \subsection{Bootstrap}
 % https://getbootstrap.com/
-Mithilfe von Bootstrap können schnelle und responsive Seiten gebaut werden. Bootstrap ist leistungsstark, erweiterbar und mit vielen Features versehen. Bootstrap stellt vielzählige Variablen für Farben, Schriftstile und mehr auf :root-Ebene zur Verfügung, welche überall verwendet werden können. Bei Komponenten sind CSS-Variablen auf die jeweilige Klasse beschränkt, können aber leicht geändert werden. Bootstrap kann im Allgemeinen sehr großflächig individuell angepasst werden.
+Mithilfe von Bootstrap können schnelle und responsive Seiten gebaut werden. Bootstrap ist leistungsstark, erweiterbar und mit vielen Features versehen. Bootstrap stellt vielzählige Variablen für Farben, Schriftstile und mehr auf :root-Ebene zur Verfügung, welche überall verwendet werden können. Bei Komponenten sind CSS-Variablen auf die jeweilige Klasse beschränkt, können aber leicht geändert werden. Bootstrap kann im Allgemeinen großflächig individuell angepasst werden.
 \cite{bootstrap}
 
 Bootstrap wurde gemeinsam mit CSS verwendet, um das Aussehen der Flexlogger-Website anzupassen.
 
 
 \subsection{CanvasJS}
+\label{subsection:canvasJS}
 % < 1 https://canvasjs.com/
  
 CanvasJS ist ein Framework, mit welchem sich Diagramme erstellen lassen. Es besitzt eine Integration in Angular. Auf der CanvaJS Website auf der Unterseite für Angular können unterschiedlichste Diagramme mit dem passenden Komponenten-, Modul- sowie HTML-Code gefunden werden.

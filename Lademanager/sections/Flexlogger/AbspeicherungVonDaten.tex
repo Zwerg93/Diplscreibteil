@@ -10,7 +10,7 @@ Außerdem kann das Format die Skalierbarkeit, die Kompatibilität, die Cloud-Spe
 Konkrete Beispiele, warum bestimmte Dateiformate ausgewählt werden sollten, sind: Um Geld zu sparen, indem zu einem CSV-Dateiformat gewechselt wird, wenn große Datensets im Cloud-Speicher verarbeitet werden. 
 
 JSON ist eine bessere Wahl, wenn es darum geht, kleinere Datensets mit einer komplexen Hierarchie zu speichern. 
-Im Allgemeinen bedeutet dies, dass das richtige Datenformat Geld und Zeit spart. \cite{csvOrJson} \ref{tab:allgemein:csvJsonDatabase}
+Im Allgemeinen bedeutet dies, dass das richtige Datenformat Geld und Zeit spart, siehe Tab. \ref{tab:allgemein:csvJsonDatabase}. \cite{csvOrJson}
 
 \begin{table}
     \centering
@@ -41,7 +41,7 @@ CSV ist ein Text-Dateiformat, mit der Besonderheit, dass die Werte durch Semikol
 
 
 \subsection{JSON}
-JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten werden als semi-strukturiert angezeigt. \ref{lst:impl:json} JSON ist weit kompatibel und wird somit von vielen Software-Entwicklern verwendet, um configs und APIs zu designen. Da JSON von JavaScript entwickelt wurde, kann es einfach in eine Java-basierte Umgebung integriert werden. Somit wird JSON sehr oft für die Datenverarbeitung von Front- und Backend verwendet. Mithilfe von JSON kann auf neue Daten zugegriffen werden. Gerade wenn es um rationales und hierarchisches Datenmanagement geht, eignet sich JSON, da es dies unterstützt wird. JSON-Dateien sind selbsterklärend und es ist für Systeme einfach möglich, eine JSON-Datei zu erkennen und zu verarbeiten. \cite{csvOrJson}
+JSON ist im Vergleich zu CSV leichter verständlich für Menschen. Die Daten werden als semi-strukturiert angezeigt. \ref{lst:impl:json} JSON ist weit kompatibel und wird somit von vielen Software-Entwicklern verwendet, um configs und APIs zu designen. Da JSON von JavaScript entwickelt wurde, kann es mühelos in eine Java-basierte Umgebung integriert werden. Somit wird JSON oft für die Datenverarbeitung von Front- und Backend verwendet. Mithilfe von JSON kann auf neue Daten zugegriffen werden. Gerade wenn es um rationales und hierarchisches Datenmanagement geht, eignet sich JSON, da es dies unterstützt wird. JSON-Dateien sind selbsterklärend und es ist für Systeme ohne Probleme möglich, eine JSON-Datei zu erkennen und zu verarbeiten. \cite{csvOrJson}
 
 
 \begin{lstlisting}[language=java,caption=JSON Beispiel,label=lst:impl:json]

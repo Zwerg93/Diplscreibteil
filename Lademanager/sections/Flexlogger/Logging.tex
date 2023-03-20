@@ -15,7 +15,7 @@ Die gespeicherten (geloggten) Daten können zum Beispiel dazu verwendet werden,
 \end{compactitem}
 \cite{DataLogging}
 
-Logging bieten eine große Flexibilität und eignet sich sehr gut, um große Datenmengen zu erfassen und auszuwerten. \cite{BigDataBuch}
+Logging bieten eine große Flexibilität und eignet sich gut, um große Datenmengen zu erfassen und auszuwerten. \cite{BigDataBuch}
 
 \subsection{Herkunft der Daten (Datenpunkte)}
 Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten ausgelesen. Diese werden angesprochen und aus ihnen kann dann der aktuelle Wert des Datenpunkts ausgelesen werden.
@@ -38,8 +38,15 @@ Es ist ein populäres Logging-Package für Java. Logging liefert präzise Inform
 
 
 Anwendungen, welche Log4j verwenden, fordern vom LogManager einen Logger mit einem bestimmten Namen an. Der LogManager sucht den entsprechenden LoggerContext und ruft dann dessen Logger ab. 
-Wenn erst ein Logger erstellt werden muss, wird er mit der LoggerConfig verknüpft, die entweder a) den gleichen Namen wie der Logger, b) den Namen eines übergeordneten Pakets oder c) die Stamm-LoggerConfig enthält.
-LoggerConfig-Objekte werden aus Logger-Deklarationen in der Konfiguration erstellt. Die LoggerConfig ist mit den Appendern verbunden, welche die LogEvents tatsächlich liefern. \ref{fig:impl:log4jArchitektur} \cite{log4J}
+Wenn erst ein Logger erstellt werden muss, wird er mit der LoggerConfig verknüpft, die entweder 
+
+\begin{compactitem}
+    \item[a)] den gleichen Namen wie der Logger, 
+    \item[b)] den Namen eines übergeordneten Pakets oder 
+    \item[c)] die Stamm-LoggerConfig enthält.
+\end{compactitem}
+
+LoggerConfig-Objekte werden aus Logger-Deklarationen in der Konfiguration erstellt. Die LoggerConfig ist mit den Appendern verbunden, welche die LogEvents tatsächlich liefern, siehe Abb. \ref{fig:impl:log4jArchitektur}. \cite{log4J}
 
 \begin{figure}[h t]
     \centering

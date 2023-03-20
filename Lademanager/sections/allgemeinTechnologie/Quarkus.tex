@@ -11,7 +11,7 @@ Wie bereits erwähnt, ist eines der Features von Quarkus die Fähigkeit aus Appl
 Quarkus sorgt außerdem dafür, imperative und reaktive Modelle zu verbinden. Reaktives Programmieren wird immer beliebter aus dem Grund, dass es in der Lage ist, asynchrones programmieren mit Daten-Streams und der Veränderung von Daten zu verbinden. \cite{QuarkusBuch}
  
 \subsection{Architektur}
-Im Zentrum von Quarkus liegt die Kern-Komponente, welche die Aufgabe hat, die Applikation in der Build-Phase umzuschreiben, um sie zu optimieren \ref{fig:impl:QuarkusArchitektur}. Daraus entsteht eine native ausführbare und Java-runnable Applikation. Damit der Quarkus-Kern diese Arbeit erledigen kann, müssen einige verschiedene Komponenten zusammenarbeiten:
+Im Zentrum von Quarkus liegt die Kern-Komponente, welche die Aufgabe hat, die Applikation in der Build-Phase umzuschreiben, um sie zu optimieren, siehe Abb. \ref{fig:impl:QuarkusArchitektur}. Daraus entsteht eine native ausführbare und Java-runnable Applikation. Damit der Quarkus-Kern diese Arbeit erledigen kann, müssen einige verschiedene Komponenten zusammenarbeiten:
  
 \begin{compactitem}
     \item Jandex: Ein platzsparender Java-Annotation-Indexer, sowie eine offline Reflexions-Library. Diese Bibliothek ist in der Lage, alle runtime-sichtbaren Java Annotationen und Klassenhierarchien für ein Set von Klassen in einer speichereffizienten Repräsentation zu indexen.    
@@ -33,7 +33,7 @@ Des Weiteren gibt es noch einige Quarkus Extensions. Dazu gehören die MicroProf
 \subsection{Vergleich zu anderen Tools}
 % < https://devm.io/java/micronaut-speed-test-170870-001
 % < https://micronaut.io/2020/04/07/micronaut-vs-quarkus-vs-spring-boot-performance-on-jdk-14/
-Drei sehr vergleichbare Frameworks sind Quarkus, Micronout und Spring Boot. Sie besitzen alle ähnliche Features und Fähigkeiten.
+Drei vergleichbare Frameworks sind Quarkus, Micronout und Spring Boot. Sie besitzen alle ähnliche Features und Fähigkeiten.
 Am wichtigsten ist dabei, welches Framework  am schnellsten ist, welches am performantesten und welches  den wenigsten Speicher benötigt.
 \cite{Micr/QuarBenchmark}
  
@@ -43,7 +43,7 @@ Am wichtigsten ist dabei, welches Framework  am schnellsten ist, welches am perf
     \item[Micronout]
     \item Cloud-native, JVM-basiert, full-stack Framework für Mikro-Services und serverlose Anwendungen, geringer Speicherverbrauch
     \item[Spring Boot]
-    \item Open-Source Java Framework, einfach um stand-alone Anwendungen und Mikroservices zu kreieren, benötigt sehr wenig Konfiguration, um starten zu können
+    \item Open-Source Java Framework, einfach um stand-alone Anwendungen und Mikroservices zu kreieren, benötigt wenig Konfiguration, um starten zu können
 \end{compactitem}
 \cite{Micr/QuarBenchmark}
  
@@ -58,11 +58,17 @@ Für einen näheren Vergleich zwischen den Frameworks, siehe \ref{fig:impl:Quark
  
 %\subsection{NodeJS im Vergleich}
 
-\subsection{http GET/POST/PUT Funktionen}
+\subsection{HTTP GET/POST/PUT Funktionen}
 % < 1 https://quarkus.io/guides/rest-json
 Mithilfe von GET/POST/PUT können Daten von einem Webserver geholt, oder an diesen geschickt werden, um diese später z.B. in einer Webapplikation nutzen zu können.
 %Was macht jeweils GET POST PUT?
  
+\begin{compactitem}
+    \item GET   |   Ressource von Server anfordern 
+    \item POST  |   Datenmengen zur weiteren Verarbeitung an Server senden
+    \item PUT   |   Ressource an Server senden, aktualisiert Daten
+\end{compactitem}
+
 Um diese Annotations verwenden zu können, muss eine REST Ressource erstellt werden.
 Bei dieser Ressource muss als erstes ein Pfad definiert werden. Dieser gilt für alle darauffolgenden Funktionen in der Ressource Klasse.
  

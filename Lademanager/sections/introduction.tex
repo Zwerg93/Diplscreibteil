@@ -5,12 +5,12 @@ Die Idee eines Lademanagers entstand im Frühjahr 2021, als die Photovoltaikanla
 
 \section{Herangehensweise}
 
-Nach einem ersten Briefing mit Alfred Pimminger wurden erste Pläne für das Projekt ausgearbeitet. Vor allem der Aufbau und das Zusammenspiel mit den firmeninternen Systemen war dabei sehr wichtig. Die erste Skizze des Projektes sah dabei wie folgt aus: 
+Nach einem ersten Briefing mit Alfred Pimminger wurden erste Pläne für das Projekt ausgearbeitet. Vor allem der Aufbau und das Zusammenspiel mit den firmeninternen Systemen war dabei äußerst wichtig. Die erste Skizze des Projektes sah dabei wie folgt aus: 
 \ref{fig:impl:ersteSkizze}
 
 \begin{figure}[h t]
   \centering
-  \includegraphics[scale=0.1]{pics/ersteSkizze.jpg}
+  \includegraphics[scale=0.15]{pics/ersteSkizze.jpg}
   \caption{Erste Planung auf einem Whiteboard}
   \label{fig:impl:ersteSkizze}
 \end{figure}
@@ -65,7 +65,7 @@ Starten kann man ein Latex-Projekt in jedem Beliebigen Editor.  Wichtig dabei is
 
   
 
-Ein neues Projekt wird angelegt, indem eine ".tex" Datei erstellt wird. In dieser kann dann schon reiner Text geschrieben werden, jedoch wird das Layout noch nicht die gewünschte Form bekommen.    
+Ein neues Projekt wird angelegt, indem eine \grq.tex\grq Datei erstellt wird. In dieser kann dann schon reiner Text geschrieben werden, jedoch wird das Layout noch nicht die gewünschte Form bekommen.    
 
 Um das zu erreichen, gibt es die Möglichkeiten von sogenannten Templates, welche oft von Firmen, Universitäten oder Schulen angeboten werden (siehe Haslinger Template). In solchen vorgefertigten Projekten gibt es schon eine klare Struktur und Files, welche sich um das Layoutieren kümmern. Vorteil davon ist, dass sehr viel Arbeit von Latex übernommen wird und der Fokus rein auf den Inhalt gelegt werden kann. 
 
@@ -76,7 +76,7 @@ Intellij ist eine IDE (Integrated Development Environment, oder zu Deutsch: Inte
 
 \begin{figure}[h t]
     \centering
-    \includegraphics[scale=0.5]{pics/MavenOverfiew.png}
+    \includegraphics[scale=0.55]{pics/MavenOverfiew.png}
     \caption{So sieht der Maven-Tap in Intellij aus}
     \label{fig:impl:WallboxMavenTap}
   \end{figure}
@@ -111,7 +111,7 @@ WebStorm, Interface siehe Abb. \ref{fig:impl:webstorm}, wird als Entwicklungsumg
 Vieles der Entwicklung fand in der Kommandozeile von Linux statt. Von der Überwachung des Status der Tasks, bis hin zum Starten der App lief alles in einem Terminal ab. Dabei handelt es sich um ein Programm, welches einen Text von einem User entgegennimmt, und als Befehl interpretiert. Dadurch lassen sich Verbindungen zu weiteren Geräten via SSH ermöglichen, um aus der Ferne Projekte zu entwickeln. So kann der Raspberry Pi4 in einem Schaltschrank der Firma montiert sein, und trotzdem kann ein Entwickler aus dem Büro die Einstellungen verändern.   
 
 Mit einer sogenannten CLI (Command Line Interface) lassen sich Programme ohne graphische Useroberfläche bedienen, Ordner und Files verwalten, und ganze Serverstrukturen verwalten. 
-\subsection{Discord [T]} \setauthor{Teresa Holzer}
+\subsection{Discord [M]} \setauthor{Marcel Pouget}
 Discord ist eine kostenlose App für Kommunikation via Sprache, Chat und Video. Dies ermöglicht einen schnellen, reibungslosen Austausch zwischen einzelnen Personen bis hin zu großen Gruppen. Im Zusammenhang dieser Arbeit wurde die Applikation dafür benutzt, um Aufgaben zu verteilen, Informationen auszutauschen und Meetings zu halten. Ein Server für dieses Projekt wurde erstellt, um immer einen Überblick der aktuellen Dokumente zu bekommen. Auch die Links zu Informationen, Terminen und dem Google Drive-Laufwerk wurden gespeichert.   
 
 Discord half vor allem bei der Organisation unter den Projektmitgliedern. Dadurch konnte eine reibungslose Kommunikation gewährleistet werden  
@@ -126,7 +126,7 @@ Google Drive wurde im Rahmen dieser Diplomarbeit genutzt, um Dokumente und Datei
 % < https://code.visualstudio.com/docs
 Visual Studio Code, Interface siehe Abb. \ref{fig:impl:vsCode}, ist ein leistungsstarker Code Editor. Es ist verfügbar für Windows, Linux und macOS. 
 Einer der größten Vorteile von VS Code ist ein eingebautes Support-Tool für JavaScript, TypeScript und Node.js. Außerdem verfügt es über zahllose Erweiterungen für andere Programmiersprachen. VS Code besitzt auch einen Run und Debug Modus, um Programme direkt in der Umgebung ausführen zu können. 
-VS Code kann sehr vielfältig eingesetzt werden und aufgrund der Erweiterungen nach Belieben personalisiert werden. \cite{VSCodeOfficialSite}
+VS Code kann vielfältig eingesetzt werden und aufgrund der Erweiterungen nach Belieben personalisiert werden. \cite{VSCodeOfficialSite}
 
 Um nur ein paar der Erweiterungen zu nennen, welche VS Code wandelbar machen: 
 
@@ -137,20 +137,29 @@ Um nur ein paar der Erweiterungen zu nennen, welche VS Code wandelbar machen:
 \end{compactitem}
 \cite{VSCodeOfficialSite}
 
-Zur einfachen Ansicht von Code und zum Schreiben von Latex wurde VS Code verwendet.
+Zur einfachen Ansicht von Code sowie zum Verfassen des schriftlichen Teils der Diplomarbeit mithilfe von Latex wurde VS Code verwendet.
 
 \begin{figure}[h t]
   \centering
-  \includegraphics[scale=0.4]{pics/visualStudioCode.png}
+  \includegraphics[scale=0.48]{pics/visualStudioCode.png}
   \caption{Ansicht Visual Studio Code}
   \label{fig:impl:vsCode}
 \end{figure}
 
 \subsection{Github [T]} \setauthor{Teresa Holzer}
 % < https://github.com/features
-GitHub ist ein Online-Tool, das ermöglicht, zusammen mit Teammitgliedern  an Projekten zusammenzuarbeiten. Projekte können dabei einfach neu heruntergeladen werden, es kann auf neue Versionen aktualisiert werden, und es können Versionen mit verschiedenen Versionsnummern zusammengefügt werden. GitHub kann über das Terminal oder GitHub Desktop verwendet werden. \cite{GitHubOfficialSite}
-% TODO Grafik Terminal Github Desktop in Subfigur
-Bei der Verwendung von GitHub können sogenannte Repositories, siehe Abb. \ref{fig:impl:githubRepository}, erstellt werden. In diese können neue Dokumente bzw. Dateien hinzugefügt werden. Ein Repository besitzt zusätzlich eine Beschreibung sowie eine Übersicht der Historie der hinzugefügten Dateien. Mithilfe dieser können vorherige Versionen wiederhergestellt bzw. gesichtet werden. Wenn also zum Beispiel die aktuelle Version eines Programms auf Discord einen Fehler enthält, kann einfach zu der vorherigen Version gewechselt werden.
+GitHub ist ein Online-Tool, das ermöglicht, zusammen mit Teammitgliedern  an Projekten zusammenzuarbeiten. Projekte können dabei mühelos neu heruntergeladen werden, es kann auf neue Versionen aktualisiert werden, und es können Versionen mit verschiedenen Versionsnummern zusammengefügt werden. GitHub kann über das Terminal oder GitHub Desktop verwendet werden, siehe Abb. \ref{fig:impl:gitHubTerminalVSGUI}.
+
+\begin{figure}[h t]
+  \centering
+  \includegraphics[scale=0.45]{pics/githubTerminalGUI.png}
+  \caption{GitHub Desktop vs. Terminal}
+  \label{fig:impl:gitHubTerminalVSGUI}
+\end{figure}
+
+Bei der Verwendung von GitHub können sogenannte Repositories, siehe Abb. \ref{fig:impl:githubRepository}, erstellt werden. In diese können neue Dokumente bzw. Dateien hinzugefügt werden. Ein Repository besitzt zusätzlich eine Beschreibung sowie eine Übersicht der Historie der hinzugefügten Dateien. Mithilfe dieser können vorherige Versionen wiederhergestellt bzw. gesichtet werden. Wenn also zum Beispiel die aktuelle Version eines Programms auf Discord einen Fehler enthält, kann ohne Probleme zu der vorherigen Version gewechselt werden. 
+
+
 
 \begin{figure}[h t]
   \centering

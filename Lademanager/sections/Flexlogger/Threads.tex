@@ -7,7 +7,7 @@ Thread steht als Abkürzung für Thread of Control, das bedeutet, der Thread ist
  
 \subsection{Serialisierung - Nebenläufigkeit und Parallelität}
 % < 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis ; von: Christian Ullenboom
-Wenn in Java über Nebenläufigkeit gesprochen wird, sind dabei Threads gemeint. Sie sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und somit parallel Prozesse abgearbeitet werden können. \ref{fig:impl:javaThreadMultitasking}
+Wenn in Java über Nebenläufigkeit gesprochen wird, sind dabei Threads gemeint. Sie sorgen für eine gleichzeitige Abarbeitung von Programmen bzw. der Ressourcen. Dies kann umgesetzt werden, indem die Hardware mehrere Prozessoren oder Kerne besitzt und somit parallel Prozesse abgearbeitet werden können, siehe Abb. \ref{fig:impl:javaThreadMultitasking}.
 
 \begin{figure}[h t]
     \centering
@@ -28,7 +28,7 @@ Wie nebenläufige Abarbeitung die Performance bei einem Einprozessorsystem besch
     \item Diese Prozesse sind zum Beispiel: Öffnen der Datenbank, Lesen neuer Datensätze gleichzeitig mit dem Analysieren alter Daten, alte Daten können in eine Report-Datei geschrieben werden während neue Daten analysiert werden
 \end{compactitem}
 
-Wenn diese Prozesse parallel ausgeführt werden, kann viel Zeit eingespart werden beziehungsweise die Performance sehr erhöht werden. Dieses Beispiel zeigt allerdings auch, dass Nebenläufigkeit gut geplant werden muss.
+Wenn diese Prozesse parallel ausgeführt werden, kann viel Zeit eingespart werden beziehungsweise die Performance signifikant erhöht werden. Dieses Beispiel zeigt allerdings auch, dass Nebenläufigkeit gut geplant werden muss.
 \cite{javaInselBuch}
  
  
@@ -82,7 +82,7 @@ Zusätzlich ist es auch noch möglich, den Thread mit (\texttt{thread.sleep(ms)}
 % 0 https://dl.acm.org/doi/pdf/10.1145/3472456.3472458
 % 0 blocking queue:  https://books.google.at/books?id=mvzgNSmHEUAC&pg=PT856&dq=java+blocking+queue&hl=de&sa=X&ved=2ahUKEwiF4Jej3bD8AhUNxwIHHcjWBlMQ6AF6BAgEEAI#v=onepage&q=java%20blocking%20queue&f=false
  
-Eine BlockingQueue hat im Regelfall einen Thread, welcher Objekte produziert und einen anderen, welcher die Objekte konsumiert. \ref{fig:impl:BlockingQueue}
+Eine BlockingQueue hat im Regelfall einen Thread, welcher Objekte produziert und einen anderen, welcher die Objekte konsumiert, siehe Abb. \ref{fig:impl:BlockingQueue}.
  
 \begin{figure}[h t]
     \centering
@@ -96,7 +96,7 @@ Der produzierende Thread wird weiterhin Objekte produzieren und sie zur Blocking
 Auf der anderen Seite nimmt der Consumer Thread Objekte aus der Queue, um sie weiter zu verarbeiten. Wenn der Thread versucht, ein Objekt aus einer leeren Queue zu nehmen, wird er blockiert, bis der Producer-Thread ein Objekt in die Queue hinzufügt. \cite{javaBlockingQueue}
  
 \subsubsection{BlockingQueue Methoden}
-Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden: \ref{tab:allgemein:blockingQueueMethoden}
+Um die Blocking Queue mit Daten zu bespielen, gibt es spezielle Methoden, siehe Tab. \ref{tab:allgemein:blockingQueueMethoden}.
  
 \begin{table}[h]
     \centering
@@ -161,7 +161,7 @@ Das unten angeführte Beispiel verwendet eine ArrayBlockingQueue als Implementat
 \subsection{Service Executer}
 % 0 https://www.baeldung.com/java-executor-service-tutorial
 % < 1 Java ist auch eine Insel - Einführung, Ausbildung, Praxis; von: Christian Ullenboom
-Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktor übergeben werden. Dies kann zu Problemen führen, da das Thread-Objekt nicht vorher erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen, ist, dass ein Thread kein anderes Runnable bearbeiten kann, da dieses vorher schon zugewiesen wurde.
+Der Service Executer hilft dabei, den eigentlichen arbeitenden Thread von dem Runnable zu trennen. Wenn ein Thread erzeugt wird, muss das Runnable-Objekt im Konstruktor übergeben werden. Dies kann zu Problemen führen, da das Thread-Objekt nicht zuvor erstellt bzw. aufgebaut werden kann. Ein weiterer Grund, das Runnable und den Thread zu teilen, ist, dass ein Thread kein anderes Runnable bearbeiten kann, da dieses zuvor schon zugewiesen wurde.
 \cite{javaInselBuch}
 % \subsection{Java Futures}
 % 0 https://www.baeldung.com/java-future

@@ -7,11 +7,13 @@ Der Grundaufbau einer relationalen Datenbank besteht aus Zeilen und Spalten, wel
  Verschiedene Arten von Datenbanken werden in den folgenden Unterkapiteln behandelt.
 
 \subsection{H2}
+H2 besitzt eine browserbasierte Konsolenanwendung, wurde in Java entwickelt und implementiert die JDBC-API. 
+Sie besitzt folgende Hauptmerkmale:
 % < 1 http://www.h2database.com/html/performance.html
 % TODO Huemer fragen ob noch mehr zu H2 und Co
 \begin{compactitem} 
-    \item[Hauptmerkmale]
-    \item Sehr schnell, open source, JDBC API
+
+    \item Schnell, open source, JDBC API
     \item Embedded und Server Modus, in-memory databases        
     \item Konsolen Anwendung für den Browser
     \item Das Jar-File hat nur eine Größe von 2.5 MB
@@ -21,37 +23,37 @@ Der Grundaufbau einer relationalen Datenbank besteht aus Zeilen und Spalten, wel
 
 \subsubsection{Performance (Version 2.0.202)}
 Die Datenbank ist langsamer bei größeren ResultSets, da sie ab einer bestimmten Anzahl von zurückgegebenen Records zwischengespeichert werden. \cite{databaseComparison}
-
-
  
 \subsection{SQLite}
 % < 1 https://www.sqlite.org/index.html
 % < 1 http://www.h2database.com/html/performance.html
+SQLite ist klein und leichtgewichtig und wurde in C geschrieben. Es sind allerdings Schnittstellen zu fast allen gängigen Programmiersprachen verfügbar. 
+SQLite ist die meistgenutzte Datenbank der Welt und benötigt keine Administration. Die Datenbank eignet sich dadurch gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen wenig bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer zu großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. \cite{databaseComparison}
+SQLLite besitzt folgende Hauptmerkmale:
 
 \begin{compactitem}
-    \item [Hauptmerkmale]
     \item Klein
     \item Schnell        
-    \item Sehr verlässlich
+    \item Verlässlich
     \item Stand-allone
     \item Full-featured SQL-Implementierung
 \end{compactitem} 
 \cite{sqlliteOfficialSite}
 
 \subsubsection{Performance (SQLite 3.36.0.3)}
-Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einem niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine sehr variieren. \cite{databaseComparison}
+Performt etwa 2-5x schlechter bei einfachen Arbeiten auf der Datenbank. Dies führt zu einem niedrigen Arbeit-pro-Transaktion Ratio. Allerdings kann SQLite, wenn die Datenbankzugriffe komplexer werden, eine bessere Leistung erbringen. Ein wichtiger Zusatz ist allerdings, dass die Ergebnisse je nach Maschine variieren. \cite{databaseComparison}
 
-SQLite ist die meistgenutzte Datenbank der Welt und benötigt keine Administration. Die Datenbank eignet sich dadurch sehr gut für Mobiltelefone, Kameras, TV-Geräte etc., da diese ohne fachlichen Support funktionieren müssen. Auch für Websites, auf denen wenig bis mittelviele Datenbankzugriffe stattfinden, ist die SQLite Datenbank eine gute Wahl. Bei einer sehr großen Anzahl an Datenbankzugriffen, ist allerdings von einer SQLite Datenbank eher abzuraten. \cite{databaseComparison}
+
 
 \subsection{PostgreSQL}
 % < 1 https://www.postgresql.org/about/
 % < 1 http://www.h2database.com/html/performance.html
- 
+
+PostgreSQL wurde in der Programmiersprache C entwickelt und ist eine Open Source Datenbanksystem. Die Hauptmerkmale des Datenmanagementsystems sind:
+
 \begin{compactitem}
-    \item[Hauptmerkmale]
-    \item Open source
     \item Objektrelationale Datenbank        
-    \item Sehr mächtig
+    \item Mächtig
     \item Verlässlich
     \item Datenintegrität
     \item Viele Features/Add-Ons
@@ -66,20 +68,20 @@ Die Schnelligkeit der Datenbank liegt ziemlich mittig zwischen der Derby- und de
 % < 1 http://www.h2database.com/html/performance.html
 % < 1 https://db.apache.org/derby/#What+is+Apache+Derby%3F
 
+Apache Derby basiert auf Java und ist genau so wie PostgreSQL ein Open Source Datenmanagementsystems. Als Hauptmerkmale der Datenbank können folgende Punkte aufgezählt werden: 
+
 \begin{compactitem}
-    \item [Hauptmerkmale]
-    \item Open source
     \item Nur 3.5 MB Größe für die Basis Engine sowie den JDBC-Driver        
-    \item Basiert auf JAVA, JDBS sowie SQL Standards
-    \item Derby stellt einen embedded JDBS Driver zur Verfügung, mithilfe dessen die Derby Datenbank in jede JAVA-Applikation eingebunden werden kann
+    \item Basiert auf Java, JDBC sowie SQL Standards
+    \item Derby stellt einen eingebetteten JDBC Driver zur Verfügung, mithilfe dessen die Derby Datenbank in jede JAVA-Applikation eingebunden werden kann
     \item Supportet den Client/Server Modus
-    \item Einfach zu installieren, einzurichten, sowie zu benutzen
+    \item Leicht zu installieren, einzurichten, sowie zu benutzen
 \end{compactitem}
 \cite{ApacheDerbyOfficialSite}
  
 
 \subsubsection{Performance (Version 10.14.2.0)}
-Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei sehr schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20\texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. \cite{databaseComparison}
+Von all den angeführten Datenbanken die Langsamste. Die Operationen auf der Datenbank werden dabei schleppend ausgeführt. Ein besseres Ergebnis für Derby kann allerdings erzielt werden, wenn Autocommit ausgeschaltet wird. Die Performance wird dabei um 20\texttt{\%} besser. Um einen besseren Vergleich der Schnelligkeit heranzuziehen: Die Datenbank ist nicht einmal halb so schnell wie das erste Beispiel dieser Auflistung, die H2 Datenbank. \cite{databaseComparison}
 
 \subsection{Wahl der Datenbank für das Projekt}
-Aufgrund der großen Datenmenge, welche in dem Programm verarbeitet werden müssen, fiel die Entscheidung im Rahmen von Flexlogger auf eine PostgreSQL-Datenbank. Die Entscheidung basiert darauf, dass PostgreSQL sehr verlässlich ist und als Datenbank dafür ausgelegt ist, viele Daten speichern zu können.
+Aufgrund der großen Datenmenge, welche in dem Programm verarbeitet werden müssen, fiel die Entscheidung im Rahmen von Flexlogger auf eine PostgreSQL-Datenbank. Die Entscheidung basiert darauf, dass PostgreSQL ziemlich verlässlich ist und als Datenbank dafür ausgelegt ist, viele Daten speichern zu können. Ein anderer Grund für unsere Wahl ist, dass die PostgreSQL bereits firmenintern genutzt wurde.
