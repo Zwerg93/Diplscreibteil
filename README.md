@@ -1,3 +1,2 @@
 # Diplomarbeits-Schreibteil
-we staying professionell here
-no
+Teresa stinks
