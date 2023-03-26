@@ -1,6 +1,7 @@
 
 % < 1 Einführung in SQL- Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu p15-27
 % < 1 https://edufs.edu.htl-leonding.ac.at/moodle/pluginfile.php/102732/mod_resource/content/1/PLSQL-Skript%20v04.pdf
+\setauthor{Teresa Holzer}
 SQL ist eine Programmiersprache, welche entwickelt wurde, um die Daten in einer relationalen Datenbank zu bearbeiten. Außerdem kann damit die Struktur der Datenbank abgeändert werden. \cite{einfuerhungSQLBuch} 
  
 Es gibt verschiedenste SQL-Befehlsgruppen, welche jeweils einen anderen Zweck erfüllen, siehe Abb. \ref{tab:allgemein:grundlagenSQL}.
@@ -47,7 +48,7 @@ Um nun eine Zeile in die Tabelle hinzuzufügen, wird ein INSERT-Statement benöt
  
 Ein anderer wichtiger Befehl in SQL ist der SELECT-Befehl. Mit ihm kann aus jeder beliebigen Tabelle ein bestimmter Teil ausgegeben werden. Dabei können verschiedenste Kriterien übergeben werden, wie z.B. dass die auszugebenden Daten einen bestimmten Wert haben müssen. \cite{grundlagenSQL}
  
- 
+\setauthor{Teresa Holzer}
 \subsection{Kommunikation mit Datenbanken}
 % < 1 Einführung in SQL - Daten erzeugen, bearbeiten und abfragen von: Alan Beaulieu p29-47
 Um SQL in einer Datenbank zu verwenden, muss dazu erst eine Datenbank angelegt werden. Dabei gibt es verschiedenste Datenbanken, welche je nach Performance, bzw. benötigter Größe ausgewählt werden sollte. Siehe dazu \ref{section:database}.
@@ -77,7 +78,7 @@ Um mit den Daten einer Datenbank arbeiten zu können, müssen diese zuerst aus d
 \end{table}
 
     
-
+\setauthor{Teresa Holzer}
 
 \subsection{SQL und Java in Verbindung}
 
@@ -95,3 +96,4 @@ Anschließend wird dieses in ein \texttt{PreparedStatement} umgewandelt und ausg
             ResultSet rs = ps.executeQuery();
     }}
 \end{lstlisting}
+\setauthor{Teresa Holzer}

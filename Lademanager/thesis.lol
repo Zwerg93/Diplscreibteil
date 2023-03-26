@@ -5,12 +5,12 @@
 \contentsline {lstlisting}{\numberline {5}{\ignorespaces Beispiel für eine minimierte Angular Komponente}}{17}{lstlisting.2.5}%
 \contentsline {lstlisting}{\numberline {6}{\ignorespaces Beispiel für einen GET-Request}}{18}{lstlisting.2.6}%
 \contentsline {lstlisting}{\numberline {7}{\ignorespaces Beispiel für FormGroup eines Angular Formulars}}{18}{lstlisting.2.7}%
-\contentsline {lstlisting}{\numberline {8}{\ignorespaces Beispiel für ein reaktives Formular}}{18}{lstlisting.2.8}%
+\contentsline {lstlisting}{\numberline {8}{\ignorespaces Beispiel für ein reaktives Formular}}{19}{lstlisting.2.8}%
 \contentsline {lstlisting}{\numberline {9}{\ignorespaces CanvasJS HTML}}{19}{lstlisting.2.9}%
-\contentsline {lstlisting}{\numberline {10}{\ignorespaces CanvasJS chartOptiones}}{19}{lstlisting.2.10}%
-\contentsline {lstlisting}{\numberline {11}{\ignorespaces Quarkus POST-Request}}{23}{lstlisting.2.11}%
+\contentsline {lstlisting}{\numberline {10}{\ignorespaces CanvasJS chartOptiones}}{20}{lstlisting.2.10}%
+\contentsline {lstlisting}{\numberline {11}{\ignorespaces Quarkus POST-Request}}{24}{lstlisting.2.11}%
 \contentsline {lstlisting}{\numberline {12}{\ignorespaces JDBC Dependency}}{24}{lstlisting.2.12}%
-\contentsline {lstlisting}{\numberline {13}{\ignorespaces CREATE table}}{24}{lstlisting.2.13}%
+\contentsline {lstlisting}{\numberline {13}{\ignorespaces CREATE table}}{25}{lstlisting.2.13}%
 \contentsline {lstlisting}{\numberline {14}{\ignorespaces INSERT INTO table}}{25}{lstlisting.2.14}%
 \contentsline {lstlisting}{\numberline {15}{\ignorespaces SQL-String}}{26}{lstlisting.2.15}%
 \contentsline {lstlisting}{\numberline {16}{\ignorespaces SQL-Statement ausführen}}{26}{lstlisting.2.16}%
@@ -32,10 +32,10 @@
 \contentsline {lstlisting}{\numberline {32}{\ignorespaces LogEntrySet zu CSV umwandeln}}{72}{lstlisting.4.32}%
 \contentsline {lstlisting}{\numberline {33}{\ignorespaces CSV-File herunterladen}}{73}{lstlisting.4.33}%
 \contentsline {lstlisting}{\numberline {34}{\ignorespaces Routing zu anderer Komponente}}{78}{lstlisting.4.34}%
-\contentsline {lstlisting}{\numberline {35}{\ignorespaces CSV-File generieren}}{78}{lstlisting.4.35}%
-\contentsline {lstlisting}{\numberline {36}{\ignorespaces getListOfDatapointNames()-Methode}}{80}{lstlisting.4.36}%
+\contentsline {lstlisting}{\numberline {35}{\ignorespaces CSV-File generieren}}{79}{lstlisting.4.35}%
+\contentsline {lstlisting}{\numberline {36}{\ignorespaces getListOfDatapointNames()-Methode}}{81}{lstlisting.4.36}%
 \contentsline {lstlisting}{\numberline {37}{\ignorespaces Java Runnable}}{86}{lstlisting.4.37}%
-\contentsline {lstlisting}{\numberline {38}{\ignorespaces Einfaches Thread Beispiel}}{86}{lstlisting.4.38}%
-\contentsline {lstlisting}{\numberline {39}{\ignorespaces Thread erstellen/starten}}{86}{lstlisting.4.39}%
+\contentsline {lstlisting}{\numberline {38}{\ignorespaces Einfaches Thread Beispiel}}{87}{lstlisting.4.38}%
+\contentsline {lstlisting}{\numberline {39}{\ignorespaces Thread erstellen/starten}}{87}{lstlisting.4.39}%
 \contentsline {lstlisting}{\numberline {40}{\ignorespaces Java BlockingQueue Beispiel}}{88}{lstlisting.4.40}%
-\contentsline {lstlisting}{\numberline {41}{\ignorespaces JSON Beispiel}}{90}{lstlisting.4.41}%
+\contentsline {lstlisting}{\numberline {41}{\ignorespaces JSON Beispiel}}{91}{lstlisting.4.41}%

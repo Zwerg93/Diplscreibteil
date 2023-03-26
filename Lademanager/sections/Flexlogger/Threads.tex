@@ -1,4 +1,4 @@
- 
+
 % http://box.cs.istu.ru/public/docs/other/_New/Books/Lang/Java/Java%20Threads,%202Ed%20(O'Reilly).pdf
 Thread steht als Abkürzung für Thread of Control, das bedeutet, der Thread ist unabhängig von anderen Threads innerhalb eines einzelnen Programms. Anders gesagt, ein Thread ist ein Teil eines Prozesses, er ist mit anderen Threads für die Abarbeitung eines Programms zuständig.  \cite{JavaThreadsBuch}
 % \subsection{Streams}
@@ -54,6 +54,8 @@ Ein wichtiger Bestandteil eines Threads ist das Runnable Interface.
 Dem Thread muss ein Befehlsobjekt des Typs Runnable übergeben werden \ref{lst:impl:javaRunnable}, damit er weiß, welcher Code ausgeführt werden soll.
 Wenn der Thread gestartet wird, werden die Codezeilen im Befehlsobjekt nebenläufig zum anderen Code in dem Programm ab. \cite{javaInselBuch}
  
+
+
 \begin{lstlisting}[language=java,caption=Java Runnable,label=lst:impl:javaRunnable]
     interface java.lang.Runnable
 \end{lstlisting}

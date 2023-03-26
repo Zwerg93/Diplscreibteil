@@ -3,23 +3,23 @@
 \contentsline {section}{\numberline {1.1}Herangehensweise}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Zeitplan}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Verwendete Tools}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Latex [M]}{3}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Intellij [M]}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Webstorm [T]}{6}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Linux Terminal [M]}{6}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Discord [M]}{7}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Google drive [T]}{7}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}Visual Studio Code [T]}{7}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Github [T]}{8}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.1}Latex}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Intellij}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Webstorm}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Linux Terminal}{6}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Discord}{7}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Google drive}{7}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}Visual Studio Code}{7}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}Github}{8}{subsection.1.3.8}%
 \contentsline {chapter}{\numberline {2}Allgemeiner Technologie-Part}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Java [M]}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}CSV [T]}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}HTML, CSS und Javascript [T]}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.1}Java}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}CSV}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}HTML, CSS und Javascript}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}HTML}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}CSS}{12}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}JavaScript}{12}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}TypeScript [T]}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Datenbanken [T]}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.4}TypeScript}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Datenbanken}{13}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}H2}{14}{subsection.2.5.1}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 2.0.202)}{14}{subsubsection*.15}%
 \contentsline {subsection}{\numberline {2.5.2}SQLite}{14}{subsection.2.5.2}%
@@ -29,25 +29,25 @@
 \contentsline {subsection}{\numberline {2.5.4}Apache Derby}{15}{subsection.2.5.4}%
 \contentsline {subsubsection}{\nonumberline Performance (Version 10.14.2.0)}{16}{subsubsection*.21}%
 \contentsline {subsection}{\numberline {2.5.5}Wahl der Datenbank für das Projekt}{16}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Visuelle Darstellung [T]}{16}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Visuelle Darstellung}{16}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Angular}{16}{subsection.2.6.1}%
 \contentsline {subsubsection}{\nonumberline Komponenten}{17}{subsubsection*.23}%
-\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{17}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Anbindung einer Angular-Applikation an einen Webserver}{18}{subsubsection*.25}%
 \contentsline {subsubsection}{\nonumberline Angular Forms}{18}{subsubsection*.27}%
 \contentsline {subsection}{\numberline {2.6.2}Bootstrap}{19}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}CanvasJS}{19}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Quarkus [T]}{20}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Architektur}{20}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.7}Quarkus}{20}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Architektur}{21}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Vergleich zu anderen Tools}{22}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}HTTP GET/POST/PUT Funktionen}{22}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}JPA und JDBC}{23}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.3}HTTP GET/POST/PUT Funktionen}{23}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}JPA und JDBC}{24}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}Quarkus und JDBC}{24}{subsection.2.7.5}%
-\contentsline {section}{\numberline {2.8}SQL [T]}{24}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Kommunikation mit Datenbanken}{25}{subsection.2.8.1}%
-\contentsline {subsubsection}{\nonumberline Daten aus einer Datenbank auslesen}{25}{subsubsection*.32}%
+\contentsline {section}{\numberline {2.8}SQL}{25}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Kommunikation mit Datenbanken}{26}{subsection.2.8.1}%
+\contentsline {subsubsection}{\nonumberline Daten aus einer Datenbank auslesen}{26}{subsubsection*.32}%
 \contentsline {subsection}{\numberline {2.8.2}SQL und Java in Verbindung}{26}{subsection.2.8.2}%
-\contentsline {section}{\numberline {2.9}Beckhoff [M]}{26}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Raspberry [M]}{27}{section.2.10}%
+\contentsline {section}{\numberline {2.9}Beckhoff}{27}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Raspberry}{28}{section.2.10}%
 \contentsline {chapter}{\numberline {3}Wallbox [M]}{30}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Untersuchungsanliegen}{30}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Ist-Stand}{30}{section.3.2}%
@@ -96,37 +96,37 @@
 \contentsline {subsubsection}{\nonumberline LogEntry Ressource}{70}{subsubsection*.65}%
 \contentsline {subsubsection}{\nonumberline LogEntry Repository}{71}{subsubsection*.67}%
 \contentsline {subsection}{\numberline {4.3.4}Angular Frontend}{74}{subsection.4.3.4}%
-\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{74}{subsubsection*.69}%
-\contentsline {subsubsection}{\nonumberline App-Component}{77}{subsubsection*.77}%
-\contentsline {subsubsection}{\nonumberline Home-Component}{77}{subsubsection*.79}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{79}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{81}{subsubsection*.83}%
-\contentsline {subsubsection}{\nonumberline HttpService}{81}{subsubsection*.85}%
-\contentsline {subsubsection}{\nonumberline ValidatorService}{82}{subsubsection*.87}%
-\contentsline {subsubsection}{\nonumberline LogEntry Model}{82}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Website - User/Anwender Ansicht}{74}{subsubsection*.70}%
+\contentsline {subsubsection}{\nonumberline App-Component}{77}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline Home-Component}{77}{subsubsection*.80}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Component}{79}{subsubsection*.82}%
+\contentsline {subsubsection}{\nonumberline Canvas-Chart-Single-Component}{81}{subsubsection*.84}%
+\contentsline {subsubsection}{\nonumberline HttpService}{81}{subsubsection*.86}%
+\contentsline {subsubsection}{\nonumberline ValidatorService}{82}{subsubsection*.88}%
+\contentsline {subsubsection}{\nonumberline LogEntry Model}{82}{subsubsection*.90}%
 \contentsline {subsection}{\numberline {4.3.5}CanvasJS}{82}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Logging}{82}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Logging}{83}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Herkunft der Daten (Datenpunkte)}{83}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Log4J}{83}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Threads}{84}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{84}{subsection.4.5.1}%
-\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{85}{subsubsection*.93}%
-\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{85}{subsection.4.5.2}%
-\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{86}{subsubsection*.95}%
+\contentsline {subsection}{\numberline {4.4.2}Log4J}{84}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Threads}{85}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{85}{subsection.4.5.1}%
+\contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{85}{subsubsection*.94}%
+\contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{86}{subsection.4.5.2}%
+\contentsline {subsubsection}{\nonumberline Zustände eines Threads}{86}{subsubsection*.96}%
 \contentsline {subsection}{\numberline {4.5.3}Aufbau eines Threads}{86}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}BlockingQueue}{87}{subsection.4.5.4}%
-\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{87}{subsubsection*.98}%
-\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{87}{subsubsection*.101}%
-\contentsline {subsection}{\numberline {4.5.5}Service Executer}{88}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}Abspeicherung von Daten}{88}{section.4.6}%
+\contentsline {subsubsection}{\nonumberline BlockingQueue Methoden}{88}{subsubsection*.99}%
+\contentsline {subsubsection}{\nonumberline Java Blocking Queue Beispiel}{88}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {4.5.5}Service Executer}{89}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}Abspeicherung von Daten}{89}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Vergleich Vor- und Nachteile JSON vs CSV vs Datenbank}{89}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}CSV}{89}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}JSON}{90}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Datenbanken}{90}{subsection.4.6.4}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{91}{chapter.5}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.103}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IX}{chapter*.104}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.105}%
-\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{XI}{chapter*.106}%
-\contentsline {chapter}{\nonumberline Anhang}{XII}{chapter*.107}%
+\contentsline {subsection}{\numberline {4.6.4}Datenbanken}{91}{subsection.4.6.4}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{92}{chapter.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{VI}{chapter*.104}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IX}{chapter*.105}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.106}%
+\contentsline {chapter}{\nonumberline Quellcodeverzeichnis}{XI}{chapter*.107}%
+\contentsline {chapter}{\nonumberline Anhang}{XII}{chapter*.108}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

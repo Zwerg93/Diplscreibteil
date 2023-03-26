@@ -57,7 +57,7 @@ Mit den spitzen Klammern wird dabei der Typ der übergebenen Daten definiert, in
  
 \subsubsection{Angular Forms}
 % <  Angular - Das umfassende Handbuch von: Christoph Höller
-Um in einem Angular-Projekt ein Formular verwenden zu können, muss zuerst die Forms-API hinzugefügt werden. Dies kann mit dem Befehl \texttt{npm install @angular/forms --save} umgesetzt werden. Nachdem die Module in der gewünschten Komponente eingebaut wurden, kann ein reaktives Formular (eine sogenannte reactive Form) erstellt werden.
+Um in einem Angular-Projekt ein Formular verwenden zu können, muss zuerst die Forms-API hinzugefügt werden. Dies kann mit dem Befehl \texttt{npm install @angular/forms --save} umgesetzt werden. Nachdem die Module in der gewünschten Komponente eingebaut wurden, kann ein reaktives Formular (reactiveForm) erstellt werden.
  
 Um auf die Eingabewerte eines Formulars zugreifen zu können, kann eine FormGroup verwendet werden. Bei dieser muss lediglich ein FormGroup-Element angelegt werden, welches die Namen der Eingabefelder trägt. \ref{lst:impl:angularFormGroup} Der linke Parameter ist dabei dazu da, einen Default-Wert festzulegen, der rechte dient dazu, eine Überprüfung der Eingabewerte zu aktivieren.
  
@@ -67,8 +67,10 @@ Um auf die Eingabewerte eines Formulars zugreifen zu können, kann eine FormGrou
     animalAge: [0, [Validators.required]],
   });
 \end{lstlisting}
+
+\newpage
  
-Das zugehörige HTML-Form hat in der Praxis diese Form:  \ref{lst:impl:angularFormHTML}
+Das zugehörige HTML-Form besitzt in der Praxis diese Form:  \ref{lst:impl:angularFormHTML}
  
  
 \begin{lstlisting}[language=java,caption=Beispiel für ein reaktives Formular,label=lst:impl:angularFormHTML]

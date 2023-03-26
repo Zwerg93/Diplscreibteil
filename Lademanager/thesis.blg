@@ -13,99 +13,99 @@ Database file #1: bib.bib
 Warning--entry type for "ISO/OSI-Referenzmodell" isn't style-file defined
 --line 1 of file bib.bib
 Warning--entry type for "latexHeise" isn't style-file defined
---line 10 of file bib.bib
+--line 19 of file bib.bib
 Warning--entry type for "raspyimage" isn't style-file defined
---line 15 of file bib.bib
+--line 29 of file bib.bib
 Warning--entry type for "aboutRaspberry" isn't style-file defined
---line 28 of file bib.bib
+--line 55 of file bib.bib
 Warning--entry type for "raspberryChip" isn't style-file defined
---line 34 of file bib.bib
-Warning--entry type for "beckhoffWikipedia" isn't style-file defined
---line 41 of file bib.bib
-Warning--entry type for "beckhofftwincat" isn't style-file defined
---line 47 of file bib.bib
-Warning--entry type for "beckhoffpage" isn't style-file defined
---line 54 of file bib.bib
-Warning--entry type for "javaOracle" isn't style-file defined
---line 61 of file bib.bib
-Warning--entry type for "javaJava" isn't style-file defined
 --line 67 of file bib.bib
+Warning--entry type for "beckhoffWikipedia" isn't style-file defined
+--line 81 of file bib.bib
+Warning--entry type for "beckhofftwincat" isn't style-file defined
+--line 93 of file bib.bib
+Warning--entry type for "beckhoffpage" isn't style-file defined
+--line 107 of file bib.bib
+Warning--entry type for "javaOracle" isn't style-file defined
+--line 121 of file bib.bib
+Warning--entry type for "javaJava" isn't style-file defined
+--line 133 of file bib.bib
 Warning--entry type for "javaWikipedia" isn't style-file defined
---line 74 of file bib.bib
+--line 147 of file bib.bib
 Warning--entry type for "javaHegelit" isn't style-file defined
---line 80 of file bib.bib
-Warning--entry type for "discordEpic" isn't style-file defined
---line 87 of file bib.bib
-Warning--entry type for "CommandolineFortext" isn't style-file defined
---line 95 of file bib.bib
-Warning--entry type for "LatexUniGraz" isn't style-file defined
---line 101 of file bib.bib
-Warning--entry type for "IntellijJetbrains" isn't style-file defined
---line 106 of file bib.bib
-Warning--entry type for "LatexUni" isn't style-file defined
---line 111 of file bib.bib
-Warning--entry type for "wieisteineMacaufgebaut" isn't style-file defined
---line 117 of file bib.bib
-Warning--entry type for "7schichtenModell" isn't style-file defined
---line 138 of file bib.bib
-Warning--entry type for "ipAddress" isn't style-file defined
---line 154 of file bib.bib
-Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
 --line 159 of file bib.bib
-Warning--entry type for "modbuskubunu" isn't style-file defined
---line 165 of file bib.bib
-Warning--entry type for "modbusoverserial" isn't style-file defined
---line 171 of file bib.bib
-Warning--entry type for "modbuswiki" isn't style-file defined
---line 178 of file bib.bib
-Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
---line 183 of file bib.bib
-Warning--entry type for "modbusaufbauimg" isn't style-file defined
---line 204 of file bib.bib
-Warning--entry type for "csvOrJson" isn't style-file defined
+Warning--entry type for "discordEpic" isn't style-file defined
+--line 173 of file bib.bib
+Warning--entry type for "CommandolineFortext" isn't style-file defined
+--line 189 of file bib.bib
+Warning--entry type for "LatexUniGraz" isn't style-file defined
+--line 201 of file bib.bib
+Warning--entry type for "IntellijJetbrains" isn't style-file defined
 --line 211 of file bib.bib
-Warning--entry type for "PostgreSQLOfficialSite" isn't style-file defined
---line 215 of file bib.bib
-Warning--entry type for "databaseComparison" isn't style-file defined
---line 226 of file bib.bib
-Warning--entry type for "sqlliteOfficialSite" isn't style-file defined
---line 231 of file bib.bib
-Warning--entry type for "ApacheDerbyOfficialSite" isn't style-file defined
---line 237 of file bib.bib
-Warning--entry type for "DataLogging" isn't style-file defined
---line 248 of file bib.bib
-Warning--entry type for "QuarkusOfficialSite" isn't style-file defined
---line 261 of file bib.bib
-Warning--entry type for "Micr/QuarBenchmark" isn't style-file defined
---line 273 of file bib.bib
-Warning--entry type for "MicrVSQuarVSSprin" isn't style-file defined
---line 278 of file bib.bib
-Warning--entry type for "quarkusRest" isn't style-file defined
---line 285 of file bib.bib
-Warning--entry type for "quarkusHibernate" isn't style-file defined
---line 290 of file bib.bib
-Warning--entry type for "grundlagenSQL" isn't style-file defined
+Warning--entry type for "LatexUni" isn't style-file defined
+--line 221 of file bib.bib
+Warning--entry type for "wieisteineMacaufgebaut" isn't style-file defined
+--line 233 of file bib.bib
+Warning--entry type for "7schichtenModell" isn't style-file defined
+--line 275 of file bib.bib
+Warning--entry type for "ipAddress" isn't style-file defined
 --line 307 of file bib.bib
-Warning--entry type for "javaBlockingQueue" isn't style-file defined
---line 312 of file bib.bib
-Warning--entry type for "angularOfficialSite" isn't style-file defined
---line 318 of file bib.bib
-Warning--entry type for "canvasJsOfficialSite" isn't style-file defined
+Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
+--line 317 of file bib.bib
+Warning--entry type for "modbuskubunu" isn't style-file defined
 --line 329 of file bib.bib
-Warning--entry type for "log4J" isn't style-file defined
---line 340 of file bib.bib
-Warning--entry type for "bootstrap" isn't style-file defined
---line 346 of file bib.bib
-Warning--entry type for "typeJavaScript" isn't style-file defined
+Warning--entry type for "modbusoverserial" isn't style-file defined
+--line 341 of file bib.bib
+Warning--entry type for "modbuswiki" isn't style-file defined
 --line 355 of file bib.bib
+Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
+--line 365 of file bib.bib
+Warning--entry type for "modbusaufbauimg" isn't style-file defined
+--line 407 of file bib.bib
+Warning--entry type for "csvOrJson" isn't style-file defined
+--line 421 of file bib.bib
+Warning--entry type for "PostgreSQLOfficialSite" isn't style-file defined
+--line 429 of file bib.bib
+Warning--entry type for "databaseComparison" isn't style-file defined
+--line 451 of file bib.bib
+Warning--entry type for "sqlliteOfficialSite" isn't style-file defined
+--line 461 of file bib.bib
+Warning--entry type for "ApacheDerbyOfficialSite" isn't style-file defined
+--line 473 of file bib.bib
+Warning--entry type for "DataLogging" isn't style-file defined
+--line 495 of file bib.bib
+Warning--entry type for "QuarkusOfficialSite" isn't style-file defined
+--line 521 of file bib.bib
+Warning--entry type for "Micr/QuarBenchmark" isn't style-file defined
+--line 545 of file bib.bib
+Warning--entry type for "MicrVSQuarVSSprin" isn't style-file defined
+--line 555 of file bib.bib
+Warning--entry type for "quarkusRest" isn't style-file defined
+--line 569 of file bib.bib
+Warning--entry type for "quarkusHibernate" isn't style-file defined
+--line 579 of file bib.bib
+Warning--entry type for "grundlagenSQL" isn't style-file defined
+--line 613 of file bib.bib
+Warning--entry type for "javaBlockingQueue" isn't style-file defined
+--line 623 of file bib.bib
+Warning--entry type for "angularOfficialSite" isn't style-file defined
+--line 635 of file bib.bib
+Warning--entry type for "canvasJsOfficialSite" isn't style-file defined
+--line 657 of file bib.bib
+Warning--entry type for "log4J" isn't style-file defined
+--line 679 of file bib.bib
+Warning--entry type for "bootstrap" isn't style-file defined
+--line 691 of file bib.bib
+Warning--entry type for "typeJavaScript" isn't style-file defined
+--line 709 of file bib.bib
 Warning--entry type for "TypeScriptOverview" isn't style-file defined
---line 366 of file bib.bib
+--line 731 of file bib.bib
 Warning--entry type for "webstormOfficialSite" isn't style-file defined
---line 372 of file bib.bib
+--line 743 of file bib.bib
 Warning--entry type for "OneDriveOfficialSite" isn't style-file defined
---line 377 of file bib.bib
+--line 753 of file bib.bib
 Warning--entry type for "VSCodeOfficialSite" isn't style-file defined
---line 382 of file bib.bib
+--line 763 of file bib.bib
 Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
