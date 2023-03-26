@@ -1,0 +1,165 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+The style file: ieeetrande.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bib.bib
+Warning--entry type for "ISO/OSI-Referenzmodell" isn't style-file defined
+--line 1 of file bib.bib
+Warning--entry type for "latexHeise" isn't style-file defined
+--line 10 of file bib.bib
+Warning--entry type for "raspyimage" isn't style-file defined
+--line 15 of file bib.bib
+Warning--entry type for "aboutRaspberry" isn't style-file defined
+--line 28 of file bib.bib
+Warning--entry type for "raspberryChip" isn't style-file defined
+--line 34 of file bib.bib
+Warning--entry type for "beckhoffWikipedia" isn't style-file defined
+--line 41 of file bib.bib
+Warning--entry type for "beckhofftwincat" isn't style-file defined
+--line 47 of file bib.bib
+Warning--entry type for "beckhoffpage" isn't style-file defined
+--line 54 of file bib.bib
+Warning--entry type for "javaOracle" isn't style-file defined
+--line 61 of file bib.bib
+Warning--entry type for "javaJava" isn't style-file defined
+--line 67 of file bib.bib
+Warning--entry type for "javaWikipedia" isn't style-file defined
+--line 74 of file bib.bib
+Warning--entry type for "javaHegelit" isn't style-file defined
+--line 80 of file bib.bib
+Warning--entry type for "discordEpic" isn't style-file defined
+--line 87 of file bib.bib
+Warning--entry type for "CommandolineFortext" isn't style-file defined
+--line 95 of file bib.bib
+Warning--entry type for "LatexUniGraz" isn't style-file defined
+--line 101 of file bib.bib
+Warning--entry type for "IntellijJetbrains" isn't style-file defined
+--line 106 of file bib.bib
+Warning--entry type for "LatexUni" isn't style-file defined
+--line 111 of file bib.bib
+Warning--entry type for "wieisteineMacaufgebaut" isn't style-file defined
+--line 117 of file bib.bib
+Warning--entry type for "7schichtenModell" isn't style-file defined
+--line 138 of file bib.bib
+Warning--entry type for "ipAddress" isn't style-file defined
+--line 154 of file bib.bib
+Warning--entry type for "ModbusgrundlagenKubunu" isn't style-file defined
+--line 159 of file bib.bib
+Warning--entry type for "modbuskubunu" isn't style-file defined
+--line 165 of file bib.bib
+Warning--entry type for "modbusoverserial" isn't style-file defined
+--line 171 of file bib.bib
+Warning--entry type for "modbuswiki" isn't style-file defined
+--line 178 of file bib.bib
+Warning--entry type for "UnterschiedeinModbus" isn't style-file defined
+--line 183 of file bib.bib
+Warning--entry type for "modbusaufbauimg" isn't style-file defined
+--line 204 of file bib.bib
+Warning--entry type for "csvOrJson" isn't style-file defined
+--line 211 of file bib.bib
+Warning--entry type for "PostgreSQLOfficialSite" isn't style-file defined
+--line 215 of file bib.bib
+Warning--entry type for "databaseComparison" isn't style-file defined
+--line 226 of file bib.bib
+Warning--entry type for "sqlliteOfficialSite" isn't style-file defined
+--line 231 of file bib.bib
+Warning--entry type for "ApacheDerbyOfficialSite" isn't style-file defined
+--line 237 of file bib.bib
+Warning--entry type for "DataLogging" isn't style-file defined
+--line 248 of file bib.bib
+Warning--entry type for "QuarkusOfficialSite" isn't style-file defined
+--line 261 of file bib.bib
+Warning--entry type for "Micr/QuarBenchmark" isn't style-file defined
+--line 273 of file bib.bib
+Warning--entry type for "MicrVSQuarVSSprin" isn't style-file defined
+--line 278 of file bib.bib
+Warning--entry type for "quarkusRest" isn't style-file defined
+--line 285 of file bib.bib
+Warning--entry type for "quarkusHibernate" isn't style-file defined
+--line 290 of file bib.bib
+Warning--entry type for "grundlagenSQL" isn't style-file defined
+--line 307 of file bib.bib
+Warning--entry type for "javaBlockingQueue" isn't style-file defined
+--line 312 of file bib.bib
+Warning--entry type for "angularOfficialSite" isn't style-file defined
+--line 318 of file bib.bib
+Warning--entry type for "canvasJsOfficialSite" isn't style-file defined
+--line 329 of file bib.bib
+Warning--entry type for "log4J" isn't style-file defined
+--line 340 of file bib.bib
+Warning--entry type for "bootstrap" isn't style-file defined
+--line 346 of file bib.bib
+Warning--entry type for "typeJavaScript" isn't style-file defined
+--line 355 of file bib.bib
+Warning--entry type for "TypeScriptOverview" isn't style-file defined
+--line 366 of file bib.bib
+Warning--entry type for "webstormOfficialSite" isn't style-file defined
+--line 372 of file bib.bib
+Warning--entry type for "OneDriveOfficialSite" isn't style-file defined
+--line 377 of file bib.bib
+Warning--entry type for "VSCodeOfficialSite" isn't style-file defined
+--line 382 of file bib.bib
+Warning--I didn't find a database entry for "IEEEexample:BSTcontrol"
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in durchstartenHTML
+Warning--missing publisher in JavaScriptJavaEntwickler
+Warning--missing publisher in javaInselBuch
+Warning--missing publisher in angularHandbuchBuch
+Warning--missing publisher in QuarkusBuch
+Warning--missing publisher in einfuerhungSQLBuch
+Warning--missing publisher in BigDataBuch
+Warning--missing publisher in log4JBuch
+Warning--missing publisher in JavaThreadsBuch
+
+Done.
+You've used 57 entries,
+            3998 wiz_defined-function locations,
+            1088 strings with 14436 characters,
+and the built_in function-call counts, 18652 in all, are:
+= -- 1311
+> -- 173
+< -- 6
++ -- 99
+- -- 35
+* -- 680
+:= -- 3312
+add.period$ -- 105
+call.type$ -- 57
+change.case$ -- 0
+chr.to.int$ -- 15
+cite$ -- 66
+duplicate$ -- 1628
+empty$ -- 2078
+format.name$ -- 38
+if$ -- 4003
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 360
+newline$ -- 294
+num.names$ -- 32
+pop$ -- 1244
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1469
+stack$ -- 0
+substring$ -- 83
+swap$ -- 816
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 57
+warning$ -- 9
+while$ -- 35
+width$ -- 59
+write$ -- 522
+(There were 58 warnings)

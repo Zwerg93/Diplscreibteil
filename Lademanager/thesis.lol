@@ -15,19 +15,19 @@
 \contentsline {lstlisting}{\numberline {15}{\ignorespaces SQL-String}}{26}{lstlisting.2.15}%
 \contentsline {lstlisting}{\numberline {16}{\ignorespaces SQL-Statement ausführen}}{26}{lstlisting.2.16}%
 \contentsline {lstlisting}{\numberline {17}{\ignorespaces Example Element}}{39}{lstlisting.3.17}%
-\contentsline {lstlisting}{\numberline {18}{\ignorespaces Erweiterung einer Java-Klasse mit einem 'Flextask'}}{43}{lstlisting.3.18}%
+\contentsline {lstlisting}{\numberline {18}{\ignorespaces Erweiterung einer Java-Klasse mit einem 'Flextask'}}{44}{lstlisting.3.18}%
 \contentsline {lstlisting}{\numberline {19}{\ignorespaces Aufruf eines neuen Objektes der Klasse FlexTaskModbusWallbox}}{44}{lstlisting.3.19}%
 \contentsline {lstlisting}{\numberline {20}{\ignorespaces Log4J File}}{44}{lstlisting.3.20}%
 \contentsline {lstlisting}{\numberline {21}{\ignorespaces SQL Example}}{47}{lstlisting.3.21}%
-\contentsline {lstlisting}{\numberline {22}{\ignorespaces Alengen eines Datenpunktes}}{47}{lstlisting.3.22}%
+\contentsline {lstlisting}{\numberline {22}{\ignorespaces Alengen eines Datenpunktes}}{48}{lstlisting.3.22}%
 \contentsline {lstlisting}{\numberline {23}{\ignorespaces Example datapoint usage}}{48}{lstlisting.3.23}%
 \contentsline {lstlisting}{\numberline {24}{\ignorespaces Example multible datapoint usage}}{48}{lstlisting.3.24}%
-\contentsline {lstlisting}{\numberline {25}{\ignorespaces Eintrag in die datapoint\_map Tabelle}}{49}{lstlisting.3.25}%
+\contentsline {lstlisting}{\numberline {25}{\ignorespaces Eintrag in die datapoint\_map Tabelle}}{50}{lstlisting.3.25}%
 \contentsline {lstlisting}{\numberline {26}{\ignorespaces Dependency in Pom.xml}}{59}{lstlisting.3.26}%
 \contentsline {lstlisting}{\numberline {27}{\ignorespaces TimerTask}}{66}{lstlisting.4.27}%
 \contentsline {lstlisting}{\numberline {28}{\ignorespaces LogEntry in BlockingQueue hinzufügen}}{68}{lstlisting.4.28}%
 \contentsline {lstlisting}{\numberline {29}{\ignorespaces Datenpunkte des jeweiligen Geräts iterieren}}{68}{lstlisting.4.29}%
-\contentsline {lstlisting}{\numberline {30}{\ignorespaces Daten aus BlockingQueue herausnehmen}}{69}{lstlisting.4.30}%
+\contentsline {lstlisting}{\numberline {30}{\ignorespaces Daten aus der BlockingQueue herausnehmen}}{69}{lstlisting.4.30}%
 \contentsline {lstlisting}{\numberline {31}{\ignorespaces Connect to SQL Database}}{71}{lstlisting.4.31}%
 \contentsline {lstlisting}{\numberline {32}{\ignorespaces LogEntrySet zu CSV umwandeln}}{72}{lstlisting.4.32}%
 \contentsline {lstlisting}{\numberline {33}{\ignorespaces CSV-File herunterladen}}{73}{lstlisting.4.33}%
@@ -36,6 +36,6 @@
 \contentsline {lstlisting}{\numberline {36}{\ignorespaces getListOfDatapointNames()-Methode}}{80}{lstlisting.4.36}%
 \contentsline {lstlisting}{\numberline {37}{\ignorespaces Java Runnable}}{86}{lstlisting.4.37}%
 \contentsline {lstlisting}{\numberline {38}{\ignorespaces Einfaches Thread Beispiel}}{86}{lstlisting.4.38}%
-\contentsline {lstlisting}{\numberline {39}{\ignorespaces Thread erstellen/starten}}{87}{lstlisting.4.39}%
+\contentsline {lstlisting}{\numberline {39}{\ignorespaces Thread erstellen/starten}}{86}{lstlisting.4.39}%
 \contentsline {lstlisting}{\numberline {40}{\ignorespaces Java BlockingQueue Beispiel}}{88}{lstlisting.4.40}%
 \contentsline {lstlisting}{\numberline {41}{\ignorespaces JSON Beispiel}}{90}{lstlisting.4.41}%

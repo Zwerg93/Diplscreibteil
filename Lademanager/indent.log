@@ -1,0 +1,37 @@
+INFO:  latexindent.pl version 3.19.1, 2022-12-04, a script to indent .tex files
+       latexindent.pl lives here: /home/marcel/.miktex/texmfs/install/scripts/latexindent/
+       Sun Mar 26 11:37:37 2023
+       Filename: /home/marcel/Desktop/Diplscreibteil/Lademanager/sections/wallbox/__latexindent_temp_Modbus.tex
+INFO:  Processing switches:
+       -y|--yaml: YAML settings specified via command line
+       -c|--cruft: cruft directory
+INFO:  Directory for backup files and /home/marcel/Desktop/Diplscreibteil/Lademanager//indent.log:
+       /home/marcel/Desktop/Diplscreibteil/Lademanager/
+INFO:  Perl modules are being loaded from the following directories:
+       /usr/share/perl/5.30/FindBin.pm
+       /usr/share/perl5/YAML/Tiny.pm
+       /usr/share/perl/5.30/File/Copy.pm
+       /usr/share/perl/5.30/File/Basename.pm
+       /usr/share/perl/5.30/Getopt/Long.pm
+       /usr/share/perl5/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       /home/marcel/.miktex/texmfs/install/scripts/latexindent/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /home/marcel/.miktex/texmfs/install/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
+       Home directory is /home/marcel (didn't find either indentconfig.yaml or .indentconfig.yaml)
+       To specify user settings you would put indentconfig.yaml here: /home/marcel/indentconfig.yaml
+       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/marcel/.indentconfig.yaml
+INFO:  YAML settings read: -y switch
+       YAML setting: defaultIndent:'    '
+       single-quoted string found in -y switch: '    ', substitute to     
+       Updating mainSettings with defaultIndent:     
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

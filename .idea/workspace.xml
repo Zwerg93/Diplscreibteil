@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0727c39-c251-4148-8d6d-39d38d22050a" name="Changes" comment="" />
+    <list default="true" id="f0727c39-c251-4148-8d6d-39d38d22050a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/marcel/Desktop/musictech3",
+    "last_opened_file_path": "/home/marcel/Downloads/Pouget/backend",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -37,6 +39,8 @@
       <updated>1677341334793</updated>
       <workItem from="1677341337607" duration="187000" />
       <workItem from="1677485982944" duration="50000" />
+      <workItem from="1679170585263" duration="49000" />
+      <workItem from="1679299260023" duration="34000" />
     </task>
     <servers />
   </component>

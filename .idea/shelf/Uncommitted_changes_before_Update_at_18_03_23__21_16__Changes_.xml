@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]" date="1679170627525" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18.03.23, 21:16 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Lademanager/thesis.log" />
+    <option name="AFTER_PATH" value="Lademanager/thesis.log" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.log" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Lademanager/thesis.pdf" />
+    <option name="AFTER_PATH" value="Lademanager/thesis.pdf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.pdf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Lademanager/thesis.synctex.gz" />
+    <option name="AFTER_PATH" value="Lademanager/thesis.synctex.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.synctex.gz" />
+  </binary>
+</changelist>

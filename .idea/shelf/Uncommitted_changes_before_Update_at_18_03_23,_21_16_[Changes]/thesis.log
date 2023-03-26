@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  26 MAR 2023 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.8)  18 MAR 2023 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1013,6 +1013,9 @@ LaTeX Warning: Label `lst:impl:foo' multiply defined.
 
 LaTeX Warning: Label `lst:impl:foo' multiply defined.
 
+
+LaTeX Warning: Label `lst:impl:foo' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -1210,35 +1213,35 @@ File: pics/Firmenlogo.jpeg Graphic file (type jpg)
 <use pics/Firmenlogo.jpeg>
 Package pdftex.def Info: pics/Firmenlogo.jpeg  used on input line 6.
 (pdftex.def)             Requested size: 88.2022pt x 88.20235pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 15.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 15.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 15.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 15.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 15.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+(Font)              <6> on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
  (/home/marcel/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/home/marcel/.miktex/texmfs/install/tex/latex/microtype/mt-msb.cfg
@@ -1252,7 +1255,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=20.77846pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 15.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 14.
 
 
 Overfull \vbox (2.65346pt too high) has occurred while \output is active []
@@ -1267,19 +1270,19 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{20.77846pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 15.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 14.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \newpage
+l.14 \newpage
               [1
 
  <./pics/Firmenlogo.jpeg>]
 File: pics/Firmenlogo.jpeg Graphic file (type jpg)
 <use pics/Firmenlogo.jpeg>
-Package pdftex.def Info: pics/Firmenlogo.jpeg  used on input line 21.
+Package pdftex.def Info: pics/Firmenlogo.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 88.2022pt x 88.20235pt.
 ) [2
 
@@ -1297,85 +1300,805 @@ chapter 1.
 <pics/ersteSkizze.jpg, id=141, 2906.86pt x 1676.2625pt>
 File: pics/ersteSkizze.jpg Graphic file (type jpg)
 <use pics/ersteSkizze.jpg>
-Package pdftex.def Info: pics/ersteSkizze.jpg  used on input line 17.
-(pdftex.def)             Requested size: 436.0102pt x 251.42853pt.
-
-
-LaTeX Warning: Reference `.' on page 1 undefined on input line 24.
-
+Package pdftex.def Info: pics/ersteSkizze.jpg  used on input line 12.
+(pdftex.def)             Requested size: 290.70303pt x 167.63606pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \item 3
-            0.06.2022 Fertigstellung Pflichtenheft [1
+l.20 
+      [1
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 38.
+ <./pics/ersteSkizze.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 29.
  (/home/marcel/.miktex/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2 <./pics/ersteSkizze.jpg>] [3]
-Overfull \hbox (35.97836pt too wide) in paragraph at lines 86--90
-\T1/lmr/m/n/12 (-20) Template: []$\T1/lmss/m/n/12 (-20) https : / / github . com / markushaslinger / latex _ htl _ da _ template$[]\T1/lmr/m/n/12 (-20) ). In solchen vorgefertigten
- []
-
-
-Overfull \hbox (6.09802pt too wide) in paragraph at lines 95--96
+) [2] [3]
+Overfull \hbox (6.09802pt too wide) in paragraph at lines 74--75
 \T1/lmr/m/n/12 (-20) vereinfachen. Von intelligenter Code-completion bis zu intuitiven Debugging Möglichkeiten
  []
 
-<pics/MavenOverfiew.png, id=166, 726.715pt x 361.35pt>
+<pics/MavenOverfiew.png, id=162, 726.715pt x 361.35pt>
 File: pics/MavenOverfiew.png Graphic file (type png)
 <use pics/MavenOverfiew.png>
-Package pdftex.def Info: pics/MavenOverfiew.png  used on input line 100.
-(pdftex.def)             Requested size: 399.69447pt x 198.74312pt.
-[4]
-<pics/IntellijOverfiew.png, id=178, 1927.2pt x 1002.74625pt>
+Package pdftex.def Info: pics/MavenOverfiew.png  used on input line 78.
+(pdftex.def)             Requested size: 363.3566pt x 180.67456pt.
+[4 <./pics/MavenOverfiew.png>]
+<pics/IntellijOverfiew.png, id=171, 1927.2pt x 1002.74625pt>
 File: pics/IntellijOverfiew.png Graphic file (type png)
 <use pics/IntellijOverfiew.png>
-Package pdftex.def Info: pics/IntellijOverfiew.png  used on input line 111.
+Package pdftex.def Info: pics/IntellijOverfiew.png  used on input line 89.
 (pdftex.def)             Requested size: 385.43318pt x 200.5457pt.
- [5 <./pics/MavenOverfiew.png> <./pics/IntellijOverfiew.png>]
-Overfull \hbox (16.0856pt too wide) in paragraph at lines 129--130
-\T1/lmr/m/n/12 (-20) Angular, da ein neues Projekt direkt in WebStorm erstellt und in der Entwicklungsumgebung
- []
-
-<pics/webstorm.jpg, id=189, 1156.32pt x 366.168pt>
+ [5 <./pics/IntellijOverfiew.png>]
+<pics/webstorm.jpg, id=182, 1156.32pt x 366.168pt>
 File: pics/webstorm.jpg Graphic file (type jpg)
 <use pics/webstorm.jpg>
-Package pdftex.def Info: pics/webstorm.jpg  used on input line 134.
+Package pdftex.def Info: pics/webstorm.jpg  used on input line 103.
 (pdftex.def)             Requested size: 439.40617pt x 139.14528pt.
 
-Overfull \hbox (2.8656pt too wide) in paragraph at lines 142--143
+Overfull \hbox (2.8656pt too wide) in paragraph at lines 110--111
 \T1/lmr/m/n/12 (-20) Vieles der Entwicklung fand in der Kommandozeile von Linux statt. Von der Überwachung
  []
 
 
-Overfull \hbox (14.6854pt too wide) in paragraph at lines 145--146
-\T1/lmr/m/n/12 (-20) graphische Useroberfläche bedienen, Ordner und Files verwalten und ganze Serverstrukturen
+Overfull \hbox (17.88542pt too wide) in paragraph at lines 112--113
+\T1/lmr/m/n/12 (-20) graphische Useroberfläche bedienen, Ordner und Files verwalten, und ganze Serverstrukturen
  []
 
-[6 <./pics/webstorm.jpg>] [7]
-Overfull \hbox (7.10829pt too wide) in paragraph at lines 180--181
+[6 <./pics/webstorm.jpg>]
+Overfull \hbox (9.46553pt too wide) in paragraph at lines 129--130
+[]\T1/lmr/m/n/12 (-20) Um nur ein paar der Erweiterungen zu nennen, welche VS Code so wandelbar machen: 
+ []
+
+
+Overfull \hbox (7.10829pt too wide) in paragraph at lines 132--133
 []\T1/lmr/m/n/12 (-20) Microsoft Visual Studio Live Share: Mithilfe dieser Extension ist es möglich, gleichzeitig
  []
 
-<pics/visualStudioCode.png, id=217, 904.88063pt x 497.60907pt>
+<pics/visualStudioCode.png, id=194, 904.88063pt x 497.60907pt>
 File: pics/visualStudioCode.png Graphic file (type png)
 <use pics/visualStudioCode.png>
-Package pdftex.def Info: pics/visualStudioCode.png  used on input line 192.
-(pdftex.def)             Requested size: 434.33777pt x 238.84964pt.
-<pics/githubTerminalGUI.png, id=219, 944.93025pt x 374.5995pt>
-File: pics/githubTerminalGUI.png Graphic file (type png)
-<use pics/githubTerminalGUI.png>
-Package pdftex.def Info: pics/githubTerminalGUI.png  used on input line 205.
-(pdftex.def)             Requested size: 425.21469pt x 168.5682pt.
-[8 <./pics/visualStudioCode.png>]
-<pics/exampleRepository.jpg, id=227, 1142.46825pt x 490.83376pt>
+Package pdftex.def Info: pics/visualStudioCode.png  used on input line 141.
+(pdftex.def)             Requested size: 361.94585pt x 199.0401pt.
+[7]
+<pics/exampleRepository.jpg, id=208, 1142.46825pt x 490.83376pt>
 File: pics/exampleRepository.jpg Graphic file (type jpg)
 <use pics/exampleRepository.jpg>
-Package pdftex.def Info: pics/exampleRepository.jpg  used on input line 218.
+Package pdftex.def Info: pics/exampleRepository.jpg  used on input line 153.
 (pdftex.def)             Requested size: 434.14246pt x 186.51875pt.
-) [9 <./pics/githubTerminalGUI.png> <./pics/exampleRepository.jpg>]
+) [8 <./pics/visualStudioCode.png> <./pics/exampleRepository.jpg>]
 chapter 2.
-(sections
+(sections/allgemeinTechnologie.tex (sections/allgemeinTechnologie/Java.tex
+Overfull \hbox (10.85796pt too wide) in paragraph at lines 5--6
+\T1/lmr/m/n/12 (-20) Punkt in Java sind die sogenannten Build Tools, die es erlauben, Librarys und Dependencies
+ []
+
+(/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 9.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9.
+(/home/marcel/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (sections/allgemeinTechnologie/CSV.tex)
+Overfull \hbox (11.78009pt too wide) in paragraph at lines 1--13
+[]\T1/lmr/m/n/12 (-20) CSV-Files werden dazu verwendet, eine groÿe Menge von Daten in einem File abzuspeichern.
+ []
+
+[9
+
+] (sections/allgemeinTechnologie/HTMLCSS.tex [10] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 29--29
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 41--41
+[][][][][][][][] 
+ []
+
+) (sections/allgemeinTechnologie/TypeScript.tex [11]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--7
+[][][][][][][][] 
+ []
+
+) (sections/allgemeinTechnologie/Datenbanken.tex
+Overfull \hbox (2.49948pt too wide) in paragraph at lines 3--4
+[]\T1/lmr/m/n/12 (-20) Eine Datenbank ist gemeingültig dafür zuständig, viele Daten übersichtlich abzuspeichern,
+ []
+
+[12] [13]) (sections/allgemeinTechnologie/VisuelleDarstellung.tex [14] [15]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 26--26
+[][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 27.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
+[][][][][][][][] 
+ []
+
+[16]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 73--73
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 97--97
+[][][][][][][][] 
+ []
+
+[17]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 106--106
+[][][][][][][][] 
+ []
+
+) (sections/allgemeinTechnologie/Quarkus.tex [18]
+Overfull \hbox (59.91061pt too wide) in paragraph at lines 14--15
+\T1/lmr/m/n/12 (-20) Kern diese Arbeit erledigen kann, müssen einige verschiedene Komponenten zusammenarbeiten: 
+ []
+
+
+Overfull \hbox (17.76552pt too wide) in paragraph at lines 17--18
+\T1/lmr/m/n/12 (-20) und Klassenhierarchien für ein Set von Klassen in einer speichereffizienten Repräsentation
+ []
+
+
+Overfull \hbox (11.53499pt too wide) in paragraph at lines 23--24
+\T1/lmr/m/n/12 (-20) Spezifikationen, sowie ein Set von Extensions für Hibernate ORM, ein Transaktionsmanager
+ []
+
+<pics/quarkusArchitektur.JPG, id=404, 404.10976pt x 268.6035pt>
+File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
+<use pics/quarkusArchitektur.JPG>
+Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 27.
+(pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
+[19]
+Overfull \hbox (12.09547pt too wide) in paragraph at lines 46--47
+[]\T1/lmr/m/n/12 (-20) Open-Source Java Framework, einfach um Stand-alone Anwendungen und Mikroservices
+ []
+
+<pics/quarkus_benchmark.jpg, id=419, 545.78906pt x 309.40594pt>
+File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
+<use pics/quarkus_benchmark.jpg>
+Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
+(pdftex.def)             Requested size: 436.63184pt x 247.52509pt.
+[20 <./pics/quarkusArchitektur.JPG>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 69--69
+[][][][][][][][] 
+ []
+
+[21 <./pics/quarkus_benchmark.jpg>]
+Overfull \hbox (1.88329pt too wide) in paragraph at lines 89--90
+\T1/lmr/m/n/12 (-20) relationale Mapping, allerdings bietet JPA auch eine Lösungen für die architektonische
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 99--99
+[][][][][][][][] 
+ []
+
+) (sections/allgemeinTechnologie/SQL.tex
+Overfull \hbox (0.28268pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/12 (-20) relationalen Datenbank zu bearbeiten. Auÿerdem kann damit die Struktur der Datenbank
+ []
+
+[22] (/home/marcel/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 35--35
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
+[][][][][][][][] 
+ []
+
+[23]
+Overfull \hbox (14.97992pt too wide) in paragraph at lines 56--57
+\T1/lmr/m/n/12 (-20) können verschiedenste Kriterien in das SQL-Statement hinzugefügt werden, um verschiedene
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 86--86
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 92--92
+[][][][][][][][] 
+ []
+
+[24]) (sections/allgemeinTechnologie/Beckhoff.tex
+Overfull \hbox (1.21022pt too wide) in paragraph at lines 3--4
+\T1/lmr/m/n/12 (-20) Twincat. Die Produkte, welche von Industrie-PCs, Steuerungssystemen und Softwaretools
+ []
+
+<pics/twincat Ã¼bersicht.png, id=500, 1927.2pt x 866.23625pt>
+File: pics/twincat Ã¼bersicht.png Graphic file (type png)
+<use pics/twincat Ã¼bersicht.png>
+Package pdftex.def Info: pics/twincat Ã¼bersicht.png  used on input line 13.
+(pdftex.def)             Requested size: 385.43318pt x 173.24417pt.
+[25 <./pics/twincat Ã¼bersicht.png>]
+<pics/LadestationTwincat.png, id=510, 1926.19624pt x 817.0525pt>
+File: pics/LadestationTwincat.png Graphic file (type png)
+<use pics/LadestationTwincat.png>
+Package pdftex.def Info: pics/LadestationTwincat.png  used on input line 24.
+(pdftex.def)             Requested size: 385.23242pt x 163.40761pt.
+) (sections/allgemeinTechnologie/Raspberry.tex
+<pics/raspberry-pi.png, id=511, 846.16125pt x 536.0025pt>
+File: pics/raspberry-pi.png Graphic file (type png)
+<use pics/raspberry-pi.png>
+Package pdftex.def Info: pics/raspberry-pi.png  used on input line 5.
+(pdftex.def)             Requested size: 423.07959pt x 268.0006pt.
+ [26 <./pics/LadestationTwincat.png>])) [27 <./pics/raspberry-pi.png>]
+chapter 3.
+(sections/Wallbox.tex (sections/wallbox/Untersuchungsanliegen.tex) (sections/wallbox/Ist-Stand.tex) (sections/wallbox/AufbauDesProjektes.tex [28
+
+]
+<pics/Infografik_FlexBoxen.png, id=529, 596.2275pt x 421.575pt>
+File: pics/Infografik_FlexBoxen.png Graphic file (type png)
+<use pics/Infografik_FlexBoxen.png>
+Package pdftex.def Info: pics/Infografik_FlexBoxen.png  used on input line 15.
+(pdftex.def)             Requested size: 417.3564pt x 295.10048pt.
+ [29 <./pics/Infografik_FlexBoxen.png>] [30]
+Overfull \hbox (22.50607pt too wide) in paragraph at lines 55--56
+[]\T1/lmr/m/n/12 (-20) setDataBits(8) -> Die Databits müssen 8 Bits betragen, da auch hier der Wallboxhersteller
+ []
+
+[31]
+Overfull \hbox (4.58858pt too wide) in paragraph at lines 74--75
+[]\T1/lmr/m/n/12 (-20) Die Werte, welche das Modbus-Protokoll zurückliefert, werden an Datenpunkte übergeben,
+ []
+
+
+Overfull \hbox (247.35808pt too wide) in paragraph at lines 89--90
+\T1/lmr/m/n/12 (-20) geparsed, und der Wert dann einer temporären Variablen zugewiesen. 'tmp = Float.intBitsToFloat(Integer.parseUnsignedInt(str.toString(),
+ []
+
+[32] [33] [34]
+Overfull \hbox (1.42992pt too wide) in paragraph at lines 128--129
+[]\T1/lmr/m/n/12 (-20) ladedauer_wb -> Sollte sich der Wert des Datenpunktes mit der Ladedauer verändern,
+ []
+
+[35] [36]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 144--144
+[][][][][][][][] 
+ []
+
+<pics/HMIWallboxÃœbersicht.png, id=577, 402.50375pt x 649.42625pt>
+File: pics/HMIWallboxÃœbersicht.png Graphic file (type png)
+<use pics/HMIWallboxÃœbersicht.png>
+Package pdftex.def Info: pics/HMIWallboxÃœbersicht.png  used on input line 175.
+(pdftex.def)             Requested size: 201.25137pt x 324.71233pt.
+[37]
+<pics/DetailansichtWallbox2.png, id=595, 407.5225pt x 650.43pt>
+File: pics/DetailansichtWallbox2.png Graphic file (type png)
+<use pics/DetailansichtWallbox2.png>
+Package pdftex.def Info: pics/DetailansichtWallbox2.png  used on input line 189.
+(pdftex.def)             Requested size: 203.76074pt x 325.2142pt.
+ [38 <./pics/HMIWallboxÃœbersicht.png>]
+Overfull \hbox (5.4968pt too wide) in paragraph at lines 199--200
+\T1/lmr/m/n/12 (-20) Registers, welcher für die Ladedauer zuständig ist. Das bedeutet, dass der Chargecontroller
+ []
+
+) [39 <./pics/DetailansichtWallbox2.png>] (sections/wallbox/FlexTasksinderFlexCloud.tex
+Overfull \hbox (32.743pt too wide) in paragraph at lines 7--8
+\T1/lmr/m/n/12 (-20) Dependencies erweitern. Das wird vor allem dann benötigt, wenn z.B. eine Datenbankanbindung
+ []
+
+<pics/flexTasks2.png, id=609, 596.7093pt x 421.575pt>
+File: pics/flexTasks2.png Graphic file (type png)
+<use pics/flexTasks2.png>
+Package pdftex.def Info: pics/flexTasks2.png  used on input line 11.
+(pdftex.def)             Requested size: 417.69366pt x 295.10048pt.
+[40 <./pics/flexTasks2.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 28--28
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 32--32
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (13.12863pt too wide) in paragraph at lines 35--36
+\T1/lmr/m/n/12 (-20) werden. In den meisten Fällen werden hierfür Datenpunkte und andere Kommunikations-
+ []
+
+[41]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
+[][][][][][][][] 
+ []
+
+[42]
+Overfull \hbox (10.79918pt too wide) in paragraph at lines 59--60
+[]\T1/lmr/m/n/12 (-20) datapoint_map: Diese Tabelle besteht aus einer datapoint1_id, einer datapoint2_id
+ []
+
+) (sections/wallbox/Datenpunkte.tex [43] [44]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 23--23
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--31
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.28658pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 39--39
+[][][][][][][][] 
+ []
+
+[45]
+Overfull \hbox (8.59184pt too wide) in paragraph at lines 52--53
+[]\T1/lmr/m/n/12 (-20) Wie schon in den vorhergegangenen Kapiteln erwähnt, kann man über alle Datenpunkte
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 53--53
+[][][][][][][][] 
+ []
+
+[46]
+Overfull \hbox (41.56206pt too wide) in paragraph at lines 91--92
+\T1/lmr/m/n/12 (-20) im Code auf diesen Datenpunkt was gepublished, sieht man 'modbuswallbox.wb1.ladedauer_wb1'.
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 93--93
+[][][][][][][][] 
+ []
+
+) (sections/wallbox/Modbus.tex [47] [48]
+<pics/ISO-OSI-Modell-768x486.png, id=738, 770.88pt x 487.8225pt>
+File: pics/ISO-OSI-Modell-768x486.png Graphic file (type png)
+<use pics/ISO-OSI-Modell-768x486.png>
+Package pdftex.def Info: pics/ISO-OSI-Modell-768x486.png  used on input line 24.
+(pdftex.def)             Requested size: 385.43906pt x 243.91064pt.
+
+Overfull \hbox (24.5968pt too wide) in paragraph at lines 32--34
+\T1/lmr/m/n/12 (-20) benützt. Mittlerweile hat sich Modbus weiterentwickelt, so dass es mehrere Implementierungen
+ []
+
+[49]
+Overfull \hbox (4.49817pt too wide) in paragraph at lines 39--41
+\T1/lmr/m/n/12 (-20) (Modbus RTU) Über einen längeren Zeitraum wurden neue Implementierungen vorgestellt,
+ []
+
+[50 <./pics/ISO-OSI-Modell-768x486.png>]
+Overfull \hbox (1.3052pt too wide) in paragraph at lines 53--54
+[]\T1/lmr/m/n/12 (-20) Vor und nach jedem gesendeten Paket gibt es eine Sendepause (Wartezeit) von mindestens
+ []
+
+[51]
+
+Package caption Warning: \label without proper reference on input line 59.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:functionsfromModbus' on page 52 undefined on input line 57.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 61.
+
+Package caption Warning: \label without proper reference on input line 83.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:modbusprotokollaufbautabelleRTU' on page 52 undefined on input line 81.
+
+[52]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 103.
+
+Overfull \hbox (10.68008pt too wide) in paragraph at lines 121--122
+[]\T1/lmr/m/n/12 (-20) Auch der Signalpegel ist ein groÿer und wichtiger Unterschied. Während RS485 differentielle
+ []
+
+[53]
+<pics/RS485-Schnittstelle-11.png, id=792, 725.71124pt x 161.60374pt>
+File: pics/RS485-Schnittstelle-11.png Graphic file (type png)
+<use pics/RS485-Schnittstelle-11.png>
+Package pdftex.def Info: pics/RS485-Schnittstelle-11.png  used on input line 130.
+(pdftex.def)             Requested size: 362.85474pt x 80.80167pt.
+
+Overfull \hbox (20.35013pt too wide) in paragraph at lines 137--138
+\T1/lmr/m/n/12 (-20) Register auslesen kann. Für diese Arbeit wurden hauptsächlich die Programme 'QModMaster'
+ []
+
+<pics/QmodMasterverview.png, id=794, 476.78125pt x 363.3575pt>
+File: pics/QmodMasterverview.png Graphic file (type png)
+<use pics/QmodMasterverview.png>
+Package pdftex.def Info: pics/QmodMasterverview.png  used on input line 141.
+(pdftex.def)             Requested size: 333.74458pt x 254.3485pt.
+[54 <./pics/RS485-Schnittstelle-11.png> <./pics/QmodMasterverview.png>]
+
+Package caption Warning: \label without proper reference on input line 59.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:functionsfromModbus' on page 55 undefined on input line 149.
+
+
+Overfull \hbox (2.56653pt too wide) in paragraph at lines 149--150
+\T1/lmr/m/n/12 (-20) werden sollen. Es gibt die Möglichkeit für Binär-, Dezimal- und Hexadecimal-Zahlen. 
+ []
+
+<pics/Settingsforqmodmaster.png, id=807, 479.7925pt x 364.36125pt>
+File: pics/Settingsforqmodmaster.png Graphic file (type png)
+<use pics/Settingsforqmodmaster.png>
+Package pdftex.def Info: pics/Settingsforqmodmaster.png  used on input line 157.
+(pdftex.def)             Requested size: 335.85245pt x 255.05113pt.
+[55 <./pics/Settingsforqmodmaster.png>]
+<pics/ToolsQModbusMaster.png, id=816, 478.78876pt x 363.3575pt>
+File: pics/ToolsQModbusMaster.png Graphic file (type png)
+<use pics/ToolsQModbusMaster.png>
+Package pdftex.def Info: pics/ToolsQModbusMaster.png  used on input line 173.
+(pdftex.def)             Requested size: 335.14984pt x 254.3485pt.
+<pics/QmodbusMasterTCP setting.png, id=819, 480.79625pt x 367.3725pt>
+File: pics/QmodbusMasterTCP setting.png Graphic file (type png)
+<use pics/QmodbusMasterTCP setting.png>
+Package pdftex.def Info: pics/QmodbusMasterTCP setting.png  used on input line 185.
+(pdftex.def)             Requested size: 336.55507pt x 257.15898pt.
+ [56 <./pics/ToolsQModbusMaster.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 196--196
+[][][][][][][][] 
+ []
+
+[57 <./pics/QmodbusMasterTCP setting.png>] [58] [59])) [60]
+chapter 4.
+(sections/Flexlogger.tex (sections/Flexlogger/Untersuchungsanliegen.tex) (sections/Flexlogger/Ist-stand.tex) (sections/Flexlogger/AufbauDesProjektes.tex
+<pics/webinterface.png, id=854, 596.4684pt x 421.575pt>
+File: pics/webinterface.png Graphic file (type png)
+<use pics/webinterface.png>
+Package pdftex.def Info: pics/webinterface.png  used on input line 7.
+(pdftex.def)             Requested size: 417.52504pt x 295.10048pt.
+ [61
+
+] [62 <./pics/webinterface.png>]
+Overfull \hbox (11.2747pt too wide) in paragraph at lines 26--27
+\T1/lmr/m/n/12 (-20) Datenbank aufzubauen und somit die benötigten Objekte in einer Datenbank abzuspeichern
+ []
+
+[63]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 42--42
+[][][][][][][][] 
+ []
+
+[64]
+Overfull \hbox (14.07529pt too wide) in paragraph at lines 73--75
+\T1/lmr/m/n/12 (-20) Feedback zu seiner Aktion zu geben. Nachdem die Methode setDatapointChangedCommand
+ []
+
+
+Overfull \hbox (13.40553pt too wide) in paragraph at lines 73--75
+\T1/lmr/m/n/12 (-20) mit dem \T1/lmtt/m/n/12 logger_nav_status_icon_Click \T1/lmr/m/n/12 (-20) verbunden wird, wird aktiv auf den Datenpunkt
+ []
+
+[65]
+Overfull \hbox (12.03404pt too wide) in paragraph at lines 84--85
+[]\T1/lmr/m/n/12 (-20) Die Hauptmethode der Klasse ist die run-Methode. Hier wird ein neuer DatapointCommand
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 88--88
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 100--100
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.81439pt too wide) in paragraph at lines 111--112
+\T1/lmr/m/n/12 (-20) Consumer werden Objekte aus der Blocking Queue genommen und diese weiterverarbeitet.
+ []
+
+[66]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 115--115
+[][][][][][][][] 
+ []
+
+[67] [68]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 154--154
+[][][][][][][][] 
+ []
+
+[69]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 177--177
+[][][][][][][][] 
+ []
+
+[70]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 185--185
+[][][][][][][][] 
+ []
+
+[71]
+<pics/FlexLoggerWebsiteFormulare_zeitraum.jpg, id=1006, 198.14024pt x 165.61874pt>
+File: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg Graphic file (type jpg)
+<use pics/FlexLoggerWebsiteFormulare_zeitraum.jpg>
+Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_zeitraum.jpg  used on input line 222.
+(pdftex.def)             Requested size: 198.13974pt x 165.61833pt.
+<pics/FlexLoggerWebsiteFormulare_button.jpg, id=1007, 195.73125pt x 49.3845pt>
+File: pics/FlexLoggerWebsiteFormulare_button.jpg Graphic file (type jpg)
+<use pics/FlexLoggerWebsiteFormulare_button.jpg>
+Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare_button.jpg  used on input line 229.
+(pdftex.def)             Requested size: 195.73076pt x 49.38437pt.
+<pics/csv_datei_beispiel.jpg, id=1008, 319.79475pt x 171.64125pt>
+File: pics/csv_datei_beispiel.jpg Graphic file (type jpg)
+<use pics/csv_datei_beispiel.jpg>
+Package pdftex.def Info: pics/csv_datei_beispiel.jpg  used on input line 236.
+(pdftex.def)             Requested size: 319.79396pt x 171.64081pt.
+<pics/FlexLoggerWebsite_Fehlermeldung.jpg, id=1009, 246.1697pt x 88.83188pt>
+File: pics/FlexLoggerWebsite_Fehlermeldung.jpg Graphic file (type jpg)
+<use pics/FlexLoggerWebsite_Fehlermeldung.jpg>
+Package pdftex.def Info: pics/FlexLoggerWebsite_Fehlermeldung.jpg  used on input line 243.
+(pdftex.def)             Requested size: 246.16908pt x 88.83165pt.
+<pics/FlexLoggerWebsiteFormulare.jpg, id=1010, 907.59074pt x 531.1845pt>
+File: pics/FlexLoggerWebsiteFormulare.jpg Graphic file (type jpg)
+<use pics/FlexLoggerWebsiteFormulare.jpg>
+Package pdftex.def Info: pics/FlexLoggerWebsiteFormulare.jpg  used on input line 251.
+(pdftex.def)             Requested size: 408.41206pt x 239.0308pt.
+<pics/FlexLoggerWebsiteDiagramm.jpg, id=1011, 1140.05925pt x 526.3665pt>
+File: pics/FlexLoggerWebsiteDiagramm.jpg Graphic file (type jpg)
+<use pics/FlexLoggerWebsiteDiagramm.jpg>
+Package pdftex.def Info: pics/FlexLoggerWebsiteDiagramm.jpg  used on input line 258.
+(pdftex.def)             Requested size: 399.02672pt x 184.23103pt.
+ [72] [73 <./pics/FlexLoggerWebsiteFormulare_zeitraum.jpg> <./pics/FlexLoggerWebsiteFormulare_button.jpg> <./pics/csv_datei_beispiel.jpg> <./pics/FlexLoggerWebsite_Fehlermeldung.jpg>] [74 <./pics/FlexLoggerWebsiteFormulare.jpg> <./pics/FlexLoggerWebsiteDiagramm.jpg>]
+Overfull \hbox (3.59695pt too wide) in paragraph at lines 268--269
+[]\T1/lmr/m/n/12 (-20) AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten. 
+ []
+
+[75]
+Overfull \hbox (17.1614pt too wide) in paragraph at lines 292--293
+[]\T1/lmr/m/n/12 (-20) Wenn die checkCSV-Variable als true gesetzt wurde, wird überprüft, ob der Namenparameter
+ []
+
+
+Overfull \hbox (12.65332pt too wide) in paragraph at lines 292--293
+\T1/lmr/m/n/12 (-20) der Datei gestartet. Dieser Download wird mithilfe der window.open() Methode verwirklicht.
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 296--296
+[][][][][][][][] 
+ []
+
+[76]
+Overfull \hbox (5.4315pt too wide) in paragraph at lines 326--327
+\T1/lmr/m/n/12 (-20) gefunden.äusgegeben. Bei einem positiven Ergebnis des IF-Statements werden nachfolgend
+ []
+
+[77]
+Overfull \hbox (5.85106pt too wide) in paragraph at lines 332--334
+[]\T1/lmr/m/n/12 (-20) changeData() Hier werden die geänderten Daten in den Diagrammoptionen gespeichert.
+ []
+
+[78] [79]) (sections/Flexlogger/Logging.tex
+Overfull \hbox (0.9472pt too wide) in paragraph at lines 21--23
+\T1/lmr/m/n/12 (-20) Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten
+ []
+
+[80]
+<pics/log4jArchitektur.jpg, id=1095, 461.3235pt x 283.65974pt>
+File: pics/log4jArchitektur.jpg Graphic file (type jpg)
+<use pics/log4jArchitektur.jpg>
+Package pdftex.def Info: pics/log4jArchitektur.jpg  used on input line 46.
+(pdftex.def)             Requested size: 322.92424pt x 198.56046pt.
+) (sections/Flexlogger/Threads.tex [81]
+<pics/javaThreadMultitasking.jpg, id=1109, 396.2805pt x 157.7895pt>
+File: pics/javaThreadMultitasking.jpg Graphic file (type jpg)
+<use pics/javaThreadMultitasking.jpg>
+Package pdftex.def Info: pics/javaThreadMultitasking.jpg  used on input line 14.
+(pdftex.def)             Requested size: 396.27953pt x 157.78911pt.
+
+Overfull \hbox (8.81206pt too wide) in paragraph at lines 22--23
+\T1/lmr/m/n/12 (-20) Wie nebenläufige Abarbeitung die Performance bei einem Einprozessorsystem beschleunigt,
+ []
+
+[82 <./pics/log4jArchitektur.jpg> <./pics/javaThreadMultitasking.jpg>] [83]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 55--55
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 61--61
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 71--71
+[][][][][][][][] 
+ []
+
+<pics/blockingQueue.jpg, id=1138, 425.79076pt x 143.3355pt>
+File: pics/blockingQueue.jpg Graphic file (type jpg)
+<use pics/blockingQueue.jpg>
+Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 87.
+(pdftex.def)             Requested size: 212.89485pt x 71.66756pt.
+
+Overfull \hbox (2.2652pt too wide) in paragraph at lines 92--93
+[]\T1/lmr/m/n/12 (-20) Der produzierende Thread wird weiterhin Objekte produzieren und sie zur BlockingQueue
+ []
+
+[84 <./pics/blockingQueue.jpg>]
+Overfull \hbox (13.80125pt too wide) in paragraph at lines 115--116
+\T1/lmr/m/n/12 (-20) Das Beispiel unten angeführt verwendet eine ArrayBlockingQueue als Implementation. 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 119--119
+[][][][][][][][] 
+ []
+
+[85]) (sections/Flexlogger/AbspeicherungVonDaten.tex
+Overfull \hbox (44.44328pt too wide) in paragraph at lines 7--11
+\T1/lmr/m/n/12 (-20) auszuwählen, da davon einige Faktoren abhängen. Dazu gehören die Verarbeitungsgeschwindigkeit,
+ []
+
+
+Overfull \hbox (5.91898pt too wide) in paragraph at lines 7--11
+\T1/lmr/m/n/12 (-20) sowie die Speichergröÿe. Auÿerdem kann das Format die Skalierbarkeit, die Kompatibilität,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]\T1/lmr/m/n/12 (+20) Verarbeitungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\T1/lmr/m/n/12 (+20) geschwindigkeit
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 26--26
+[]\T1/lmr/m/n/12 (+20) Besser für groÿe
+ []
+
+[86] [87]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
+[][][][][][][][] 
+ []
+
+)) [88]
+chapter 5.
+(sections/summary.tex) [89
+
+] (glossary.tex
+\@gls@deffile=\write9
+\openout9 = `thesis.glsdefs'.
+
+)
+No file thesis.gls.
+(thesis.bbl [5]
+chapter without number
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+\T1/lmr/m/n/12 (+20) EDwAAQBAJ & oi = fnd & pg = PP1 & dq = quarkus & ots = ZJfLHasMm9 & sig = K7 _
+ []
+
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
+\T1/lmr/m/n/12 (+20) wissen / Wissensdatenbank -[] Technischer -[] Anhang -[] Bilder / RS485 -[] Schnittstelle -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+[]$\T1/lmr/m/n/12 (+20) https : / / books . google . at / books ? hl = de & lr = &id = hZBimlxiyAcC & oi = fnd &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+\T1/lmr/m/n/12 (+14) pg = PA9 & dq = log4j & ots = QiOna081Z6 & sig = 9h3lwPqN -[] rm07kAHln -[] tLSUfgJY &
+ []
+
+[7]
+Underfull \hbox (badness 4366) in paragraph at lines 255--258
+[]\T1/lmr/m/n/12 (+20) J. Jenkov, ,,Java Blocking Queue,'' 2021. Online
+ []
+
+) [8]
+Package tocbasic Info: character protrusion at lof deactivated on input line 90.
+ (thesis.lof)
+\tf@lof=\write10
+\openout10 = `thesis.lof'.
+
+ [9
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 91.
+ (thesis.lot)
+\tf@lot=\write11
+\openout11 = `thesis.lot'.
+
+
+
+Class scrreprt Warning: \float@listhead detected!
+(scrreprt)              Implementation of \float@listhead became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Maybe implementation of \float@listhead will
+(scrreprt)              be removed from KOMA-Script soon.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@listhead interface on input line 92.
+
+[10
+
+]
+chapter without number
+(thesis.lol)
+\tf@lol=\write12
+\openout12 = `thesis.lol'.
+
+ [11
+
+]
+chapter without number
+(sections/appendix.tex) [12
+
+] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 85 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 36312 strings out of 478338
+ 670687 string characters out of 2841194
+ 1921793 words of memory out of 3000000
+ 54854 multiletter control sequences out of 15000+600000
+ 578194 words of font info for 153 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 113i,20n,109p,10664b,3692s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/marcel/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}</home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmss17.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmr6.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmri12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmro12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/marcel/.miktex/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
+Output written on thesis.pdf (103 pages, 3190860 bytes).
+PDF statistics:
+ 1723 PDF objects out of 1728 (max. 8388607)
+ 668 named destinations out of 1000 (max. 500000)
+ 38873 words of extra memory for PDF output out of 42996 (max. 10000000)
+
