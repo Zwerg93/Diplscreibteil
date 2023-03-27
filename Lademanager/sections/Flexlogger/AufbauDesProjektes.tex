@@ -1,10 +1,10 @@
 Das Projekt bezieht sich auf das Abspeichern sowie die sinnvolle visuelle Darstellung von Daten. Dabei wird auf verschiedenste Programmiersprachen, Plattformen und Frameworks zurückgegriffen, siehe Abb. \ref{fig:impl:FlexLoggerAufbau}.
-Im Backend wird Java und das Framework Quarkus verwendet, welches mit einer Datenbank verbunden ist. Die Daten aus dieser Datenbank werden davor mithilfe eines Java-Programms, welches Threads verwendet, aus Datenpunkten geholt. Anschließend speichert das Programm die Daten in einer PostgreSQL-Datenbank ab. Durch das bereits erwähnte Quarkus-Backend wird darauffolgend auf die Daten zugegriffen und diese an ein Angular-Frontend geschickt. Durch das Angular-Frontend können nun die Daten in bestimmten Zeiträumen ansprechend dargestellt angesehen beziehungsweise als CSV-Datei heruntergeladen werden.
+Im Backend wird Java und das Framework Quarkus verwendet, welches mit einer Datenbank verbunden ist. Die Daten aus dieser Datenbank werden davor mithilfe eines Java-Programms, welches Threads verwendet, aus Datenpunkten der FlexCloud geholt. Anschließend speichert das Programm die Daten in einer PostgreSQL-Datenbank ab. Durch das bereits erwähnte Quarkus-Backend wird darauffolgend auf die Daten zugegriffen und diese an ein Angular-Frontend geschickt. Durch das Angular-Frontend können nun die Daten in bestimmten Zeiträumen ansprechend dargestellt angesehen beziehungsweise als CSV-Datei heruntergeladen werden.
 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.7]{pics/webinertface2.png}
+\includegraphics[scale=0.7]{pics/webinertface3.png}
 \caption{Aufbau des Flexloggers visuell dargestellt}
 \label{fig:impl:FlexLoggerAufbau}
 \end{figure}
@@ -258,7 +258,20 @@ Danach wird eine Verbindung zur Datenbank mithilfe der connect-Methode hergestel
 Die Website des Projekts wurde mithilfe von Angular umgesetzt. Die Hauptfunktion liegt dabei beim Anzeigen von Diagrammen mit den ausgewählten Daten, sowie dem Generieren einer CSV-Datei. Dabei werden drei verschiedene Formulare implementiert, jedes übernimmt dabei eine andere Rolle.
 
 
-
+\begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
+    \caption{Formular Button}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
+    \end{figure}
+    
+    
+    \begin{figure}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_zeitraum.jpg}
+    \caption{Formular Zeitraum}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}
+    \end{figure}
 
 \subsubsection{Website - User/Anwender Ansicht}
 Die erste Seite, welche zu sehen ist, ist die Hauptseite, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsicht}. Auf ihr ist ein großes Bild zu finden, gleich darunter kann die Schrift "Lassen Sie sich ihre gewünschten Diagramme anzeigen" erkannt werden.
@@ -266,26 +279,13 @@ Durch drei verschiedene Formulare, welche sich direkt unter der großen Übersch
 
 
 \begin{compactitem}
-\item Formular 'Alle Diagramme': Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Wenn der Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} dieses Formulars betätigt wird, erfolgt eine Weiterleitung auf eine andere Seite. Auf dieser kann nun zwischen allen Diagrammen mithilfe von automatisch generierten Buttons gewechselt werden, siehe Abb. \ref{fig:impl:FlexLoggerDiagrammAnsicht}.
-\item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann hier das Diagramm, welches angezeigt werden soll, im Formular mitübergeben werden. Durch den Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} erfolgt nun eine direkte Weiterleitung zum gewünschten Diagramm.
-\item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben, allerdings wird nach Betätigen des Buttons, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}.
-\end{compactitem}
+    \item Formular 'Alle Diagramme': Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Wenn der Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} dieses Formulars betätigt wird, erfolgt eine Weiterleitung auf eine andere Seite. Auf dieser kann nun zwischen allen Diagrammen mithilfe von automatisch generierten Buttons gewechselt werden, siehe Abb. \ref{fig:impl:FlexLoggerDiagrammAnsicht}.
+    \item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann hier das Diagramm, welches angezeigt werden soll, im Formular mitübergeben werden. Durch den Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} erfolgt nun eine direkte Weiterleitung zum gewünschten Diagramm, siehe Abb. \ref{fig:impl:FlexLoggerDiagrammAnsichtOne}.
+    \item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben, allerdings wird nach Betätigen des Buttons, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}.
+    \end{compactitem}
 
 
-\begin{figure}
-\centering
-\includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
-\caption{Formular Button}
-\label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
-\end{figure}
 
-
-\begin{figure}
-\centering
-\includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_zeitraum.jpg}
-\caption{Formular Zeitraum}
-\label{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}
-\end{figure}
 
 
 Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von-, Bis-Daten angegeben werden, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}. Wenn die Daten falsch eingegeben wurden (es wurde ein Datum eingegeben, welches hinter dem Anfangsdatum liegt bzw. bei einem gleichen Anfangs- und Enddatum muss die Endzeit hinter der Anfangszeit liegen), wird eine Fehlermeldung ausgegeben, um den User auf seine fehlerhafte Eingabe aufmerksam zu machen. Bei dem Formular 'Diagramm per Name' muss zusätzlich ein Name angegeben werden, sonst wird erneut eine Fehlermeldung angezeigt. Wenn allerdings das Formular 'CSV-File' betrachtet wird, gibt es eine zusätzliche Fehlerüberprüfung, welche direkt nach dem Betätigen des Buttons ausgeführt wird. Werden keine Daten aus der Datenbank für den eingegebenen Zeitraum gefunden, wird eine passende Fehlermeldung angezeigt, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}.
@@ -323,6 +323,13 @@ Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von
 \caption{Website Diagrammansicht}
 \label{fig:impl:FlexLoggerDiagrammAnsicht}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{pics/FlexLoggerWebsiteDiagrammOne.jpg}
+    \caption{Website Diagrammansicht}
+    \label{fig:impl:FlexLoggerDiagrammAnsichtOne}
+    \end{figure}
 
 
 \subsubsection{App-Component}

@@ -17,16 +17,47 @@ Die gespeicherten (geloggten) Daten können zum Beispiel dazu verwendet werden,
 
 Logging bieten eine große Flexibilität und eignet sich gut, um große Datenmengen zu erfassen und auszuwerten. \cite{BigDataBuch}
 
-\subsection{Herkunft der Daten (Datenpunkte)}
-Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten ausgelesen. Diese werden angesprochen und aus ihnen kann dann der aktuelle Wert des Datenpunkts ausgelesen werden.
+\subsection{Loggen der Daten in der Firma}
+Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten aus der firmentinternen FlexCloud ausgelesen. Diese werden angesprochen und aus ihnen kann dann der aktuelle Wert des Datenpunkts ausgelesen werden, siehe \ref{fig:impl:datenlogging}.
 Beispiele für Datenpunkte der Firma FlexSolution, die ausgelesen werden: 
 
 \begin{compactitem}
+    \item Daten der Ladestationen
     \item Daten der Photovoltaik-Anlage am Dach
     \item die Temperatur in den Firmengebäuden
     \item Kompressor-Druck von Maschinen
     \item weitere Maschinendaten
 \end{compactitem}
+
+\begin{figure}[h t]
+    \centering
+    \includegraphics[scale=0.7]{pics/datenlogging.png}
+    \caption{Daten Logging}
+    \label{fig:impl:datenlogging}
+\end{figure}
+
+Das Logging-Programm wird mithilfe des Terminals gestartet. Sobald dieses gestartet wurde, siehe \ref{fig:impl:loggerStart}, werden kontinuierlich Daten in die Datenbank gespeichert. Dies kann in der Ausgabe des Loggers beobachtet werden, siehe \ref{fig:impl:loggerLog}. Um den Logger anschließend zu stoppen, wird ein ähnlicher Command wie beim Starten verwendet, siehe \ref{fig:impl:loggerEnd}.
+
+\begin{figure}[h t]
+    \centering
+    \includegraphics[scale=1.3]{pics/loggerStart.JPG}
+    \caption{Logger Programm wird gestartet}
+    \label{fig:impl:loggerStart}
+\end{figure}
+
+\begin{figure}[h t]
+    \centering
+    \includegraphics[scale=0.4]{pics/loggerLog.JPG}
+    \caption{Ausgabe des Logger Programms}
+    \label{fig:impl:loggerLog}
+\end{figure}
+
+\begin{figure}[h t]
+    \centering
+    \includegraphics[scale=0.75]{pics/loggerEnd2.JPG}
+    \caption{Logger Programm wird gestoppt}
+    \label{fig:impl:loggerEnd}
+\end{figure}
 
 \subsection{Log4J}
 % < 1 https://books.google.at/books?hl=de&lr=&id=hZBimlxiyAcC&oi=fnd&pg=PA9&dq=log4j&ots=QiOna081Z6&sig=9h3lwPqN-rm07kAHln-tLSUfgJY&redir_esc=y#v=onepage&q=log4j&f=false The Complete Log4j Manual, von: Ceki Gülcü S15
