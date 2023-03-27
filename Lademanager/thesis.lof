@@ -7,11 +7,11 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces GitHub Desktop vs. Terminal\relax }}{9}{figure.caption.11}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Beispiel eines GitHub-Repo\relax }}{9}{figure.caption.12}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Beispiel einer CSV-Datei\relax }}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Quarkus Architektur \cite {QuarkusBuch}\relax }}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Quarkus Architektur \cite {QuarkusBuch}\relax }}{22}{figure.caption.28}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Quarkus Benchmark Test \cite {MicrVSQuarVSSprin}\relax }}{23}{figure.caption.29}%
 \contentsline {figure}{\numberline {11}{\ignorespaces So sieht die Twincat Übersicht aus\relax }}{27}{figure.caption.34}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Abschnitt der Wallboxen in Twincat\relax }}{28}{figure.caption.35}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Aufbau eines Raspberry Pis\relax }}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Aufbau eines Raspberry Pis\relax }}{29}{figure.caption.36}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Darstellung des Aufbaues\relax }}{31}{figure.caption.37}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Übersicht über die fünf Wallboxen auf der HMI: \relax }}{40}{figure.caption.39}%
 \contentsline {figure}{\numberline {16}{\ignorespaces Detailansicht der Oberfläche für die einzelnen Wallboxen \relax }}{41}{figure.caption.40}%
@@ -32,7 +32,7 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Website Diagrammansicht\relax }}{76}{figure.caption.76}%
 \contentsline {figure}{\numberline {32}{\ignorespaces Daten Logging\relax }}{84}{figure.caption.91}%
 \contentsline {figure}{\numberline {33}{\ignorespaces Logger Programm wird gestartet\relax }}{84}{figure.caption.92}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Ausgabe des Logger Programms\relax }}{84}{figure.caption.93}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Ausgabe des Logger Programms\relax }}{85}{figure.caption.93}%
 \contentsline {figure}{\numberline {35}{\ignorespaces Logger Programm wird gestoppt\relax }}{85}{figure.caption.94}%
 \contentsline {figure}{\numberline {36}{\ignorespaces log4J Architektur \cite {log4J}\relax }}{85}{figure.caption.95}%
 \contentsline {figure}{\numberline {37}{\ignorespaces Java Thread Multitasking Umgebung \cite {JavaThreadsBuch}\relax }}{86}{figure.caption.96}%

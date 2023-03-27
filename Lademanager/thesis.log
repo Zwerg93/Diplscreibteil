@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  27 MAR 2023 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  27 MAR 2023 20:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1366,12 +1366,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 30--30
  []
 
 [12]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 42--42
+Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
 [][][][][][][][] 
  []
 
 ) (sections/allgemeinTechnologie/TypeScript.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 8--8
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--16
 [][][][][][][][] 
  []
 
@@ -1392,51 +1392,51 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 64--64
 [][][][][][][][] 
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 74--74
-[][][][][][][][] 
- []
-
 [18]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 102--102
+Overfull \hbox (6.0pt too wide) in paragraph at lines 75--75
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 111--111
+Overfull \hbox (6.0pt too wide) in paragraph at lines 103--103
 [][][][][][][][] 
  []
 
-[19]) (sections/allgemeinTechnologie/Quarkus.tex [20]
-<pics/quarkusArchitektur.JPG, id=444, 404.10976pt x 268.6035pt>
+[19]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 112--112
+[][][][][][][][] 
+ []
+
+) (sections/allgemeinTechnologie/Quarkus.tex [20]
+<pics/quarkusArchitektur.JPG, id=441, 404.10976pt x 268.6035pt>
 File: pics/quarkusArchitektur.JPG Graphic file (type jpg)
 <use pics/quarkusArchitektur.JPG>
 Package pdftex.def Info: pics/quarkusArchitektur.JPG  used on input line 27.
 (pdftex.def)             Requested size: 363.69542pt x 241.7409pt.
- [21 <./pics/quarkusArchitektur.JPG>]
+ [21]
 <pics/quarkus_benchmark.jpg, id=455, 545.78906pt x 309.40594pt>
 File: pics/quarkus_benchmark.jpg Graphic file (type jpg)
 <use pics/quarkus_benchmark.jpg>
 Package pdftex.def Info: pics/quarkus_benchmark.jpg  used on input line 54.
 (pdftex.def)             Requested size: 436.63184pt x 247.52509pt.
- [22]
+ [22 <./pics/quarkusArchitektur.JPG>] [23 <./pics/quarkus_benchmark.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 76--76
 [][][][][][][][] 
  []
 
-[23 <./pics/quarkus_benchmark.jpg>]
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 106--106
 [][][][][][][][] 
  []
 
-) (sections/allgemeinTechnologie/SQL.tex (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[24]) (sections/allgemeinTechnologie/SQL.tex (C:\Users\holzd\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Overfull \hbox (6.0pt too wide) in paragraph at lines 35--35
 [][][][][][][][] 
  []
 
-[24]
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 44--44
 [][][][][][][][] 
  []
@@ -1457,18 +1457,19 @@ File: pics/twincat übersicht.png Graphic file (type png)
 <use pics/twincat übersicht.png>
 Package pdftex.def Info: pics/twincat übersicht.png  used on input line 13.
 (pdftex.def)             Requested size: 385.43318pt x 173.24417pt.
-<pics/LadestationTwincat.png, id=544, 1926.19624pt x 817.0525pt>
+ [27 <./pics/twincat übersicht.png>]
+<pics/LadestationTwincat.png, id=550, 1926.19624pt x 817.0525pt>
 File: pics/LadestationTwincat.png Graphic file (type png)
 <use pics/LadestationTwincat.png>
 Package pdftex.def Info: pics/LadestationTwincat.png  used on input line 28.
 (pdftex.def)             Requested size: 385.23242pt x 163.40761pt.
-) (sections/allgemeinTechnologie/Raspberry.tex [27 <./pics/twincat übersicht.png>]
-<pics/raspberry-pi.png, id=555, 846.16125pt x 536.0025pt>
+) (sections/allgemeinTechnologie/Raspberry.tex
+<pics/raspberry-pi.png, id=551, 846.16125pt x 536.0025pt>
 File: pics/raspberry-pi.png Graphic file (type png)
 <use pics/raspberry-pi.png>
 Package pdftex.def Info: pics/raspberry-pi.png  used on input line 5.
 (pdftex.def)             Requested size: 423.07959pt x 268.0006pt.
- [28 <./pics/LadestationTwincat.png> <./pics/raspberry-pi.png>])) [29]
+ [28 <./pics/LadestationTwincat.png>])) [29 <./pics/raspberry-pi.png>]
 chapter 3.
 (sections/Wallbox.tex (sections/wallbox/Untersuchungsanliegen.tex) (sections/wallbox/Ist-Stand.tex) (sections/wallbox/AufbauDesProjektes.tex [30
 
@@ -1692,45 +1693,44 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 370--370
 [][][][][][][][] 
  []
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 388--388
+[78]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 389--389
 [][][][][][][][] 
  []
 
-[78] [79]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 443--443
+[79] [80]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 444--444
 [][][][][][][][] 
  []
 
-[80] [81]) (sections/Flexlogger/Logging.tex [82]
-<pics/datenlogging.png, id=1176, 596.4684pt x 421.8159pt>
+[81] [82]) (sections/Flexlogger/Logging.tex [83]
+<pics/datenlogging.png, id=1184, 596.4684pt x 421.8159pt>
 File: pics/datenlogging.png Graphic file (type png)
 <use pics/datenlogging.png>
 Package pdftex.def Info: pics/datenlogging.png  used on input line 34.
 (pdftex.def)             Requested size: 417.52504pt x 295.2691pt.
-<pics/loggerStart.JPG, id=1180, 278.84175pt x 10.23825pt>
+<pics/loggerStart.JPG, id=1188, 278.84175pt x 10.23825pt>
 File: pics/loggerStart.JPG Graphic file (type jpg)
 <use pics/loggerStart.JPG>
 Package pdftex.def Info: pics/loggerStart.JPG  used on input line 43.
 (pdftex.def)             Requested size: 362.4942pt x 13.3097pt.
- [83]
-<pics/loggerLog.JPG, id=1190, 959.9865pt x 343.2825pt>
+<pics/loggerLog.JPG, id=1189, 959.9865pt x 343.2825pt>
 File: pics/loggerLog.JPG Graphic file (type jpg)
 <use pics/loggerLog.JPG>
 Package pdftex.def Info: pics/loggerLog.JPG  used on input line 50.
 (pdftex.def)             Requested size: 383.9878pt x 137.31056pt.
-<pics/loggerEnd2.JPG, id=1191, 460.72125pt x 20.075pt>
+<pics/loggerEnd2.JPG, id=1190, 460.72125pt x 20.075pt>
 File: pics/loggerEnd2.JPG Graphic file (type jpg)
 <use pics/loggerEnd2.JPG>
 Package pdftex.def Info: pics/loggerEnd2.JPG  used on input line 57.
 (pdftex.def)             Requested size: 345.54008pt x 15.0562pt.
- [84 <./pics/datenlogging.png> <./pics/loggerStart.JPG> <./pics/loggerLog.JPG>]
-<pics/log4jArchitektur.jpg, id=1204, 461.3235pt x 283.65974pt>
+ [84 <./pics/datenlogging.png> <./pics/loggerStart.JPG>]
+<pics/log4jArchitektur.jpg, id=1206, 461.3235pt x 283.65974pt>
 File: pics/log4jArchitektur.jpg Graphic file (type jpg)
 <use pics/log4jArchitektur.jpg>
 Package pdftex.def Info: pics/log4jArchitektur.jpg  used on input line 84.
 (pdftex.def)             Requested size: 322.92424pt x 198.56046pt.
-) (sections/Flexlogger/Threads.tex [85 <./pics/loggerEnd2.JPG> <./pics/log4jArchitektur.jpg>]
+) (sections/Flexlogger/Threads.tex [85 <./pics/loggerLog.JPG> <./pics/loggerEnd2.JPG> <./pics/log4jArchitektur.jpg>]
 <pics/javaThreadMultitasking.jpg, id=1217, 396.2805pt x 157.7895pt>
 File: pics/javaThreadMultitasking.jpg Graphic file (type jpg)
 <use pics/javaThreadMultitasking.jpg>
@@ -1741,24 +1741,21 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 57--57
 [][][][][][][][] 
  []
 
-
+[87]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 63--63
 [][][][][][][][] 
  []
 
-[87]
+
 Overfull \hbox (6.0pt too wide) in paragraph at lines 73--73
 [][][][][][][][] 
  []
 
-<pics/blockingQueue.jpg, id=1252, 425.79076pt x 143.3355pt>
+<pics/blockingQueue.jpg, id=1249, 425.79076pt x 143.3355pt>
 File: pics/blockingQueue.jpg Graphic file (type jpg)
 <use pics/blockingQueue.jpg>
 Package pdftex.def Info: pics/blockingQueue.jpg  used on input line 89.
 (pdftex.def)             Requested size: 212.89485pt x 71.66756pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [88 <./pics/blockingQueue.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 121--121
 [][][][][][][][] 
@@ -1779,12 +1776,12 @@ Underfull \hbox (badness 6252) in paragraph at lines 29--29
 []\T1/lmr/m/n/12 (+20) Besser f�r gro�e
  []
 
-[90]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 47--47
+[90] [91]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 48--48
 [][][][][][][][] 
  []
 
-)) [91] [92]
+)) [92]
 chapter 5.
 (sections/summary.tex [93
 
@@ -1922,13 +1919,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  36500 strings out of 478351
  680347 string characters out of 2837053
- 1450746 words of memory out of 3000000
+ 1449230 words of memory out of 3000000
  53263 multiletter control sequences out of 15000+600000
  535472 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,20n,109p,10667b,3877s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 113i,20n,109p,10667b,3819s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (108 pages, 4585775 bytes).
+Output written on thesis.pdf (108 pages, 4585460 bytes).
 PDF statistics:
  1891 PDF objects out of 2073 (max. 8388607)
  722 named destinations out of 1000 (max. 500000)
