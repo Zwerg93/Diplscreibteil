@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {2.8.2}SQL und Java in Verbindung}{26}{subsection.2.8.2}%
 \contentsline {section}{\numberline {2.9}Beckhoff}{27}{section.2.9}%
 \contentsline {section}{\numberline {2.10}Raspberry}{28}{section.2.10}%
-\contentsline {chapter}{\numberline {3}Wallbox [M]}{30}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Wallbox}{30}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Untersuchungsanliegen}{30}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Ist-Stand}{30}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Aufbau des Projektes}{30}{section.3.3}%
@@ -108,8 +108,8 @@
 \contentsline {section}{\numberline {4.4}Logging}{83}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Loggen der Daten in der Firma}{83}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Log4J}{84}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Threads}{86}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{86}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.5}Threads}{85}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Serialisierung - Nebenläufigkeit und Parallelität}{85}{subsection.4.5.1}%
 \contentsline {subsubsection}{\nonumberline Nebenläufigkeit von Programmen steigert Geschwindigkeit}{86}{subsubsection*.98}%
 \contentsline {subsection}{\numberline {4.5.2}Concurrency/Gleichzeitigkeit}{87}{subsection.4.5.2}%
 \contentsline {subsubsection}{\nonumberline Zustände eines Threads}{87}{subsubsection*.100}%

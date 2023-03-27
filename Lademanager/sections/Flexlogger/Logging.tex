@@ -11,14 +11,14 @@ Die gespeicherten (geloggten) Daten können zum Beispiel dazu verwendet werden,
     \item Information zur Gebäudewartung zur Verfügung zu stellen, dies betrifft das Heizen, die Belüftung, wie die Klimatisierung. Diese ständige Überprüfung der Daten kann den Energieverbrauch reduzieren
     \item die Wachs-Bedingungen von Pflanzen in der Landwirtschaft zu beobachten
     \item die Impfstoff-Lagerung in medizinischen Einrichtungen zu überwachen
-    \item die Temperatur von Lebensmittel zu überprüfen
+    \item die Temperatur von Lebensmitteln zu überprüfen
 \end{compactitem}
 \cite{DataLogging}
 
-Logging bieten eine große Flexibilität und eignet sich gut, um große Datenmengen zu erfassen und auszuwerten. \cite{BigDataBuch}
+Logging bietet eine große Flexibilität und eignet sich gut, um große Datenmengen zu erfassen und auszuwerten. \cite{BigDataBuch}
 
 \subsection{Loggen der Daten in der Firma}
-Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten aus der firmentinternen FlexCloud ausgelesen. Diese werden angesprochen und aus ihnen kann dann der aktuelle Wert des Datenpunkts ausgelesen werden, siehe \ref{fig:impl:datenlogging}.
+Um die Daten zu loggen, also abzuspeichern, werden diese aus sogenannten Datenpunkten aus der firmeninternen FlexCloud ausgelesen. Diese werden angesprochen und aus ihnen kann dann der aktuelle Wert des Datenpunkts ausgelesen werden, siehe \ref{fig:impl:datenlogging}.
 Beispiele für Datenpunkte der Firma FlexSolution, die ausgelesen werden: 
 
 \begin{compactitem}
@@ -36,7 +36,7 @@ Beispiele für Datenpunkte der Firma FlexSolution, die ausgelesen werden:
     \label{fig:impl:datenlogging}
 \end{figure}
 
-Das Logging-Programm wird mithilfe des Terminals gestartet. Sobald dieses gestartet wurde, siehe \ref{fig:impl:loggerStart}, werden kontinuierlich Daten in die Datenbank gespeichert. Dies kann in der Ausgabe des Loggers beobachtet werden, siehe \ref{fig:impl:loggerLog}. Um den Logger anschließend zu stoppen, wird ein ähnlicher Command wie beim Starten verwendet, siehe \ref{fig:impl:loggerEnd}.
+Das Logging-Programm wird mithilfe des Terminals gestartet. Sobald dieses gestartet wurde, siehe Abb. \ref{fig:impl:loggerStart}, werden kontinuierlich Daten in die Datenbank gespeichert. Dies kann in der Ausgabe des Loggers beobachtet werden, siehe Abb. \ref{fig:impl:loggerLog}. Um den Logger anschließend zu stoppen, wird ein ähnlicher Command wie beim Starten verwendet, siehe Abb. \ref{fig:impl:loggerEnd}.
 
 \begin{figure}[h t]
     \centering
@@ -63,7 +63,7 @@ Das Logging-Programm wird mithilfe des Terminals gestartet. Sobald dieses gestar
 % < 1 https://books.google.at/books?hl=de&lr=&id=hZBimlxiyAcC&oi=fnd&pg=PA9&dq=log4j&ots=QiOna081Z6&sig=9h3lwPqN-rm07kAHln-tLSUfgJY&redir_esc=y#v=onepage&q=log4j&f=false The Complete Log4j Manual, von: Ceki Gülcü S15
 % < 1 https://logging.apache.org/log4j/2.x/
 Log4J ist ein Framework, um Anwendungsmeldungen von Java zu loggen.
-Das Design von Log4J konzentriert sich vor allem darauf, schnell, flexibel und leicht verständlich zu sein. Da Logging eine Applikation verlangsamen kann, wird vor allem ein Wert auf die Schnelligkeit gelegt. \cite{log4JBuch} 
+Das Design von Log4J konzentriert sich vor allem darauf, schnell, flexibel und leicht verständlich zu sein. Da Logging eine Applikation verlangsamen kann, wird vor allem Wert auf die Schnelligkeit gelegt. \cite{log4JBuch} 
 
 Es ist ein populäres Logging-Package für Java. Logging liefert präzise Informationen über den Ablauf einer Applikation. \cite{log4J}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  27 MAR 2023 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.6)  27 MAR 2023 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1725,18 +1725,18 @@ File: pics/loggerEnd2.JPG Graphic file (type jpg)
 Package pdftex.def Info: pics/loggerEnd2.JPG  used on input line 57.
 (pdftex.def)             Requested size: 345.54008pt x 15.0562pt.
  [84 <./pics/datenlogging.png> <./pics/loggerStart.JPG>]
-<pics/log4jArchitektur.jpg, id=1206, 461.3235pt x 283.65974pt>
+<pics/log4jArchitektur.jpg, id=1205, 461.3235pt x 283.65974pt>
 File: pics/log4jArchitektur.jpg Graphic file (type jpg)
 <use pics/log4jArchitektur.jpg>
 Package pdftex.def Info: pics/log4jArchitektur.jpg  used on input line 84.
 (pdftex.def)             Requested size: 322.92424pt x 198.56046pt.
-) (sections/Flexlogger/Threads.tex [85 <./pics/loggerLog.JPG> <./pics/loggerEnd2.JPG> <./pics/log4jArchitektur.jpg>]
-<pics/javaThreadMultitasking.jpg, id=1217, 396.2805pt x 157.7895pt>
+) (sections/Flexlogger/Threads.tex
+<pics/javaThreadMultitasking.jpg, id=1210, 396.2805pt x 157.7895pt>
 File: pics/javaThreadMultitasking.jpg Graphic file (type jpg)
 <use pics/javaThreadMultitasking.jpg>
 Package pdftex.def Info: pics/javaThreadMultitasking.jpg  used on input line 14.
 (pdftex.def)             Requested size: 396.27953pt x 157.78911pt.
- [86 <./pics/javaThreadMultitasking.jpg>]
+ [85 <./pics/loggerLog.JPG> <./pics/loggerEnd2.JPG>] [86 <./pics/log4jArchitektur.jpg> <./pics/javaThreadMultitasking.jpg>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 57--57
 [][][][][][][][] 
  []
@@ -1919,13 +1919,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  36500 strings out of 478351
  680347 string characters out of 2837053
- 1449230 words of memory out of 3000000
+ 1449235 words of memory out of 3000000
  53263 multiletter control sequences out of 15000+600000
  535472 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,20n,109p,10667b,3819s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/holzd/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on thesis.pdf (108 pages, 4585460 bytes).
+Output written on thesis.pdf (108 pages, 4585212 bytes).
 PDF statistics:
  1891 PDF objects out of 2073 (max. 8388607)
  722 named destinations out of 1000 (max. 500000)
