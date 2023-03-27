@@ -89,8 +89,8 @@
 \contentsline {subsubsection}{\nonumberline DataJDBCAdapter}{65}{subsubsection*.53}%
 \contentsline {subsubsection}{\nonumberline Main Klasse FlexTaskFsLogger}{65}{subsubsection*.55}%
 \contentsline {subsubsection}{\nonumberline LogEntry Klasse}{67}{subsubsection*.57}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue- Producer}{68}{subsubsection*.59}%
-\contentsline {subsubsection}{\nonumberline Blocking Queue- Consumer}{69}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Producer}{68}{subsubsection*.59}%
+\contentsline {subsubsection}{\nonumberline Blocking Queue - Consumer}{69}{subsubsection*.61}%
 \contentsline {subsection}{\numberline {4.3.3}Quarkus Backend}{69}{subsection.4.3.3}%
 \contentsline {subsubsection}{\nonumberline LogEntry Klasse}{69}{subsubsection*.63}%
 \contentsline {subsubsection}{\nonumberline LogEntry Ressource}{70}{subsubsection*.65}%

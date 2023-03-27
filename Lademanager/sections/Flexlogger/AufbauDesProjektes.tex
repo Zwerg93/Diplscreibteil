@@ -22,7 +22,7 @@ Die Funktionen des Projekts beziehen sich großteils auf
 
 
 \subsection{Logger}
-Das sogenannte FS-Logger-Programm setzt sich aus mehreren Klassen zusammen, wie etwa einem DataJDBCAdapter und einer Hauptklasse namens FlexTaskFsLogger. Weiteres befindet sich in dem Programm eine Modelklasse namens LogEntry, welche die Attribute der eingetragenen LogEntries definiert. Um einen reibungslosen Ablauf zu garantieren, wird eine Blocking-Queue verwendet, welche Multithreading unterstützt. Das ganze Programm baut auf dem Producer-Consumer-Pattern auf.
+Das sogenannte FS-Logger-Programm setzt sich aus mehreren Klassen zusammen, wie etwa einem DataJDBCAdapter und einer Hauptklasse namens FlexTaskFsLogger. Weiteres befindet sich in dem Programm eine Modelklasse namens LogEntry, welche die Attribute der eingetragenen LogEntries definiert. Um einen reibungslosen Ablauf zu garantieren, wird eine Blocking-Queue verwendet, welche Multithreading unterstützt. Das ganze Programm baut auf dem Producer-Consumer-Pattern auf. Für die Zusammenhänge zwischen FlexTasks, Datenpunkte und FlexCloud, siehe Abb. \ref{fig:impl:datenlogging}.
 
 
 \subsubsection{DataJDBCAdapter}
@@ -88,7 +88,7 @@ Der nächste Abschnitt sorgt dafür, dass das Programm, also der Consumer und de
 Im Gegensatz dazu wird der \texttt{logger\_nav\_status\_icon\_State} Datenpunkt dafür benötigt, um einen Wert für die Website zu übergeben. Damit wird die Farbe des Icons verändert, damit der User ein Feedback zu seiner Aktion erhält.
 
 
-Nachdem die Methode setDatapointChangedCommand mit dem \\ \texttt{logger\_nav\_status\_icon\_Click} verbunden wird, werden aktiv Daten des Datenpunkts übergeben. Ein neuer DatapointCommand wird dabei mitgeliefert, in ihm wird die execute-Methode überschrieben. In dieser Methode wird zuerst eine temporäre Variable erhöht, die dafür da ist, jeden zweiten Dateneintrag zu überspringen, da die HMI jeweils zwei Werte schickt, allerdings nur einer benötigt wird.
+Nachdem die Methode setDatapointChangedCommand mit dem \\ \texttt{logger\_nav\_status\_icon\_Click} verbunden wird, werden aktiv Daten des Datenpunkts übergeben. Ein neuer DatapointCommand wird dabei mitgeliefert, in ihm wird die execute-Methode überschrieben. In dieser Methode wird zuerst eine temporäre Variable erhöht, die dafür verantwortlich ist, jeden zweiten Dateneintrag zu überspringen, da die HMI jeweils zwei Werte schickt, allerdings nur einer benötigt wird.
 
 
 In Folge darauf wird in einem If-Statement der Wert des \texttt{logger\_nav\_status\_icon\_State} Datenpunkts geändert, um die Farbe des Icons zu verändern. Zusätzlich wird die startOrStop Variable auf false gesetzt und der Producer und der Consumer werden mithilfe der Übergabe von \glq false\grq{} in der setRun-Methode gestoppt. Im else-Zweig des If-Statements wird genau das Gegenteilige bewirkt, das bedeutet, Producer und Consumer werden gestartet und die \texttt{logger\_nav\_status\_icon\_State} wird wieder auf den ursprünglichen Wert geändert.
@@ -98,7 +98,7 @@ In Folge darauf wird in einem If-Statement der Wert des \texttt{logger\_nav\_sta
 Dies ist die Model-Klasse des Programms. In ihr werden die Attribute des LogEntries festgelegt. Diese beinhalten die dp-id, das bedeutet die ID des Datenpunkts, welcher gespeichert werden soll. Außerdem wird der Wert des Datenpunkts, die Einheit und der Timestamp, also der genaue Zeitpunkt, an welchem der LogEntry erstellt wurde, angelegt. In der Klasse befinden sich zusätzlich Getter und Setter für die Attribute sowie ein Konstruktor.
 
 
-\subsubsection{Blocking Queue- Producer }
+\subsubsection{Blocking Queue - Producer }
 Diese Klasse ist der Producer der Blocking Queue, das bedeutet, dass in dieser Klasse die Objekte in die Blocking Queue hinzugefügt werden.
 
 
@@ -125,7 +125,7 @@ throw new RuntimeException(e);
 
 Mithilfe des Codes, welcher sich unterhalb des erstellten DataPointCommands befindet, wird über die Datenpunkte des jeweiligen Geräts iteriert und anschließend der oben liegende Codeteil bei einer Änderung ausgeführt. \ref{lst:impl:datenpunkteIterieren}
 
-
+\newpage
 \begin{lstlisting}[language=java,caption=Datenpunkte des jeweiligen Geräts iterieren,label=lst:impl:datenpunkteIterieren]
 for (Device dev : StaticData.devices.getDevices()) {
 for (Datapoint dp : StaticData.datapoints.getDatapoints(dev.getId())) {
@@ -137,8 +137,8 @@ dp.setDatapointChangedCommand(dpCmd);
 \end{lstlisting}
 
 
-\subsubsection{Blocking Queue- Consumer }
-In dieser Klasse geht es um den Consumer der Blocking Queue, der vom Consumer Objekte aus der Blocking Queue nimmt und diese weiterverarbeitet. Die Attribute sind so wie in der Producer Klasse eine Blocking-Queue und die Run-Variable, um den Consumer zu aktivieren bzw. zu deaktivieren. Im Konstruktor wird wiederum die Blocking-Queue übergeben.
+\subsubsection{Blocking Queue - Consumer }
+In dieser Klasse geht es um den Consumer der Blocking Queue, der Objekte aus der Blocking Queue nimmt und diese weiterverarbeitet. Die Attribute sind so wie in der Producer Klasse eine Blocking-Queue und die Run-Variable, um den Consumer zu aktivieren bzw. zu deaktivieren. Im Konstruktor wird wiederum die Blocking-Queue übergeben.
 
 
 In der Run-Methode der Klasse wird in einem while-true ein if-Statement ausgeführt, in welchem sich ein try-and-catch-Statement befindet. In diesem wird das benötigte Objekt aus der Blocking-Queue geholt und anschließend in einem StringBuilder als gültiges SQL-Statement hinzugefügt. \ref{lst:impl:logEntryBlockingQueueConsumer}
@@ -293,7 +293,7 @@ Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von
 
 \begin{figure}
 \centering
-\includegraphics[scale=1]{pics/csv_datei_beispiel.jpg}
+\includegraphics[scale=0.8]{pics/csv_datei_beispiel.jpg}
 \caption{CSV-Datei Beispiel Ausgabe}
 \label{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
 \end{figure}
@@ -301,7 +301,7 @@ Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von
 
 \begin{figure}
 \centering
-\includegraphics[scale=1]{pics/FlexLoggerWebsite_Fehlermeldung.jpg}
+\includegraphics[scale=0.7]{pics/FlexLoggerWebsite_Fehlermeldung.jpg}
 \caption{Webseite Fehlermeldung}
 \label{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
 \end{figure}
@@ -437,7 +437,6 @@ Hier werden die geänderten Daten in den Diagrammoptionen gespeichert. Um dies u
 \item setChartOptions()
 Beim Aufrufen dieser Methode werden die Diagrammoptionen neu gesetzt. In diesem Fall werden der Titel, die Einheit und die Datenpunkte des Diagramms erneuert.
 \end{compactitem}
-
 
 \newpage
 
