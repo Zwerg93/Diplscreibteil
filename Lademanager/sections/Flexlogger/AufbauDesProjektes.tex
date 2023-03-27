@@ -3,20 +3,20 @@ Im Backend wird Java und das Framework Quarkus verwendet, welches mit einer Date
 
 
 \begin{figure}
-\centering
-\includegraphics[scale=0.7]{pics/webinertface2.png}
-\caption{Aufbau des Flexloggers visuell dargestellt}
-\label{fig:impl:FlexLoggerAufbau}
+    \centering
+    \includegraphics[scale=0.7]{pics/webinertface2.png}
+    \caption{Aufbau des Flexloggers visuell dargestellt}
+    \label{fig:impl:FlexLoggerAufbau}
 \end{figure}
 
 
 \subsection{Beschreibung der Funktionen}
 Die Funktionen des Projekts beziehen sich großteils auf
 \begin{compactitem}
-\item das Auslesen von Daten aus Datenpunkten mithilfe von Threads
-\item das Abspeichern von Daten in einer Datenbank durch Threads
-\item das spätere Auslesen der Daten aus der Datenbank, um diese sinnhaft visuell darstellen zu können
-\item die Verwendung von Formularen, damit (ausgewählte) Daten in einem bestimmten Zeitpunkt graphisch in einem Diagramm dargestellt werden können oder eine CSV-Datei aus den Daten erstellt werden kann
+    \item das Auslesen von Daten aus Datenpunkten mithilfe von Threads
+    \item das Abspeichern von Daten in einer Datenbank durch Threads
+    \item das spätere Auslesen der Daten aus der Datenbank, um diese sinnhaft visuell darstellen zu können
+    \item die Verwendung von Formularen, damit (ausgewählte) Daten in einem bestimmten Zeitpunkt graphisch in einem Diagramm dargestellt werden können oder eine CSV-Datei aus den Daten erstellt werden kann
 \end{compactitem}
 
 
@@ -32,11 +32,11 @@ Der DataJDBCAdapter ist dafür verantwortlich, eine Verbindung zu der PostgreSQL
 \subsubsection{Main Klasse FlexTaskFsLogger}
 Die Klasse FlexTaskFsLogger ist die Main-Klasse des Programms. Sie führt das Programm aus. Dieser Klasse werden auch folgende Methoden vererbt, da sie eine Subklasse der Klasse FlexTask ist:
 \begin{compactitem}
-\item getNeededTaskParameters
-\item getNeededDeviceParameters
-\item isSingleDeviceTask
-\item closing
-\item initTask
+    \item getNeededTaskParameters
+    \item getNeededDeviceParameters
+    \item isSingleDeviceTask
+    \item closing
+    \item initTask
 \end{compactitem}
 
 
@@ -176,12 +176,12 @@ In der Ressource befinden sich verschiedene GET-Methoden, welche je einen andere
 
 
 \begin{compactitem}
-\item getAll(): Hier wird durch die Übergabe der Parameter definiert, in welchem Zeitraum die benötigten Daten zurückgegeben werden. Diese Parameter werden mithilfe von PathParam übergeben, das heißt, die Daten werden über die URL übergeben. Zusätzlich steht über der Methode ein \texttt{@Produces(MediaType.APPLICATION\_JSON)}, um festzulegen, in welchem Format der Rückgabewert zurückgegeben wird. In diesem Fall ist es ein JSON-Format.
-\item getByName(): Diese Methode ist ähnlich zur getAll()-Methode. Lediglich wird ein zusätzlicher Name übergeben und somit die getByName-Methode des Repositories verwendet. Es wird genauso wie in der getAll()-Methode ein JSON-Format zurückgegeben.
-\item getCSV(): In dieser Methode wird im Pfad neben den Daten ein FilePath angegeben, in welchem die CSV-Datei gespeichert werden soll. Mithilfe der getCSVAll-Methode aus dem Repository wird die CSV-Datei anschließend im richtigen Pfad gespeichert.
-\item getCSVByName(): Die Methode hat eine ähnliche Funktion wie die getCSV()-Methode. Der entscheidende Punkt dabei ist, dass ein Name übergeben werden kann, welcher die Rückgabedaten beeinflusst, da so nur die Daten mit dem richtigen Namen als CSV-Datei erstellt werden.
-\item insert(): Mithilfe dieser Methode kann ein neuer LogEntry in die Datenbank eingefügt werden. Als Parameter in der insertLogEntry-Methode des Repositories wird dabei ein neu erstellter LogEntry übergeben.
-\item downloadFile(): Um das zuvor erstellte CSV-File zu downloaden, wird diese Methode genutzt. In diesem Fall ist der Rückgabewert der Methode mit einem \\ \texttt{@Produces(\{"text/csv"\})}definiert, da es sich dabei um eine CSV-Datei handelt. Zuerst wird in der Methode ein File-Name, ein Pfad, sowie ein File erstellt. Der Pfad und der File-Name ist dabei jeweils vom Datentyp String, das File ist vom Datentyp File und wird mithilfe des Pfads als Parameter erstellt. Um zu überprüfen, dass der Pfad existiert, wird mithilfe eines If-Statements die Methode exists() beim zuvor erstellten File als Überprüfung herangezogen. Wenn dieses If-Statement feststellt, dass das File nicht existiert, wird eine RuntimeException geworfen. Diese enthält die Nachricht \glqq File not found: \grqq{} und den zugehörigen File-Namen. Bei einem erfolgreichen Erstellen des Files wird ein ResponseBuilder namens res erstellt. Dieser enthält die Response OK sowie das File. Zusätzlich wird bei dem ResponseBuilder ein Header gesetzt, in welchem sich unter anderem der FileName befindet. Schlussendlich wird der ResponseBuilder mit einem Build-Statement zurückgegeben. Somit wurde das zuvor erstellte File erfolgreich heruntergeladen und kann nun mithilfe von einem passenden Programm geöffnet und gesichtet werden.
+    \item getAll(): Hier wird durch die Übergabe der Parameter definiert, in welchem Zeitraum die benötigten Daten zurückgegeben werden. Diese Parameter werden mithilfe von PathParam übergeben, das heißt, die Daten werden über die URL übergeben. Zusätzlich steht über der Methode ein \texttt{@Produces(MediaType.APPLICATION\_JSON)}, um festzulegen, in welchem Format der Rückgabewert zurückgegeben wird. In diesem Fall ist es ein JSON-Format.
+    \item getByName(): Diese Methode ist ähnlich zur getAll()-Methode. Lediglich wird ein zusätzlicher Name übergeben und somit die getByName-Methode des Repositories verwendet. Es wird genauso wie in der getAll()-Methode ein JSON-Format zurückgegeben.
+    \item getCSV(): In dieser Methode wird im Pfad neben den Daten ein FilePath angegeben, in welchem die CSV-Datei gespeichert werden soll. Mithilfe der getCSVAll-Methode aus dem Repository wird die CSV-Datei anschließend im richtigen Pfad gespeichert.
+    \item getCSVByName(): Die Methode hat eine ähnliche Funktion wie die getCSV()-Methode. Der entscheidende Punkt dabei ist, dass ein Name übergeben werden kann, welcher die Rückgabedaten beeinflusst, da so nur die Daten mit dem richtigen Namen als CSV-Datei erstellt werden.
+    \item insert(): Mithilfe dieser Methode kann ein neuer LogEntry in die Datenbank eingefügt werden. Als Parameter in der insertLogEntry-Methode des Repositories wird dabei ein neu erstellter LogEntry übergeben.
+    \item downloadFile(): Um das zuvor erstellte CSV-File zu downloaden, wird diese Methode genutzt. In diesem Fall ist der Rückgabewert der Methode mit einem \\ \texttt{@Produces(\{"text/csv"\})}definiert, da es sich dabei um eine CSV-Datei handelt. Zuerst wird in der Methode ein File-Name, ein Pfad, sowie ein File erstellt. Der Pfad und der File-Name ist dabei jeweils vom Datentyp String, das File ist vom Datentyp File und wird mithilfe des Pfads als Parameter erstellt. Um zu überprüfen, dass der Pfad existiert, wird mithilfe eines If-Statements die Methode exists() beim zuvor erstellten File als Überprüfung herangezogen. Wenn dieses If-Statement feststellt, dass das File nicht existiert, wird eine RuntimeException geworfen. Diese enthält die Nachricht \glqq File not found: \grqq{} und den zugehörigen File-Namen. Bei einem erfolgreichen Erstellen des Files wird ein ResponseBuilder namens res erstellt. Dieser enthält die Response OK sowie das File. Zusätzlich wird bei dem ResponseBuilder ein Header gesetzt, in welchem sich unter anderem der FileName befindet. Schlussendlich wird der ResponseBuilder mit einem Build-Statement zurückgegeben. Somit wurde das zuvor erstellte File erfolgreich heruntergeladen und kann nun mithilfe von einem passenden Programm geöffnet und gesichtet werden.
 \end{compactitem}
 
 
@@ -260,10 +260,10 @@ Die Website des Projekts wurde mithilfe von Angular umgesetzt. Die Hauptfunktion
 
 \begin{figure}
     \centering
-    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_button.jpg}
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormularebutton.jpg}
     \caption{Formular Button}
     \label{fig:impl:FlexLoggerHauptseitenAnsichtButton}
-    \end{figure}
+\end{figure}
 
 \subsubsection{Website - User/Anwender Ansicht}
 Die erste Seite, welche zu sehen ist, ist die Hauptseite, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsicht}. Auf ihr ist ein großes Bild zu finden, gleich darunter kann die Schrift "Lassen Sie sich ihre gewünschten Diagramme anzeigen" erkannt werden.
@@ -271,15 +271,15 @@ Durch drei verschiedene Formulare, welche sich direkt unter der großen Übersch
 
 \begin{figure}
     \centering
-    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormulare_zeitraum.jpg}
+    \includegraphics[scale=1]{pics/FlexLoggerWebsiteFormularezeitraum.jpg}
     \caption{Formular Zeitraum}
     \label{fig:impl:FlexLoggerHauptseitenAnsichtZeitraum}
-    \end{figure}
+\end{figure}
 
 \begin{compactitem}
-\item Formular 'Alle Diagramme': Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Als Konfigurationsmöglichkeiten stehen dabei zwei Datums- sowie zwei Uhrzeit-Felder zur Verfügung. Wenn der Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} dieses Formulars betätigt wird, erfolgt eine Weiterleitung auf eine andere Seite. Auf dieser kann nun zwischen allen Diagrammen mithilfe von automatisch generierten Buttons gewechselt werden, siehe Abb. \ref{fig:impl:FlexLoggerDiagrammAnsicht}.
-\item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann hier das Diagramm, welches angezeigt werden soll, im Formular in einem Namensfeld mitübergeben werden. Durch den Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} erfolgt nun eine direkte Weiterleitung zum gewünschten Diagramm. \ref{fig:impl:FlexLoggerDiagrammAnsichtOne}
-\item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben durch zwei Datums- und zwei Uhrzeit-felder, allerdings wird nach Betätigen des Buttons, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}.
+    \item Formular 'Alle Diagramme': Das erste ist dafür zuständig, alle Diagramme in einem bestimmten Zeitraum anzuzeigen. Als Konfigurationsmöglichkeiten stehen dabei zwei Datums- sowie zwei Uhrzeit-Felder zur Verfügung. Wenn der Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} dieses Formulars betätigt wird, erfolgt eine Weiterleitung auf eine andere Seite. Auf dieser kann nun zwischen allen Diagrammen mithilfe von automatisch generierten Buttons gewechselt werden, siehe Abb. \ref{fig:impl:FlexLoggerDiagrammAnsicht}.
+    \item Formular 'Diagramm per Name': Das zweite Formular hat eine ähnliche Funktion. Lediglich kann hier das Diagramm, welches angezeigt werden soll, im Formular in einem Namensfeld mitübergeben werden. Durch den Button, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} erfolgt nun eine direkte Weiterleitung zum gewünschten Diagramm. \ref{fig:impl:FlexLoggerDiagrammAnsichtOne}
+    \item Formular 'CSV File': Eine ganz andere Funktion hat das letzte Formular. In ihm wird zwar genauso der Wunschzeitraum angegeben durch zwei Datums- und zwei Uhrzeit-felder, allerdings wird nach Betätigen des Buttons, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtButton} ein CSV-File generiert und anschließend heruntergeladen. In diesem werden alle Daten übersichtlich angezeigt, siehe Abb. \ref{fig:impl:FlexLoggerHauptseitenAnsichtCSV}.
 \end{compactitem}
 
 
@@ -293,36 +293,36 @@ Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von
 
 
 \begin{figure}
-\centering
-\includegraphics[scale=1]{pics/csv_datei_beispiel.jpg}
-\caption{CSV-Datei Beispiel Ausgabe}
-\label{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
+    \centering
+    \includegraphics[scale=1]{pics/csv_datei_beispiel.jpg}
+    \caption{CSV-Datei Beispiel Ausgabe}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtCSV}
 \end{figure}
 
 
 \begin{figure}
-\centering
-\includegraphics[scale=1]{pics/FlexLoggerWebsite_Fehlermeldung.jpg}
-\caption{Webseite Fehlermeldung}
-\label{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
+    \centering
+    \includegraphics[scale=1]{pics/FlexLoggerWebsite_Fehlermeldung.jpg}
+    \caption{Webseite Fehlermeldung}
+    \label{fig:impl:FlexLoggerHauptseitenAnsichtFehlermeldung}
 \end{figure}
 
 
 
 
 \begin{figure}
-\centering
-\includegraphics[scale=0.45]{pics/FlexLoggerWebsiteFormulare.jpg}
-\caption{Website Hauptseitenansicht}
-\label{fig:impl:FlexLoggerHauptseitenAnsicht}
+    \centering
+    \includegraphics[scale=0.45]{pics/FlexLoggerWebsiteFormulare.jpg}
+    \caption{Website Hauptseitenansicht}
+    \label{fig:impl:FlexLoggerHauptseitenAnsicht}
 \end{figure}
 
 
 \begin{figure}
-\centering
-\includegraphics[scale=0.35]{pics/FlexLoggerWebsiteDiagramm.jpg}
-\caption{Website Diagrammansicht}
-\label{fig:impl:FlexLoggerDiagrammAnsicht}
+    \centering
+    \includegraphics[scale=0.35]{pics/FlexLoggerWebsiteDiagramm.jpg}
+    \caption{Website Diagrammansicht}
+    \label{fig:impl:FlexLoggerDiagrammAnsicht}
 \end{figure}
 
 
@@ -331,7 +331,7 @@ Die Formulare können nur genutzt werden, indem zuerst jeweils die richtigen Von
     \includegraphics[scale=0.35]{pics/FlexLoggerWebsiteDiagrammOne.jpg}
     \caption{Website Diagrammansicht}
     \label{fig:impl:FlexLoggerDiagrammAnsichtOne}
-    \end{figure}
+\end{figure}
 
 \subsubsection{App-Component}
 In der TypeScript Klasse der App-Komponente wird ein Titel definiert, dieser trägt in diesem Fall den Namen „flexloggerFE2". Im HTML-File ist dabei ein Router-Outlet definiert. Durch dieses wird das Routing im Projekt ermöglicht. Das bedeutet, jede Komponente wird in der App-Komponente angezeigt %CODE
@@ -339,11 +339,11 @@ In der TypeScript Klasse der App-Komponente wird ein Titel definiert, dieser tr�
 
 
 \begin{compactitem}
-\item BrowserModule: Stellt einen Service zur Verfügung, mit welchem eine Browser-App gestartet, sowie laufen gelassen werden kann.
-\item AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten.
-\item HttpClientModule: Mithilfe dieses Moduls können Netzwerk Requests abgesetzt werden. Diese inkludieren GET, POST, PUT, PATCH und DELETE.
-\item FormsModule: Durch dieses Modul können template-driven Forms erstellt werden.
-\item ReactiveFormsModule: Durch dieses Modul können ReactiveForms verwendet werden.
+    \item BrowserModule: Stellt einen Service zur Verfügung, mit welchem eine Browser-App gestartet, sowie laufen gelassen werden kann.
+    \item AppRoutingModule: Ermöglicht das Navigieren zwischen verschiedenen Komponenten.
+    \item HttpClientModule: Mithilfe dieses Moduls können Netzwerk Requests abgesetzt werden. Diese inkludieren GET, POST, PUT, PATCH und DELETE.
+    \item FormsModule: Durch dieses Modul können template-driven Forms erstellt werden.
+    \item ReactiveFormsModule: Durch dieses Modul können ReactiveForms verwendet werden.
 \end{compactitem}
 
 
@@ -352,11 +352,11 @@ Die Home-Component ist die Hauptkomponente des Programms. In ihr werden drei For
 
 
 \begin{compactitem}
-\item HttpService: Dies ist der Service, mit dessen eine Server-Verbindung zum Backend aufgebaut werden kann.
-\item Router: Mithilfe dieses in Angular eingebauten Features kann auf der Website zwischen den Komponenten gewechselt werden.
-\item ActivatedRoute: Mithilfe dieses Parameters können Daten über Komponenten hinweg übergeben werden.
-\item FormBuilder: Durch diesen Parameter können reaktive Formulare erstellt werden
-\item ValidatorService: Wird verwendet, um die Richtigkeit der Eingabe bei den Formularen zu garantieren.
+    \item HttpService: Dies ist der Service, mit dessen eine Server-Verbindung zum Backend aufgebaut werden kann.
+    \item Router: Mithilfe dieses in Angular eingebauten Features kann auf der Website zwischen den Komponenten gewechselt werden.
+    \item ActivatedRoute: Mithilfe dieses Parameters können Daten über Komponenten hinweg übergeben werden.
+    \item FormBuilder: Durch diesen Parameter können reaktive Formulare erstellt werden
+    \item ValidatorService: Wird verwendet, um die Richtigkeit der Eingabe bei den Formularen zu garantieren.
 \end{compactitem}
 
 
@@ -414,10 +414,10 @@ Der erste Teil der Komponente ist das Erstellen der Diagrammoptionen. In diesen 
 
 
 \begin{compactitem}
-\item animationEnabled: Definiert, ob beim ersten Anzeigen eines Diagramms jeder Punkt des Diagramms flüssig geladen wird, um ein dynamischeres Ergebnis zu erhalten.
-\item title: Legt den Titel fest, welcher als Überschrift über dem Diagramm stehen soll.
-\item axisY, axisX: Legt den Titel der Y/X-Achse fest.
-\item data: Diese Einstellung legt den Typ des Diagramms fest (in diesem Fall ist es ein Liniendiagramm), die Farbe des Diagramms und bestimmt die Datenpunkte. Beim ersten Laden der Seite werden die Datenpunkte der X- und Y-Achse auf 0 bzw. den 01.01.1970 gesetzt.
+    \item animationEnabled: Definiert, ob beim ersten Anzeigen eines Diagramms jeder Punkt des Diagramms flüssig geladen wird, um ein dynamischeres Ergebnis zu erhalten.
+    \item title: Legt den Titel fest, welcher als Überschrift über dem Diagramm stehen soll.
+    \item axisY, axisX: Legt den Titel der Y/X-Achse fest.
+    \item data: Diese Einstellung legt den Typ des Diagramms fest (in diesem Fall ist es ein Liniendiagramm), die Farbe des Diagramms und bestimmt die Datenpunkte. Beim ersten Laden der Seite werden die Datenpunkte der X- und Y-Achse auf 0 bzw. den 01.01.1970 gesetzt.
 \end{compactitem}
 
 
@@ -430,13 +430,13 @@ In der nächsten Zeile des Konstruktors befindet sich ein Timer, welcher nach ei
 
 
 \begin{compactitem}
-\item getListOfDatapointNames(): Diese Methode kümmert sich darum, eine Liste der Namen für die Buttons zu erstellen. Diese Buttons sind dafür zuständig, zwischen den angezeigten Daten zu wechseln.
-Um zu verhindern, dass der Name eines Datenpunkts mehrmals in der Liste vorkommt, wird am Beginn eine Boolean-Variable namens nameInList erstellt. Diese wird vorerst auf false gesetzt.
-Anschließend wird ein zuvor initialisiertes Array auf ein leeres Array gesetzt, in welches die Namen eingefügt werden. Um alle Namen aus den Daten zu erlangen, wird eine for-Schleife verwendet, welche alle zuvor erhaltenen Daten durchgeht. Der erste Name wird immer hinzugefügt, daher wird, wenn die Länge des leeren Arrays 0 ist, der erste Name hinzugefügt. Sonst wird eine weitere for-Schleife betreten, welche alle Elemente der Liste der Namen durchgeht. Wenn ein Element bereits vorhanden ist, wird die nameInList Variable auf true gesetzt. Danach wird in einem weiteren If-Statement überprüft, ob diese Variable auf true oder false gesetzt ist. Bei einem False wird dabei der Name in die Liste hinzugefügt. Durch dieses Verfahren wird sichergestellt, dass kein Name doppelt in der Liste vorkommt und somit Buttons nicht doppelt angezeigt werden. \ref{lst:impl:getListOfDatapointsMethod}
-\item changeData()
-Hier werden die geänderten Daten in den Diagrammoptionen gespeichert. Um dies umzusetzen, wird als Parameter ein String namens filterString übergeben. Mithilfe dessen und einer For-Schleife werden alle Datenpunkte herausgefiltert, welche nicht den gewünschten Namen besitzen. Die richtigen Daten werden nun im Array dynamicLogLines gespeichert. Nach dem Aussortieren der Daten wird mit einem If-Statement überprüft, ob die erste Stelle des dynamicLogLines-Arrays nicht undefiniert ist. Wenn dies der Fall ist, werden der erste Datenpunkt, sowie der Titel in den Diagrammoptionen gesetzt. Danach werden die restlichen Datenpunkte mithilfe einer for-Schleife in den Diagrammoptionen gespeichert.
-\item setChartOptions()
-Beim Aufrufen dieser Methode werden die Diagrammoptionen neu gesetzt. In diesem Fall werden der Titel, die Einheit und die Datenpunkte des Diagramms erneuert.
+    \item getListOfDatapointNames(): Diese Methode kümmert sich darum, eine Liste der Namen für die Buttons zu erstellen. Diese Buttons sind dafür zuständig, zwischen den angezeigten Daten zu wechseln.
+    Um zu verhindern, dass der Name eines Datenpunkts mehrmals in der Liste vorkommt, wird am Beginn eine Boolean-Variable namens nameInList erstellt. Diese wird vorerst auf false gesetzt.
+    Anschließend wird ein zuvor initialisiertes Array auf ein leeres Array gesetzt, in welches die Namen eingefügt werden. Um alle Namen aus den Daten zu erlangen, wird eine for-Schleife verwendet, welche alle zuvor erhaltenen Daten durchgeht. Der erste Name wird immer hinzugefügt, daher wird, wenn die Länge des leeren Arrays 0 ist, der erste Name hinzugefügt. Sonst wird eine weitere for-Schleife betreten, welche alle Elemente der Liste der Namen durchgeht. Wenn ein Element bereits vorhanden ist, wird die nameInList Variable auf true gesetzt. Danach wird in einem weiteren If-Statement überprüft, ob diese Variable auf true oder false gesetzt ist. Bei einem False wird dabei der Name in die Liste hinzugefügt. Durch dieses Verfahren wird sichergestellt, dass kein Name doppelt in der Liste vorkommt und somit Buttons nicht doppelt angezeigt werden. \ref{lst:impl:getListOfDatapointsMethod}
+    \item changeData()
+    Hier werden die geänderten Daten in den Diagrammoptionen gespeichert. Um dies umzusetzen, wird als Parameter ein String namens filterString übergeben. Mithilfe dessen und einer For-Schleife werden alle Datenpunkte herausgefiltert, welche nicht den gewünschten Namen besitzen. Die richtigen Daten werden nun im Array dynamicLogLines gespeichert. Nach dem Aussortieren der Daten wird mit einem If-Statement überprüft, ob die erste Stelle des dynamicLogLines-Arrays nicht undefiniert ist. Wenn dies der Fall ist, werden der erste Datenpunkt, sowie der Titel in den Diagrammoptionen gesetzt. Danach werden die restlichen Datenpunkte mithilfe einer for-Schleife in den Diagrammoptionen gespeichert.
+    \item setChartOptions()
+    Beim Aufrufen dieser Methode werden die Diagrammoptionen neu gesetzt. In diesem Fall werden der Titel, die Einheit und die Datenpunkte des Diagramms erneuert.
 \end{compactitem}
 
 

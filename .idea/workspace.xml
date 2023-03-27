@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0727c39-c251-4148-8d6d-39d38d22050a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23,_21_16_[Changes]/thesis.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_03_23__21_16__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/header.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Lademanager/header.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/pdfa.xmpi" beforeDir="false" afterPath="$PROJECT_DIR$/Lademanager/pdfa.xmpi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/pics/FlexLoggerWebsiteFormulare_button.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/pics/FlexLoggerWebsiteFormulare_zeitraum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/sections/Flexlogger/AufbauDesProjektes.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Lademanager/sections/Flexlogger/AufbauDesProjektes.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lademanager/sections/summary.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Lademanager/sections/summary.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/marcel/Downloads/Pouget/backend",
+    "last_opened_file_path": "/home/marcel/Desktop/Diplscreibteil",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -41,10 +51,22 @@
       <workItem from="1677485982944" duration="50000" />
       <workItem from="1679170585263" duration="49000" />
       <workItem from="1679299260023" duration="34000" />
+      <workItem from="1679899777192" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
