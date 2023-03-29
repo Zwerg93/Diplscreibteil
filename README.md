@@ -1,2 +1,2 @@
 # Diplomarbeits-Schreibteil
-Teresa stinks
+Theresa stinks
